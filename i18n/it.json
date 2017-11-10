@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Matteocng",
+			"Selven",
+			"Nicole Scalinci"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Inserire elenco",
+	"bs-checklist-menu-insert-checkbox": "Casella di controllo",
+	"bs-checklist-dlg-insert-list-title": "Inserire un elenco di controllo",
+	"bs-checklist-dlg-insert-list-value-list": "Elenco di valori",
+	"bs-checklist-tag-checklist-desc": "Genera una casella di controllo o un menu di selezione. La lista di controllo può essere modificata da vari parametri.",
+	"bs-checklist-tag-checklist-example-check": "Casella di controllo",
+	"bs-checklist-tag-checklist-example-list": "Menu di selezione",
+	"bs-checklist-dlg-new-list": "Crea un nuovo elenco",
+	"bs-checklist-dlg-save-list": "Salva le modifiche all'elenco",
+	"bs-checklist-dlg-items-label": "Elementi nell'elenco",
+	"bs-checklist-dlg-items-emptytext": "Non ci sono elementi in questo elenco",
+	"bs-checklist-dlg-panel-title": "Elenchi disponibili",
+	"bs-checklist-dlg-new-title": "Aggiungi nuovo elenco",
+	"bs-checklist-dlg-new-prompt": "Inserisci un titolo per l'elenco",
+	"bs-checklist-alert": "Attenzione!",
+	"bs-checklist-confirm-dirty-title": "Modifiche non salvate!",
+	"bs-checklist-savelist-error-invalid-title": "Titolo indicato non valido",
+	"bs-checklist-savelist-error-edit-not-permitted": "Autorizzazioni insufficienti per salvare l'elenco",
+	"bs-checklist-update-list": "Elenco aggiornato",
+	"apihelp-bs-checklist-tasks-description": "Fornisce operazioni per l'estensione Checklist",
+	"apihelp-bs-checklist-tasks-summary": "Fornisce operazioni per l'estensione Checklist",
+	"bs-tag-checklist": "il tag per la lista di controllo"
+}

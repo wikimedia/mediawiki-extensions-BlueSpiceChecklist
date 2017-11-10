@@ -1,0 +1,9 @@
+{
+	"name": "mediawiki/blue-spice-checklist",
+	"type": "mediawiki-extension",
+	"description": "BlueSpiceChecklist provides checklist functionality",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

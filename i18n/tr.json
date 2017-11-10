@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Violetanka",
+			"Sayginer"
+		]
+	},
+	"bs-checklist-dlg-new-list": "Yeni bir liste oluştur",
+	"bs-checklist-dlg-save-list": "Değişiklikleri listeye kaydet",
+	"bs-checklist-dlg-items-label": "Liste içeriği",
+	"bs-checklist-dlg-items-emptytext": "Bu listeye hiçbir şey eklenmemiş",
+	"bs-checklist-dlg-items-hint": "Yeni öge eklemek için, yukarıdaki alana yazın ve <kbd>Enter</kbd>  tuşuna basın.",
+	"bs-checklist-dlg-panel-title": "Ulaşılabilir listeler",
+	"bs-checklist-dlg-new-title": "Yeni bir liste ekle",
+	"bs-checklist-dlg-new-prompt": "Bir liste başlığı girin",
+	"bs-checklist-alert": "Dikkat!",
+	"bs-checklist-confirm-dirty-title": "Kaydedilmemiş değişiklikler!"
+}

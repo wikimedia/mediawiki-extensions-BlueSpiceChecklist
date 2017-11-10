@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"bs-checklist-desc": "Дава можност за поставување на штикларнички избор",
+	"bs-checklist-button-checkbox-title": "Штикларнички ставки",
+	"bs-checklist-menu-insert-list-title": "Вметни список",
+	"bs-checklist-menu-insert-checkbox": "Штикларник",
+	"bs-checklist-dlg-insert-list-title": "Вметни контролен список",
+	"bs-checklist-dlg-insert-list-value-list": "Список на вредности",
+	"bs-checklist-tag-checklist-desc": "Дава штикларник или изборно поле. Расположиви атрибути за задавање:",
+	"bs-checklist-tag-checklist-example-check": "Штикларник",
+	"bs-checklist-tag-checklist-example-list": "Изборно мени",
+	"bs-checklist-dlg-new-list": "Создај нов список",
+	"bs-checklist-dlg-save-list": "Зачувај измени",
+	"bs-checklist-dlg-items-label": "Ставки на списокот",
+	"bs-checklist-dlg-items-emptytext": "Нема ставки на списоков",
+	"bs-checklist-dlg-items-hint": "За да додадете нова ставка, напишете ја во полето погоре и стиснете <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Расположиви списоци",
+	"bs-checklist-dlg-new-title": "Додај нов список",
+	"bs-checklist-dlg-new-prompt": "Внесете наслов на списокот",
+	"bs-checklist-alert": "Внимание!",
+	"bs-checklist-confirm-dirty-title": "Незачувани промени!",
+	"bs-checklist-confirm-dirty-text": "Направивте промени во списокот, но не ги зачувавте. Дали сигурно сакате да ги отфрлите?",
+	"log-name-bs-checklist": "Дневник на штикларници",
+	"log-description-bs-checklist": "Дневник на промени во штикларници на страници",
+	"log-show-hide-bs-checklist": "$1 дневник на штикларници",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|го штиклираше}} кутивчето бр. $4 на $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|го отштиклираше}} кутивчето бр. $4 на $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ја одбра}} вредноста „$5“ во изборникот бр. $4 на $3"
+}

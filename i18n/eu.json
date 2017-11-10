@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Subi",
+			"Mikel Ibaiba"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Txertatu zerrenda",
+	"bs-checklist-menu-insert-no-list-loaded": "Ez da zerrendarik kargatu",
+	"bs-checklist-dlg-new-list": "Zerrenda berria sortu",
+	"bs-checklist-alert": "Kontuz!",
+	"bs-checklist-confirm-dirty-title": "Gorde gabeko aldaketak daude!"
+}

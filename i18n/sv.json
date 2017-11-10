@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"WikiPhoenix",
+			"Jopparn",
+			"Magol",
+			"Larske"
+		]
+	},
+	"bs-checklist-desc": "Tillhandahåller funktionalitet för checklista",
+	"bs-checklist-button-checkbox-title": "Checklistelement",
+	"bs-checklist-menu-insert-list-title": "Infoga lista",
+	"bs-checklist-menu-insert-checkbox": "Kryssruta",
+	"bs-checklist-dlg-insert-list-title": "Infoga en checklista",
+	"bs-checklist-dlg-insert-list-value-list": "Värdelista",
+	"bs-checklist-tag-checklist-desc": "Skapar en kryssruta eller en valmeny. Tillgängliga konfigurationsattribut:",
+	"bs-checklist-tag-checklist-example-check": "Kryssruta",
+	"bs-checklist-dlg-new-list": "Skapa en ny lista",
+	"bs-checklist-dlg-save-list": "Spara ändringar till lista",
+	"bs-checklist-dlg-items-label": "Objekt i listan",
+	"bs-checklist-dlg-items-emptytext": "Inga objekt i listan",
+	"bs-checklist-dlg-items-hint": "För att lägga till en ny post, skriv i fältet ovan och tryck <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Tillgängliga listor",
+	"bs-checklist-dlg-new-title": "Lägg till ny lista",
+	"bs-checklist-dlg-new-prompt": "Ange en titel för lista",
+	"bs-checklist-alert": "Varning!",
+	"bs-checklist-confirm-dirty-title": "Osparade ändringar!",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|har markerat}} kryssruta nummer $4 på sida $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|har avmarkerat}} kryssruta nummer $4 till sida $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|har valt}} värdet \"$5\" i rullgardinsmeny nummer $4 på sida $3",
+	"bs-checklist-update-list": "Uppdaterade lista"
+}

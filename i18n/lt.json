@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"bs-checklist-desc": "Suteikia kontrolinio sąrašo funkciją",
+	"bs-checklist-button-checkbox-title": "Kontrolinio sąrašo elementai",
+	"bs-checklist-menu-insert-list-title": "Įterpti sąrašą",
+	"bs-checklist-menu-insert-checkbox": "Langelis",
+	"bs-checklist-dlg-insert-list-title": "Įterpti kontrolinį sąrašą",
+	"bs-checklist-dlg-insert-list-value-list": "Vertės sąrašas",
+	"bs-checklist-tag-checklist-desc": "Sugeneruoja langelį ar pasirinkimų meniu. Kontrolinis sąrašas gali būti modifikuojamas įvairių parametrų.",
+	"bs-checklist-tag-checklist-example-check": "Langelis",
+	"bs-checklist-tag-checklist-example-list": "Pasirinkimo meniu",
+	"bs-checklist-dlg-new-list": "Sukurti naują sąrašą",
+	"bs-checklist-dlg-save-list": "Išsaugoti pakeitimus į sąrašą",
+	"bs-checklist-dlg-items-label": "Objektai sąraše",
+	"bs-checklist-dlg-items-emptytext": "Nėra objektų šiame sąraše",
+	"bs-checklist-dlg-items-hint": "Tam, kad pridėtumėte naują objektą, rašykite laukelyje aukščiau ir spauskite <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Galimi sąrašai",
+	"bs-checklist-dlg-new-title": "Pridėti naują sąrašą",
+	"bs-checklist-dlg-new-prompt": "Įveskite sąrašo pavadinimą",
+	"bs-checklist-alert": "Dėmesio!",
+	"bs-checklist-confirm-dirty-title": "Neišsaugoti pakeitimai!",
+	"bs-checklist-confirm-dirty-text": "Atlikote pakeitimų kontroliniame sąraše, kurie dar nebuvo išsaugoti. Ar tikrai norite atmesti pakeitimus?",
+	"log-name-bs-checklist": "Langelio žurnalas",
+	"log-description-bs-checklist": "Langelių puslapiuose pakeitimų žurnalas.",
+	"log-show-hide-bs-checklist": "$1 langelio žurnalą",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|pažymėjo}} langelį #$4, $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|atžymėjo}} langelį #$4, $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|pasirinko}} reikšmę „$5“ pasirinkimų langelyje #$4, $3",
+	"bs-checklist-savelist-error-invalid-title": "Nurodytas neleistinas pavadinimas",
+	"bs-checklist-savelist-error-edit-not-permitted": "Nepakanka teisių sąrašui išsaugoti.",
+	"bs-checklist-modified-check": "Modifikuota kontrolinio sąrašo vertė",
+	"bs-checklist-update-list": "Sąrašas atnaujintas",
+	"apihelp-bs-checklist-available-options-store-description": "Nurodo visus prieinamus kontrolinio sąrašo šablonus. Leidžia rūšiuoti, filtruoti ir numeruoti. Įterpia ExtJS Store parametrus.",
+	"apihelp-bs-checklist-template-store-description": "Nurodo visus šablonus, kurie yra galimi kontrolinio sąrašo šaltiniai. Leidžia rūšiuoti, filtruoti ir numeruoti. Įterpia ExtJS Store parametrus.",
+	"bs-tag-checklist": "kontrolinio sąrašo žymė"
+}

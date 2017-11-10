@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"SolidBlock"
+		]
+	},
+	"bs-checklist-savelist-error-invalid-title": "啯杂标题冇得用",
+	"bs-checklist-savelist-error-edit-not-permitted": "冇得够保存列表所需滴权限",
+	"bs-checklist-modified-check": "改哒清单值",
+	"bs-checklist-update-list": "换哒个列表"
+}

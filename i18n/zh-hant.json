@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-checklist-desc": "提供檢查清單功能",
+	"bs-checklist-button-checkbox-title": "核選清單元素",
+	"bs-checklist-menu-insert-list-title": "插入清單",
+	"bs-checklist-menu-insert-checkbox": "核選方塊",
+	"bs-checklist-dlg-insert-list-title": "插入檢查清單",
+	"bs-checklist-dlg-insert-list-value-list": "值清單",
+	"bs-checklist-tag-checklist-desc": "顯示核選方塊或下拉式選單欄位。 可用的設定屬性有：",
+	"bs-checklist-tag-checklist-example-check": "核選方塊",
+	"bs-checklist-dlg-new-list": "建立新清單",
+	"bs-checklist-dlg-save-list": "儲存變更至清單",
+	"bs-checklist-dlg-items-label": "清單中的項目",
+	"bs-checklist-dlg-items-emptytext": "此清單中沒有任何項目",
+	"bs-checklist-dlg-items-hint": "要加入新的項目請於上方欄位輸入並按 <kbd>Enter</kbd>。",
+	"bs-checklist-dlg-panel-title": "可用的清單",
+	"bs-checklist-dlg-new-title": "加入新清單",
+	"bs-checklist-dlg-new-prompt": "輸入清單標題",
+	"bs-checklist-alert": "注意！",
+	"bs-checklist-confirm-dirty-title": "未儲存的變更！",
+	"bs-checklist-confirm-dirty-text": "您對檢查清單所做的修改尚未儲存。您是否要放棄變更？",
+	"log-name-bs-checklist": "核選方塊日誌",
+	"log-show-hide-bs-checklist": "$1 核選方塊日誌"
+}

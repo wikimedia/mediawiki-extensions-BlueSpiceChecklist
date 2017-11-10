@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Y-M D",
+			"Fulup"
+		]
+	},
+	"bs-checklist-button-checkbox-title": "Elfennoù ar roll-gwiriañ",
+	"bs-checklist-menu-insert-list-title": "Ensoc'hañ ur roll",
+	"bs-checklist-menu-insert-checkbox": "Log da askañ",
+	"bs-checklist-dlg-insert-list-title": "Ensoc'hañ ur roll-gwiriañ",
+	"bs-checklist-dlg-insert-list-value-list": "Roll an talvoudennoù",
+	"bs-checklist-dlg-new-list": "Krouiñ ur roll nevez",
+	"bs-checklist-dlg-save-list": "Enrollañ ar cheñchamantoù graet er roll",
+	"bs-checklist-dlg-items-label": "Elfennoù er roll",
+	"bs-checklist-dlg-items-emptytext": "Elfenn ebet er roll-mañ",
+	"bs-checklist-dlg-items-hint": "Evit ouzhpennañ un elfenn nevez, skrivit er vaezienn amañ a-us ha pouezit war <kbd>Kas</kbd>.",
+	"bs-checklist-dlg-panel-title": "Rolloù a zo da gaout",
+	"bs-checklist-dlg-new-title": "Ouzhpennañ ur roll nevez",
+	"bs-checklist-dlg-new-prompt": "Lakaat titl ur roll",
+	"bs-checklist-alert": "Diwallit !",
+	"bs-checklist-confirm-dirty-title": "Cheñchamantoù n'int ket bet enrollet !",
+	"bs-checklist-confirm-dirty-text": "Kemmoù ho peus graet d'ar roll-gwiriañ ha n'int ket bet enrollet c'hoazh. Ha sur oc'h e fell deoc'h disteurel ar c'hemmoù ?"
+}

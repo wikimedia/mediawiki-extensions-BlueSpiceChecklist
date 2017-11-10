@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-checklist-menu-insert-no-list-loaded": "Nisciune elenghe carecate",
+	"bs-checklist-dlg-insert-list-value-list": "Elenghe de valore",
+	"bs-checklist-tag-checklist-example-list": "Scacchie 'u menù",
+	"bs-checklist-dlg-new-list": "Ccrèje 'n'elenghe nuéve",
+	"bs-checklist-dlg-save-list": "Reggistre le cangiaminde de l'elenghe",
+	"bs-checklist-dlg-items-label": "Vôsce jndr'à l'elenghe",
+	"bs-checklist-dlg-new-title": "Aggiunge 'n'elenghe nuève",
+	"bs-checklist-dlg-new-prompt": "Mitte 'u titole de l'elenghe",
+	"bs-checklist-alert": "Attenziò!",
+	"bs-checklist-confirm-dirty-title": "Cangiaminde non reggistrate!"
+}

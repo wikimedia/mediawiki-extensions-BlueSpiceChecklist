@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sagan",
+			"Азат Хәлилов",
+			"З. ӘЙЛЕ"
+		]
+	},
+	"bs-checklist-desc": "Контроль исемлегенең функционаллеген тәьмин итә",
+	"bs-checklist-button-checkbox-title": "Контроль исемлек элеметтары",
+	"bs-checklist-menu-insert-list-title": "Исемлек өҫтәү",
+	"bs-checklist-menu-insert-checkbox": "Флажок",
+	"bs-checklist-dlg-insert-list-title": "Котроль исемлек өҫтәргә",
+	"bs-checklist-dlg-insert-list-value-list": "Мәғәнәләр исемлеге",
+	"bs-checklist-tag-checklist-desc": "Билдәне йәки һайлау ҡырын күрһәтә. Конфигурацияның ҡулланыу мөмкин булҙан атрибуттары:",
+	"bs-checklist-tag-checklist-param-type": "<code>type</code>: <code>list</code> һайланған исемлекте бирә select list.",
+	"bs-checklist-tag-checklist-param-list": "<code>list</code>: ҡалыптың ҡулланыу мөмкин булған атамалары исеме.  <code>type</code> параметры  <code>list</code> булараҡ ҡуйылырға тейеш.",
+	"bs-checklist-tag-checklist-param-value": "<code>value</code>: <code>checked</code> йәки исемлек ҡалыбынан алынған атама.",
+	"bs-checklist-dlg-new-list": "Яңы исемлек булдырырға",
+	"bs-checklist-dlg-save-list": "Исемлектә үҙгәртеүҙәрҙе һаҡларға",
+	"bs-checklist-dlg-items-label": "Исемлектәге объекттар",
+	"bs-checklist-dlg-items-emptytext": "Был исемлектә элементтар юҡ",
+	"bs-checklist-dlg-items-hint": "Яңы элемент өҫтәү өсөн, өҫтәге тәҙрәне тултырығыҙ һәм <kbd>Enter</kbd> клавишаһына баҫығыҙ.",
+	"bs-checklist-dlg-panel-title": "Рөхсәт ителгән исемлектәр",
+	"bs-checklist-dlg-new-title": "Яңы исемлек өҫтәргә",
+	"bs-checklist-dlg-new-prompt": "Исемлек атамаһын яҙырға",
+	"bs-checklist-alert": "Иғтибар!",
+	"bs-checklist-confirm-dirty-title": "Һаҡланмаған үҙгәртеүҙәр!",
+	"bs-checklist-confirm-dirty-text": "Һеҙ исемлеккә әлегә һаҡланмаған үҙгәрештәр индерҙегеҙ. Үҙгәртеүҙәрҙе кире алырға теләүегеҙгә инанаһығыҙмы?"
+}

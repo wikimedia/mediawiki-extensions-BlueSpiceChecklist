@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Skalcaa",
+			"Dbc334"
+		]
+	},
+	"bs-checklist-desc": "Ponuja kontrolni seznam funkcionalnosti",
+	"bs-checklist-button-checkbox-title": "Elementi kontrolnega seznama",
+	"bs-checklist-menu-insert-list-title": "Vstavi seznam",
+	"bs-checklist-menu-insert-checkbox": "Potrditveno polje",
+	"bs-checklist-dlg-insert-list-title": "Vstavi kontrolni seznam",
+	"bs-checklist-dlg-insert-list-value-list": "Seznam vrednosti",
+	"bs-checklist-tag-checklist-desc": "Ustvari označevalno polje ali izbirni meni. Kontrolni seznam lahko spremenite z različnimi parametri.",
+	"bs-checklist-dlg-new-list": "Ustvari nov seznam",
+	"bs-checklist-dlg-save-list": "Shrani spremembe seznama",
+	"bs-checklist-dlg-items-label": "Elementi seznama",
+	"bs-checklist-dlg-items-emptytext": "Seznam ne vsebuje nobenih elementov",
+	"bs-checklist-dlg-items-hint": "Nov element vpišite v zgornje polje in pritisnite tipko <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Seznami na voljo",
+	"bs-checklist-dlg-new-title": "Dodaj nov seznam",
+	"bs-checklist-dlg-new-prompt": "Vpišite naslov seznama",
+	"bs-checklist-alert": "Pozor!",
+	"bs-checklist-confirm-dirty-title": "Neshranjene spremembe!",
+	"bs-checklist-confirm-dirty-text": "Nekatere spremembe na seznamu še niso shranjene. Ali ste prepičani, da želite zavreči te spremembe?"
+}

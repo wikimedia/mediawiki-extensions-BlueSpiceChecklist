@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-checklist-desc": "Forni functionalitate de lista de controlo",
+	"bs-checklist-button-checkbox-title": "Elementos de lista de controlo",
+	"bs-checklist-menu-insert-list-title": "Inserer lista",
+	"bs-checklist-menu-insert-checkbox": "Quadrato de selection",
+	"bs-checklist-dlg-insert-list-title": "Inserer un lista de controlo",
+	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
+	"bs-checklist-tag-checklist-desc": "Genera un quadrato marcabile o menu de selection. Le lista de optiones pote esser modificate per varie parametros.",
+	"bs-checklist-dlg-new-list": "Crear un nove lista",
+	"bs-checklist-dlg-save-list": "Salveguardar cambiamentos in lista",
+	"bs-checklist-dlg-items-label": "Elementos in lista",
+	"bs-checklist-dlg-items-emptytext": "Nulle elemento in iste lista",
+	"bs-checklist-dlg-items-hint": "A fin de adder un nove elemento, scribe in le campo hic supra e preme <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Listas disponibile",
+	"bs-checklist-dlg-new-title": "Adder nove lista",
+	"bs-checklist-dlg-new-prompt": "Entra un titulo de lista",
+	"bs-checklist-alert": "Attention!",
+	"bs-checklist-confirm-dirty-title": "Cambiamentos non salveguardate!",
+	"bs-checklist-confirm-dirty-text": "Tu ha facite modificationes in le lista de controlo que non ha ancora essite salveguardate. Es tu secur de voler abandonar iste cambiamentos?"
+}

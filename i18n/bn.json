@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Tauhid16",
+			"Aftabuzzaman"
+		]
+	},
+	"bs-checklist-dlg-new-list": "নতুন তালিকা তৈরি করুন",
+	"bs-checklist-dlg-items-label": "তালিকার উপকরণসমূহ।",
+	"bs-checklist-dlg-items-emptytext": "তালিকায় কোনো উপকরণ নেই",
+	"bs-checklist-dlg-panel-title": "উপলব্ধ তালিকা",
+	"bs-checklist-dlg-new-title": "নতুন তালিকা যোগ করো",
+	"bs-checklist-dlg-new-prompt": "একটি তালিকা শিরোনাম প্রবেশ করান",
+	"bs-checklist-alert": "সাবধান!",
+	"bs-checklist-confirm-dirty-title": "পরিবর্তনসমূহ সংরক্ষণ করা হয়নি।"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"InternerowyGołąb"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Wstaw listę",
+	"bs-checklist-menu-insert-no-list-loaded": "Żadna lista nie została załadowana",
+	"bs-checklist-dlg-insert-list-value-list": "Lista wartości",
+	"bs-checklist-dlg-new-list": "Utwórz nową listę",
+	"bs-checklist-dlg-save-list": "Zapisz zmiany na liście",
+	"bs-checklist-dlg-items-label": "Elementy na liście",
+	"bs-checklist-dlg-panel-title": "Dostępne listy",
+	"bs-checklist-dlg-new-title": "Dodaj nową listę",
+	"bs-checklist-dlg-new-prompt": "Wprowadź tytuł listy",
+	"bs-checklist-alert": "Uwaga!",
+	"bs-checklist-confirm-dirty-title": "Niezapisane zmiany!",
+	"bs-checklist-savelist-error-invalid-title": "Podano nieprawidłowy tytuł",
+	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy"
+}

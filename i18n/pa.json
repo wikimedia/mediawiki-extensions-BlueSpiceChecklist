@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Babanwalia"
+		]
+	},
+	"bs-checklist-dlg-new-list": "ਕੋਈ ਨਵੀਂ ਸੂਚੀ ਬਣਾਉ",
+	"bs-checklist-dlg-save-list": "ਸੂਚੀ 'ਚ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ਸਾਂਭੋ",
+	"bs-checklist-dlg-items-label": "ਸੂਚੀ ਵਿਚਲੀਆਂ ਚੀਜ਼ਾਂ",
+	"bs-checklist-dlg-items-emptytext": "ਇਸ ਸੂਚੀ ਵਿੱਚ ਕੋਈ ਚੀਜ਼ਾਂ ਨਹੀਂ ਹਨ",
+	"bs-checklist-dlg-panel-title": "ਮੌਜੂਦ ਸੂਚੀਆਂ",
+	"bs-checklist-dlg-new-title": "ਨਵੀਂ ਸੂਚੀ ਜੋੜੋ",
+	"bs-checklist-dlg-new-prompt": "ਸੂਚੀ ਦਾ ਕੋਈ ਸਿਰਲੇਖ ਭਰੋ",
+	"bs-checklist-alert": "ਖ਼ਬਰਦਾਰੀ!",
+	"bs-checklist-confirm-dirty-title": "ਅਣ-ਸਾਂਭੀਆਂ ਤਬਦੀਲੀਆਂ!"
+}

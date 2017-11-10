@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Reza1615",
+			"Dalba"
+		]
+	},
+	"bs-checklist-desc": "قابلیت فهرست بازبینی را فراهم می‌کند",
+	"bs-checklist-button-checkbox-title": "عناصر فهرست بازبینی",
+	"bs-checklist-menu-insert-list-title": "قراردادن فهرست",
+	"bs-checklist-menu-insert-checkbox": "کادر انتخاب",
+	"bs-checklist-dlg-insert-list-title": "درج یک بازبینه",
+	"bs-checklist-dlg-insert-list-value-list": "فهرست مقدار",
+	"bs-checklist-tag-checklist-desc": "یک کادر انتخاب یا زمینه انتخاب ارائه می‌کند. ویژگی‌های پیکربندی در دسترس:",
+	"bs-checklist-tag-checklist-param-type": "<code>type</code>: <code>list</code> یک فهرست انتخاب ارائه می‌کند.",
+	"bs-checklist-tag-checklist-param-list": "<code>list</code>: نام الگو همراه مقادیر در دسترس. پارامتر <code>type</code> باید <code>list</code> تعیین شود.",
+	"bs-checklist-tag-checklist-param-value": "<code>value</code>: <code>checked</code> یا یک مقدار خارج از الگوی فهرست.",
+	"bs-checklist-dlg-new-list": "ساخت یک فهرست تازه",
+	"bs-checklist-dlg-save-list": "ذخیره‌سازی تغییرات در فهرست",
+	"bs-checklist-dlg-items-label": "موارد فهرست",
+	"bs-checklist-dlg-items-emptytext": "هیچ موردی در این فهرست نیست",
+	"bs-checklist-dlg-panel-title": "فهرست‌های موجود",
+	"bs-checklist-dlg-new-title": "افزودن فهرست جدید",
+	"bs-checklist-dlg-new-prompt": "واردکردن نام فهرست",
+	"bs-checklist-alert": "هشدار!",
+	"bs-checklist-confirm-dirty-title": "تغییرات ذخیره‌نشده!"
+}

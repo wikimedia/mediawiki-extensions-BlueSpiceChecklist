@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Lista beszúrása",
+	"bs-checklist-menu-insert-checkbox": "Jelölőnégyzet",
+	"bs-checklist-dlg-insert-list-value-list": "Értéklista"
+}

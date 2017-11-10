@@ -1,0 +1,105 @@
+{
+	"name": "BlueSpiceChecklist",
+	"version": "2.27.1-alpha",
+	"url": "https://help.bluespice.com/index.php/CheckList",
+	"author": "Markus Glaser",
+	"descriptionmsg": "bs-checklist-desc",
+	"type": "bluespice",
+	"license-name": "GPL-2.0+",
+	"bsgExtensions": {
+		"BlueSpiceChecklist": {
+			"className": "Checklist",
+			"extPath": "/BlueSpiceChecklist"
+		}
+	},
+	"callback": "Checklist::onRegistration",
+	"LogTypes": [
+		"bs-checklist"
+	],
+	"FilterLogTypes": {
+		"bs-checklist": true
+	},
+	"LogActionsHandlers": {
+		"bs-checklist/*": "LogFormatter"
+	},
+	"APIModules": {
+		"bs-checklist-available-options-store": "BSApiChecklistAvailableOptionsStore",
+		"bs-checklist-template-store": "BSApiChecklistTemplateStore",
+		"bs-checklist-tasks": "BSApiChecklistTasks"
+	},
+	"MessagesDirs": {
+		"Checklist": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"Checklist": "Checklist.class.php",
+		"BSApiChecklistAvailableOptionsStore": "includes/api/BSApiChecklistAvailableOptionsStore.php",
+		"BSApiChecklistTemplateStore": "includes/api/BSApiChecklistTemplateStore.php",
+		"BSApiChecklistTasks": "includes/api/BSApiChecklistTasks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Checklist::onParserFirstCallInit",
+		"BeforePageDisplay": "Checklist::onBeforePageDisplay",
+		"BSExtendedEditBarBeforeEditToolbar": "Checklist::onBSExtendedEditBarBeforeEditToolbar",
+		"BSInsertMagicAjaxGetData": "Checklist::onBSInsertMagicAjaxGetData",
+		"VisualEditorConfig": "Checklist::onVisualEditorConfig",
+		"BSUsageTrackerRegisterCollectors": "Checklist::onBSUsageTrackerRegisterCollectors",
+		"EditPage::showEditForm:initial": "Checklist::onEditPage_showEditForm_initial",
+		"UnitTestsList": "Checklist::onUnitTestsList"
+	},
+	"ResourceModules": {
+		"ext.bluespice.checklist": {
+			"scripts": [
+				"bluespice.checklist.js"
+			],
+			"targets": [ "desktop", "mobile" ],
+			"messages": [
+				"bs-checklist-button-checkbox-title",
+				"bs-checklist-menu-insert-list-title",
+				"bs-checklist-menu-insert-checkbox",
+				"bs-checklist-menu-insert-no-list-loaded",
+				"bs-checklist-dlg-insert-list-title",
+				"bs-checklist-dlg-insert-list-value-list",
+				"bs-checklist-dlg-new-list",
+				"bs-checklist-dlg-save-list",
+				"bs-checklist-dlg-items-label",
+				"bs-checklist-dlg-items-emptytext",
+				"bs-checklist-dlg-items-hint",
+				"bs-checklist-dlg-panel-title",
+				"bs-checklist-dlg-new-title",
+				"bs-checklist-dlg-new-prompt",
+				"bs-checklist-alert",
+				"bs-checklist-confirm-dirty-title",
+				"bs-checklist-confirm-dirty-text"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.checklist.view": {
+			"scripts": [
+				"bluespice.checklist.js"
+			],
+			"targets": [ "desktop", "mobile" ],
+			"messages": [
+				"bs-checklist-button-checkbox-title",
+				"bs-checklist-menu-insert-list-title",
+				"bs-checklist-menu-insert-checkbox",
+				"bs-checklist-alert",
+				"bs-checklist-confirm-dirty-title",
+				"bs-checklist-confirm-dirty-text"
+			]
+		},
+		"ext.bluespice.checklist.styles": {
+			"styles": "bluespice.checklist.css",
+			"position": "top",
+			"targets": [ "desktop", "mobile" ]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceChecklist/resources"
+	},
+	"manifest_version": 1
+}

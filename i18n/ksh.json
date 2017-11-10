@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Donn en Leß ennföhje",
+	"bs-checklist-menu-insert-checkbox": "Käßje zum Aankrüzze",
+	"bs-checklist-dlg-insert-list-title": "Donn en Leß met Käßje zum Aankrüzze ennföhje",
+	"bs-checklist-dlg-insert-list-value-list": "<!-- Donn en -->Leß met Wääte <!-- ennföhje -->",
+	"bs-checklist-tag-checklist-example-check": "Käßje zum Aankrüzze",
+	"bs-checklist-dlg-new-list": "Donn en neuje Leß aanlähje",
+	"bs-checklist-dlg-save-list": "Donn de Änderonge aan dä Leß faßhallde",
+	"bs-checklist-dlg-items-label": "Pongkte en dä Leß",
+	"bs-checklist-dlg-items-emptytext": "En dä Leß es nix dren",
+	"bs-checklist-dlg-panel-title": "Verföhschbahre Leßte",
+	"bs-checklist-dlg-new-title": "Donn en neu Leß dobei",
+	"bs-checklist-dlg-new-prompt": "Jivv en Övverschreff för di Leß en.",
+	"bs-checklist-alert": "Oppjepaß!",
+	"bs-checklist-confirm-dirty-title": "Änderonge sin nit faßjehallde!",
+	"bs-checklist-confirm-dirty-text": "Do häs Änderonge aan dä Pröövleßß jemaht, di noch nit faßjelahhde sin. Wells De di Änderonge verhaftesch fottjeschmeße han?",
+	"log-name-bs-checklist": "Logbohch vun de Käßje zom Höhksche maache",
+	"log-description-bs-checklist": "Logbohch vun de Ännderonge en Käßje zom Höhksche maache.",
+	"log-show-hide-bs-checklist": "$1 et Logbohch vun de Käßje zom Höhksche maache",
+	"logentry-bs-checklist-checked": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hädd e Höhksche em Käßje $4 op $3 jemaat.",
+	"logentry-bs-checklist-unchecked": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät dat Höhksche Nommer $4 $3.",
+	"logentry-bs-checklist-selected": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät dä Wäät „$5“ em Käßje Nommer $4 op $3 ußjesöhk.",
+	"bs-checklist-savelist-error-invalid-title": "En onjöltejje Övverschreff wood enjejovve",
+	"bs-checklist-savelist-error-edit-not-permitted": "Nit jenohch Rääschde, öm di Leß faßzehallde.",
+	"bs-checklist-update-list": "Leß op ene neueje Schtand jebraat"
+}

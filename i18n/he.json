@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eladk",
+			"Guycn2"
+		]
+	},
+	"bs-checklist-desc": "סיפוק רשימות פונקציונליות",
+	"bs-checklist-button-checkbox-title": "רשימת פעולות לביצוע אלמנטים",
+	"bs-checklist-menu-insert-list-title": "הוספת רשימה",
+	"bs-checklist-menu-insert-checkbox": "תיבת סימון",
+	"bs-checklist-dlg-insert-list-title": "הוספת רשימה",
+	"bs-checklist-dlg-insert-list-value-list": "רשימת ערכים",
+	"bs-checklist-tag-checklist-desc": "סמנו תיבת סימון או בחרו שדה. תכונות תצורה זמינות:",
+	"bs-checklist-tag-checklist-example-check": "תיבת סימון",
+	"bs-checklist-tag-checklist-example-list": "תיבת בחירה",
+	"bs-checklist-dlg-new-list": "יצירת רשימה חדשה",
+	"bs-checklist-dlg-save-list": "שמירת שינויים ברשימה",
+	"bs-checklist-dlg-items-label": "פריטים ברשימה",
+	"bs-checklist-dlg-items-emptytext": "אין פריטים ברשימה זו",
+	"bs-checklist-dlg-items-hint": "כדי להוסיף פריט חדש, יש להקליד בשדה למעלה ולהקיש <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "רשימות זמינות",
+	"bs-checklist-dlg-new-title": "הוספת רשימה חדשה",
+	"bs-checklist-dlg-new-prompt": "הזינו כותרת רשימה",
+	"bs-checklist-alert": "זהירות!",
+	"bs-checklist-confirm-dirty-title": "שינויים שלא נשמרו!",
+	"bs-checklist-confirm-dirty-text": "ביצעתם שינויים ברשימה שעדיין לא נשמרו. האם אתם בטוחים שברצונכם למחוק את השינויים?",
+	"bs-checklist-savelist-error-invalid-title": "סופקה כותרת לא תקינה",
+	"bs-checklist-savelist-error-edit-not-permitted": "אין לך הרשאות לשמור רשימה",
+	"bs-checklist-modified-check": "שינוי ערך ברשימה",
+	"bs-checklist-update-list": "עדכון רשימה",
+	"apihelp-bs-checklist-tasks-description": "מספק פעולות להרחבה Checklist"
+}

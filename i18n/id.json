@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachmat.Wahidi"
+		]
+	},
+	"bs-checklist-tag-checklist-desc": "Menghasilkan sebuah kotak centang atau sebuah menu pilih. Daftar centang dapat diubah dengan beragam parameter.",
+	"bs-checklist-tag-checklist-example-check": "Kotak centang",
+	"bs-checklist-tag-checklist-example-list": "Pilih menu"
+}

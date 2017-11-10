@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Inserir una lista",
+	"bs-checklist-menu-insert-checkbox": "Casa de marcar",
+	"bs-checklist-dlg-insert-list-value-list": "Lista de valors",
+	"bs-checklist-dlg-new-list": "Crear una lista novèla",
+	"bs-checklist-dlg-items-label": "Elements de la lista",
+	"bs-checklist-dlg-panel-title": "Listas disponiblas",
+	"bs-checklist-dlg-new-title": "Apondre una lista novèla",
+	"bs-checklist-dlg-new-prompt": "Entratz un títol de lista",
+	"bs-checklist-alert": "Atencion !",
+	"bs-checklist-confirm-dirty-title": "Modificacions pas enregistradas !"
+}
