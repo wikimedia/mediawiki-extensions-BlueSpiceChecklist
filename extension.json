@@ -1,11 +1,11 @@
 {
 	"name": "BlueSpiceChecklist",
-	"version": "2.27.1-alpha",
+	"license-name": "GPL-3.0",
+	"version": "3.0.0-alpha",
 	"url": "https://help.bluespice.com/index.php/CheckList",
 	"author": "Markus Glaser",
 	"descriptionmsg": "bs-checklist-desc",
 	"type": "bluespice",
-	"license-name": "GPL-2.0+",
 	"bsgExtensions": {
 		"BlueSpiceChecklist": {
 			"className": "Checklist",
