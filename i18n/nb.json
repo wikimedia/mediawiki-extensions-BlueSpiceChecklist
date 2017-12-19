@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-checklist-desc": "Tilbyr sjekklistefunksjonalitet",
+	"bs-checklist-button-checkbox-title": "Sjekklisteelementer",
+	"bs-checklist-menu-insert-list-title": "Sett inn liste",
+	"bs-checklist-menu-insert-checkbox": "Avkrysningsboks",
+	"bs-checklist-menu-insert-no-list-loaded": "Ingen liste lastet",
+	"bs-checklist-dlg-insert-list-title": "Sett inn en sjekkliste",
+	"bs-checklist-dlg-insert-list-value-list": "Verdiliste",
+	"bs-checklist-tag-checklist-desc": "Genererer en avkrysningsboks eller en utvalgsmeny. Sjekklisten kan modifiseres med forskjellige parametre.",
+	"bs-checklist-tag-checklist-example-check": "Avkrysningsboks",
+	"bs-checklist-tag-checklist-example-list": "Valgmeny",
+	"bs-checklist-dlg-new-list": "Opprett en ny liste",
+	"bs-checklist-dlg-save-list": "Lagre endringer i listen",
+	"bs-checklist-dlg-items-label": "Elementer i listen",
+	"bs-checklist-dlg-items-emptytext": "Ingen elementer i denne listen",
+	"bs-checklist-dlg-items-hint": "For å legge til et nytt element, skriv i feltet ovenfor og trykk <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Tilgjengelige lister",
+	"bs-checklist-dlg-new-title": "Legg til ny liste",
+	"bs-checklist-dlg-new-prompt": "Skriv inn listetittel",
+	"bs-checklist-alert": "Forsiktig!",
+	"bs-checklist-confirm-dirty-title": "Ulagrede endringer!",
+	"bs-checklist-confirm-dirty-text": "Du har gjort endringer i sjekklisten som ikke er lagret. Er du sikker på at du vil forkaste endringene?",
+	"log-name-bs-checklist": "Avkrysningsbokslogg",
+	"log-description-bs-checklist": "Logg over endringer til avkrysningsbokser på sider.",
+	"log-show-hide-bs-checklist": "$1 avkrysningsbokslogg",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|har}} merket av avkrysningsboks nr. $4 på siden $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|har}} fjernet markeringen av avkrysningsboks nr. $4 på siden $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|har}} valgt verdien «$5» i valgboks nr. $4 på siden $3",
+	"bs-checklist-savelist-error-invalid-title": "Ugyldig tittel oppgitt",
+	"bs-checklist-savelist-error-edit-not-permitted": "Utilstrekkelige tillatelser for å lagre liste",
+	"bs-checklist-modified-check": "Modifiserte sjekklisteverdi",
+	"bs-checklist-update-list": "Oppdatert liste",
+	"apihelp-bs-checklist-available-options-store-description": "Lister opp alle tilgjengelige alternativer for sjekklistemaler. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
+	"apihelp-bs-checklist-available-options-store-summary": "Lister opp alle tilgjengelige alternativer for sjekklistemaler. Tillater sortering, filtrering og sideinndeling. Implementer ExtJS Store-parametre.",
+	"apihelp-bs-checklist-template-store-description": "Lister opp alle maler som er gyldige sjekklistekilder. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
+	"apihelp-bs-checklist-template-store-summary": "Lister opp alle maler som er gyldige sjekklistekilder. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
+	"bs-tag-checklist": "sjekklistetaggen"
+}
