@@ -39,5 +39,7 @@
 	"apihelp-bs-checklist-available-options-store-summary": "Lister opp alle tilgjengelige alternativer for sjekklistemaler. Tillater sortering, filtrering og sideinndeling. Implementer ExtJS Store-parametre.",
 	"apihelp-bs-checklist-template-store-description": "Lister opp alle maler som er gyldige sjekklistekilder. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
 	"apihelp-bs-checklist-template-store-summary": "Lister opp alle maler som er gyldige sjekklistekilder. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
+	"apihelp-bs-checklist-tasks-description": "Gir operasjoner for Checklist-utvidelsen",
+	"apihelp-bs-checklist-tasks-summary": "Gir operasjoner for Checklist-utvidelsen",
 	"bs-tag-checklist": "sjekklistetaggen"
 }
