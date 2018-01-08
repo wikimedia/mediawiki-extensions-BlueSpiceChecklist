@@ -13,6 +13,7 @@
 	"bs-checklist-button-checkbox-title": "Lista de comprobación de elementos",
 	"bs-checklist-menu-insert-list-title": "Insertar lista",
 	"bs-checklist-menu-insert-checkbox": "Casilla de verificación",
+	"bs-checklist-menu-insert-no-list-loaded": "No se cargó ninguna lista",
 	"bs-checklist-dlg-insert-list-title": "Insertar una lista de comprobación",
 	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
 	"bs-checklist-tag-checklist-desc": "Genera una casilla de verificación o un menú de selección. La lista puede modificarse por varios parámetros.",
