@@ -32,16 +32,19 @@
 	"bs-checklist-confirm-dirty-text": "Has realizado modificaciones en la lista de comprobación que todavía no se han guardado. ¿Quieres descartarlas?",
 	"log-name-bs-checklist": "Registro de casillas",
 	"log-description-bs-checklist": "Registro de los cambios de casillas en las páginas.",
-	"log-show-hide-bs-checklist": "$1 el registro de casillas",
+	"log-show-hide-bs-checklist": "$1 registro de casillas de verificación",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|ha marcado}} la casilla $4 de la página $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|ha desmarcado}} la casilla $4 en la página $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha seleccionado}} el valor de «$5» en la casilla $4 de la página $3",
 	"bs-checklist-savelist-error-invalid-title": "Se proporcionó un título no válido",
-	"bs-checklist-savelist-error-edit-not-permitted": "Permisos insuficientes para fusionar el historial.",
-	"bs-checklist-modified-check": "Lista de verificación modificada valor",
+	"bs-checklist-savelist-error-edit-not-permitted": "Permisos insuficientes para guardar la lista",
+	"bs-checklist-modified-check": "Valor de lista de comprobación modificado",
 	"bs-checklist-update-list": "Lista actualizada",
 	"apihelp-bs-checklist-available-options-store-description": "Lista todas las opciones disponibles para plantillas \"checklist\". Permite ordenar, filtrar y paginar. Implementa parámetros de almacenamiento ExtJS.",
+	"apihelp-bs-checklist-available-options-store-summary": "Enumera todas las opciones disponibles para las plantillas de listas de comprobación. Permite ordenar, filtrar y paginar. Implementa los parámetros de ExtJS Store.",
 	"apihelp-bs-checklist-template-store-description": "Lista todas las plantillas que son fuentes válidas de \"checklist\". Permite ordenar, filtrar y paginar. Implementa parámetros de almacenamiento ExtJS.",
+	"apihelp-bs-checklist-template-store-summary": "Enumera todas las plantillas que son fuentes válidas de listas de comprobación. Permite ordenar, filtrar y paginar. Implementa los parámetros de ExtJS Store.",
 	"apihelp-bs-checklist-tasks-description": "Proporciona operaciones para la extensión Checklist",
-	"bs-tag-checklist": "la etiqueta de control de lista"
+	"apihelp-bs-checklist-tasks-summary": "Proporciona operaciones para la extensión Checklist",
+	"bs-tag-checklist": "la etiqueta de lista de comprobación"
 }
