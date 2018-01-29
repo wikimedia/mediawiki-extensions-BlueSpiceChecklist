@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jayprakash12345"
+			"Jayprakash12345",
+			"Innocentbunny"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "सूची डालें",
@@ -10,5 +11,5 @@
 	"bs-checklist-dlg-insert-list-title": "एक चेकलिस्ट डालें",
 	"bs-checklist-dlg-insert-list-value-list": "मान सूची",
 	"log-show-hide-bs-checklist": "$1 चेकबॉक्स लॉग",
-	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|चिन्हित}} पृष्ठ $3 पर #$4 चेकबॉक्स"
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|चिन्हित}} पृष्ठ $3 पर चेकबॉक्स #$4"
 }
