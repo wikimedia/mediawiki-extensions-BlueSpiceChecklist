@@ -45,9 +45,7 @@ class Checklist extends BsExtensionMW {
 	public static $iChecklistMaxItemLength = 60;
 
 	protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$this->mCore->registerPermission( 'checklistmodify', array( 'user' ) );
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
