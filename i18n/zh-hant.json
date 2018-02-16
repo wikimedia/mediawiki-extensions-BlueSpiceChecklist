@@ -2,17 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
-	"bs-checklist-desc": "提供檢查清單功能",
+	"bs-checklist-desc": "提供核選清單功能",
 	"bs-checklist-button-checkbox-title": "核選清單元素",
 	"bs-checklist-menu-insert-list-title": "插入清單",
 	"bs-checklist-menu-insert-checkbox": "核選方塊",
+	"bs-checklist-menu-insert-no-list-loaded": "無載入清單",
 	"bs-checklist-dlg-insert-list-title": "插入檢查清單",
 	"bs-checklist-dlg-insert-list-value-list": "值清單",
-	"bs-checklist-tag-checklist-desc": "顯示核選方塊或下拉式選單欄位。 可用的設定屬性有：",
+	"bs-checklist-tag-checklist-desc": "產生核選方塊或下拉式選單欄位。核選清單能以透過多個參數來變動。",
 	"bs-checklist-tag-checklist-example-check": "核選方塊",
+	"bs-checklist-tag-checklist-example-list": "選擇選單",
 	"bs-checklist-dlg-new-list": "建立新清單",
 	"bs-checklist-dlg-save-list": "儲存變更至清單",
 	"bs-checklist-dlg-items-label": "清單中的項目",
@@ -25,5 +28,20 @@
 	"bs-checklist-confirm-dirty-title": "未儲存的變更！",
 	"bs-checklist-confirm-dirty-text": "您對檢查清單所做的修改尚未儲存。您是否要放棄變更？",
 	"log-name-bs-checklist": "核選方塊日誌",
-	"log-show-hide-bs-checklist": "$1 核選方塊日誌"
+	"log-description-bs-checklist": "頁面上勾選框異動內容的日誌。",
+	"log-show-hide-bs-checklist": "$1 核選方塊日誌",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|已勾選}}在頁面 $3 的核選框 #$4",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|已取消勾選}}在頁面 $3 的核選框 #$4",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|已選擇}}在頁面 $3 的下拉選單 #$4 的值「$5」",
+	"bs-checklist-savelist-error-invalid-title": "提供的標題無效",
+	"bs-checklist-savelist-error-edit-not-permitted": "權限不足，無法儲存清單。",
+	"bs-checklist-modified-check": "已變動核選清單的值",
+	"bs-checklist-update-list": "已更新清單",
+	"apihelp-bs-checklist-available-options-store-description": "列出用於核選清單模板的所有可用選項。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
+	"apihelp-bs-checklist-available-options-store-summary": "列出用於核選清單模板的所有可用選項。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
+	"apihelp-bs-checklist-template-store-description": "列出所有有效核選清單來源的模版。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
+	"apihelp-bs-checklist-template-store-summary": "列出所有有效核選清單來源的模版。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
+	"apihelp-bs-checklist-tasks-description": "提供用於 Checklist 擴充的操作",
+	"apihelp-bs-checklist-tasks-summary": "提供用於 Checklist 擴充的操作",
+	"bs-tag-checklist": "核選清單標籤"
 }
