@@ -3,13 +3,15 @@
 		"authors": [
 			"Shirayuki",
 			"2nd-player",
-			"Otokoume"
+			"Otokoume",
+			"Yusuke1109"
 		]
 	},
 	"bs-checklist-desc": "チェックリストの機能を提供する",
 	"bs-checklist-menu-insert-checkbox": "チェックボックス",
 	"bs-checklist-dlg-insert-list-title": "チェックリストの挿入",
-	"bs-checklist-tag-checklist-desc": "チェックボックスや選択フィールドを描画する。利用できる属性:",
+	"bs-checklist-tag-checklist-desc": "チェックボックスや選択メニューを生成します。チェックリストは、さまざまなパラメータで変更できます。",
+	"bs-checklist-tag-checklist-example-check": "チェックボックス",
 	"bs-checklist-dlg-new-list": "リストを新規作成",
 	"bs-checklist-dlg-save-list": "リストの変更内容を保存",
 	"bs-checklist-dlg-items-label": "リスト内の項目",
@@ -23,6 +25,6 @@
 	"log-name-bs-checklist": "チェックボックス記録",
 	"log-description-bs-checklist": "ページのチェックボックスの変更記録。",
 	"log-show-hide-bs-checklist": "$1 チェックボックス記録",
-	"logentry-bs-checklist-checked": "$1 が $3 のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
-	"logentry-bs-checklist-unchecked": "$1 が $3 のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}"
+	"logentry-bs-checklist-checked": "$1 が ページ $3 のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
+	"logentry-bs-checklist-unchecked": "$1 が ページ $3 のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}"
 }

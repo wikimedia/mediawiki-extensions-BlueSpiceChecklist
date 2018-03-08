@@ -4,7 +4,8 @@
 			"아라",
 			"Hwangjy9",
 			"Ykhwong",
-			"Nuevo Paso"
+			"Nuevo Paso",
+			"Garam"
 		]
 	},
 	"bs-checklist-menu-insert-checkbox": "체크 상자",
@@ -12,7 +13,7 @@
 	"bs-checklist-tag-checklist-example-check": "체크 상자",
 	"bs-checklist-dlg-new-list": "새 목록 만들기",
 	"bs-checklist-alert": "경고!",
-	"bs-checklist-confirm-dirty-text": "아직 저장되지 않은 확인 목록을 수정했습니다. 바뀐 내용들을 버리겠습니까?",
+	"bs-checklist-confirm-dirty-text": "아직 저장되지 않은 점검 목록을 수정하였습니다. 편집한 내용을 버리겠습니까?",
 	"log-name-bs-checklist": "체크 박스 기록",
 	"log-show-hide-bs-checklist": "체크 박스 기록 $1",
 	"logentry-bs-checklist-checked": "$1님이 $3 페이지에서 #$4 체크 상자에 {{GENDER:$2|체크했습니다}}",
