@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-checklist-button-checkbox-title": "Στοιχεία λίστας ελέγχου",
+	"bs-checklist-menu-insert-list-title": "Εισαγωγή λίστας",
+	"bs-checklist-menu-insert-checkbox": "Κουτί ελέγχου",
+	"bs-checklist-menu-insert-no-list-loaded": "Δεν φορτώθηκε λίστα",
+	"bs-checklist-dlg-insert-list-title": "Εισαγωγή λίστας ελέγχου",
+	"bs-checklist-dlg-insert-list-value-list": "Λίστα αξίας",
+	"bs-checklist-tag-checklist-desc": "Δημιουργεί ένα κουτί ελέγχου ή ένα επιλεγμένο μενού. Η λίστα ελέγχου μπορεί να τροποποιηθεί με διάφορες παραμέτρους.",
+	"bs-checklist-tag-checklist-example-check": "Κουτί ελέγχου",
+	"bs-checklist-tag-checklist-example-list": "Επιλέξτε μενού",
+	"bs-checklist-dlg-new-list": "Δημιουργία νέας λίστας",
+	"bs-checklist-dlg-save-list": "Αποθήκευση αλλαγών στη λίστα",
+	"bs-checklist-dlg-items-label": "Αντικείμενα στη λίστα",
+	"bs-checklist-dlg-items-emptytext": "Κανένα αντικείμενο στη λίστα.",
+	"bs-checklist-dlg-items-hint": "Για να προσθέσετε ένα νέο αντικείμενο, πληκτρολογήστε στο παραπάνω πεδίο και πατήστε <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-panel-title": "Διαθέσιμες λίστες",
+	"bs-checklist-dlg-new-title": "Προσθήκη νέας λίστας",
+	"bs-checklist-dlg-new-prompt": "Εισαγωγή τίτλου λίστας",
+	"bs-checklist-alert": "Προσοχή!",
+	"bs-checklist-confirm-dirty-title": "Μη αποθηκευμένες αλλαγές!"
+}
