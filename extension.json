@@ -23,6 +23,11 @@
 					]
 				}
 			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.bluespice.checklist.visualEditor"
+			]
 		}
 	},
 	"GroupPermissions": {
@@ -99,6 +104,25 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.checklist.visualEditor": {
+			"scripts": [
+				"ve-checklist/ve.dm.BSChecklistNode.js",
+				"ve-checklist/ve.ce.BSChecklistNode.js",
+				"ve-checklist/ve.ui.BSChecklistInspector.js",
+				"ve-checklist/ve.ui.BSChecklistInspectorTool.js"
+			],
+			"messages": [
+				"bs-checklist-ve-checklistinspector-title",
+				"bs-checklist-ve-checklistinspector-cb-checked"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
 			]
 		},
 		"ext.bluespice.checklist.view": {

@@ -48,5 +48,7 @@
 	"apihelp-bs-checklist-template-store-summary": "Describes the API endpoint that stores checklist templates\n{{doc-apihelp-summary|bs-checklist-template-store}}",
 	"apihelp-bs-checklist-tasks-description": "Describes the API endpoint that handles checklist tasks\n{{doc-apihelp-description|bs-checklist-tasks}}",
 	"apihelp-bs-checklist-tasks-summary": "Describes the API endpoint that handles checklist tasks\n{{doc-apihelp-summary|bs-checklist-tasks}}",
-	"bs-tag-checklist": "Name of the descriptor used in [[Special:UsageTracker|Special:UsageTracker]] output"
+	"bs-tag-checklist": "Name of the descriptor used in [[Special:UsageTracker|Special:UsageTracker]] output",
+	"bs-checklist-ve-checklistinspector-title": "Label for the menu item and inspector title for checklist in VisualEditor",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Label for the checkbox which indicates whether the checklist tag should be checked or unchecked"
 }

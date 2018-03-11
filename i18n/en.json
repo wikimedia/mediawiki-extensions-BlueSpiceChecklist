@@ -42,5 +42,7 @@
 	"apihelp-bs-checklist-template-store-summary": "Lists all templates that are valid checklist sources. Allows sorting, filtering and pagination. Implements ExtJS Store parameters.",
 	"apihelp-bs-checklist-tasks-description": "Provides operations for Checklist extension",
 	"apihelp-bs-checklist-tasks-summary": "Provides operations for Checklist extension",
-	"bs-tag-checklist": "the checklist tag"
+	"bs-tag-checklist": "the checklist tag",
+	"bs-checklist-ve-checklistinspector-title": "Checklist",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Checked"
 }
