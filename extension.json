@@ -6,10 +6,34 @@
 	"author": "Markus Glaser",
 	"descriptionmsg": "bs-checklist-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceChecklist": {
-			"className": "Checklist",
-			"extPath": "/BlueSpiceChecklist"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceChecklist": {
+					"className": "Checklist",
+					"extPath": "/BlueSpiceChecklist"
+				}
+			},
+			"PermissionRegistry": {
+				"checklistmodify": {
+					"type": "namespace",
+					"roles": [
+						"editor",
+						"admin"
+					]
+				}
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"checklistmodify": false
+		},
+		"user": {
+			"checklistmodify": true
+		},
+		"sysop": {
+			"checklistmodify": true
 		}
 	},
 	"callback": "Checklist::onRegistration",
@@ -100,5 +124,5 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceChecklist/resources"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }

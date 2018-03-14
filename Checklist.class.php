@@ -44,10 +44,6 @@ class Checklist extends BsExtensionMW {
 	public static $bCheckboxFound = false;
 	public static $iChecklistMaxItemLength = 60;
 
-	protected function initExt() {
-		$this->mCore->registerPermission( 'checklistmodify', array( 'user' ) );
-	}
-
 	/**
 	 * extension.json callback
 	 */
