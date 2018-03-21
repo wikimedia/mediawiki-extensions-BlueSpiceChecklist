@@ -41,5 +41,7 @@
 	"apihelp-bs-checklist-available-options-store-description": "Listet alle verfügbaren Optionen für Prüflistenvorlagen auf. Erlaubt die Sortierung, Filterung und Nummerierung. Implementiert ExtJS-Store-Parameter.",
 	"apihelp-bs-checklist-template-store-description": "Listet alle Vorlagen auf, die gültige Prüflistenquellen sind. Erlaubt die Sortierung, Filterung und Nummerierung. Implementiert ExtJS-Store-Parameter.",
 	"apihelp-bs-checklist-tasks-description": "Bietet Operationen für die Prüflistenerweiterung",
-	"bs-tag-checklist": "das Checklist-Tag"
+	"bs-tag-checklist": "das Checklist-Tag",
+	"bs-checklist-ve-checklistinspector-title": "Prüfliste",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Ausgewählt"
 }
