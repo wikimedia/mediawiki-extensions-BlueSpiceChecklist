@@ -42,5 +42,7 @@
 	"apihelp-bs-checklist-template-store-summary": "列举所有有效清单来源的模板。允许排序、过滤和分页。执行ExtJS存储的参数。",
 	"apihelp-bs-checklist-tasks-description": "提供用于Checklist扩展的操作",
 	"apihelp-bs-checklist-tasks-summary": "提供用于Checklist扩展的操作",
-	"bs-tag-checklist": "清单标签"
+	"bs-tag-checklist": "清单标签",
+	"bs-checklist-ve-checklistinspector-title": "检查表",
+	"bs-checklist-ve-checklistinspector-cb-checked": "已检查"
 }

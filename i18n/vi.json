@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dinhxuanduyet"
+			"Dinhxuanduyet",
+			"Harriettruong3"
 		]
 	},
 	"bs-checklist-alert": "Cẩn thận!",
-	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!"
+	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!",
+	"bs-checklist-ve-checklistinspector-title": "Danh sách cần kiểm tra",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra"
 }

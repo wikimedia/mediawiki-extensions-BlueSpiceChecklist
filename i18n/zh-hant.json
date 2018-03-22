@@ -43,5 +43,7 @@
 	"apihelp-bs-checklist-template-store-summary": "列出所有有效核選清單來源的模版。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
 	"apihelp-bs-checklist-tasks-description": "提供用於 Checklist 擴充的操作",
 	"apihelp-bs-checklist-tasks-summary": "提供用於 Checklist 擴充的操作",
-	"bs-tag-checklist": "核選清單標籤"
+	"bs-tag-checklist": "核選清單標籤",
+	"bs-checklist-ve-checklistinspector-title": "核選清單",
+	"bs-checklist-ve-checklistinspector-cb-checked": "已勾選"
 }

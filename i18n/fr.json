@@ -46,5 +46,7 @@
 	"apihelp-bs-checklist-template-store-summary": "Liste tous les modèles qui sont des sources de liste de vérification valides. Permet le tri, le filtrage et la pagination. Implémente les paramètres ExtJS Store.",
 	"apihelp-bs-checklist-tasks-description": "Fournit les opérations pour l’extension Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Fournit les opérations pour l’extension Checklist",
-	"bs-tag-checklist": "la balise de liste de vérification"
+	"bs-tag-checklist": "la balise de liste de vérification",
+	"bs-checklist-ve-checklistinspector-title": "Liste de contrôle",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Vérifié"
 }

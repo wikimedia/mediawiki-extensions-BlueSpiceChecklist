@@ -28,5 +28,7 @@
 	"bs-checklist-update-list": "Elenco aggiornato",
 	"apihelp-bs-checklist-tasks-description": "Fornisce operazioni per l'estensione Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Fornisce operazioni per l'estensione Checklist",
-	"bs-tag-checklist": "il tag per la lista di controllo"
+	"bs-tag-checklist": "il tag per la lista di controllo",
+	"bs-checklist-ve-checklistinspector-title": "Checklist",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Selezionato"
 }

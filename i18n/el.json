@@ -22,5 +22,7 @@
 	"bs-checklist-dlg-new-title": "Προσθήκη νέας λίστας",
 	"bs-checklist-dlg-new-prompt": "Εισαγωγή τίτλου λίστας",
 	"bs-checklist-alert": "Προσοχή!",
-	"bs-checklist-confirm-dirty-title": "Μη αποθηκευμένες αλλαγές!"
+	"bs-checklist-confirm-dirty-title": "Μη αποθηκευμένες αλλαγές!",
+	"bs-checklist-ve-checklistinspector-title": "Λίστα ελέγχου",
+	"bs-checklist-ve-checklistinspector-cb-checked": "ελέγχθηκαν"
 }

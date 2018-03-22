@@ -23,5 +23,6 @@
 	"bs-checklist-confirm-dirty-title": "Net-gespäichert Ännerungen!",
 	"bs-checklist-savelist-error-invalid-title": "Net valabelen Titel uginn",
 	"bs-checklist-savelist-error-edit-not-permitted": "Net genuch Rechter fir d'Lëscht ze späicheren",
-	"bs-checklist-update-list": "Aktualiséiert Lëscht"
+	"bs-checklist-update-list": "Aktualiséiert Lëscht",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Nogekuckt"
 }
