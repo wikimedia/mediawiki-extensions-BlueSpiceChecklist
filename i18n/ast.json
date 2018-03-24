@@ -41,5 +41,7 @@
 	"apihelp-bs-checklist-template-store-summary": "Llista de toles plantíes que son fontes válides de \"checklist\". Permite ordenar, filtrar y paxinar. Encadarma los parámetros ExtJS Store.",
 	"apihelp-bs-checklist-tasks-description": "Ufre operaciones pa la estensión Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Ufre operaciones pa la estensión Checklist",
-	"bs-tag-checklist": "la etiqueta checklist"
+	"bs-tag-checklist": "la etiqueta checklist",
+	"bs-checklist-ve-checklistinspector-title": "Llista de comprobación",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada"
 }
