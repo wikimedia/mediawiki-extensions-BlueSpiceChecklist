@@ -7,7 +7,8 @@
 			"Sjoerddebruin",
 			"Jeleniccz",
 			"Festina90",
-			"Mar(c)"
+			"Mar(c)",
+			"Patio"
 		]
 	},
 	"bs-checklist-desc": "Biedt checklistfunctionaliteit",
@@ -40,5 +41,7 @@
 	"bs-checklist-savelist-error-edit-not-permitted": "Onvoldoende rechten om de lijst op te slaan.",
 	"bs-checklist-modified-check": "Gewijzigde checklist waarde",
 	"bs-checklist-update-list": "Bijgewerkte lijst",
-	"apihelp-bs-checklist-tasks-description": "Biedt activiteiten voor een Checklist uitbreiding"
+	"apihelp-bs-checklist-tasks-description": "Biedt activiteiten voor een Checklist uitbreiding",
+	"bs-checklist-ve-checklistinspector-title": "Controlelijst",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Gecontroleerd"
 }
