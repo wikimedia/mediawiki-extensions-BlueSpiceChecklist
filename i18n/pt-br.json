@@ -42,5 +42,7 @@
 	"apihelp-bs-checklist-template-store-summary": "Lista todas as predefinições que são fontes válidas da checklist. Permite classificar, filtrar e paginar. Implementa os parâmetros da ExtJS Store.",
 	"apihelp-bs-checklist-tasks-description": "Fornece operações para a extensão Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Fornece operações para a extensão Checklist",
-	"bs-tag-checklist": "etiqueta do checklist"
+	"bs-tag-checklist": "etiqueta do checklist",
+	"bs-checklist-ve-checklistinspector-title": "Lista de verificação",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada"
 }
