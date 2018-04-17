@@ -139,19 +139,6 @@ class Checklist extends BsExtensionMW {
 		return true;
 	}
 
-	/**
-	 * Load editor resources (css, js) for checklist
-	 * @param EditPage $editPage
-	 * @param OutputPage $output
-	 * @return boolean true
-	 */
-	public static function onEditPage_showEditForm_initial( EditPage &$editPage, OutputPage &$output ){
-		$output->addModuleStyles( 'ext.bluespice.checklist.styles' );
-		$output->addModules( 'ext.bluespice.checklist' );
-
-		return true;
-	}
-
 
 	/**
 	 *
@@ -160,6 +147,8 @@ class Checklist extends BsExtensionMW {
 	 * @return boolean
 	 */
 	public static function onBSExtendedEditBarBeforeEditToolbar( &$aRows, &$aButtonCfgs ) {
+		\RequestContext::getMain()->getOutput()->addModuleStyles( 'ext.bluespice.checklist.styles' );
+		\RequestContext::getMain()->getOutput()->addModules( 'ext.bluespice.checklist' );
 
 		$aRows[0]['dialogs'][60] = 'bs-editbutton-checklist';
 
