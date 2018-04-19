@@ -73,8 +73,7 @@
 		"BSExtendedEditBarBeforeEditToolbar": "Checklist::onBSExtendedEditBarBeforeEditToolbar",
 		"BSInsertMagicAjaxGetData": "Checklist::onBSInsertMagicAjaxGetData",
 		"VisualEditorConfig": "Checklist::onVisualEditorConfig",
-		"BSUsageTrackerRegisterCollectors": "Checklist::onBSUsageTrackerRegisterCollectors",
-		"UnitTestsList": "Checklist::onUnitTestsList"
+		"BSUsageTrackerRegisterCollectors": "Checklist::onBSUsageTrackerRegisterCollectors"
 	},
 	"ResourceModules": {
 		"ext.bluespice.checklist": {
