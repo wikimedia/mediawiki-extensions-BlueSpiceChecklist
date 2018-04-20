@@ -41,6 +41,9 @@
 			"checklistmodify": true
 		}
 	},
+	"AvailableRights": [
+		"checklistmodify"
+	],
 	"callback": "Checklist::onRegistration",
 	"LogTypes": [
 		"bs-checklist"
