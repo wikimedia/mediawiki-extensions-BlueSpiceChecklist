@@ -14,8 +14,8 @@
  */
 BsChecklist = {
 
-	checkboxImage: 'extensions/BlueSpiceExtensions/Checklist/resources/images/checkbox.png',
-	checkboxImageChecked: 'extensions/BlueSpiceExtensions/Checklist/resources/images/checked.png',
+	checkboxImage: 'extensions/BlueSpiceChecklist/resources/images/checkbox.png',
+	checkboxImageChecked: 'extensions/BlueSpiceChecklist/resources/images/checked.png',
 	checkboxStyle: 'color:transparent;width:12px;height:12px;border:0px;background-color:transparent;background-repeat:no-repeat;',
 	optionsLists: [],
 	menuButton: false,
