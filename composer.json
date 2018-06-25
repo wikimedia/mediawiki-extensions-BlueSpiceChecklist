@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-checklist",
+	"name": "bluespice/checklist",
 	"type": "mediawiki-extension",
 	"description": "BlueSpiceChecklist provides checklist functionality",
 	"license": "GPL-3.0-only",
@@ -19,5 +19,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceChecklist"
 	}
 }
