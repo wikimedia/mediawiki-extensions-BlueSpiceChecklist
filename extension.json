@@ -114,6 +114,9 @@
 				"ve-checklist/ve.ui.BSChecklistInspector.js",
 				"ve-checklist/ve.ui.BSChecklistInspectorTool.js"
 			],
+			"styles": [
+				"ve-checklist/ve.checklist.css"
+			],
 			"messages": [
 				"bs-checklist-ve-checklistinspector-title",
 				"bs-checklist-ve-checklistinspector-cb-checked"
