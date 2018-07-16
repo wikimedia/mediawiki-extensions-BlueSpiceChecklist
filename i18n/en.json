@@ -29,6 +29,7 @@
 	"log-name-bs-checklist": "Checkbox log",
 	"log-description-bs-checklist": "Log of changes on checkboxes on pages.",
 	"log-show-hide-bs-checklist": "$1 checkbox log",
+	"logeventslist-bs-checklist-log": "Checkbox log",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|has checked}} checkbox #$4 on page $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|has unchecked}} checkbox #$4 to page $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|has selected}} the value \"$5\" in select box #$4 on page $3",

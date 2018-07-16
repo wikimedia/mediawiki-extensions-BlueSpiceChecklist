@@ -35,6 +35,7 @@
 	"log-name-bs-checklist": "Used in [[Special:Log]], title of the log type",
 	"log-description-bs-checklist": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-checklist": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
+	"logeventslist-bs-checklist-log": "Checkbox log option label on [[Special:Log]]",
 	"logentry-bs-checklist-checked": "Log message about checking a check box on a page.\nParameters:\n* $4 - number of the checkbox\n* $3 - page identifier",
 	"logentry-bs-checklist-unchecked": "Log message about unchecking a check box on a page.\nParameters:\n* $3 - name of the page containing the checkbox\n* $4 - number of the checkbox",
 	"logentry-bs-checklist-selected": "Log message about selecting a value in a select box on a page.\nParameters:\n* $3 - name of the page containing the checkbox\n* $4 - number of the checkbox\n* $5 - selected value",
