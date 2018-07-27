@@ -32,6 +32,7 @@
 	"log-name-bs-checklist": "Logg för markeringsruta",
 	"log-description-bs-checklist": "Logg över ändringar i markeringsrutor på sidor.",
 	"log-show-hide-bs-checklist": "$1 logg för markeringsruta",
+	"logeventslist-bs-checklist-log": "Logg för markeringsruta",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|har markerat}} kryssruta nummer $4 på sida $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|har avmarkerat}} kryssruta nummer $4 till sida $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|har valt}} värdet \"$5\" i rullgardinsmeny nummer $4 på sida $3",

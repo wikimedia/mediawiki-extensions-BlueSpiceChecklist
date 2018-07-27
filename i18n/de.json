@@ -31,6 +31,7 @@
 	"log-name-bs-checklist": "Checkbox-Logbuch",
 	"log-description-bs-checklist": "Logbuch von Änderungen an Checkboxen auf Seiten.",
 	"log-show-hide-bs-checklist": "$1 Checkbox-Logbuch",
+	"logeventslist-bs-checklist-log": "Kontrollkästchen-Logbuch",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|hat}} das Kontrollkästchen $4 auf der Seite $3 ausgewählt",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|hat}} die Auswahl des Kontrollkästchens $4 auf der Seite $3 aufgehoben",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|hat}} in der Auswahlliste $4 den Wert „$5“ auf der Seite $3 ausgewählt",

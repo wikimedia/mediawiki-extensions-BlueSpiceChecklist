@@ -30,6 +30,7 @@
 	"log-name-bs-checklist": "Registo de listas de verificação",
 	"log-description-bs-checklist": "Registo de alterações às listas de verificação nas páginas.",
 	"log-show-hide-bs-checklist": "$1 registo de listas de verificação",
+	"logeventslist-bs-checklist-log": "Registo de listas de verificação",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|marcou}} a caixa de verificação #$4 na página $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|desmarcou}} a caixa de verificação #$4 na página $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|selecionou}} o valor \"$5\" do menu de seleção #$4 na página $3",
