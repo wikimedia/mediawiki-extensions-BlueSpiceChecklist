@@ -30,6 +30,7 @@
 	"log-name-bs-checklist": "核選方塊日誌",
 	"log-description-bs-checklist": "頁面上勾選框異動內容的日誌。",
 	"log-show-hide-bs-checklist": "$1 核選方塊日誌",
+	"logeventslist-bs-checklist-log": "核選方塊日誌",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|已勾選}}在頁面 $3 的核選框 #$4",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|已取消勾選}}在頁面 $3 的核選框 #$4",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|已選擇}}在頁面 $3 的下拉選單 #$4 的值「$5」",

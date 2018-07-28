@@ -16,6 +16,7 @@
 	"bs-checklist-confirm-dirty-text": "아직 저장되지 않은 점검 목록을 수정하였습니다. 편집한 내용을 버리겠습니까?",
 	"log-name-bs-checklist": "체크 박스 기록",
 	"log-show-hide-bs-checklist": "체크 박스 기록 $1",
+	"logeventslist-bs-checklist-log": "체크 상자 기록",
 	"logentry-bs-checklist-checked": "$1님이 $3 페이지에서 #$4 체크 상자에 {{GENDER:$2|체크했습니다}}",
 	"logentry-bs-checklist-unchecked": "$1님이 $3 문서에 대해 #$4 체크 상자의 {{GENDER:$2|체크를 해제했습니다}}",
 	"logentry-bs-checklist-selected": "$1님이 $3 문서에서 #$4 선택 상자의 \"$5\" 값을 {{GENDER:$2|선택했습니다}}",
