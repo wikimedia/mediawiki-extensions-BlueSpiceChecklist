@@ -33,6 +33,7 @@
 	"log-name-bs-checklist": "Journal de la coche",
 	"log-description-bs-checklist": "Journal des modifications des cases à cocher sur les pages.",
 	"log-show-hide-bs-checklist": "Journal de coche $1",
+	"logeventslist-bs-checklist-log": "Journal de la boîte de vérification",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|a coché}} la boîte #$4 sur la page $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|a décoché}} la case à cocher #$4 sur la page $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|a sélectionné}} la valeur « $5 » dans la boîte de selection #$4 sur la page $3",
