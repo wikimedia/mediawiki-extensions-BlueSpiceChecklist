@@ -45,5 +45,6 @@
 	"apihelp-bs-checklist-tasks-summary": "Provides operations for Checklist extension",
 	"bs-tag-checklist": "the checklist tag",
 	"bs-checklist-ve-checklistinspector-title": "Checklist",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Checked"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Checked",
+	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page."
 }

@@ -51,5 +51,6 @@
 	"apihelp-bs-checklist-tasks-summary": "Describes the API endpoint that handles checklist tasks\n{{doc-apihelp-summary|bs-checklist-tasks}}",
 	"bs-tag-checklist": "Name of the descriptor used in [[Special:UsageTracker|Special:UsageTracker]] output",
 	"bs-checklist-ve-checklistinspector-title": "Label for the menu item and inspector title for checklist in VisualEditor",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Label for the checkbox which indicates whether the checklist tag should be checked or unchecked\n{{Identical|Checked}}"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Label for the checkbox which indicates whether the checklist tag should be checked or unchecked\n{{Identical|Checked}}",
+	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page.\n{{doc-right|checklistmodify}}"
 }
