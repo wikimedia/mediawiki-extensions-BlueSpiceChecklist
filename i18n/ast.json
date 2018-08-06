@@ -28,6 +28,7 @@
 	"log-name-bs-checklist": "Rexistru de cuadros de comprobación",
 	"log-description-bs-checklist": "Rexistru de los cambeos nos cuadros de comprobación de les páxines.",
 	"log-show-hide-bs-checklist": "$1 el rexistru de cuadros de comprobación",
+	"logeventslist-bs-checklist-log": "Rexistru de llista de comprobación",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|marcó}}'l cuadru n<sup>u</sup>$4 na páxina $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|desmarcó}}'l cuadru n<sup>u</sup>$4 na páxina $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|seleicionó}}'l valor «$5» nel cuadru n<sup>u</sup>$4 de la páxina $3",
@@ -43,5 +44,6 @@
 	"apihelp-bs-checklist-tasks-summary": "Ufre operaciones pa la estensión Checklist",
 	"bs-tag-checklist": "la etiqueta checklist",
 	"bs-checklist-ve-checklistinspector-title": "Llista de comprobación",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada",
+	"right-checklistmodify": "Permite cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki."
 }

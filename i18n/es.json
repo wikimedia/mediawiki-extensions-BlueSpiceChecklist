@@ -46,5 +46,6 @@
 	"apihelp-bs-checklist-template-store-summary": "Enumera todas las plantillas que son fuentes válidas de listas de comprobación. Permite ordenar, filtrar y paginar. Implementa los parámetros de ExtJS Store.",
 	"apihelp-bs-checklist-tasks-description": "Proporciona operaciones para la extensión Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Proporciona operaciones para la extensión Checklist",
-	"bs-tag-checklist": "la etiqueta de lista de comprobación"
+	"bs-tag-checklist": "la etiqueta de lista de comprobación",
+	"right-checklistmodify": "Permite modificar los valores de los elementos de las listas de comprobación sin editar la página del wiki."
 }

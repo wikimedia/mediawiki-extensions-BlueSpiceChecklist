@@ -44,5 +44,6 @@
 	"apihelp-bs-checklist-tasks-description": "Bietet Operationen für die Prüflistenerweiterung",
 	"bs-tag-checklist": "das Checklist-Tag",
 	"bs-checklist-ve-checklistinspector-title": "Prüfliste",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Ausgewählt"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Ausgewählt",
+	"right-checklistmodify": "Das Verändern der Werte von Checklistenelementen ohne Bearbeitung der Wikiseite erlauben."
 }

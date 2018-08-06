@@ -46,5 +46,6 @@
 	"apihelp-bs-checklist-tasks-summary": "Fornece operações para a extensão Checklist",
 	"bs-tag-checklist": "a etiqueta da lista de verificação",
 	"bs-checklist-ve-checklistinspector-title": "Lista de verificação",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Verificado"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Verificado",
+	"right-checklistmodify": "Permite modificar os valores das entradas das listas de verificação sem editar a página da wiki."
 }
