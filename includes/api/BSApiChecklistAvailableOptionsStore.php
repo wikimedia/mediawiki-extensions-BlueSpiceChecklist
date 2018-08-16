@@ -20,7 +20,7 @@ class BSApiChecklistAvailableOptionsStore extends BSApiExtJSStoreBase {
 				$row->page_title
 			);
 			// only add those titles that do have actual lists
-			$aListOptions = Checklist::getListOptions( $oTitle->getFullText() );
+			$aListOptions = \BlueSpice\Checklist\Extension::getListOptions( $oTitle->getFullText() );
 			if (sizeof( $aListOptions ) > 0 ) {
 				$aAvailableOptions = array_merge( $aAvailableOptions, $aListOptions );
 			}

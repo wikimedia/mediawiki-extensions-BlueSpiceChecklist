@@ -10,7 +10,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceChecklist": {
-					"className": "Checklist",
+					"className": "\\BlueSpice\\Checklist\\Extension",
 					"extPath": "/BlueSpiceChecklist"
 				}
 			},
@@ -44,7 +44,7 @@
 	"AvailableRights": [
 		"checklistmodify"
 	],
-	"callback": "Checklist::onRegistration",
+	"callback": "\\BlueSpice\\Checklist\\Extension::onRegistration",
 	"LogTypes": [
 		"bs-checklist"
 	],
@@ -64,19 +64,21 @@
 			"i18n"
 		]
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Checklist\\" : "src/"
+	},
 	"AutoloadClasses": {
-		"Checklist": "Checklist.class.php",
 		"BSApiChecklistAvailableOptionsStore": "includes/api/BSApiChecklistAvailableOptionsStore.php",
 		"BSApiChecklistTemplateStore": "includes/api/BSApiChecklistTemplateStore.php",
 		"BSApiChecklistTasks": "includes/api/BSApiChecklistTasks.php"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "Checklist::onParserFirstCallInit",
-		"BeforePageDisplay": "Checklist::onBeforePageDisplay",
-		"BSExtendedEditBarBeforeEditToolbar": "Checklist::onBSExtendedEditBarBeforeEditToolbar",
-		"BSInsertMagicAjaxGetData": "Checklist::onBSInsertMagicAjaxGetData",
-		"VisualEditorConfig": "Checklist::onVisualEditorConfig",
-		"BSUsageTrackerRegisterCollectors": "Checklist::onBSUsageTrackerRegisterCollectors"
+		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
+		"BeforePageDisplay": "\\BlueSpice\\Checklist\\Extension::onBeforePageDisplay",
+		"BSExtendedEditBarBeforeEditToolbar": "\\BlueSpice\\Checklist\\Extension::onBSExtendedEditBarBeforeEditToolbar",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Extension::onBSInsertMagicAjaxGetData",
+		"VisualEditorConfig": "\\BlueSpice\\Checklist\\Extension::onVisualEditorConfig",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Extension::onBSUsageTrackerRegisterCollectors"
 	},
 	"ResourceModules": {
 		"ext.bluespice.checklist": {
