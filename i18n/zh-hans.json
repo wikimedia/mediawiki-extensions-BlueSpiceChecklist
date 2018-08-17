@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Yfdyh000"
+			"Yfdyh000",
+			"夢蝶葬花"
 		]
 	},
 	"bs-checklist-desc": "提供清单功能",
@@ -29,6 +30,7 @@
 	"log-name-bs-checklist": "复选框日志",
 	"log-description-bs-checklist": "页面上对复选框的更改的日志。",
 	"log-show-hide-bs-checklist": "$1复选框日志",
+	"logeventslist-bs-checklist-log": "复选框日志",
 	"logentry-bs-checklist-checked": "$1在页面$3{{GENDER:$2|勾选}}了复选框#$4",
 	"logentry-bs-checklist-unchecked": "$1{{GENDER:$2|取消勾选}}了复选框#$4至页面$3",
 	"logentry-bs-checklist-selected": "$1在页面$3的下拉选框#$4{{GENDER:$2|选择}}了值“$5”",
