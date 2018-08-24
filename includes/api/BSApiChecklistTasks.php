@@ -92,7 +92,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 
 		$sNewValue .= '" ';
 
-		$sContent = Checklist::preg_replace_nth( "/(<bs:checklist )([^>]*?>)/", "$1" . $sNewValue . "$2", $sContent, $iPos );
+		$sContent = \BlueSpice\Checklist\Extension::preg_replace_nth( "/(<bs:checklist )([^>]*?>)/", "$1" . $sNewValue . "$2", $sContent, $iPos );
 
 		$sSummary = wfMessage( "bs-checklist-modified-check" )->plain();
 		$oContentHandler = $oContent->getContentHandler();

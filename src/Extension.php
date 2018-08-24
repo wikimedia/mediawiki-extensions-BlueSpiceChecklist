@@ -29,16 +29,15 @@
  * @author     Leonid Verhovskij
  * @package    BlueSpice_Extensions
  * @subpackage Checklist
- * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
+ * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
  * @filesource
  */
 
-/**
- * Checklist adds a tag, used in WikiMarkup as follows:
- * checkbox: <bs:checklist />
- */
-class Checklist extends BsExtensionMW {
+namespace BlueSpice\Checklist;
+
+class Extension extends \BlueSpice\Extension {
+
 
 	public static $iCheckboxCounter = 0;
 	public static $bCheckboxFound = false;
@@ -55,7 +54,7 @@ class Checklist extends BsExtensionMW {
 			"msgkey" => "prefs-checklist",
 			"alias" => "prefs-checklist",
 			"label" => "Checklist",
-			"mapping" => "Checklist::smwDataMapping"
+			"mapping" => "\BlueSpice\Checklist\Extension::smwDataMapping"
 		);
 	}
 
@@ -79,15 +78,15 @@ class Checklist extends BsExtensionMW {
 
 	public static function getListOptions( $listTitle ) {
 		$aOptions = array();
-		$oTitle = Title::newFromText( $listTitle, NS_TEMPLATE );
+		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
 		//echo $args['list']." ".$oTitle->getArticleID();
 		if ( is_object( $oTitle ) ) {
-			$oWikiPage = WikiPage::newFromID( $oTitle->getArticleID() );
+			$oWikiPage = \WikiPage::newFromID( $oTitle->getArticleID() );
 			if ( is_object( $oWikiPage ) ) {
 				$sContent = $oWikiPage->getContent()->getNativeData();
 				// Noinclude handling
 				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/ED_GetData.php
-				$sContent = StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $sContent );
+				$sContent = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $sContent );
 				$sContent = strtr( $sContent, array( '<includeonly>' => '', '</includeonly>' => '' ) );
 				$aLines = explode( "\n", trim( $sContent ) );
 				foreach ( $aLines as $sLine ) {
@@ -123,7 +122,7 @@ class Checklist extends BsExtensionMW {
 	 * @return boolean
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
-		$parser->setHook( 'bs:checklist', 'Checklist::onMagicWordBsChecklist' );
+		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
 		return true;
 	}
 
@@ -154,9 +153,11 @@ class Checklist extends BsExtensionMW {
 	 * @return always true to keep hook running
 	 */
 	public static function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if( $type != 'tags' ) return true;
+		if( $type != 'tags' ) {
+			return true;
+		}
 
-		$oDescriptor = new stdClass();
+		$oDescriptor = new \stdClass();
 		$oDescriptor->id = 'bs:checklist';
 		$oDescriptor->type = 'tag';
 		$oDescriptor->name = 'checklist';
@@ -187,7 +188,7 @@ class Checklist extends BsExtensionMW {
 	 * @param PPFrame $frame
 	 * @return type
 	 */
-	public static function onMagicWordBsChecklist( $input, array $args, Parser $parser, PPFrame $frame ) {
+	public static function onMagicWordBsChecklist( $input, array $args, \Parser $parser, \PPFrame $frame ) {
 		$parser->disableCache();
 		$parser->getOutput()->setProperty( 'bs-tag-checklist', 1 );
 		self::$bCheckboxFound = true;
@@ -283,13 +284,13 @@ class Checklist extends BsExtensionMW {
 	 * @param WikiPage $oWikiPage
 	 * @param SMW\DIProperty $oProperty
 	 */
-	public static function smwDataMapping( SMW\SemanticData $oSemanticData, WikiPage $oWikiPage, SMW\DIProperty $oProperty ) {
+	public static function smwDataMapping( \SMW\SemanticData $oSemanticData, \WikiPage $oWikiPage, \SMW\DIProperty $oProperty ) {
 		//parse wikipage for bs:checklist tag
 		if( $oWikiPage !== null && $oWikiPage->getContent() !== null ){
 			self::$bCheckboxFound = ( strpos( $oWikiPage->getContent()->getNativeData(), "<bs:checklist" ) === false ) ?
 				false : true;
 			$oSemanticData->addPropertyObjectValue(
-				$oProperty, new SMWDIBoolean( self::$bCheckboxFound )
+				$oProperty, new \SMWDIBoolean( self::$bCheckboxFound )
 			);
 		}
 	}
