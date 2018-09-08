@@ -17,7 +17,10 @@
 			"Extensions": {
 				"BlueSpiceChecklist": {
 					"className": "\\BlueSpice\\Checklist\\Extension",
-					"extPath": "/BlueSpiceChecklist"
+					"extPath": "/BlueSpiceChecklist",
+					"configDefinitions": {
+						"ChecklistMarkAsMinorEdit": "\\BlueSpice\\Checklist\\ConfigDefinition\\MarkAsMinorEdit::getInstance"
+					}
 				}
 			},
 			"PermissionRegistry": {
@@ -84,7 +87,9 @@
 		"BSExtendedEditBarBeforeEditToolbar": "\\BlueSpice\\Checklist\\Extension::onBSExtendedEditBarBeforeEditToolbar",
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Extension::onBSInsertMagicAjaxGetData",
 		"VisualEditorConfig": "\\BlueSpice\\Checklist\\Extension::onVisualEditorConfig",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Extension::onBSUsageTrackerRegisterCollectors"
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Extension::onBSUsageTrackerRegisterCollectors",
+		"ListDefinedTags": "\\BlueSpice\\Checklist\\Hook\\ListDefinedTags\\AddChecklistTag::callback",
+		"ChangeTagsListActive": "\\BlueSpice\\Checklist\\Hook\\ChangeTagsListActive\\AddChecklistTag::callback"
 	},
 	"ResourceModules": {
 		"ext.bluespice.checklist": {
@@ -159,6 +164,14 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceChecklist/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ChecklistMarkAsMinorEdit": {
+			"value": true,
+			"descriptionmsg": "bs-checklist-config-markasminoredit",
+			"public": true
+		}
 	},
 	"manifest_version": 2
 }

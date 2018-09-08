@@ -80,24 +80,31 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$sNewValue = 'value="';
 		if ( $sValue === true ) {
 			$sNewValue .= "checked";
+			$summary = wfMessage( "bs-checklist-summary-checked", $iPos )->plain();
 			$bChecked = true;
 		}
 		else if ( $sValue === false ) {
 			$bChecked = false;
 			$sNewValue .= "";
+			$summary = wfMessage( "bs-checklist-summary-unchecked", $iPos )->plain();
 		}
 		else {
 			$sNewValue .= $sValue;
+			$summary = wfMessage( "bs-checklist-summary-changed", $iPos, $sValue )->plain();
 		}
 
 		$sNewValue .= '" ';
 
 		$sContent = \BlueSpice\Checklist\Extension::preg_replace_nth( "/(<bs:checklist )([^>]*?>)/", "$1" . $sNewValue . "$2", $sContent, $iPos );
 
-		$sSummary = wfMessage( "bs-checklist-modified-check" )->plain();
 		$oContentHandler = $oContent->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
-		$oResult = $oWikiPage->doEditContent( $oNewContent, $sSummary );
+		if ( $this->getConfig()->get( 'ChecklistMarkAsMinorEdit' ) ) {
+			$flags = EDIT_MINOR;
+		} else {
+			$flags = 0;
+		}
+		$oResult = $oWikiPage->doEditContent( $oNewContent, $summary, $flags, false, null, null, [ 'bs-checklist-change' ] );
 
 		// Create a log entry for the changes on the checklist values
 		if ( !is_null( $bChecked ) ) {

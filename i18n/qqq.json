@@ -42,6 +42,9 @@
 	"bs-checklist-savelist-error-invalid-title": "Error message in case invalid title was provided",
 	"bs-checklist-savelist-error-edit-not-permitted": "Error message in case of insufficient user permissions",
 	"bs-checklist-modified-check": "Edit summary about modifing checklist value",
+	"bs-checklist-summary-checked": "Edit summary when checking a checkbox\nParameters:\n* $1 - number of the checkbox",
+	"bs-checklist-summary-unchecked": "Edit summary when unchecking a checkbox\nParameters:\n* $1 - number of the checkbox",
+	"bs-checklist-summary-changed": "Edit summary when changing the value of a select box\nParameters:\n* $1 - number of the select box\n* $2 - selected value",
 	"bs-checklist-update-list": "Edit summary about updating checklist",
 	"apihelp-bs-checklist-available-options-store-description": "Describes the API endpoint that stores available options of checklist\n{{doc-apihelp-description|bs-checklist-available-options-store}}",
 	"apihelp-bs-checklist-available-options-store-summary": "Describes the API endpoint that stores available options of checklist\n{{doc-apihelp-summary|bs-checklist-available-options-store}}",
@@ -52,5 +55,8 @@
 	"bs-tag-checklist": "Name of the descriptor used in [[Special:UsageTracker|Special:UsageTracker]] output",
 	"bs-checklist-ve-checklistinspector-title": "Label for the menu item and inspector title for checklist in VisualEditor",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Label for the checkbox which indicates whether the checklist tag should be checked or unchecked\n{{Identical|Checked}}",
-	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page.\n{{doc-right|checklistmodify}}"
+	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page.\n{{doc-right|checklistmodify}}",
+	"bs-checklist-config-markasminoredit": "Label for setting to mark all checkbox and select box modifications as minor edits",
+	"tag-bs-checklist-change": "Name for the revision tag to mark checkbox and select box changes",
+	"tag-bs-checklist-change-description": "Description for the revision tag to mark checkbox and select box changes"
 }
