@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obsuser"
+			"Obsuser",
+			"BadDog"
 		]
 	},
-	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|је одабрао|је одабрала}} поље бр. $4 на страници $3",
-	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|је одзначио|је одзначила}} поље бр. $4 за страницу $3",
-	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|је одабрао|је одабрала}} вредност „$5” у пољу за одабир бр. $4 на страници $3"
+	"logentry-bs-checklist-checked": "$1 је {{GENDER:$2|означио|означила}} поље бр. $4 на страници $3",
+	"logentry-bs-checklist-unchecked": "$1 је {{GENDER:$2|одзначио|одзначила}} поље бр. $4 на страницу $3",
+	"logentry-bs-checklist-selected": "$1 је {{GENDER:$2|изабрао|изабрала}} вредност „$5” у пољу за избор бр. $4 на страници $3"
 }

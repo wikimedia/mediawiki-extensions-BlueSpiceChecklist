@@ -36,6 +36,7 @@
 	"bs-checklist-savelist-error-invalid-title": "Título inválido fornecido",
 	"bs-checklist-savelist-error-edit-not-permitted": "Permissões insuficientes para salvar a lista",
 	"bs-checklist-modified-check": "Modificado valor da checklist",
+	"bs-checklist-summary-unchecked": "Caixa de seleção desmarcada #$1",
 	"bs-checklist-update-list": "Lista atualizada",
 	"apihelp-bs-checklist-available-options-store-description": "Lista todas as opções disponíveis para as predefinições checklist. Permite classificar, filtrar e paginar. Implementa os parâmetros da ExtJS Store.",
 	"apihelp-bs-checklist-available-options-store-summary": "Lista todas as opções disponíveis para as predefinições checklist. Permite classificar, filtrar e paginar. Implementa os parâmetros da ExtJS Store.",
@@ -46,5 +47,8 @@
 	"bs-tag-checklist": "etiqueta do checklist",
 	"bs-checklist-ve-checklistinspector-title": "Lista de verificação",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada",
-	"right-checklistmodify": "Permite modificar os valores das entradas das listas de verificação sem editar a página da wiki."
+	"right-checklistmodify": "Permite modificar os valores das entradas das listas de verificação sem editar a página da wiki.",
+	"bs-checklist-config-markasminoredit": "Marcar a lista de verificação muda como edição menor",
+	"tag-bs-checklist-change": "Mudança da lista de verificação",
+	"tag-bs-checklist-change-description": "O usuário alterou uma caixa de seleção ou selecionou o valor da caixa na página"
 }

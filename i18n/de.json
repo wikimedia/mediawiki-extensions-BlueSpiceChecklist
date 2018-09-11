@@ -39,6 +39,9 @@
 	"bs-checklist-savelist-error-invalid-title": "Ungültigen Titel angegeben",
 	"bs-checklist-savelist-error-edit-not-permitted": "Keine ausreichenden Berechtigungen, um die Liste zu speichern.",
 	"bs-checklist-modified-check": "Prüflistenwert verändert",
+	"bs-checklist-summary-checked": "Kontrollkästchen $1 ausgewählt",
+	"bs-checklist-summary-unchecked": "Auswahl des Kontrollkästchens $1 aufgehoben",
+	"bs-checklist-summary-changed": "Den Wert „$2“ im Auswahlkasten $1 ausgewählt",
 	"bs-checklist-update-list": "Liste aktualisiert",
 	"apihelp-bs-checklist-available-options-store-description": "Listet alle verfügbaren Optionen für Prüflistenvorlagen auf. Erlaubt die Sortierung, Filterung und Nummerierung. Implementiert ExtJS-Store-Parameter.",
 	"apihelp-bs-checklist-available-options-store-summary": "Listet alle verfügbaren Optionen für Prüflistenvorlagen auf. Erlaubt die Sortierung, Filterung und Nummerierung. Implementiert ExtJS-Store-Parameter.",
@@ -49,5 +52,8 @@
 	"bs-tag-checklist": "das Checklist-Tag",
 	"bs-checklist-ve-checklistinspector-title": "Prüfliste",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Ausgewählt",
-	"right-checklistmodify": "Das Verändern der Werte von Checklistenelementen ohne Bearbeitung der Wikiseite erlauben."
+	"right-checklistmodify": "Das Verändern der Werte von Checklistenelementen ohne Bearbeitung der Wikiseite erlauben.",
+	"bs-checklist-config-markasminoredit": "Checklistenänderungen als klein markieren",
+	"tag-bs-checklist-change": "Checklistenänderung",
+	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert"
 }

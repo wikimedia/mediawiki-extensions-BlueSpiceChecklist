@@ -20,9 +20,13 @@
 	"logentry-bs-checklist-checked": "$1님이 $3 페이지에서 #$4 체크 상자에 {{GENDER:$2|체크했습니다}}",
 	"logentry-bs-checklist-unchecked": "$1님이 $3 문서에 대해 #$4 체크 상자의 {{GENDER:$2|체크를 해제했습니다}}",
 	"logentry-bs-checklist-selected": "$1님이 $3 문서에서 #$4 선택 상자의 \"$5\" 값을 {{GENDER:$2|선택했습니다}}",
+	"bs-checklist-summary-checked": "#$1 체크상자를 체크했습니다",
+	"bs-checklist-summary-unchecked": "#$1 체크상자의 체크를 해제했습니다",
 	"apihelp-bs-checklist-available-options-store-summary": "체크리스트 틀의 사용 가능한 모든 옵션을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다.",
 	"apihelp-bs-checklist-template-store-summary": "유효한 체크리스트 원본인 모든 틀을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다.",
 	"bs-checklist-ve-checklistinspector-title": "체크리스트",
 	"bs-checklist-ve-checklistinspector-cb-checked": "체크됨",
-	"right-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정할 수 있게 합니다."
+	"right-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정할 수 있게 합니다.",
+	"bs-checklist-config-markasminoredit": "체크리스트 변경사항을 사소한 편집으로 표시",
+	"tag-bs-checklist-change": "체크리스트 변경사항"
 }
