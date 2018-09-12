@@ -30,11 +30,14 @@
 	"log-show-hide-bs-checklist": "$1 سجل صندوق الاختيار",
 	"logeventslist-bs-checklist-log": "سجل صندوق الاختيار",
 	"logentry-bs-checklist-checked": "لقد {{GENDER:$2|فحص|فحصت}} $1 صندوق الاختيار #$4 في صفحة $3",
-	"logentry-bs-checklist-unchecked": "لقد {{GENDER:$2|ألغى|ألغت}} فحص $1 صندوق الاختيار #$4 في صفحة $3",
+	"logentry-bs-checklist-unchecked": "لقد {{GENDER:$2|ألغى|ألغت}} فحص $1 صندوق الاختيار #$4 على صفحة $3",
 	"logentry-bs-checklist-selected": "لقد {{GENDER:$2|اختار|اختارت}} $1 القيمة $5 في صندوق الاختيار #$4 في صفحة $3",
 	"bs-checklist-savelist-error-invalid-title": "تم تقديم عنوان غير صالح",
 	"bs-checklist-savelist-error-edit-not-permitted": "صلاحيات غير كافية لحفظ القائمة",
 	"bs-checklist-modified-check": "قيمة قائمة التحقق المعدلة",
+	"bs-checklist-summary-checked": "تم تحديد صندوق الاختيار #$1",
+	"bs-checklist-summary-unchecked": "لم يتم تحديد صندوق الاختيار #$1",
+	"bs-checklist-summary-changed": "حدد القيمة \"$2\" في صندوق الاختيار #$1",
 	"bs-checklist-update-list": "تم تحديث القائمة",
 	"apihelp-bs-checklist-available-options-store-description": "يسرد جميع الخيارات المتاحة لقوالب قائمة التحقق، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS.",
 	"apihelp-bs-checklist-available-options-store-summary": "يسرد جميع الخيارات المتاحة لقوالب قائمة التحقق، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS.",
@@ -45,5 +48,8 @@
 	"bs-tag-checklist": "وسم قائمة التحقق",
 	"bs-checklist-ve-checklistinspector-title": "قائمة التحقق",
 	"bs-checklist-ve-checklistinspector-cb-checked": "مفحوص",
-	"right-checklistmodify": "يسمح بتعديل قيم عناصر قائمة الاختيار دون تحرير صفحة الويكي."
+	"right-checklistmodify": "يسمح بتعديل قيم عناصر قائمة الاختيار دون تحرير صفحة الويكي.",
+	"bs-checklist-config-markasminoredit": "تعليم تغييرات قائمة التحقق كتحرير طفيف",
+	"tag-bs-checklist-change": "تغيير قائمة التحقق",
+	"tag-bs-checklist-change-description": "قام مستخدم بتغيير صندوق اختيار في الصفحة"
 }
