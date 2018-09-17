@@ -35,6 +35,9 @@
 	"bs-checklist-savelist-error-invalid-title": "Apurrióse un títulu inválidu",
 	"bs-checklist-savelist-error-edit-not-permitted": "Permisos insuficientes pa guardar la llista.",
 	"bs-checklist-modified-check": "Valor de llista de comprobación cambiáu",
+	"bs-checklist-summary-checked": "Marcáu el cuadru n<sup>u</sup>$1",
+	"bs-checklist-summary-unchecked": "Desmarcáu el cuadru n<sup>u</sup>$1",
+	"bs-checklist-summary-changed": "Seleicionáu el valor «$2» nel cuadru de seleicion n<sup>u</sup>$1",
 	"bs-checklist-update-list": "Llista actualizada",
 	"apihelp-bs-checklist-available-options-store-description": "Llista toles opciones disponibles pa plantiyes \"checklist\". Permite ordenar, filtrar y paxinar. Encadarma los parámetros ExtJS Store.",
 	"apihelp-bs-checklist-available-options-store-summary": "Llista de toles opciones disponibles pa plantiyes \"checklist\". Permite ordenar, filtrar y paxinar. Encadarma los parámetros ExtJS Store.",
@@ -45,5 +48,8 @@
 	"bs-tag-checklist": "la etiqueta checklist",
 	"bs-checklist-ve-checklistinspector-title": "Llista de comprobación",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada",
-	"right-checklistmodify": "Permite cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki."
+	"right-checklistmodify": "Permite cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki.",
+	"bs-checklist-config-markasminoredit": "Marcar como ediciones menores los cambios na llista de seleición",
+	"tag-bs-checklist-change": "Cambéu na llista de seleición",
+	"tag-bs-checklist-change-description": "L'usuariu cambió'l valor d'un caxellu o d'un cuadru de seleición na páxina"
 }
