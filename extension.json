@@ -27,8 +27,10 @@
 				"checklistmodify": {
 					"type": "namespace",
 					"roles": [
+						"author",
+						"bot",
 						"editor",
-						"admin"
+						"maintenanceadmin"
 					]
 				}
 			}
