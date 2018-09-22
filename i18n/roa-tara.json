@@ -14,5 +14,8 @@
 	"bs-checklist-dlg-new-title": "Aggiunge 'n'elenghe nuève",
 	"bs-checklist-dlg-new-prompt": "Mitte 'u titole de l'elenghe",
 	"bs-checklist-alert": "Attenziò!",
-	"bs-checklist-confirm-dirty-title": "Cangiaminde non reggistrate!"
+	"bs-checklist-confirm-dirty-title": "Cangiaminde non reggistrate!",
+	"bs-checklist-update-list": "Elenghe aggiornate",
+	"apihelp-bs-checklist-available-options-store-description": "Elenghe tutte le opziune disponibbile pe l'elenghe de le template. Face fà l'ordinamende, 'u filtre e l'imbagginazzione. 'Mblemende parametre ExtJS Store.",
+	"apihelp-bs-checklist-available-options-store-summary": "Elenghe tutte le opziune disponibbile pe l'elenghe de le template. Face fà l'ordinamende, 'u filtre e l'imbagginazzione. 'Mblemende parametre ExtJS Store."
 }
