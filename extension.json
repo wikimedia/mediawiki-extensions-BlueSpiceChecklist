@@ -35,8 +35,8 @@
 				}
 			}
 		},
-		"VisualEditor": {
-			"PluginModules": [
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
 				"ext.bluespice.checklist.visualEditor"
 			]
 		}
@@ -124,17 +124,21 @@
 		},
 		"ext.bluespice.checklist.visualEditor": {
 			"scripts": [
-				"ve-checklist/ve.dm.BSChecklistNode.js",
-				"ve-checklist/ve.ce.BSChecklistNode.js",
-				"ve-checklist/ve.ui.BSChecklistInspector.js",
-				"ve-checklist/ve.ui.BSChecklistInspectorTool.js"
-			],
-			"styles": [
-				"ve-checklist/ve.checklist.css"
+				"bs.chklst/util/tag/ChecklistDefinition.js",
+				"bs.chklst/ui/widget/ChecklistInputWidget.js",
+				"bs.chklst/ui/widget/ChecklistOptionsInputWidget.js"
 			],
 			"messages": [
 				"bs-checklist-ve-checklistinspector-title",
-				"bs-checklist-ve-checklistinspector-cb-checked"
+				"bs-checklist-tag-checklist-desc",
+				"bs-checklist-ve-checklistinspector-cb-checked",
+				"bs-checklist-tag-checklist-tab-checkbox",
+				"bs-checklist-tag-checklist-tab-list",
+				"bs-checklist-tag-checklist-attr-checked-help",
+				"bs-checklist-tag-checklist-attr-list-label",
+				"bs-checklist-tag-checklist-attr-list-help",
+				"bs-checklist-tag-checklist-attr-value-label",
+				"bs-checklist-tag-checklist-attr-value-help"
 			],
 			"dependencies": [
 				"ext.visualEditor.mwcore"

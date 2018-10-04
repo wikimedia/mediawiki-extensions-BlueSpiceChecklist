@@ -59,5 +59,12 @@
 	"bs-checklist-config-markasminoredit": "Label for setting to mark all checkbox and select box modifications as minor edits",
 	"tag-bs-checklist-change": "Name for the revision tag to mark checkbox and select box changes",
 	"tag-bs-checklist-change-description": "Description for the revision tag to mark checkbox and select box changes",
-	"prefs-checklist": "Label of __CHECKLIST semantic property"
+	"prefs-checklist": "Label of __CHECKLIST semantic property",
+	"bs-checklist-tag-checklist-tab-checkbox": "Label for the tab \"checkbox\"",
+	"bs-checklist-tag-checklist-tab-list": "Label for the tab \"list\"",
+	"bs-checklist-tag-checklist-attr-checked-help": "Help message for the parameter \"checked\"",
+	"bs-checklist-tag-checklist-attr-list-label": "Label for the parameter \"list\"",
+	"bs-checklist-tag-checklist-attr-list-help": "Help message for the parameter \"list\"",
+	"bs-checklist-tag-checklist-attr-value-label": "Label for the tab \"option\"",
+	"bs-checklist-tag-checklist-attr-value-help": "Help message for the parameter \"option\""
 }
