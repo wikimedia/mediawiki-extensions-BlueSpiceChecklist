@@ -157,11 +157,14 @@ class Extension extends \BlueSpice\Extension {
 			return true;
 		}
 
+		$extension = \BlueSpice\Services::getInstance()->getBSExtensionFactory()->getExtension( 'BlueSpiceChecklist' );
+
 		$oDescriptor = new \stdClass();
 		$oDescriptor->id = 'bs:checklist';
 		$oDescriptor->type = 'tag';
 		$oDescriptor->name = 'checklist';
 		$oDescriptor->desc = wfMessage( 'bs-checklist-tag-checklist-desc' )->text();
+		$oDescriptor->mwvecommand = 'bsChecklistCommand';
 		$oDescriptor->code = '<bs:checklist />';
 		$oDescriptor->previewable = false;
 		$oDescriptor->examples = array(
@@ -174,7 +177,7 @@ class Extension extends \BlueSpice\Extension {
 				'code' => '<bs:checklist type="list" value="false" list="Status" />'
 			),
 		);
-		$oDescriptor->helplink = 'https://help.bluespice.com/index.php/Checklist';
+		$oDescriptor->helplink = $extension->getUrl();
 		$oResponse->result[] = $oDescriptor;
 
 		return true;
