@@ -52,5 +52,6 @@
 	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page.",
 	"bs-checklist-config-markasminoredit": "Mark checklist changes as minor edit",
 	"tag-bs-checklist-change": "Checklist change",
-	"tag-bs-checklist-change-description": "User changed a checkbox or select box value on the page"
+	"tag-bs-checklist-change-description": "User changed a checkbox or select box value on the page",
+	"prefs-checklist": "Checklist"
 }

@@ -63,7 +63,7 @@ class Extension extends \BlueSpice\Extension {
 	 * @param Array $aConfigStandard reference
 	 * @param Array $aConfigOverwrite reference
 	 * @param Array &$aLoaderUsingDeps reference
-	 * @return boolean always true to keep hook alife
+	 * @return boolean always true to keep hook alive
 	 */
 	public static function onVisualEditorConfig( &$aConfigStandard, &$aConfigOverwrite, &$aLoaderUsingDeps ) {
 		$aLoaderUsingDeps[] = 'ext.bluespice.checklist';

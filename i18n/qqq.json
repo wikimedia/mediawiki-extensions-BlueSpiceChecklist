@@ -58,5 +58,6 @@
 	"right-checklistmodify": "Allows modifing the values of checklist items without editing the wiki page.\n{{doc-right|checklistmodify}}",
 	"bs-checklist-config-markasminoredit": "Label for setting to mark all checkbox and select box modifications as minor edits",
 	"tag-bs-checklist-change": "Name for the revision tag to mark checkbox and select box changes",
-	"tag-bs-checklist-change-description": "Description for the revision tag to mark checkbox and select box changes"
+	"tag-bs-checklist-change-description": "Description for the revision tag to mark checkbox and select box changes",
+	"prefs-checklist": "Label of __CHECKLIST semantic property"
 }
