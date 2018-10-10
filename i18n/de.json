@@ -55,5 +55,6 @@
 	"right-checklistmodify": "Das Verändern der Werte von Checklistenelementen ohne Bearbeitung der Wikiseite erlauben.",
 	"bs-checklist-config-markasminoredit": "Checklistenänderungen als klein markieren",
 	"tag-bs-checklist-change": "Checklistenänderung",
-	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert"
+	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert",
+	"prefs-checklist": "Checklist"
 }
