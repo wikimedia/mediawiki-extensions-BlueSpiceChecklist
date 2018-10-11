@@ -166,6 +166,7 @@ class Extension extends \BlueSpice\Extension {
 		$oDescriptor->desc = wfMessage( 'bs-checklist-tag-checklist-desc' )->text();
 		$oDescriptor->mwvecommand = 'bsChecklistCommand';
 		$oDescriptor->code = '<bs:checklist />';
+		$oDescriptor->mwvecommand = 'checklistCommand';
 		$oDescriptor->previewable = false;
 		$oDescriptor->examples = array(
 			array(
@@ -241,7 +242,7 @@ class Extension extends \BlueSpice\Extension {
 			$sOut[] = "<input type='checkbox' ";
 			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
 			$sOut[] = "onclick='BsChecklist.click(this);' ";
-			if( $args['value'] == 'checked' ) {
+			if( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
 				$sOut[] = "checked='checked' ";
 			}
 			$sOut[] = "/>";

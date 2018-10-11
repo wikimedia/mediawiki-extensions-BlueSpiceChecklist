@@ -56,5 +56,12 @@
 	"bs-checklist-config-markasminoredit": "Checklistenänderungen als klein markieren",
 	"tag-bs-checklist-change": "Checklistenänderung",
 	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert",
-	"prefs-checklist": "Checklist"
+	"prefs-checklist": "Checklist",
+	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
+	"bs-checklist-tag-checklist-tab-list": "Liste",
+	"bs-checklist-tag-checklist-attr-checked-help": "Wenn aktiviert, wird die Checkbox angehakt",
+	"bs-checklist-tag-checklist-attr-list-label": "Optionsliste",
+	"bs-checklist-tag-checklist-attr-list-help": "Wählt eine Liste mit Optionen aus. Listen können im Vorlagen-Namensraum erstellt werden, indem man eine Seite mit einer Aufzählungsliste erzeugt.",
+	"bs-checklist-tag-checklist-attr-value-label": "Gewählte Option",
+	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus."
 }

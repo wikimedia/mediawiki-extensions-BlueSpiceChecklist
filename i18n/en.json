@@ -53,5 +53,12 @@
 	"bs-checklist-config-markasminoredit": "Mark checklist changes as minor edit",
 	"tag-bs-checklist-change": "Checklist change",
 	"tag-bs-checklist-change-description": "User changed a checkbox or select box value on the page",
-	"prefs-checklist": "Checklist"
+	"prefs-checklist": "Checklist",
+	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
+	"bs-checklist-tag-checklist-tab-list": "List",
+	"bs-checklist-tag-checklist-attr-checked-help": "If set, the checkbox appears checked",
+	"bs-checklist-tag-checklist-attr-list-label": "Option list",
+	"bs-checklist-tag-checklist-attr-list-help": "Selects a specific options list. Lists can be created in Template namespace by creating a page with a bullet list.",
+	"bs-checklist-tag-checklist-attr-value-label": "Selected option",
+	"bs-checklist-tag-checklist-attr-value-help": "Selects a specific options from the above list."
 }
