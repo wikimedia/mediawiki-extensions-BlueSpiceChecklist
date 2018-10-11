@@ -7,5 +7,13 @@
 	},
 	"logentry-bs-checklist-checked": "$1 је {{GENDER:$2|означио|означила}} поље бр. $4 на страници $3",
 	"logentry-bs-checklist-unchecked": "$1 је {{GENDER:$2|одзначио|одзначила}} поље бр. $4 на страницу $3",
-	"logentry-bs-checklist-selected": "$1 је {{GENDER:$2|изабрао|изабрала}} вредност „$5” у пољу за избор бр. $4 на страници $3"
+	"logentry-bs-checklist-selected": "$1 је {{GENDER:$2|изабрао|изабрала}} вредност „$5” у пољу за избор бр. $4 на страници $3",
+	"prefs-checklist": "Контролна листа",
+	"bs-checklist-tag-checklist-tab-checkbox": "Поље за потврду",
+	"bs-checklist-tag-checklist-tab-list": "Листа",
+	"bs-checklist-tag-checklist-attr-checked-help": "Ако је постављено, избор у пољу за потврду изгледаће потврђено",
+	"bs-checklist-tag-checklist-attr-list-label": "Листа опција",
+	"bs-checklist-tag-checklist-attr-list-help": "Бира одређену листу опција. Листе се могу направити у именском простору „Шаблон” прављењем странице са листом са знаковима за набрајање",
+	"bs-checklist-tag-checklist-attr-value-label": "Изабрана опција",
+	"bs-checklist-tag-checklist-attr-value-help": "Бира одређене опције са горенаведене листе."
 }

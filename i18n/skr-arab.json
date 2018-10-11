@@ -5,5 +5,7 @@
 		]
 	},
 	"bs-checklist-ve-checklistinspector-title": "چیک لسٹ",
-	"bs-checklist-ve-checklistinspector-cb-checked": "پڑتال تھی ڳئی"
+	"bs-checklist-ve-checklistinspector-cb-checked": "پڑتال تھی ڳئی",
+	"bs-checklist-tag-checklist-tab-list": "تندیر",
+	"bs-checklist-tag-checklist-attr-list-label": "اختیاراں دی تندیر"
 }

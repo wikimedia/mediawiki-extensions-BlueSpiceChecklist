@@ -53,5 +53,13 @@
 	"right-checklistmodify": "Permite modificar os valores das entradas das listas de verificação sem editar a página da wiki.",
 	"bs-checklist-config-markasminoredit": "Marcar mudanças da lista de verificação como uma edição menor",
 	"tag-bs-checklist-change": "Mudança da lista de verificação",
-	"tag-bs-checklist-change-description": "O utilizador alterou o valor de uma caixa de verificação ou de um menu de seleção na página"
+	"tag-bs-checklist-change-description": "O utilizador alterou o valor de uma caixa de verificação ou de um menu de seleção na página",
+	"prefs-checklist": "Lista de verificação",
+	"bs-checklist-tag-checklist-tab-checkbox": "Caixa de verificação",
+	"bs-checklist-tag-checklist-tab-list": "Lista",
+	"bs-checklist-tag-checklist-attr-checked-help": "Se definido, a caixa de verificação aparece marcada",
+	"bs-checklist-tag-checklist-attr-list-label": "Lista de opções",
+	"bs-checklist-tag-checklist-attr-list-help": "Seleciona uma lista de opções específica. As listas podem ser criadas no espaço nominal/domínio Predefinição, criando uma página que contenha uma lista com marcadores.",
+	"bs-checklist-tag-checklist-attr-value-label": "Opção selecionada",
+	"bs-checklist-tag-checklist-attr-value-help": "Seleciona uma opção específica da lista acima."
 }

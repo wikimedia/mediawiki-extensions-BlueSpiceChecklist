@@ -4,7 +4,8 @@
 			"Okras",
 			"Alexandr Efremov",
 			"Striking Blue",
-			"Happy13241"
+			"Happy13241",
+			"Vlad5250"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -26,5 +27,8 @@
 	"bs-checklist-confirm-dirty-title": "Несохранённые изменения!",
 	"bs-checklist-confirm-dirty-text": "Вы внесли в список изменения, которые ещё не были сохранены. Вы уверены, что хотите отменить изменения?",
 	"bs-checklist-ve-checklistinspector-title": "Контрольный список",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Помечен"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Помечен",
+	"prefs-checklist": "Контрольный список",
+	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
+	"bs-checklist-tag-checklist-tab-list": "Список"
 }
