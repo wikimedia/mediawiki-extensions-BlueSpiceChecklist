@@ -29,5 +29,11 @@
 	"right-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정할 수 있게 합니다.",
 	"bs-checklist-config-markasminoredit": "체크리스트 변경사항을 사소한 편집으로 표시",
 	"tag-bs-checklist-change": "체크리스트 변경사항",
-	"tag-bs-checklist-change-description": "사용자가 문서의 체크 상자나 선택 상자 값을 변경했습니다"
+	"tag-bs-checklist-change-description": "사용자가 문서의 체크 상자나 선택 상자 값을 변경했습니다",
+	"prefs-checklist": "체크리스트",
+	"bs-checklist-tag-checklist-tab-checkbox": "체크 상자",
+	"bs-checklist-tag-checklist-tab-list": "목록",
+	"bs-checklist-tag-checklist-attr-list-label": "옵션 목록",
+	"bs-checklist-tag-checklist-attr-value-label": "선택된 옵션",
+	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다."
 }
