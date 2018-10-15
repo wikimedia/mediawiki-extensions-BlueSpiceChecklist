@@ -26,5 +26,6 @@
 	"log-description-bs-checklist": "ページのチェックボックスの変更記録。",
 	"log-show-hide-bs-checklist": "$1 チェックボックス記録",
 	"logentry-bs-checklist-checked": "$1 がページ「$3」のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
-	"logentry-bs-checklist-unchecked": "$1 がページ「$3」のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}"
+	"logentry-bs-checklist-unchecked": "$1 がページ「$3」のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}",
+	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス"
 }

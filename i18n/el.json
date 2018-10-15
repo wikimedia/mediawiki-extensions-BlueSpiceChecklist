@@ -27,5 +27,6 @@
 	"bs-checklist-ve-checklistinspector-cb-checked": "ελέγχθηκαν",
 	"bs-checklist-tag-checklist-tab-checkbox": "Κουτί ελέγχου",
 	"bs-checklist-tag-checklist-tab-list": "Κατάλογος",
+	"bs-checklist-tag-checklist-attr-list-label": "Προαιρετική λίστα",
 	"bs-checklist-tag-checklist-attr-value-label": "Επιλεγμένη επιλογή"
 }

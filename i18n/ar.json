@@ -53,5 +53,12 @@
 	"bs-checklist-config-markasminoredit": "تعليم تغييرات قائمة التحقق كتحرير طفيف",
 	"tag-bs-checklist-change": "تغيير قائمة التحقق",
 	"tag-bs-checklist-change-description": "قام مستخدم بتغيير صندوق اختيار في الصفحة",
-	"prefs-checklist": "قائمة التحقق"
+	"prefs-checklist": "قائمة التحقق",
+	"bs-checklist-tag-checklist-tab-checkbox": "صندوق الاختيار",
+	"bs-checklist-tag-checklist-tab-list": "قائمة",
+	"bs-checklist-tag-checklist-attr-checked-help": "في حالة التعيين، يظهر صندوق الاختيار محددا",
+	"bs-checklist-tag-checklist-attr-list-label": "قائمة الخيارات",
+	"bs-checklist-tag-checklist-attr-list-help": "يختار قائمة خيارات محددة، يمكن إنشاء قوائم في نطاق القالب عن طريق إنشاء صفحة تحتوي على قائمة نقطية.",
+	"bs-checklist-tag-checklist-attr-value-label": "الخيار المحدد",
+	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه."
 }
