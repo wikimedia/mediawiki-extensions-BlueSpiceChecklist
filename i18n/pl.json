@@ -18,5 +18,6 @@
 	"bs-checklist-alert": "Uwaga!",
 	"bs-checklist-confirm-dirty-title": "Niezapisane zmiany!",
 	"bs-checklist-savelist-error-invalid-title": "Podano nieprawidłowy tytuł",
-	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy"
+	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy",
+	"bs-checklist-tag-checklist-tab-checkbox": "Pole wyboru"
 }
