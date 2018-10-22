@@ -14,5 +14,6 @@
 	"bs-checklist-dlg-new-title": "নতুন তালিকা যোগ করো",
 	"bs-checklist-dlg-new-prompt": "একটি তালিকা শিরোনাম প্রবেশ করান",
 	"bs-checklist-alert": "সাবধান!",
-	"bs-checklist-confirm-dirty-title": "পরিবর্তনসমূহ সংরক্ষণ করা হয়নি।"
+	"bs-checklist-confirm-dirty-title": "পরিবর্তনসমূহ সংরক্ষণ করা হয়নি।",
+	"bs-checklist-tag-checklist-tab-list": "তালিকা"
 }
