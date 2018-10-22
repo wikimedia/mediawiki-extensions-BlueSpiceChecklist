@@ -86,7 +86,6 @@
 	"Hooks": {
 		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
 		"BeforePageDisplay": "\\BlueSpice\\Checklist\\Extension::onBeforePageDisplay",
-		"BSExtendedEditBarBeforeEditToolbar": "\\BlueSpice\\Checklist\\Extension::onBSExtendedEditBarBeforeEditToolbar",
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Extension::onBSInsertMagicAjaxGetData",
 		"VisualEditorConfig": "\\BlueSpice\\Checklist\\Extension::onVisualEditorConfig",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Extension::onBSUsageTrackerRegisterCollectors",

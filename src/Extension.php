@@ -126,26 +126,6 @@ class Extension extends \BlueSpice\Extension {
 		return true;
 	}
 
-
-	/**
-	 *
-	 * @param array $aRows
-	 * @param type $aButtonCfgs
-	 * @return boolean
-	 */
-	public static function onBSExtendedEditBarBeforeEditToolbar( &$aRows, &$aButtonCfgs ) {
-		\RequestContext::getMain()->getOutput()->addModuleStyles( 'ext.bluespice.checklist.styles' );
-		\RequestContext::getMain()->getOutput()->addModules( 'ext.bluespice.checklist' );
-
-		$aRows[0]['dialogs'][60] = 'bs-editbutton-checklist';
-
-		$aButtonCfgs['bs-editbutton-checklist'] = array(
-			'tip' => wfMessage( 'bs-checklist-menu-insert-checkbox' )->plain(),
-			'open' => '<bs:checklist />'
-		);
-		return true;
-	}
-
 	/**
 	 * Inject tags into InsertMagic
 	 * @param Object $oResponse reference
