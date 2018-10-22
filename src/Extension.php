@@ -58,24 +58,6 @@ class Extension extends \BlueSpice\Extension {
 		);
 	}
 
-	/**
-	 * Hook Handler for VisualEditorConfig Hook
-	 * @param Array $aConfigStandard reference
-	 * @param Array $aConfigOverwrite reference
-	 * @param Array &$aLoaderUsingDeps reference
-	 * @return boolean always true to keep hook alive
-	 */
-	public static function onVisualEditorConfig( &$aConfigStandard, &$aConfigOverwrite, &$aLoaderUsingDeps ) {
-		$aLoaderUsingDeps[] = 'ext.bluespice.checklist';
-
-		$iIndexStandard = array_search( 'unlink',$aConfigStandard["toolbar1"] );
-		array_splice( $aConfigStandard["toolbar1"], $iIndexStandard + 1, 0, "bscheckbox" );
-
-		// Add context menu entry
-		$aConfigStandard["contextmenu"] = str_replace( 'bsContextMenuMarker', 'bsContextMenuMarker bsChecklist', $aConfigStandard["contextmenu"] );
-		return true;
-	}
-
 	public static function getListOptions( $listTitle ) {
 		$aOptions = array();
 		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
