@@ -41,5 +41,10 @@
 	"bs-checklist-summary-unchecked": "Avmarkerade kryssruta nummer $1",
 	"bs-checklist-update-list": "Uppdaterade lista",
 	"bs-checklist-ve-checklistinspector-title": "Checklista",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Markerad"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Markerad",
+	"prefs-checklist": "Checklista",
+	"bs-checklist-tag-checklist-tab-checkbox": "Kryssruta",
+	"bs-checklist-tag-checklist-tab-list": "Lista",
+	"bs-checklist-tag-checklist-attr-list-label": "Alternativlista",
+	"bs-checklist-tag-checklist-attr-value-label": "Valt alternativ"
 }
