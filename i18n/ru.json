@@ -5,7 +5,8 @@
 			"Alexandr Efremov",
 			"Striking Blue",
 			"Happy13241",
-			"Vlad5250"
+			"Vlad5250",
+			"Link2xt"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -30,5 +31,7 @@
 	"bs-checklist-ve-checklistinspector-cb-checked": "Помечен",
 	"prefs-checklist": "Контрольный список",
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
-	"bs-checklist-tag-checklist-tab-list": "Список"
+	"bs-checklist-tag-checklist-tab-list": "Список",
+	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
 }
