@@ -52,7 +52,7 @@
 	"right-checklistmodify": "يسمح بتعديل قيم عناصر قائمة الاختيار دون تحرير صفحة الويكي.",
 	"bs-checklist-config-markasminoredit": "تعليم تغييرات قائمة التحقق كتحرير طفيف",
 	"tag-bs-checklist-change": "تغيير قائمة التحقق",
-	"tag-bs-checklist-change-description": "قام مستخدم بتغيير صندوق اختيار في الصفحة",
+	"tag-bs-checklist-change-description": "المستخدم غير صندوق الاختيار أو اختار قيمة من الصندوق في الصفحة",
 	"prefs-checklist": "قائمة التحقق",
 	"bs-checklist-tag-checklist-tab-checkbox": "صندوق الاختيار",
 	"bs-checklist-tag-checklist-tab-list": "قائمة",
