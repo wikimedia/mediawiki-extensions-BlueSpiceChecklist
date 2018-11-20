@@ -220,17 +220,6 @@ class Extension extends \BlueSpice\Extension {
 	}
 
 	/**
-	 * Hook-Handler for MediaWiki 'BeforePageDisplay' hook. Sets context if needed.
-	 * @param OutputPage $oOutputPage
-	 * @param Skin $oSkin
-	 * @return bool
-	 */
-	public static function onBeforePageDisplay( &$oOutputPage, &$oSkin ) {
-		$oOutputPage->addModules( 'ext.bluespice.checklist.view' );
-		return true;
-	}
-
-	/**
 	 * Register tag with UsageTracker extension
 	 * @param array $aCollectorsConfig
 	 * @return Always true to keep hook running
