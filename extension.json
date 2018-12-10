@@ -96,7 +96,6 @@
 			"scripts": [
 				"bluespice.checklist.js"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"messages": [
 				"bs-checklist-button-checkbox-title",
 				"bs-checklist-menu-insert-list-title",
@@ -140,17 +139,12 @@
 			],
 			"dependencies": [
 				"ext.visualEditor.mwcore"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
 			]
 		},
 		"ext.bluespice.checklist.view": {
 			"scripts": [
 				"bluespice.checklist.js"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"messages": [
 				"bs-checklist-button-checkbox-title",
 				"bs-checklist-menu-insert-list-title",
@@ -161,8 +155,9 @@
 			]
 		},
 		"ext.bluespice.checklist.styles": {
-			"styles": "bluespice.checklist.css",
-			"targets": [ "desktop", "mobile" ]
+			"styles": [
+				"bluespice.checklist.css"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
