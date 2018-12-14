@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm"
+		]
+	},
+	"bs-checklist-dlg-items-hint": "Um ein neues Element hinzuzufügen, tippen Sie im obigen Feld und drücken Sie danach auf <kbd>Enter</kbd>.",
+	"bs-checklist-confirm-dirty-text": "Sie haben Änderungen an der Checkliste vorgenommen, die noch nicht gespeichert wurden. Sind Sie sicher, dass Sie die Änderungen verwerfen wollen?"
+}

@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Patriccck"
+			"Patriccck",
+			"Martin Urbanec"
 		]
 	},
-	"bs-checklist-ve-checklistinspector-cb-checked": "Zkontrolováno"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Zkontrolováno",
+	"bs-checklist-tag-checklist-tab-checkbox": "Zaškrtávací políčko",
+	"bs-checklist-tag-checklist-tab-list": "Seznam"
 }

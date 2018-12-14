@@ -31,5 +31,11 @@
 	"bs-tag-checklist": "il tag per la lista di controllo",
 	"bs-checklist-ve-checklistinspector-title": "Checklist",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Selezionato",
-	"prefs-checklist": "Checklist"
+	"prefs-checklist": "Checklist",
+	"bs-checklist-tag-checklist-tab-checkbox": "Casella di controllo",
+	"bs-checklist-tag-checklist-tab-list": "Elenco",
+	"bs-checklist-tag-checklist-attr-checked-help": "Se impostato, la casella di controllo appare selezionata",
+	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
+	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
+	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra."
 }
