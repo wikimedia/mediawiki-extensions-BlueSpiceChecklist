@@ -4,6 +4,7 @@
 			"Joetaras"
 		]
 	},
+	"bs-checklist-menu-insert-checkbox": "Sckatele de condrolle",
 	"bs-checklist-menu-insert-no-list-loaded": "Nisciune elenghe carecate",
 	"bs-checklist-dlg-insert-list-value-list": "Elenghe de valore",
 	"bs-checklist-tag-checklist-example-list": "Scacchie 'u menù",
@@ -18,6 +19,9 @@
 	"bs-checklist-update-list": "Elenghe aggiornate",
 	"apihelp-bs-checklist-available-options-store-description": "Elenghe tutte le opziune disponibbile pe l'elenghe de le template. Face fà l'ordinamende, 'u filtre e l'imbagginazzione. 'Mblemende parametre ExtJS Store.",
 	"apihelp-bs-checklist-available-options-store-summary": "Elenghe tutte le opziune disponibbile pe l'elenghe de le template. Face fà l'ordinamende, 'u filtre e l'imbagginazzione. 'Mblemende parametre ExtJS Store.",
+	"bs-checklist-ve-checklistinspector-title": "Checklist",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Scacchiate",
+	"prefs-checklist": "Checklist",
 	"bs-checklist-tag-checklist-tab-checkbox": "Sckatele de condrolle",
 	"bs-checklist-tag-checklist-tab-list": "Elenghe",
 	"bs-checklist-tag-checklist-attr-list-label": "Elenghe de le opziune",
