@@ -4,8 +4,10 @@
 			"Joetaras"
 		]
 	},
+	"bs-checklist-menu-insert-list-title": "'Nzerisce 'n'elenghe",
 	"bs-checklist-menu-insert-checkbox": "Sckatele de condrolle",
 	"bs-checklist-menu-insert-no-list-loaded": "Nisciune elenghe carecate",
+	"bs-checklist-dlg-insert-list-title": "'Nzerisce 'n'elenghe de condrolle",
 	"bs-checklist-dlg-insert-list-value-list": "Elenghe de valore",
 	"bs-checklist-tag-checklist-example-list": "Scacchie 'u menù",
 	"bs-checklist-dlg-new-list": "Ccrèje 'n'elenghe nuéve",
