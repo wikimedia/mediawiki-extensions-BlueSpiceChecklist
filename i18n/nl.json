@@ -11,7 +11,8 @@
 			"Patio",
 			"KlaasZ4usV",
 			"Optilete",
-			"Ndecouck"
+			"Ndecouck",
+			"Mainframe98"
 		]
 	},
 	"bs-checklist-desc": "Biedt checklistfunctionaliteit",
@@ -47,6 +48,8 @@
 	"apihelp-bs-checklist-tasks-description": "Biedt activiteiten voor een Checklist uitbreiding",
 	"bs-checklist-ve-checklistinspector-title": "Controlelijst",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Gecontroleerd",
+	"prefs-checklist": "Controlelijst",
+	"bs-checklist-tag-checklist-tab-list": "Lijst",
 	"bs-checklist-tag-checklist-attr-list-label": "optielijst",
 	"bs-checklist-tag-checklist-attr-value-label": "Geselecteerde optie"
 }
