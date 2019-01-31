@@ -10,6 +10,7 @@ Ext.define( 'BS.Checklist.Window', {
 	listSelected: false,
 	isDirty: false,
 	preventDeselect: false,
+	unsaved: [],
 	afterInitComponent: function() {
 		this.btnNew = Ext.create( 'Ext.Button', {
 			text: '+', //mw.message('bs-checklist-dlg-new-list').plain(),
@@ -115,26 +116,32 @@ Ext.define( 'BS.Checklist.Window', {
 						text: input.value,
 						leaf: true
 					});
+					this.unsaved.push( input.value );
 					var record = this.templateStore.getNodeById( input.value );
-					this.templateTree.getSelectionModel().select( record )
+					this.templateTree.getSelectionModel().select( record );
 				},
 				scope: this
 			}
-		)
+		);
 	},
 	onBtnSaveClick: function() {
+		this.showLoadMask();
+		var that = this;
 		var title = this.templateTree.getSelectionModel().getLastSelected().get( 'id' );
 		var valueRecords = this.bsListItems.getValueRecords();
 		var records = new Array();
 		for ( var record in valueRecords ) {
 			records.push( valueRecords[record].data.text );
 		}
-
-		this.setDirty( false );
-
 		bs.api.tasks.exec( 'checklist', 'saveOptionsList', {
 			title: title,
 			records: records
+		}).done( function() {
+			that.hideLoadMask();
+			that.setDirty( false );
+			if( that.unsaved.indexOf( title ) > -1 ) {
+				that.unsaved.splice( that.unsaved.indexOf( title ), 1 );
+			}
 		});
 	},
 	onBeforeItemExpand: function( p, animate, eOpts ) {return false;},
@@ -142,10 +149,10 @@ Ext.define( 'BS.Checklist.Window', {
 		//nothing
 	},
 	onBeforeSelect: function( sender, record, index, eOpts ) {
-		if ( BS.Checklist.Window.isDirty == true ) {
+		if ( BS.Checklist.Window.isDirty === true && this.unsaved.indexOf( record.get( 'id' ) ) < 0 ) {
 			var dialog = Ext.create( 'BS.ConfirmDialog', {
 				title: mw.message( 'bs-checklist-confirm-dirty-title' ).plain(),
-				text: mw.message( 'bs-checklist-confirm-dirty-text' ).plain(),
+				text: mw.message( 'bs-checklist-confirm-dirty-text' ).plain()
 			});
 			dialog.on( 'ok', function( input ) {
 				BS.Checklist.Window.setDirty( false );
@@ -166,23 +173,30 @@ Ext.define( 'BS.Checklist.Window', {
 		*/
 	},
 	onSelect: function( sender, records, index, eOpts) {
-
 		this.bsListItems.setValue( records.get( 'listOptions' ) );
 		this.listSelected = records;
-		this.setDirty( false );
 		this.bsListItems.enable();
+		this.setDirty( false );
+		for( var i = 0; i < this.unsaved.length; i++ ) {
+			if( sender.getStore().getAt( index ).get( 'id' ) === this.unsaved[i] ) {
+				this.setDirty( true );
+				break;
+			}
+		}
 	},
 	setData: function( data ) {
 		this.bsListItems.setValue( data );
 	},
 	getData: function() {
-		return this.listSelected;
+		return this.templateTree.getSelectionModel().getLastSelected().get( 'id' );
 	},
 	setDirty: function( dirty ) {
 		BS.Checklist.Window.isDirty = dirty;
 		if ( dirty ) {
+			this.btnOK.disable();
 			this.btnSave.setText( "* " + mw.message( 'bs-checklist-dlg-save-list' ).plain() );
 		} else {
+			this.btnOK.enable();
 			this.btnSave.setText( mw.message( 'bs-checklist-dlg-save-list' ).plain() );
 		}
 	}
