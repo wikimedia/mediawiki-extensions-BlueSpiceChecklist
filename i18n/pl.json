@@ -6,6 +6,7 @@
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Wstaw listę",
+	"bs-checklist-menu-insert-checkbox": "Pole wyboru",
 	"bs-checklist-menu-insert-no-list-loaded": "Żadna lista nie została załadowana",
 	"bs-checklist-dlg-insert-list-value-list": "Lista wartości",
 	"bs-checklist-tag-checklist-example-check": "Pole wyboru",

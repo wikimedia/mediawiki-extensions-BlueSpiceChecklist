@@ -6,7 +6,8 @@
 			"AVIADOR",
 			"Fitoschido",
 			"AlvaroMolina",
-			"Igv"
+			"Igv",
+			"Carlosmg.dg"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",
@@ -47,5 +48,11 @@
 	"apihelp-bs-checklist-tasks-description": "Proporciona operaciones para la extensión Checklist",
 	"apihelp-bs-checklist-tasks-summary": "Proporciona operaciones para la extensión Checklist",
 	"bs-tag-checklist": "la etiqueta de lista de comprobación",
-	"right-checklistmodify": "Permite modificar los valores de los elementos de las listas de comprobación sin editar la página del wiki."
+	"bs-checklist-ve-checklistinspector-title": "Lista de verificación",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Comprobado",
+	"right-checklistmodify": "Permite modificar los valores de los elementos de las listas de comprobación sin editar la página del wiki.",
+	"bs-checklist-tag-checklist-tab-checkbox": "Casilla de verificación",
+	"bs-checklist-tag-checklist-tab-list": "Lista",
+	"bs-checklist-tag-checklist-attr-list-label": "Lista de opción",
+	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción"
 }
