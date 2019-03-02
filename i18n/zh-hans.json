@@ -5,7 +5,8 @@
 			"Yfdyh000",
 			"夢蝶葬花",
 			"A Chinese Wikipedian",
-			"VulpesVulpes825"
+			"VulpesVulpes825",
+			"佛壁灯"
 		]
 	},
 	"bs-checklist-desc": "提供清单功能",
@@ -39,6 +40,8 @@
 	"bs-checklist-savelist-error-invalid-title": "提供的标题无效",
 	"bs-checklist-savelist-error-edit-not-permitted": "保存列表所需的权限不足",
 	"bs-checklist-modified-check": "已修改清单值",
+	"bs-checklist-summary-checked": "已选中复选框 #$1",
+	"bs-checklist-summary-unchecked": "已反选复选框 #$1",
 	"bs-checklist-update-list": "已更新列表",
 	"apihelp-bs-checklist-available-options-store-description": "列举用于清单模板的所有可用选项。允许排序、过滤和分页。执行ExtJS存储的参数。",
 	"apihelp-bs-checklist-available-options-store-summary": "列举用于清单模板的所有可用选项。允许排序、过滤和分页。执行ExtJS存储的参数。",
