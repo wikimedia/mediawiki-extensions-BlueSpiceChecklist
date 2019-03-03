@@ -42,6 +42,7 @@
 	"bs-checklist-modified-check": "已修改清单值",
 	"bs-checklist-summary-checked": "已选中复选框 #$1",
 	"bs-checklist-summary-unchecked": "已反选复选框 #$1",
+	"bs-checklist-summary-changed": "已选择选择框 #$1 中的值 \"$2\"",
 	"bs-checklist-update-list": "已更新列表",
 	"apihelp-bs-checklist-available-options-store-description": "列举用于清单模板的所有可用选项。允许排序、过滤和分页。执行ExtJS存储的参数。",
 	"apihelp-bs-checklist-available-options-store-summary": "列举用于清单模板的所有可用选项。允许排序、过滤和分页。执行ExtJS存储的参数。",
