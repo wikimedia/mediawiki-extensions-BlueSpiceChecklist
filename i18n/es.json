@@ -41,6 +41,7 @@
 	"bs-checklist-savelist-error-invalid-title": "Se proporcionó un título no válido",
 	"bs-checklist-savelist-error-edit-not-permitted": "Permisos insuficientes para guardar la lista",
 	"bs-checklist-modified-check": "Valor de lista de comprobación modificado",
+	"bs-checklist-summary-changed": "Se seleccionó el valor «$2» del cuadro de selección n.º $1",
 	"bs-checklist-update-list": "Lista actualizada",
 	"apihelp-bs-checklist-available-options-store-description": "Lista todas las opciones disponibles para plantillas \"checklist\". Permite ordenar, filtrar y paginar. Implementa parámetros de almacenamiento ExtJS.",
 	"apihelp-bs-checklist-available-options-store-summary": "Enumera todas las opciones disponibles para las plantillas de listas de comprobación. Permite ordenar, filtrar y paginar. Implementa los parámetros de ExtJS Store.",
