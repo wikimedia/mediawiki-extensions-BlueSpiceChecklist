@@ -2,26 +2,25 @@
 
 class BSApiChecklistAvailableOptionsStore extends BSApiExtJSStoreBase {
 	protected function makeData( $sQuery = '' ) {
-
-		$aData = array();
+		$aData = [];
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
-			array( 'page' ),
-			array( 'page_namespace', 'page_title' ),
-			array(
+			[ 'page' ],
+			[ 'page_namespace', 'page_title' ],
+			[
 				'page_namespace' => NS_TEMPLATE
-			)
+			]
 		);
 
-		$aAvailableOptions = array();
-		foreach( $res as $row ) {
+		$aAvailableOptions = [];
+		foreach ( $res as $row ) {
 			$oTitle = Title::makeTitle(
 				$row->page_namespace,
 				$row->page_title
 			);
 			// only add those titles that do have actual lists
 			$aListOptions = \BlueSpice\Checklist\Extension::getListOptions( $oTitle->getFullText() );
-			if (sizeof( $aListOptions ) > 0 ) {
+			if ( count( $aListOptions ) > 0 ) {
 				$aAvailableOptions = array_merge( $aAvailableOptions, $aListOptions );
 			}
 		}

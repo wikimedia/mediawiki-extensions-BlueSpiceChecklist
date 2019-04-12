@@ -2,7 +2,7 @@
 
 class BSApiChecklistTasks extends BSApiTasksBase {
 
-	protected $aTasks = array(
+	protected $aTasks = [
 		'doChangeCheckItem' => [
 			'examples' => [
 				[
@@ -43,13 +43,13 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 				]
 			]
 		]
-	);
+	];
 
 	protected function getRequiredTaskPermissions() {
-		return array(
-			'doChangeCheckItem' => array( 'checklistmodify' ),
-			'saveOptionsList' => array( 'edit' )
-		);
+		return [
+			'doChangeCheckItem' => [ 'checklistmodify' ],
+			'saveOptionsList' => [ 'edit' ]
+		];
 	}
 
 	protected $sTaskLogType = 'bs-checklist';
@@ -82,13 +82,11 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			$sNewValue .= "checked";
 			$summary = wfMessage( "bs-checklist-summary-checked", $iPos )->plain();
 			$bChecked = true;
-		}
-		else if ( $sValue === false ) {
+		} elseif ( $sValue === false ) {
 			$bChecked = false;
 			$sNewValue .= "";
 			$summary = wfMessage( "bs-checklist-summary-unchecked", $iPos )->plain();
-		}
-		else {
+		} else {
 			$sNewValue .= $sValue;
 			$summary = wfMessage( "bs-checklist-summary-changed", $iPos, $sValue )->plain();
 		}
@@ -109,21 +107,19 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		// Create a log entry for the changes on the checklist values
 		if ( !is_null( $bChecked ) ) {
 			if ( $bChecked ) {
-				$this->logTaskAction( 'checked', array(
+				$this->logTaskAction( 'checked', [
 					'4::position' => $iPos
-				));
-			}
-			else {
-				$this->logTaskAction( 'unchecked', array(
+				] );
+			} else {
+				$this->logTaskAction( 'unchecked', [
 					'4::position' => $iPos
-				));
+				] );
 			}
-		}
-		else {
-			$this->logTaskAction( 'selected', array(
+		} else {
+			$this->logTaskAction( 'selected', [
 					'4::position' => $iPos,
 					'5::selected' => $sValue
-			));
+			] );
 		}
 
 		$oResponse->success = true;
@@ -148,7 +144,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		}
 
 		$sContent = '';
-		foreach( $oTaskData->records as $record ) {
+		foreach ( $oTaskData->records as $record ) {
 			$sContent .= '* ' . $record . "\n";
 		}
 
@@ -161,8 +157,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 
 		if ( $oResult->isGood() ) {
 			$oResponse->success = true;
-		}
-		else {
+		} else {
 			$oResponse->message = $oResult->getMessage()->plain();
 		}
 

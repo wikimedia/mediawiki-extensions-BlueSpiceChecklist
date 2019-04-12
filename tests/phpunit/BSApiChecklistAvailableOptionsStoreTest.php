@@ -30,7 +30,7 @@ class BSApiChecklistAvailableOptionsStoreTest extends ApiTestCase {
 		parent::tearDown();
 	}
 
-	public function testMakeData(){
+	public function testMakeData() {
 		$data = $this->doApiRequest( [
 			'action' => 'bs-checklist-available-options-store'
 		] );

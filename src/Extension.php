@@ -30,14 +30,13 @@
  * @package    BlueSpice_Extensions
  * @subpackage Checklist
  * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
 
 namespace BlueSpice\Checklist;
 
 class Extension extends \BlueSpice\Extension {
-
 
 	public static $iCheckboxCounter = 0;
 	public static $bCheckboxFound = false;
@@ -47,7 +46,7 @@ class Extension extends \BlueSpice\Extension {
 	 * extension.json callback
 	 */
 	public static function onRegistration() {
-		$GLOBALS["bssDefinitions"]["_CHECKLIST"] = array(
+		$GLOBALS["bssDefinitions"]["_CHECKLIST"] = [
 			"id" => "___CHECKLIST",
 			"type" => 4,
 			"show" => false,
@@ -55,13 +54,13 @@ class Extension extends \BlueSpice\Extension {
 			"alias" => "prefs-checklist",
 			"label" => "Checklist",
 			"mapping" => "\BlueSpice\Checklist\Extension::smwDataMapping"
-		);
+		];
 	}
 
 	public static function getListOptions( $listTitle ) {
-		$aOptions = array();
+		$aOptions = [];
 		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
-		//echo $args['list']." ".$oTitle->getArticleID();
+		// echo $args['list']." ".$oTitle->getArticleID();
 		if ( is_object( $oTitle ) ) {
 			$oWikiPage = \WikiPage::newFromID( $oTitle->getArticleID() );
 			if ( is_object( $oWikiPage ) ) {
@@ -69,11 +68,15 @@ class Extension extends \BlueSpice\Extension {
 				// Noinclude handling
 				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/ED_GetData.php
 				$sContent = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $sContent );
-				$sContent = strtr( $sContent, array( '<includeonly>' => '', '</includeonly>' => '' ) );
+				$sContent = strtr( $sContent, [ '<includeonly>' => '', '</includeonly>' => '' ] );
 				$aLines = explode( "\n", trim( $sContent ) );
 				foreach ( $aLines as $sLine ) {
-					if ( strpos( $sLine, '*' ) !== 0 ) return array();
-					if ( strlen( $sLine ) > self::$iChecklistMaxItemLength ) return array();
+					if ( strpos( $sLine, '*' ) !== 0 ) {
+						return [];
+					}
+					if ( strlen( $sLine ) > self::$iChecklistMaxItemLength ) {
+						return [];
+					}
 					$sNewLine = trim( substr( $sLine, 1 ) );
 					$aOptions[] = $sNewLine;
 				}
@@ -82,26 +85,24 @@ class Extension extends \BlueSpice\Extension {
 		return $aOptions;
 	}
 
-
-
 	/*http://www.php.net/manual/en/function.preg-replace.php#112400*/
-	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth=1 ) {
+	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth = 1 ) {
 		return preg_replace_callback( $pattern,
-			function( $found ) use ( &$pattern, &$replacement, &$nth ) {
+			function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
 					$nth--;
-					if ( $nth==0 ) {
+					if ( $nth == 0 ) {
 						$sResult = preg_replace( '/value=".*?" /', '', reset( $found ) );
 						$sResult = preg_replace( $pattern, $replacement, $sResult );
 						return $sResult;
 					}
 					return reset( $found );
-			}, $subject,$nth );
+			}, $subject, $nth );
 	}
 
 	/**
 	 *
-	 * @param Parser $parser
-	 * @return boolean
+	 * @param Parser &$parser
+	 * @return bool
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
 		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
@@ -110,12 +111,12 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * Inject tags into InsertMagic
-	 * @param Object $oResponse reference
-	 * $param String $type
+	 * @param Object &$oResponse reference
+	 * @param String $type
 	 * @return always true to keep hook running
 	 */
 	public static function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if( $type != 'tags' ) {
+		if ( $type != 'tags' ) {
 			return true;
 		}
 
@@ -130,16 +131,16 @@ class Extension extends \BlueSpice\Extension {
 		$oDescriptor->code = '<bs:checklist />';
 		$oDescriptor->mwvecommand = 'checklistCommand';
 		$oDescriptor->previewable = false;
-		$oDescriptor->examples = array(
-			array(
+		$oDescriptor->examples = [
+			[
 				'label' => wfMessage( 'bs-checklist-tag-checklist-example-check' )->text(),
 				'code' => '<bs:checklist type="check" value="checked" />'
-			),
-			array(
+			],
+			[
 				'label' => wfMessage( 'bs-checklist-tag-checklist-example-list' )->text(),
 				'code' => '<bs:checklist type="list" value="false" list="Status" />'
-			),
-		);
+			],
+		];
 		$oDescriptor->helplink = $extension->getUrl();
 		$oResponse->result[] = $oDescriptor;
 
@@ -158,12 +159,12 @@ class Extension extends \BlueSpice\Extension {
 		$parser->disableCache();
 		$parser->getOutput()->setProperty( 'bs-tag-checklist', 1 );
 		self::$bCheckboxFound = true;
-		$sOut = array();
+		$sOut = [];
 
 		if ( isset( $args['list'] ) ) {
 			$aOptions = self::getListOptions( $args['list'] );
 		}
-		if( !isset( $args['value'] ) || $args['value'] === 'false' ) {
+		if ( !isset( $args['value'] ) || $args['value'] === 'false' ) {
 			$args['value'] = '';
 		}
 
@@ -180,19 +181,19 @@ class Extension extends \BlueSpice\Extension {
 				$aOptionSet = explode( "|", $sOption );
 
 				if ( !$sSelectColor && isset( $aOptionSet[1] ) ) {
-					$sSelectColor = "style='color:".$aOptionSet[1].";' ";
+					$sSelectColor = "style='color:" . $aOptionSet[1] . ";' ";
 				}
 
 				$sOption = $aOptionSet[0];
 				$sOut[] = "<option ";
 				if ( isset( $aOptionSet[1] ) ) {
-					$sOut[] = "style='color:".$aOptionSet[1].";' ";
+					$sOut[] = "style='color:" . $aOptionSet[1] . ";' ";
 				}
 				if ( $bDefault || $args['value'] == $sOption ) {
 					$bDefault = false;
 					$sOut[] = "selected='selected'";
 					if ( isset( $aOptionSet[1] ) ) {
-						$sSelectColor = "style='color:".$aOptionSet[1].";' ";
+						$sSelectColor = "style='color:" . $aOptionSet[1] . ";' ";
 					}
 				}
 				$sOut[] = ">";
@@ -204,7 +205,7 @@ class Extension extends \BlueSpice\Extension {
 			$sOut[] = "<input type='checkbox' ";
 			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
 			$sOut[] = "onclick='BsChecklist.click(this);' ";
-			if( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
+			if ( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
 				$sOut[] = "checked='checked' ";
 			}
 			$sOut[] = "/>";
@@ -221,16 +222,16 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * Register tag with UsageTracker extension
-	 * @param array $aCollectorsConfig
+	 * @param array &$aCollectorsConfig
 	 * @return Always true to keep hook running
 	 */
 	public static function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:checklist'] = array(
+		$aCollectorsConfig['bs:checklist'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-checklist'
-			)
-		);
+			]
+		];
 	}
 
 	/**
@@ -240,8 +241,8 @@ class Extension extends \BlueSpice\Extension {
 	 * @param SMW\DIProperty $oProperty
 	 */
 	public static function smwDataMapping( \SMW\SemanticData $oSemanticData, \WikiPage $oWikiPage, \SMW\DIProperty $oProperty ) {
-		//parse wikipage for bs:checklist tag
-		if( $oWikiPage !== null && $oWikiPage->getContent() !== null ){
+		// parse wikipage for bs:checklist tag
+		if ( $oWikiPage !== null && $oWikiPage->getContent() !== null ) {
 			self::$bCheckboxFound = ( strpos( $oWikiPage->getContent()->getNativeData(), "<bs:checklist" ) === false ) ?
 				false : true;
 			$oSemanticData->addPropertyObjectValue(
