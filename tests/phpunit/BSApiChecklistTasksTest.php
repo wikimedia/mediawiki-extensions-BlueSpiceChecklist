@@ -51,7 +51,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 				'pos' => '1',
 				'value' => 'true'
 			] ),
-			'context' => json_encode( ['wgTitle' => 'Test' ] )
+			'context' => json_encode( [ 'wgTitle' => 'Test' ] )
 		  ] );
 
 		$this->assertEquals( true, $data[ 0 ][ 'success' ] );
@@ -65,7 +65,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$oTitle = Title::makeTitle( NS_TEMPLATE, 'Test' );
 		$this->assertEquals( false, $oTitle->exists() );
 
-		$arrRecords = ['a', 'b', 'c' ];
+		$arrRecords = [ 'a', 'b', 'c' ];
 
 		$data = $this->doApiRequest( [
 			'action' => 'bs-checklist-tasks',
