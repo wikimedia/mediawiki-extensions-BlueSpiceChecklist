@@ -42,6 +42,7 @@
 	"bs-checklist-update-list": "Uppdaterade lista",
 	"bs-checklist-ve-checklistinspector-title": "Checklista",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Markerad",
+	"action-checklistmodify": "ändra värdet i checklistelement utan att redigera wikisidan.",
 	"prefs-checklist": "Checklista",
 	"bs-checklist-tag-checklist-tab-checkbox": "Kryssruta",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
