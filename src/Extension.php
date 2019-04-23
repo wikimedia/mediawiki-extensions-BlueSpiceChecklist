@@ -166,6 +166,9 @@ class Extension extends \BlueSpice\Extension {
 		if( !isset( $args['value'] ) || $args['value'] === 'false' ) {
 			$args['value'] = '';
 		}
+		if ( !isset( $args['checked'] ) ) {
+			$args['checked'] = '';
+		}
 
 		$sSelectColor = '';
 		if ( isset( $args['type'] ) && $args['type'] == 'list' ) {
