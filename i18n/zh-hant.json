@@ -4,7 +4,8 @@
 			"Cwlin0416",
 			"Liuxinyu970226",
 			"Kly",
-			"A2093064"
+			"A2093064",
+			"Willy1018"
 		]
 	},
 	"bs-checklist-desc": "提供核對清單功能",
@@ -51,7 +52,7 @@
 	"bs-tag-checklist": "核選清單標籤",
 	"bs-checklist-ve-checklistinspector-title": "核對清單",
 	"bs-checklist-ve-checklistinspector-cb-checked": "已勾選",
-	"action-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值。",
+	"action-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值",
 	"right-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值。",
 	"bs-checklist-config-markasminoredit": "標記清單更改內容為小編輯",
 	"tag-bs-checklist-change": "核對清單更改",
