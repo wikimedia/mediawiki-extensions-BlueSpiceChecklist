@@ -3,7 +3,8 @@
 		"authors": [
 			"Ата",
 			"Andriykopanytsia",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"bs-checklist-desc": "Забезпечує функціональність контрольного списку",
@@ -50,7 +51,8 @@
 	"bs-tag-checklist": "тег контрольного списку",
 	"bs-checklist-ve-checklistinspector-title": "Контрольний список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Позначено",
-	"right-checklistmodify": "дозволяє змінювати значення елементів контрольного списку без редагування вікісторінки",
+	"action-checklistmodify": "змінювання значень елементів контрольного списку без редагування вікісторінки",
+	"right-checklistmodify": "змінювання значень елементів контрольного списку без редагування вікісторінки",
 	"bs-checklist-config-markasminoredit": "Позначати зміни в контрольному списку як незначні редагування",
 	"tag-bs-checklist-change": "Зміна контрольного списку",
 	"tag-bs-checklist-change-description": "Користувач змінив галочку або значення поля вибору на сторінці",
