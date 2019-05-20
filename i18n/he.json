@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eladk",
-			"Guycn2"
+			"Guycn2",
+			"Erelon"
 		]
 	},
 	"bs-checklist-desc": "אספקת רשימות בדיקה",
@@ -29,6 +30,7 @@
 	"log-name-bs-checklist": "יומן תיבות סימון",
 	"log-description-bs-checklist": "זהו יומן המציג שינויים בתיבות הסימון שבדפים.",
 	"log-show-hide-bs-checklist": "$1 יומן תיבות סימון",
+	"logeventslist-bs-checklist-log": "יומן תיבות סימון",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|סימן|סימנה}} את תיבת הסימון #$4 בדף $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|ביטל|ביטלה}} את הסימון של תיבת הסימון #$4 בדף $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|בחר|בחרה}} את הערך \"$5\" בתיבת הבחירה #$4 בדף $3",
@@ -40,5 +42,8 @@
 	"apihelp-bs-checklist-tasks-summary": "אספקת פעולות עבור הרחבת רשימות הבדיקה (Checklist)",
 	"bs-tag-checklist": "תגית רשימת הבדיקה",
 	"bs-checklist-ve-checklistinspector-title": "רשימת בדיקה",
-	"bs-checklist-ve-checklistinspector-cb-checked": "נבדק"
+	"bs-checklist-ve-checklistinspector-cb-checked": "נבדק",
+	"prefs-checklist": "רשימת בדיקה",
+	"bs-checklist-tag-checklist-tab-checkbox": "תיבת סימון",
+	"bs-checklist-tag-checklist-tab-list": "רשימה"
 }
