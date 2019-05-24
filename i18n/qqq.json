@@ -62,6 +62,8 @@
 	"tag-bs-checklist-change": "Name for the revision tag to mark checkbox and select box changes",
 	"tag-bs-checklist-change-description": "Description for the revision tag to mark checkbox and select box changes",
 	"prefs-checklist": "Label of __CHECKLIST semantic property",
+	"prefs-checklist-sesp-alias": "Label of __CHECKLIST semantic special property",
+	"prefs-checklist-sesp-desc": "Description of __CHECKLIST semantic special property",
 	"bs-checklist-tag-checklist-tab-checkbox": "Label for the tab \"checkbox\"",
 	"bs-checklist-tag-checklist-tab-list": "Label for the tab \"list\"\n{{Identical|List}}",
 	"bs-checklist-tag-checklist-attr-checked-help": "Help message for the parameter \"checked\"",

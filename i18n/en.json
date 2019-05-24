@@ -55,6 +55,8 @@
 	"tag-bs-checklist-change": "Checklist change",
 	"tag-bs-checklist-change-description": "User changed a checkbox or select box value on the page",
 	"prefs-checklist": "Checklist",
+	"prefs-checklist-sesp-alias": "Checklist",
+	"prefs-checklist-sesp-desc": "Tells if a checklist element was used on that page",
 	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
 	"bs-checklist-tag-checklist-tab-list": "List",
 	"bs-checklist-tag-checklist-attr-checked-help": "If set, the checkbox appears checked",

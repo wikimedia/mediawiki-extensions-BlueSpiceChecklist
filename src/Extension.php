@@ -42,21 +42,6 @@ class Extension extends \BlueSpice\Extension {
 	public static $bCheckboxFound = false;
 	public static $iChecklistMaxItemLength = 60;
 
-	/**
-	 * extension.json callback
-	 */
-	public static function onRegistration() {
-		$GLOBALS["bssDefinitions"]["_CHECKLIST"] = [
-			"id" => "___CHECKLIST",
-			"type" => 4,
-			"show" => false,
-			"msgkey" => "prefs-checklist",
-			"alias" => "prefs-checklist",
-			"label" => "Checklist",
-			"mapping" => "\BlueSpice\Checklist\Extension::smwDataMapping"
-		];
-	}
-
 	public static function getListOptions( $listTitle ) {
 		$aOptions = [];
 		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
@@ -235,23 +220,6 @@ class Extension extends \BlueSpice\Extension {
 				'identifier' => 'bs-tag-checklist'
 			]
 		];
-	}
-
-	/**
-	 * Callback for BlueSpiceSMWConnector that adds a semantic special property
-	 * @param SMW\SemanticData $oSemanticData
-	 * @param WikiPage $oWikiPage
-	 * @param SMW\DIProperty $oProperty
-	 */
-	public static function smwDataMapping( \SMW\SemanticData $oSemanticData, \WikiPage $oWikiPage, \SMW\DIProperty $oProperty ) {
-		// parse wikipage for bs:checklist tag
-		if ( $oWikiPage !== null && $oWikiPage->getContent() !== null ) {
-			self::$bCheckboxFound = ( strpos( $oWikiPage->getContent()->getNativeData(), "<bs:checklist" ) === false ) ?
-				false : true;
-			$oSemanticData->addPropertyObjectValue(
-				$oProperty, new \SMWDIBoolean( self::$bCheckboxFound )
-			);
-		}
 	}
 
 }
