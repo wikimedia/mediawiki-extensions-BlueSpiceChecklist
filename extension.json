@@ -39,6 +39,11 @@
 			"TagDefinitions": [
 				"ext.bluespice.checklist.visualEditor"
 			]
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"checklistfields": "\\BlueSpice\\Checklist\\ChecklistPropertyValueProvider::factory"
+			}
 		}
 	},
 	"GroupPermissions": {
@@ -55,7 +60,6 @@
 	"AvailableRights": [
 		"checklistmodify"
 	],
-	"callback": "\\BlueSpice\\Checklist\\Extension::onRegistration",
 	"LogTypes": [
 		"bs-checklist"
 	],
