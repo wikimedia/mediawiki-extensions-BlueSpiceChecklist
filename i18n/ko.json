@@ -48,6 +48,7 @@
 	"tag-bs-checklist-change": "체크리스트 변경사항",
 	"tag-bs-checklist-change-description": "사용자가 문서의 체크 상자나 선택 상자 값을 변경했습니다",
 	"prefs-checklist": "체크리스트",
+	"prefs-checklist-sesp-alias": "체크리스트",
 	"bs-checklist-tag-checklist-tab-checkbox": "체크 상자",
 	"bs-checklist-tag-checklist-tab-list": "목록",
 	"bs-checklist-tag-checklist-attr-checked-help": "설정하면 체크 상자는 체크된 것으로 표시됩니다",

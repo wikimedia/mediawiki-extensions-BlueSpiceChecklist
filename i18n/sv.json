@@ -44,6 +44,8 @@
 	"bs-checklist-ve-checklistinspector-cb-checked": "Markerad",
 	"action-checklistmodify": "ändra värden i checklistelement utan att redigera wikisidan",
 	"prefs-checklist": "Checklista",
+	"prefs-checklist-sesp-alias": "Checklista",
+	"prefs-checklist-sesp-desc": "Berättar om ett element i en checklista användes på denna sida",
 	"bs-checklist-tag-checklist-tab-checkbox": "Kryssruta",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-list-label": "Alternativlista",

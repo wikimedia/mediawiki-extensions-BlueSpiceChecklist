@@ -59,6 +59,7 @@
 	"tag-bs-checklist-change": "Modification de liste de contrôle",
 	"tag-bs-checklist-change-description": "L’utilisateur a modifié une case à cocher ou une valeur de liste déroulante sur la page",
 	"prefs-checklist": "Liste de contrôle",
+	"prefs-checklist-sesp-alias": "Liste de contrôle",
 	"bs-checklist-tag-checklist-tab-checkbox": "Case à cocher",
 	"bs-checklist-tag-checklist-tab-list": "Liste",
 	"bs-checklist-tag-checklist-attr-checked-help": "Si positionné, la case à cocher apparaîtra cochée",

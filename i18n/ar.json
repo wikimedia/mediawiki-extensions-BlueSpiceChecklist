@@ -55,6 +55,8 @@
 	"tag-bs-checklist-change": "تغيير قائمة التحقق",
 	"tag-bs-checklist-change-description": "المستخدم غير صندوق الاختيار أو اختار قيمة من الصندوق في الصفحة",
 	"prefs-checklist": "قائمة التحقق",
+	"prefs-checklist-sesp-alias": "قائمة التحقق",
+	"prefs-checklist-sesp-desc": "يخبر إذا تم استخدام عنصر قائمة التحقق في تلك الصفحة",
 	"bs-checklist-tag-checklist-tab-checkbox": "صندوق الاختيار",
 	"bs-checklist-tag-checklist-tab-list": "قائمة",
 	"bs-checklist-tag-checklist-attr-checked-help": "في حالة التعيين، يظهر صندوق الاختيار محددا",

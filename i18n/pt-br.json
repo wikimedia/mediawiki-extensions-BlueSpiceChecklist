@@ -55,6 +55,8 @@
 	"tag-bs-checklist-change": "Mudança da lista de verificação",
 	"tag-bs-checklist-change-description": "O usuário alterou uma caixa de seleção ou selecionou o valor da caixa na página",
 	"prefs-checklist": "Lista de verificação",
+	"prefs-checklist-sesp-alias": "Lista de verificação",
+	"prefs-checklist-sesp-desc": "Informa se um elemento da lista de verificação foi usado nessa página",
 	"bs-checklist-tag-checklist-tab-checkbox": "Caixa de verificação",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-checked-help": "Se definido, a caixa de verificação aparece marcada",

@@ -57,6 +57,7 @@
 	"tag-bs-checklist-change": "Зміна контрольного списку",
 	"tag-bs-checklist-change-description": "Користувач змінив галочку або значення поля вибору на сторінці",
 	"prefs-checklist": "Контрольний список",
+	"prefs-checklist-sesp-alias": "Контрольний список",
 	"bs-checklist-tag-checklist-tab-checkbox": "Галочка",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-checked-help": "Якщо встановлено, галочка виглядає як поставлена",
