@@ -3,7 +3,8 @@
 		"authors": [
 			"Eladk",
 			"Guycn2",
-			"Erelon"
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"bs-checklist-desc": "אספקת רשימות בדיקה",
@@ -45,5 +46,7 @@
 	"bs-checklist-ve-checklistinspector-cb-checked": "נבדק",
 	"prefs-checklist": "רשימת בדיקה",
 	"bs-checklist-tag-checklist-tab-checkbox": "תיבת סימון",
-	"bs-checklist-tag-checklist-tab-list": "רשימה"
+	"bs-checklist-tag-checklist-tab-list": "רשימה",
+	"bs-checklist-tag-checklist-attr-list-label": "רשימת אפשרויות",
+	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה"
 }
