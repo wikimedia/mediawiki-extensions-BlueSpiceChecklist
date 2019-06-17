@@ -4,7 +4,8 @@
 			"Alirezaaa",
 			"Reza1615",
 			"Dalba",
-			"Amirsara"
+			"Amirsara",
+			"FarsiNevis"
 		]
 	},
 	"bs-checklist-desc": "قابلیت فهرست بازبینی را فراهم می‌کند",
@@ -24,5 +25,11 @@
 	"bs-checklist-dlg-new-prompt": "واردکردن نام فهرست",
 	"bs-checklist-alert": "هشدار!",
 	"bs-checklist-confirm-dirty-title": "تغییرات ذخیره‌نشده!",
-	"bs-checklist-tag-checklist-tab-list": "فهرست"
+	"bs-checklist-update-list": "فهرست روزامد",
+	"bs-checklist-ve-checklistinspector-title": "بازبینه",
+	"bs-checklist-ve-checklistinspector-cb-checked": "بازبینی‌شده",
+	"prefs-checklist": "بازبینه",
+	"prefs-checklist-sesp-alias": "بازبینه",
+	"bs-checklist-tag-checklist-tab-list": "فهرست",
+	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده"
 }

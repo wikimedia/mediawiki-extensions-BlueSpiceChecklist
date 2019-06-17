@@ -38,6 +38,8 @@
 	"bs-checklist-savelist-error-invalid-title": "סופקה כותרת לא תקינה",
 	"bs-checklist-savelist-error-edit-not-permitted": "אין לך הרשאות לשמור רשימה",
 	"bs-checklist-modified-check": "שינוי ערך ברשימת הבדיקה",
+	"bs-checklist-summary-checked": "תיבת סימון מסומנת #$1",
+	"bs-checklist-summary-unchecked": "תיבת סימון לא מסומנת #$1",
 	"bs-checklist-update-list": "עדכון רשימה",
 	"apihelp-bs-checklist-tasks-description": "אספקת פעולות עבור הרחבת רשימות הבדיקה (Checklist)",
 	"apihelp-bs-checklist-tasks-summary": "אספקת פעולות עבור הרחבת רשימות הבדיקה (Checklist)",
