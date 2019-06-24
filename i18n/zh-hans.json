@@ -7,7 +7,8 @@
 			"A Chinese Wikipedian",
 			"VulpesVulpes825",
 			"佛壁灯",
-			"LNDDYL"
+			"LNDDYL",
+			"神樂坂秀吉"
 		]
 	},
 	"bs-checklist-desc": "提供清单功能",
@@ -60,6 +61,7 @@
 	"tag-bs-checklist-change": "监视列表编辑",
 	"tag-bs-checklist-change-description": "用户在页面上更改复选框或选择框值",
 	"prefs-checklist": "检查表",
+	"prefs-checklist-sesp-alias": "监视列表",
 	"bs-checklist-tag-checklist-tab-checkbox": "复选框",
 	"bs-checklist-tag-checklist-tab-list": "列表",
 	"bs-checklist-tag-checklist-attr-checked-help": "如果设置，则选中复选框。",

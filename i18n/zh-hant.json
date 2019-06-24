@@ -58,6 +58,8 @@
 	"tag-bs-checklist-change": "核對清單更改",
 	"tag-bs-checklist-change-description": "使用者更改頁面上核選框或選擇框的值",
 	"prefs-checklist": "核對清單",
+	"prefs-checklist-sesp-alias": "核對清單",
+	"prefs-checklist-sesp-desc": "若核對清單元素使用在頁面上的話告知",
 	"bs-checklist-tag-checklist-tab-checkbox": "核選方塊",
 	"bs-checklist-tag-checklist-tab-list": "清單",
 	"bs-checklist-tag-checklist-attr-checked-help": "若有設定，核選方塊會呈現已勾選",
