@@ -5,7 +5,8 @@
 			"Markus Glaser <glaser@hallowelt.biz>",
 			"Osnard",
 			"Metalhead64",
-			"Hwboehm"
+			"Hwboehm",
+			"Mglaser"
 		]
 	},
 	"bs-checklist-desc": "Ermöglicht das Erstellen von Checklisten",
@@ -58,6 +59,8 @@
 	"tag-bs-checklist-change": "Checklistenänderung",
 	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert",
 	"prefs-checklist": "Checklist",
+	"prefs-checklist-sesp-alias": "Checkliste",
+	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde",
 	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
 	"bs-checklist-tag-checklist-tab-list": "Liste",
 	"bs-checklist-tag-checklist-attr-checked-help": "Wenn aktiviert, wird die Checkbox angehakt",

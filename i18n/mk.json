@@ -35,5 +35,10 @@
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ја одбра}} вредноста „$5“ во изборникот бр. $4 на $3",
 	"bs-checklist-savelist-error-invalid-title": "Укажан е неважечки наслов",
 	"bs-checklist-savelist-error-edit-not-permitted": "Немате дозвола за да го зачувате списокот",
-	"bs-checklist-update-list": "Подновен список"
+	"bs-checklist-update-list": "Подновен список",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Штиклиран",
+	"bs-checklist-tag-checklist-tab-checkbox": "Штикларник",
+	"bs-checklist-tag-checklist-tab-list": "Список",
+	"bs-checklist-tag-checklist-attr-list-label": "Список на избори",
+	"bs-checklist-tag-checklist-attr-value-label": "Избрана опција"
 }
