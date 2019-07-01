@@ -46,6 +46,7 @@
 	"bs-checklist-modified-check": "Gewijzigde checklist waarde",
 	"bs-checklist-summary-checked": "Selectievakje #$1 aangevinkt",
 	"bs-checklist-summary-unchecked": "Selectievakje #$1 uitgevinkt",
+	"bs-checklist-summary-changed": "Selecteerde de waarde \"$2\" in selectievakje #$1",
 	"bs-checklist-update-list": "Bijgewerkte lijst",
 	"apihelp-bs-checklist-tasks-description": "Biedt activiteiten voor een Checklist uitbreiding",
 	"bs-checklist-ve-checklistinspector-title": "Controlelijst",
