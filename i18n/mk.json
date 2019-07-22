@@ -36,6 +36,7 @@
 	"bs-checklist-savelist-error-invalid-title": "Укажан е неважечки наслов",
 	"bs-checklist-savelist-error-edit-not-permitted": "Немате дозвола за да го зачувате списокот",
 	"bs-checklist-update-list": "Подновен список",
+	"bs-tag-checklist": "ознака на контролниот список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Штиклиран",
 	"bs-checklist-tag-checklist-tab-checkbox": "Штикларник",
 	"bs-checklist-tag-checklist-tab-list": "Список",
