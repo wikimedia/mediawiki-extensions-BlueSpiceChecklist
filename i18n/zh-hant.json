@@ -3,7 +3,9 @@
 		"authors": [
 			"Cwlin0416",
 			"Liuxinyu970226",
-			"Kly"
+			"Kly",
+			"A2093064",
+			"Willy1018"
 		]
 	},
 	"bs-checklist-desc": "提供核對清單功能",
@@ -50,7 +52,7 @@
 	"bs-tag-checklist": "核選清單標籤",
 	"bs-checklist-ve-checklistinspector-title": "核對清單",
 	"bs-checklist-ve-checklistinspector-cb-checked": "已勾選",
-	"right-checklistmodify": "允許不靠編輯 wiki 頁面來變動核選清單項目的值。",
+	"right-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值。",
 	"bs-checklist-config-markasminoredit": "標記清單更改內容為小編輯",
 	"tag-bs-checklist-change": "核對清單更改",
 	"tag-bs-checklist-change-description": "使用者更改頁面上核選框或選擇框的值",
@@ -61,5 +63,8 @@
 	"bs-checklist-tag-checklist-attr-list-label": "選項清單",
 	"bs-checklist-tag-checklist-attr-list-help": "選擇指定選項清單。清單可透過以項目清單建立頁面來創建於模板命名空間。",
 	"bs-checklist-tag-checklist-attr-value-label": "已選選項",
-	"bs-checklist-tag-checklist-attr-value-help": "從以上清單選擇指定項目。"
+	"bs-checklist-tag-checklist-attr-value-help": "從以上清單選擇指定項目。",
+	"action-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值",
+	"prefs-checklist-sesp-alias": "核對清單",
+	"prefs-checklist-sesp-desc": "若核對清單元素使用在頁面上的話告知"
 }

@@ -49,7 +49,7 @@
 	"bs-tag-checklist": "وسم قائمة التحقق",
 	"bs-checklist-ve-checklistinspector-title": "قائمة التحقق",
 	"bs-checklist-ve-checklistinspector-cb-checked": "مفحوص",
-	"right-checklistmodify": "يسمح بتعديل قيم عناصر قائمة الاختيار دون تحرير صفحة الويكي.",
+	"right-checklistmodify": "تعديل قيم عناصر قائمة الاختيار دون تحرير صفحة الويكي",
 	"bs-checklist-config-markasminoredit": "تعليم تغييرات قائمة التحقق كتحرير طفيف",
 	"tag-bs-checklist-change": "تغيير قائمة التحقق",
 	"tag-bs-checklist-change-description": "المستخدم غير صندوق الاختيار أو اختار قيمة من الصندوق في الصفحة",
@@ -60,5 +60,8 @@
 	"bs-checklist-tag-checklist-attr-list-label": "قائمة الخيارات",
 	"bs-checklist-tag-checklist-attr-list-help": "يختار قائمة خيارات محددة، يمكن إنشاء قوائم في نطاق القالب عن طريق إنشاء صفحة تحتوي على قائمة نقطية.",
 	"bs-checklist-tag-checklist-attr-value-label": "الخيار المحدد",
-	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه."
+	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه.",
+	"action-checklistmodify": "تعديل قيم عناصر قائمة التحقق دون تحرير صفحة الويكي",
+	"prefs-checklist-sesp-alias": "قائمة التحقق",
+	"prefs-checklist-sesp-desc": "يخبر إذا تم استخدام عنصر قائمة التحقق في تلك الصفحة"
 }

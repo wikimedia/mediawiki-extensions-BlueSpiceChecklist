@@ -57,5 +57,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Casilla de verificación",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-list-label": "Lista de opción",
-	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción"
+	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción",
+	"prefs-checklist-sesp-alias": "Lista de verificación"
 }

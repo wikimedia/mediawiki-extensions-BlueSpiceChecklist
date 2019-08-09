@@ -6,7 +6,9 @@
 			"夢蝶葬花",
 			"A Chinese Wikipedian",
 			"VulpesVulpes825",
-			"佛壁灯"
+			"佛壁灯",
+			"LNDDYL",
+			"神樂坂秀吉"
 		]
 	},
 	"bs-checklist-desc": "提供清单功能",
@@ -53,7 +55,7 @@
 	"bs-tag-checklist": "清单标签",
 	"bs-checklist-ve-checklistinspector-title": "检查表",
 	"bs-checklist-ve-checklistinspector-cb-checked": "已检查",
-	"right-checklistmodify": "允许修改清单项目的值而不编辑Wiki页面。",
+	"right-checklistmodify": "允许修改清单项目的值而无需编辑Wiki页面。",
 	"bs-checklist-config-markasminoredit": "将监视列表中的编辑更改为小编辑",
 	"tag-bs-checklist-change": "监视列表编辑",
 	"tag-bs-checklist-change-description": "用户在页面上更改复选框或选择框值",
@@ -62,7 +64,9 @@
 	"bs-checklist-tag-checklist-tab-list": "列表",
 	"bs-checklist-tag-checklist-attr-checked-help": "如果设置，则选中复选框。",
 	"bs-checklist-tag-checklist-attr-list-label": "选项列表",
-	"bs-checklist-tag-checklist-attr-list-help": "选择一个特定的选项列表。可以通过创建带有弹头列表的页面来在模板命名空间中创建列表。",
+	"bs-checklist-tag-checklist-attr-list-help": "选择一个特定的选项列表。可以通过创建带有弹头列表的页面来在模板名字空间中创建列表。",
 	"bs-checklist-tag-checklist-attr-value-label": "选择一个选项",
-	"bs-checklist-tag-checklist-attr-value-help": "从上面的列表中选择一个特定选项。"
+	"bs-checklist-tag-checklist-attr-value-help": "从上面的列表中选择一个特定选项。",
+	"action-checklistmodify": "允许修改清单项目的值而无需编辑Wiki页面。",
+	"prefs-checklist-sesp-alias": "监视列表"
 }
