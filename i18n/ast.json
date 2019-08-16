@@ -48,8 +48,19 @@
 	"bs-tag-checklist": "la etiqueta checklist",
 	"bs-checklist-ve-checklistinspector-title": "Llista de comprobación",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Marcada",
-	"right-checklistmodify": "Permite cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki.",
+	"action-checklistmodify": "cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki.",
+	"right-checklistmodify": "Cambiar los valores de los elementos de les llistes de comprobación ensin editar la páxina wiki.",
 	"bs-checklist-config-markasminoredit": "Marcar como ediciones menores los cambios na llista de seleición",
 	"tag-bs-checklist-change": "Cambéu na llista de seleición",
-	"tag-bs-checklist-change-description": "L'usuariu cambió'l valor d'un caxellu o d'un cuadru de seleición na páxina"
+	"tag-bs-checklist-change-description": "L'usuariu cambió'l valor d'un caxellu o d'un cuadru de seleición na páxina",
+	"prefs-checklist": "Llista de comprobación",
+	"prefs-checklist-sesp-alias": "Llista de comprobación",
+	"prefs-checklist-sesp-desc": "Diz si un elementu de llista de comprobación usóse nesa páxina",
+	"bs-checklist-tag-checklist-tab-checkbox": "Caxella de comprobación",
+	"bs-checklist-tag-checklist-tab-list": "Llista",
+	"bs-checklist-tag-checklist-attr-checked-help": "Si se configura, la caxella de comprobación apaez marcada",
+	"bs-checklist-tag-checklist-attr-list-label": "Llista d'opciones",
+	"bs-checklist-tag-checklist-attr-list-help": "Seleiciona una llista d'opciones determinada. Les llistes puen crease nel espaciu de nomes Plantía creando una páxina con una llista de viñetes.",
+	"bs-checklist-tag-checklist-attr-value-label": "Opción seleicionada",
+	"bs-checklist-tag-checklist-attr-value-help": "Seleiciona una opción determinada de la llista d'arriba."
 }
