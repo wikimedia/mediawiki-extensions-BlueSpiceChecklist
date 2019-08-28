@@ -12,7 +12,8 @@
 			"KlaasZ4usV",
 			"Optilete",
 			"Ndecouck",
-			"Mainframe98"
+			"Mainframe98",
+			"Rots61"
 		]
 	},
 	"bs-checklist-desc": "Biedt checklistfunctionaliteit",
@@ -24,6 +25,7 @@
 	"bs-checklist-dlg-insert-list-value-list": "Lijst met waarden",
 	"bs-checklist-tag-checklist-desc": "Genereert een checkbox of een selectiemenu. De checklist kan door diverse parameters worden gewijzigd.",
 	"bs-checklist-tag-checklist-example-check": "Checkbox",
+	"bs-checklist-tag-checklist-example-list": "Menu selecteren",
 	"bs-checklist-dlg-new-list": "Nieuwe lijst aanmaken",
 	"bs-checklist-dlg-save-list": "Wijzigingen in lijst opslaan",
 	"bs-checklist-dlg-items-label": "Items in lijst",
@@ -52,6 +54,7 @@
 	"bs-checklist-ve-checklistinspector-title": "Controlelijst",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Gecontroleerd",
 	"prefs-checklist": "Controlelijst",
+	"prefs-checklist-sesp-alias": "Controlelijst",
 	"bs-checklist-tag-checklist-tab-checkbox": "Selectievakje",
 	"bs-checklist-tag-checklist-tab-list": "Lijst",
 	"bs-checklist-tag-checklist-attr-list-label": "optielijst",
