@@ -35,6 +35,7 @@
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ја одбра}} вредноста „$5“ во изборникот бр. $4 на $3",
 	"bs-checklist-savelist-error-invalid-title": "Укажан е неважечки наслов",
 	"bs-checklist-savelist-error-edit-not-permitted": "Немате дозвола за да го зачувате списокот",
+	"bs-checklist-modified-check": "Променета вредност на контролен список",
 	"bs-checklist-update-list": "Подновен список",
 	"bs-tag-checklist": "ознака на контролниот список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Штиклиран",

@@ -8,7 +8,8 @@
 			"Vlad5250",
 			"Link2xt",
 			"Romanko Mikhail",
-			"Movses"
+			"Movses",
+			"Марио"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -31,6 +32,9 @@
 	"bs-checklist-alert": "Внимание!",
 	"bs-checklist-confirm-dirty-title": "Несохранённые изменения!",
 	"bs-checklist-confirm-dirty-text": "Вы внесли в список изменения, которые ещё не были сохранены. Вы уверены, что хотите отменить изменения?",
+	"log-name-bs-checklist": "Журнал Checkbox",
+	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
+	"logeventslist-bs-checklist-log": "Журнал Checkbox",
 	"bs-checklist-savelist-error-edit-not-permitted": "Недостаточно прав для сохранения списка",
 	"bs-checklist-update-list": "Обновленный список",
 	"bs-checklist-ve-checklistinspector-title": "Контрольный список",
