@@ -41,5 +41,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Штикларник",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список на избори",
-	"bs-checklist-tag-checklist-attr-value-label": "Избрана опција"
+	"bs-checklist-tag-checklist-attr-value-label": "Избрана опција",
+	"bs-checklist-modified-check": "Променета вредност на контролен список"
 }

@@ -12,7 +12,8 @@
 			"KlaasZ4usV",
 			"Optilete",
 			"Ndecouck",
-			"Mainframe98"
+			"Mainframe98",
+			"Rots61"
 		]
 	},
 	"bs-checklist-desc": "Biedt checklistfunctionaliteit",
@@ -55,5 +56,7 @@
 	"bs-checklist-summary-checked": "Selectievakje #$1 aangevinkt",
 	"bs-checklist-summary-unchecked": "Selectievakje #$1 uitgevinkt",
 	"bs-checklist-summary-changed": "Selecteerde de waarde \"$2\" in selectievakje #$1",
-	"bs-checklist-tag-checklist-tab-checkbox": "Selectievakje"
+	"bs-checklist-tag-checklist-tab-checkbox": "Selectievakje",
+	"bs-checklist-tag-checklist-example-list": "Menu selecteren",
+	"prefs-checklist-sesp-alias": "Controlelijst"
 }

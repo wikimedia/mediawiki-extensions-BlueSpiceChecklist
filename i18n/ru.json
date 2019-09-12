@@ -8,7 +8,8 @@
 			"Vlad5250",
 			"Link2xt",
 			"Romanko Mikhail",
-			"Movses"
+			"Movses",
+			"Марио"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -39,5 +40,8 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
+	"log-name-bs-checklist": "Журнал Checkbox",
+	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
+	"logeventslist-bs-checklist-log": "Журнал Checkbox"
 }
