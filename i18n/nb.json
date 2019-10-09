@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Orf3us"
 		]
 	},
 	"bs-checklist-desc": "Tilbyr sjekklistefunksjonalitet",
@@ -41,5 +42,6 @@
 	"apihelp-bs-checklist-template-store-summary": "Lister opp alle maler som er gyldige sjekklistekilder. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
 	"apihelp-bs-checklist-tasks-description": "Gir operasjoner for Checklist-utvidelsen",
 	"apihelp-bs-checklist-tasks-summary": "Gir operasjoner for Checklist-utvidelsen",
-	"bs-tag-checklist": "sjekklistetaggen"
+	"bs-tag-checklist": "sjekklistetaggen",
+	"action-checklistmodify": "Endr verdiene av sjekklisteelementer uten å redigere wikisiden"
 }

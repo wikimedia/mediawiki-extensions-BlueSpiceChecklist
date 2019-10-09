@@ -6,7 +6,10 @@
 			"Striking Blue",
 			"Happy13241",
 			"Vlad5250",
-			"Link2xt"
+			"Link2xt",
+			"Romanko Mikhail",
+			"Movses",
+			"Марио"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -16,6 +19,8 @@
 	"bs-checklist-dlg-insert-list-title": "Вставить контрольный список",
 	"bs-checklist-dlg-insert-list-value-list": "Список значений",
 	"bs-checklist-tag-checklist-desc": "Создаёт чекбокс или поле выбора. Список может быть изменён с помощью различных параметров.",
+	"bs-checklist-tag-checklist-example-check": "Флажок",
+	"bs-checklist-tag-checklist-example-list": "Выберите меню",
 	"bs-checklist-dlg-new-list": "Создать новый список",
 	"bs-checklist-dlg-save-list": "Сохранить изменения в список",
 	"bs-checklist-dlg-items-label": "Объекты в списке",
@@ -27,11 +32,16 @@
 	"bs-checklist-alert": "Внимание!",
 	"bs-checklist-confirm-dirty-title": "Несохранённые изменения!",
 	"bs-checklist-confirm-dirty-text": "Вы внесли в список изменения, которые ещё не были сохранены. Вы уверены, что хотите отменить изменения?",
+	"bs-checklist-savelist-error-edit-not-permitted": "Недостаточно прав для сохранения списка",
+	"bs-checklist-update-list": "Обновленный список",
 	"bs-checklist-ve-checklistinspector-title": "Контрольный список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Помечен",
 	"prefs-checklist": "Контрольный список",
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
+	"log-name-bs-checklist": "Журнал Checkbox",
+	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
+	"logeventslist-bs-checklist-log": "Журнал Checkbox"
 }

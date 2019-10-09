@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Eladk",
-			"Guycn2"
+			"Guycn2",
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"bs-checklist-desc": "אספקת רשימות בדיקה",
@@ -40,5 +42,13 @@
 	"apihelp-bs-checklist-tasks-summary": "אספקת פעולות עבור הרחבת רשימות הבדיקה (Checklist)",
 	"bs-tag-checklist": "תגית רשימת הבדיקה",
 	"bs-checklist-ve-checklistinspector-title": "רשימת בדיקה",
-	"bs-checklist-ve-checklistinspector-cb-checked": "נבדק"
+	"bs-checklist-ve-checklistinspector-cb-checked": "נבדק",
+	"logeventslist-bs-checklist-log": "יומן תיבות סימון",
+	"bs-checklist-summary-checked": "תיבת סימון מסומנת #$1",
+	"bs-checklist-summary-unchecked": "תיבת סימון לא מסומנת #$1",
+	"prefs-checklist": "רשימת בדיקה",
+	"bs-checklist-tag-checklist-tab-checkbox": "תיבת סימון",
+	"bs-checklist-tag-checklist-tab-list": "רשימה",
+	"bs-checklist-tag-checklist-attr-list-label": "רשימת אפשרויות",
+	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה"
 }

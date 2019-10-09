@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Elisardojm",
-			"Navhy"
+			"Navhy",
+			"Iváns"
 		]
 	},
 	"bs-checklist-desc": "Proporciona unha lista de comprobación da funcionalidade",
@@ -44,5 +45,7 @@
 	"apihelp-bs-checklist-tasks-summary": "Proporciona operacións para a extensión Checklist",
 	"bs-tag-checklist": "a etiqueta da lista de verificación",
 	"bs-checklist-ve-checklistinspector-title": "Lista de verificación",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Verificado"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Verificado",
+	"bs-checklist-tag-checklist-tab-checkbox": "Cela de verificación",
+	"bs-checklist-tag-checklist-tab-list": "Listaxe"
 }

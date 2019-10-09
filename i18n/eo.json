@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-checklist-dlg-panel-title": "Haveblaj listoj",
+	"bs-checklist-alert": "Averto!",
+	"bs-checklist-tag-checklist-tab-list": "Listo",
+	"bs-checklist-tag-checklist-example-check": "Markobutono",
+	"bs-checklist-dlg-new-list": "Krei novan liston",
+	"bs-checklist-dlg-new-title": "Aldoni novan liston",
+	"bs-checklist-dlg-new-prompt": "Enigu titolon de listo",
+	"bs-checklist-confirm-dirty-title": "Jen nekonservitaj ŝanĝoj!"
+}

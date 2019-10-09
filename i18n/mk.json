@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"bs-checklist-desc": "Дава можност за поставување на штикларнички избор",
@@ -29,5 +30,17 @@
 	"log-show-hide-bs-checklist": "$1 дневник на штикларници",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|го штиклираше}} кутивчето бр. $4 на $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|го отштиклираше}} кутивчето бр. $4 на $3",
-	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ја одбра}} вредноста „$5“ во изборникот бр. $4 на $3"
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ја одбра}} вредноста „$5“ во изборникот бр. $4 на $3",
+	"bs-checklist-menu-insert-no-list-loaded": "Нема вчитано списоци",
+	"logeventslist-bs-checklist-log": "Дневник на штикларници",
+	"bs-checklist-savelist-error-invalid-title": "Укажан е неважечки наслов",
+	"bs-checklist-savelist-error-edit-not-permitted": "Немате дозвола за да го зачувате списокот",
+	"bs-checklist-update-list": "Подновен список",
+	"bs-tag-checklist": "ознака на контролниот список",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Штиклиран",
+	"bs-checklist-tag-checklist-tab-checkbox": "Штикларник",
+	"bs-checklist-tag-checklist-tab-list": "Список",
+	"bs-checklist-tag-checklist-attr-list-label": "Список на избори",
+	"bs-checklist-tag-checklist-attr-value-label": "Избрана опција",
+	"bs-checklist-modified-check": "Променета вредност на контролен список"
 }

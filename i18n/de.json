@@ -5,7 +5,8 @@
 			"Markus Glaser <glaser@hallowelt.biz>",
 			"Osnard",
 			"Metalhead64",
-			"Hwboehm"
+			"Hwboehm",
+			"Mglaser"
 		]
 	},
 	"bs-checklist-desc": "Ermöglicht das Erstellen von Checklisten",
@@ -52,7 +53,7 @@
 	"bs-tag-checklist": "das Checklist-Tag",
 	"bs-checklist-ve-checklistinspector-title": "Prüfliste",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Ausgewählt",
-	"right-checklistmodify": "Das Verändern der Werte von Checklistenelementen ohne Bearbeitung der Wikiseite erlauben.",
+	"right-checklistmodify": "Die Werte von Checklistenelementen ohne Bearbeitung der Wikiseite verändern.",
 	"bs-checklist-config-markasminoredit": "Checklistenänderungen als klein markieren",
 	"tag-bs-checklist-change": "Checklistenänderung",
 	"tag-bs-checklist-change-description": "Der Benutzer hat ein Kontrollkästchen oder einen Auswahlkastenwert auf der Seite geändert",
@@ -63,5 +64,8 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Optionsliste",
 	"bs-checklist-tag-checklist-attr-list-help": "Wählt eine Liste mit Optionen aus. Listen können im Vorlagen-Namensraum erstellt werden, indem man eine Seite mit einer Aufzählungsliste erzeugt.",
 	"bs-checklist-tag-checklist-attr-value-label": "Gewählte Option",
-	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus."
+	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus.",
+	"action-checklistmodify": "die Werte von Checklistenelementen ohne Bearbeitung der Wikiseite zu verändern",
+	"prefs-checklist-sesp-alias": "Checkliste",
+	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde"
 }

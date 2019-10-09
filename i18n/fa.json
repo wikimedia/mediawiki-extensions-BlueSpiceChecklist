@@ -3,7 +3,9 @@
 		"authors": [
 			"Alirezaaa",
 			"Reza1615",
-			"Dalba"
+			"Dalba",
+			"Amirsara",
+			"FarsiNevis"
 		]
 	},
 	"bs-checklist-desc": "قابلیت فهرست بازبینی را فراهم می‌کند",
@@ -13,6 +15,7 @@
 	"bs-checklist-dlg-insert-list-title": "درج یک بازبینه",
 	"bs-checklist-dlg-insert-list-value-list": "فهرست مقدار",
 	"bs-checklist-tag-checklist-desc": "یک کادر انتخاب یا زمینه انتخاب ارائه می‌کند. ویژگی‌های پیکربندی در دسترس:",
+	"bs-checklist-tag-checklist-example-check": "جعبهٔ بررسی",
 	"bs-checklist-dlg-new-list": "ساخت یک فهرست تازه",
 	"bs-checklist-dlg-save-list": "ذخیره‌سازی تغییرات در فهرست",
 	"bs-checklist-dlg-items-label": "موارد فهرست",
@@ -21,5 +24,14 @@
 	"bs-checklist-dlg-new-title": "افزودن فهرست جدید",
 	"bs-checklist-dlg-new-prompt": "واردکردن نام فهرست",
 	"bs-checklist-alert": "هشدار!",
-	"bs-checklist-confirm-dirty-title": "تغییرات ذخیره‌نشده!"
+	"bs-checklist-confirm-dirty-title": "تغییرات ذخیره‌نشده!",
+	"bs-checklist-tag-checklist-tab-list": "فهرست",
+	"bs-checklist-tag-checklist-example-list": "انتخاب منو",
+	"bs-checklist-update-list": "فهرست روزآمد",
+	"bs-checklist-ve-checklistinspector-title": "بازبینه",
+	"bs-checklist-ve-checklistinspector-cb-checked": "بازبینی‌شده",
+	"prefs-checklist": "بازبینه",
+	"prefs-checklist-sesp-alias": "بازبینه",
+	"bs-checklist-tag-checklist-attr-list-label": "فهرست گزینه‌ها",
+	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده"
 }

@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"InternerowyGołąb"
+			"InternerowyGołąb",
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Wstaw listę",
+	"bs-checklist-menu-insert-checkbox": "Pole wyboru",
 	"bs-checklist-menu-insert-no-list-loaded": "Żadna lista nie została załadowana",
 	"bs-checklist-dlg-insert-list-value-list": "Lista wartości",
 	"bs-checklist-tag-checklist-example-check": "Pole wyboru",
@@ -20,5 +23,7 @@
 	"bs-checklist-savelist-error-invalid-title": "Podano nieprawidłowy tytuł",
 	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy",
 	"bs-checklist-tag-checklist-tab-checkbox": "Pole wyboru",
-	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja"
+	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja",
+	"action-checklistmodify": "modyfikowania wartości elementów list bez edytowania stron wiki",
+	"right-checklistmodify": "Modyfikowanie wartości elementów list bez edytowania stron wiki"
 }
