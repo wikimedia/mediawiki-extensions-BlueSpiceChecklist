@@ -24,7 +24,7 @@
  *
  * For further information visit http://www.bluespice.com
  *
- * @author     Patric Wirth <wirth@hallowelt.com>
+ * @author     Patric Wirth
  * @author     Markus Glaser
  * @author     Leonid Verhovskij
  * @package    BlueSpice_Extensions
