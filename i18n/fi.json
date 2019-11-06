@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Silvonen"
 		]
 	},
-	"bs-checklist-dlg-new-list": "Luo uusi lista"
+	"bs-checklist-dlg-new-list": "Luo uusi lista",
+	"bs-checklist-menu-insert-checkbox": "Valintaruutu",
+	"bs-checklist-tag-checklist-example-check": "Valintaruutu",
+	"bs-checklist-tag-checklist-tab-checkbox": "Valintaruutu"
 }
