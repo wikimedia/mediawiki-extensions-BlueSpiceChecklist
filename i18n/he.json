@@ -50,5 +50,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "תיבת סימון",
 	"bs-checklist-tag-checklist-tab-list": "רשימה",
 	"bs-checklist-tag-checklist-attr-list-label": "רשימת אפשרויות",
-	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה"
+	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה",
+	"prefs-checklist-sesp-alias": "רשימת בדיקה"
 }
