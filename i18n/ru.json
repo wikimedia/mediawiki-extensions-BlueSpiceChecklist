@@ -9,13 +9,15 @@
 			"Link2xt",
 			"Romanko Mikhail",
 			"Movses",
-			"Марио"
+			"Марио",
+			"BlastingStone"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
 	"bs-checklist-button-checkbox-title": "Элементы контрольного списка",
 	"bs-checklist-menu-insert-list-title": "Вставить список",
 	"bs-checklist-menu-insert-checkbox": "Флажок",
+	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены",
 	"bs-checklist-dlg-insert-list-title": "Вставить контрольный список",
 	"bs-checklist-dlg-insert-list-value-list": "Список значений",
 	"bs-checklist-tag-checklist-desc": "Создаёт чекбокс или поле выбора. Список может быть изменён с помощью различных параметров.",
