@@ -5,7 +5,8 @@
 			"WikiPhoenix",
 			"Jopparn",
 			"Magol",
-			"Larske"
+			"Larske",
+			"Mjälten"
 		]
 	},
 	"bs-checklist-desc": "Tillhandahåller funktionalitet för checklista",
@@ -37,6 +38,8 @@
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|avmarkerade}} kryssruta nummer $4 på sidan $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|valde}} värdet \"$5\" i rullgardinsmeny nummer $4 på sidan $3",
 	"bs-checklist-savelist-error-invalid-title": "Ogiltig titel angavs",
+	"bs-checklist-savelist-error-edit-not-permitted": "Otillräcklig behörighet för att sammanfoga listorna.",
+	"bs-checklist-modified-check": "Modifierade kolllistans värde",
 	"bs-checklist-summary-checked": "Markerade kryssruta nummer $1",
 	"bs-checklist-summary-unchecked": "Avmarkerade kryssruta nummer $1",
 	"bs-checklist-update-list": "Uppdaterade lista",
