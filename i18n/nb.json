@@ -49,7 +49,7 @@
 	"bs-tag-checklist": "sjekklistetaggen",
 	"bs-checklist-ve-checklistinspector-title": "Sjekkliste",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Markert",
-	"action-checklistmodify": "Endr verdiene av sjekklisteelementer uten å redigere wikisiden",
+	"action-checklistmodify": "endre verdiene til sjekklisteelementer uten å redigere wikisiden",
 	"right-checklistmodify": "Endre verdiene til sjekklisteelementer uten å redigere wikisiden",
 	"bs-checklist-config-markasminoredit": "Markere sjekklisteendringer som mindre endringer",
 	"tag-bs-checklist-change": "Sjekklisteendring",
