@@ -58,5 +58,6 @@
 	"bs-checklist-summary-changed": "Selecteerde de waarde \"$2\" in selectievakje #$1",
 	"bs-checklist-tag-checklist-tab-checkbox": "Selectievakje",
 	"bs-checklist-tag-checklist-example-list": "Menu selecteren",
-	"prefs-checklist-sesp-alias": "Controlelijst"
+	"prefs-checklist-sesp-alias": "Controlelijst",
+	"logeventslist-bs-checklist-log": "Logboek vinkvakjes"
 }

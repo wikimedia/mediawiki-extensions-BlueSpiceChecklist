@@ -5,7 +5,8 @@
 			"WikiPhoenix",
 			"Jopparn",
 			"Magol",
-			"Larske"
+			"Larske",
+			"Mjälten"
 		]
 	},
 	"bs-checklist-desc": "Tillhandahåller funktionalitet för checklista",
@@ -49,5 +50,7 @@
 	"bs-checklist-tag-checklist-attr-value-label": "Valt alternativ",
 	"action-checklistmodify": "ändra värden i checklistelement utan att redigera wikisidan",
 	"prefs-checklist-sesp-alias": "Checklista",
-	"prefs-checklist-sesp-desc": "Berättar om ett element i en checklista användes på denna sida"
+	"prefs-checklist-sesp-desc": "Berättar om ett element i en checklista användes på denna sida",
+	"bs-checklist-savelist-error-edit-not-permitted": "Otillräcklig behörighet för att sammanfoga listorna.",
+	"bs-checklist-modified-check": "Modifierade kolllistans värde"
 }
