@@ -40,6 +40,7 @@
 	"log-name-bs-checklist": "Logboek vinkvakjes",
 	"log-description-bs-checklist": "Logboek met wijzigingen in selectievakjes op pagina's.",
 	"log-show-hide-bs-checklist": "Logboek vinkvakjes $1",
+	"logeventslist-bs-checklist-log": "Logboek vinkvakjes",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|heeft}} het selectievakje #$4 op pagina $3 aangevinkt",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|heeft}} het selectievakje #$4 op pagina $3 uitgevinkt",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|heeft geselecteerd}} de waarde van \"$5\" in het selectievak #$4 op pagina $3",
