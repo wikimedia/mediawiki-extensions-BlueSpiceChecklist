@@ -1,6 +1,11 @@
 <?php
 
 class BSApiChecklistAvailableOptionsStore extends BSApiExtJSStoreBase {
+	/**
+	 *
+	 * @param string $sQuery
+	 * @return \stdClass[]
+	 */
 	protected function makeData( $sQuery = '' ) {
 		$aData = [];
 		$dbr = wfGetDB( DB_REPLICA );
