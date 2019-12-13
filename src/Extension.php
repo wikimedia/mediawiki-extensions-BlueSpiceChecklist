@@ -42,6 +42,11 @@ class Extension extends \BlueSpice\Extension {
 	public static $bCheckboxFound = false;
 	public static $iChecklistMaxItemLength = 60;
 
+	/**
+	 *
+	 * @param string $listTitle
+	 * @return array
+	 */
 	public static function getListOptions( $listTitle ) {
 		$aOptions = [];
 		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
@@ -70,7 +75,14 @@ class Extension extends \BlueSpice\Extension {
 		return $aOptions;
 	}
 
-	/*http://www.php.net/manual/en/function.preg-replace.php#112400*/
+	/**
+	 * http://www.php.net/manual/en/function.preg-replace.php#112400
+	 * @param mixed $pattern
+	 * @param mixed $replacement
+	 * @param mixed $subject
+	 * @param int $nth
+	 * @return mixed
+	 */
 	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth = 1 ) {
 		return preg_replace_callback( $pattern,
 			function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
@@ -105,7 +117,8 @@ class Extension extends \BlueSpice\Extension {
 			return true;
 		}
 
-		$extension = \BlueSpice\Services::getInstance()->getBSExtensionFactory()->getExtension( 'BlueSpiceChecklist' );
+		$extension = \BlueSpice\Services::getInstance()->getBSExtensionFactory()
+			->getExtension( 'BlueSpiceChecklist' );
 
 		$oDescriptor = new \stdClass();
 		$oDescriptor->id = 'bs:checklist';
@@ -140,7 +153,8 @@ class Extension extends \BlueSpice\Extension {
 	 * @param PPFrame $frame
 	 * @return type
 	 */
-	public static function onMagicWordBsChecklist( $input, array $args, \Parser $parser, \PPFrame $frame ) {
+	public static function onMagicWordBsChecklist( $input, array $args, \Parser $parser,
+		\PPFrame $frame ) {
 		$parser->disableCache();
 		$parser->getOutput()->setProperty( 'bs-tag-checklist', 1 );
 		self::$bCheckboxFound = true;
@@ -203,6 +217,10 @@ class Extension extends \BlueSpice\Extension {
 		return $sOut;
 	}
 
+	/**
+	 *
+	 * @return int
+	 */
 	protected static function getNewCheckboxId() {
 		self::$iCheckboxCounter++;
 		return self::$iCheckboxCounter;

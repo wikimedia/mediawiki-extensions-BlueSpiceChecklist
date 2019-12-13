@@ -1,7 +1,13 @@
 <?php
 
+use BlueSpice\Api\Response\Standard;
+
 class BSApiChecklistTasks extends BSApiTasksBase {
 
+	/**
+	 *
+	 * @var array
+	 */
 	protected $aTasks = [
 		'doChangeCheckItem' => [
 			'examples' => [
@@ -45,6 +51,10 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		]
 	];
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getRequiredTaskPermissions() {
 		return [
 			'doChangeCheckItem' => [ 'checklistmodify' ],
@@ -52,8 +62,18 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		];
 	}
 
+	/**
+	 *
+	 * @var string
+	 */
 	protected $sTaskLogType = 'bs-checklist';
 
+	/**
+	 *
+	 * @param \stdClass $oTaskData
+	 * @param array $aParams
+	 * @return Standard
+	 */
 	public function task_doChangeCheckItem( $oTaskData, $aParams ) {
 		$oResponse = $this->makeStandardReturn();
 		$iPos = (int)$oTaskData->pos;
@@ -93,7 +113,12 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 
 		$sNewValue .= '" ';
 
-		$sContent = \BlueSpice\Checklist\Extension::preg_replace_nth( "/(<bs:checklist )([^>]*?>)/", "$1" . $sNewValue . "$2", $sContent, $iPos );
+		$sContent = \BlueSpice\Checklist\Extension::preg_replace_nth(
+			"/(<bs:checklist )([^>]*?>)/",
+			"$1" . $sNewValue . "$2",
+			$sContent,
+			$iPos
+		);
 
 		$oContentHandler = $oContent->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
@@ -102,7 +127,15 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$flags = 0;
 		}
-		$oResult = $oWikiPage->doEditContent( $oNewContent, $summary, $flags, false, null, null, [ 'bs-checklist-change' ] );
+		$oResult = $oWikiPage->doEditContent(
+			$oNewContent,
+			$summary,
+			$flags,
+			false,
+			null,
+			null,
+			[ 'bs-checklist-change' ]
+		);
 
 		// Create a log entry for the changes on the checklist values
 		if ( !is_null( $bChecked ) ) {
@@ -128,6 +161,12 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		return $oResponse;
 	}
 
+	/**
+	 *
+	 * @param \stdClass $oTaskData
+	 * @param array $aParams
+	 * @return Standard
+	 */
 	public function task_saveOptionsList( $oTaskData, $aParams ) {
 		$oResponse = $this->makeStandardReturn();
 

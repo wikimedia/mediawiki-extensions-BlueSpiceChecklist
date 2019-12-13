@@ -1,6 +1,11 @@
 <?php
 
 class BSApiChecklistTemplateStore extends BSApiExtJSStoreBase {
+	/**
+	 *
+	 * @param string $sQuery
+	 * @return \stdClass[]
+	 */
 	protected function makeData( $sQuery = '' ) {
 		$aTemplateData = [];
 		$dbr = wfGetDB( DB_REPLICA );

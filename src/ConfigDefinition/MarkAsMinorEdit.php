@@ -4,6 +4,10 @@ namespace BlueSpice\Checklist\ConfigDefinition;
 
 class MarkAsMinorEdit extends \BlueSpice\ConfigDefinition\BooleanSetting {
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_QUALITY_ASSURANCE . '/BlueSpiceChecklist',
@@ -12,6 +16,10 @@ class MarkAsMinorEdit extends \BlueSpice\ConfigDefinition\BooleanSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-checklist-config-markasminoredit';
 	}
