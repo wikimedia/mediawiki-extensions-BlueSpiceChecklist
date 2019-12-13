@@ -29,7 +29,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$this->insertPage( "Test", "<bs:checklist />" );
 	}
 
-	function getTokens() {
+	public function getTokens() {
 		return $this->getTokenList( self::$users[ 'sysop' ] );
 	}
 
@@ -40,6 +40,10 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		parent::tearDown();
 	}
 
+	/**
+	 * @covers \BSApiChecklistTasks::task_doChangeCheckItem
+	 * @return array
+	 */
 	public function testTask_doChangeCheckItem() {
 		$tokens = $this->getTokens();
 
@@ -59,6 +63,10 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		return $data;
 	}
 
+	/**
+	 * @covers \BSApiChecklistTasks::task_saveOptionsList
+	 * @return array
+	 */
 	public function testTask_saveOptionsList() {
 		$tokens = $this->getTokens();
 
