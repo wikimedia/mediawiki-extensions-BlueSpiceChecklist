@@ -4,11 +4,13 @@
 			"Beta16",
 			"Matteocng",
 			"Selven",
-			"Nicole Scalinci"
+			"Nicole Scalinci",
+			"Dansita"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Inserire elenco",
 	"bs-checklist-menu-insert-checkbox": "Casella di controllo",
+	"bs-checklist-menu-insert-no-list-loaded": "Nessuna lista caricata",
 	"bs-checklist-dlg-insert-list-title": "Inserire un elenco di controllo",
 	"bs-checklist-dlg-insert-list-value-list": "Elenco di valori",
 	"bs-checklist-tag-checklist-desc": "Genera una casella di controllo o un menu di selezione. La lista di controllo può essere modificata da vari parametri.",
