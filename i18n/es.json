@@ -8,7 +8,8 @@
 			"AlvaroMolina",
 			"Igv",
 			"Carlosmg.dg",
-			"Mynor Archila"
+			"Mynor Archila",
+			"DannyS712"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",
@@ -52,7 +53,7 @@
 	"bs-tag-checklist": "la etiqueta de lista de comprobación",
 	"bs-checklist-ve-checklistinspector-title": "Lista de verificación",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Comprobado",
-	"right-checklistmodify": "Permite modificar los valores de los elementos de las listas de comprobación sin editar la página del wiki.",
+	"right-checklistmodify": "Modificar los valores de los elementos de las listas de comprobación sin editar la página del wiki.",
 	"prefs-checklist": "Lista de verificación",
 	"prefs-checklist-sesp-alias": "Lista de verificación",
 	"bs-checklist-tag-checklist-tab-checkbox": "Casilla de verificación",
