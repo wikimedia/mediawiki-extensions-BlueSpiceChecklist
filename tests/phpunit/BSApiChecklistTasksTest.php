@@ -58,7 +58,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 			'context' => json_encode( [ 'wgTitle' => 'Test' ] )
 		  ] );
 
-		$this->assertEquals( true, $data[ 0 ][ 'success' ] );
+		$this->assertTrue( $data[ 0 ][ 'success' ] );
 
 		return $data;
 	}
@@ -71,7 +71,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$tokens = $this->getTokens();
 
 		$oTitle = Title::makeTitle( NS_TEMPLATE, 'Test' );
-		$this->assertEquals( false, $oTitle->exists() );
+		$this->assertFalse( $oTitle->exists() );
 
 		$arrRecords = [ 'a', 'b', 'c' ];
 
@@ -85,10 +85,10 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 			] ),
 		  ] );
 
-		$this->assertEquals( true, $data[ 0 ][ 'success' ] );
+		$this->assertTrue( $data[ 0 ][ 'success' ] );
 
 		$oTitleAfter = Title::makeTitle( NS_TEMPLATE, 'Test' );
-		$this->assertEquals( true, $oTitleAfter->exists() );
+		$this->assertTrue( $oTitleAfter->exists() );
 
 		$sContent = WikiPage::newFromID( $oTitleAfter->getArticleID() )->getContent()->getNativeData();
 

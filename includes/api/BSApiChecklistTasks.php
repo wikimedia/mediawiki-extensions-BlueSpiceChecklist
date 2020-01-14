@@ -138,7 +138,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		);
 
 		// Create a log entry for the changes on the checklist values
-		if ( !is_null( $bChecked ) ) {
+		if ( $bChecked !== null ) {
 			if ( $bChecked ) {
 				$this->logTaskAction( 'checked', [
 					'4::position' => $iPos
