@@ -107,45 +107,6 @@ class Extension extends \BlueSpice\Extension {
 	}
 
 	/**
-	 * Inject tags into InsertMagic
-	 * @param Object &$oResponse reference
-	 * @param String $type
-	 * @return always true to keep hook running
-	 */
-	public static function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if ( $type != 'tags' ) {
-			return true;
-		}
-
-		$extension = \BlueSpice\Services::getInstance()->getBSExtensionFactory()
-			->getExtension( 'BlueSpiceChecklist' );
-
-		$oDescriptor = new \stdClass();
-		$oDescriptor->id = 'bs:checklist';
-		$oDescriptor->type = 'tag';
-		$oDescriptor->name = 'checklist';
-		$oDescriptor->desc = wfMessage( 'bs-checklist-tag-checklist-desc' )->text();
-		$oDescriptor->mwvecommand = 'bsChecklistCommand';
-		$oDescriptor->code = '<bs:checklist />';
-		$oDescriptor->mwvecommand = 'checklistCommand';
-		$oDescriptor->previewable = false;
-		$oDescriptor->examples = [
-			[
-				'label' => wfMessage( 'bs-checklist-tag-checklist-example-check' )->text(),
-				'code' => '<bs:checklist type="check" value="checked" />'
-			],
-			[
-				'label' => wfMessage( 'bs-checklist-tag-checklist-example-list' )->text(),
-				'code' => '<bs:checklist type="list" value="false" list="Status" />'
-			],
-		];
-		$oDescriptor->helplink = $extension->getUrl();
-		$oResponse->result[] = $oDescriptor;
-
-		return true;
-	}
-
-	/**
 	 * handle tag "bs:checkbox"
 	 * @param type $input
 	 * @param array $args
