@@ -187,18 +187,4 @@ class Extension extends \BlueSpice\Extension {
 		return self::$iCheckboxCounter;
 	}
 
-	/**
-	 * Register tag with UsageTracker extension
-	 * @param array &$aCollectorsConfig
-	 * @return Always true to keep hook running
-	 */
-	public static function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:checklist'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-checklist'
-			]
-		];
-	}
-
 }
