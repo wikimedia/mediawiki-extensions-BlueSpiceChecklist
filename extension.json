@@ -91,7 +91,7 @@
 		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
 		"BeforePageDisplay": "\\BlueSpice\\Checklist\\Hook\\BeforePageDisplay\\AddResources::callback",
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Hook\\BSInsertMagicAjaxGetData\\AddChecklistTag::callback",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Extension::onBSUsageTrackerRegisterCollectors",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Hook\\BSUsageTrackerRegisterCollectors\\AddChecklistTag::callback",
 		"ListDefinedTags": "\\BlueSpice\\Checklist\\Hook\\ListDefinedTags\\AddChecklistTag::callback",
 		"ChangeTagsListActive": "\\BlueSpice\\Checklist\\Hook\\ChangeTagsListActive\\AddChecklistTag::callback"
 	},
