@@ -43,7 +43,7 @@
 	"apihelp-bs-checklist-tasks-description": "Gir operasjoner for Checklist-utvidelsen",
 	"apihelp-bs-checklist-tasks-summary": "Gir operasjoner for Checklist-utvidelsen",
 	"bs-tag-checklist": "sjekklistetaggen",
-	"action-checklistmodify": "Endr verdiene av sjekklisteelementer uten å redigere wikisiden",
+	"action-checklistmodify": "endre verdiene til sjekklisteelementer uten å redigere wikisiden",
 	"logeventslist-bs-checklist-log": "Avkrysningsbokslogg",
 	"bs-checklist-summary-checked": "Krysset av avkrysningsboks nr. $1",
 	"bs-checklist-summary-unchecked": "Fjernet markering i avkrysningsboks nr. $1",

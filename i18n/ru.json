@@ -9,7 +9,8 @@
 			"Link2xt",
 			"Romanko Mikhail",
 			"Movses",
-			"Марио"
+			"Марио",
+			"BlastingStone"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -43,5 +44,6 @@
 	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
 	"log-name-bs-checklist": "Журнал Checkbox",
 	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
-	"logeventslist-bs-checklist-log": "Журнал Checkbox"
+	"logeventslist-bs-checklist-log": "Журнал Checkbox",
+	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены"
 }
