@@ -81,7 +81,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		$sValue = $oTaskData->value;
+		$sValue = empty( $oTaskData->value ) ? '' : trim( $oTaskData->value );
 		if ( $sValue === '' ) {
 			return $oResponse;
 		}
