@@ -186,7 +186,7 @@ class Extension extends \BlueSpice\Extension {
 					$sSelectColor = "style='color:" . $aOptionSet[1] . ";' ";
 				}
 
-				$sOption = $aOptionSet[0];
+				$sOption = trim( $aOptionSet[0] );
 				$sOut[] = "<option ";
 				if ( isset( $aOptionSet[1] ) ) {
 					$sOut[] = "style='color:" . $aOptionSet[1] . ";' ";
