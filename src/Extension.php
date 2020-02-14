@@ -117,6 +117,7 @@ class Extension extends \BlueSpice\Extension {
 	public static function onMagicWordBsChecklist( $input, array $args, \Parser $parser,
 		\PPFrame $frame ) {
 		$parser->disableCache();
+		$parser->getOutput()->addModules( 'ext.bluespice.checklist.view' );
 		$parser->getOutput()->setProperty( 'bs-tag-checklist', 1 );
 		self::$bCheckboxFound = true;
 		$sOut = [];
