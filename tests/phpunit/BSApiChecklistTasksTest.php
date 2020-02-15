@@ -25,19 +25,11 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$wgGroupPermissions['*']['api'] = true;
 		$wgGroupPermissions['*']['writeapi'] = true;
 		parent::setUp();
-		$this->doLogin();
 		$this->insertPage( "Test", "<bs:checklist />" );
 	}
 
 	public function getTokens() {
 		return $this->getTokenList( self::$users[ 'sysop' ] );
-	}
-
-	/**
-	 * Anything cleanup you need to do should go here.
-	 */
-	protected function tearDown() : void {
-		parent::tearDown();
 	}
 
 	/**
