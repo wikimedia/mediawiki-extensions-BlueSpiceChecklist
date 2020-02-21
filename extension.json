@@ -89,7 +89,6 @@
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
-		"BeforePageDisplay": "\\BlueSpice\\Checklist\\Hook\\BeforePageDisplay\\AddResources::callback",
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Hook\\BSInsertMagicAjaxGetData\\AddChecklistTag::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Hook\\BSUsageTrackerRegisterCollectors\\AddChecklistTag::callback",
 		"ListDefinedTags": "\\BlueSpice\\Checklist\\Hook\\ListDefinedTags\\AddChecklistTag::callback",
@@ -156,11 +155,6 @@
 				"bs-checklist-alert",
 				"bs-checklist-confirm-dirty-title",
 				"bs-checklist-confirm-dirty-text"
-			]
-		},
-		"ext.bluespice.checklist.styles": {
-			"styles": [
-				"bluespice.checklist.css"
 			]
 		}
 	},
