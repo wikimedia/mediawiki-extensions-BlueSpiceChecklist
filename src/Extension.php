@@ -56,7 +56,7 @@ class Extension extends \BlueSpice\Extension {
 			if ( is_object( $oWikiPage ) ) {
 				$sContent = $oWikiPage->getContent()->getNativeData();
 				// Noinclude handling
-				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/ED_GetData.php
+				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/includes/EDGetData.php
 				$sContent = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $sContent );
 				$sContent = strtr( $sContent, [ '<includeonly>' => '', '</includeonly>' => '' ] );
 				$aLines = explode( "\n", trim( $sContent ) );
