@@ -45,7 +45,7 @@ class AddChecklistTag extends BSInsertMagicAjaxGetData {
 	 * @return string
 	 */
 	private function getHelpLink() {
-		return $this->getServices()->getBSExtensionFactory()
+		return $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceChecklist' )->getUrl();
 	}
 
