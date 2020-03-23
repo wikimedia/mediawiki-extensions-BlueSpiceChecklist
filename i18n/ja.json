@@ -4,14 +4,19 @@
 			"Shirayuki",
 			"2nd-player",
 			"Otokoume",
-			"Yusuke1109"
+			"Yusuke1109",
+			"Aefgh39622"
 		]
 	},
 	"bs-checklist-desc": "チェックリストの機能を提供する",
+	"bs-checklist-menu-insert-list-title": "リストを挿入",
 	"bs-checklist-menu-insert-checkbox": "チェックボックス",
+	"bs-checklist-menu-insert-no-list-loaded": "リストが読み込まれていません",
 	"bs-checklist-dlg-insert-list-title": "チェックリストの挿入",
+	"bs-checklist-dlg-insert-list-value-list": "値のリスト",
 	"bs-checklist-tag-checklist-desc": "チェックボックスや選択メニューを生成します。チェックリストは、さまざまなパラメータで変更できます。",
 	"bs-checklist-tag-checklist-example-check": "チェックボックス",
+	"bs-checklist-tag-checklist-example-list": "選択メニュー",
 	"bs-checklist-dlg-new-list": "リストを新規作成",
 	"bs-checklist-dlg-save-list": "リストの変更内容を保存",
 	"bs-checklist-dlg-items-label": "リスト内の項目",
@@ -19,6 +24,7 @@
 	"bs-checklist-dlg-items-hint": "新しい項目を追加するには、上のフィールドに入力して <kbd>Enter</kbd> キーを押してください。",
 	"bs-checklist-dlg-panel-title": "利用可能なリスト",
 	"bs-checklist-dlg-new-title": "リストの新規作成",
+	"bs-checklist-dlg-new-prompt": "リストのタイトルを入力",
 	"bs-checklist-alert": "注意!",
 	"bs-checklist-confirm-dirty-title": "保存していません!",
 	"bs-checklist-confirm-dirty-text": "チェックリストの変更内容をまだ保存していません。変更内容を本当に破棄しますか?",
@@ -27,6 +33,18 @@
 	"log-show-hide-bs-checklist": "チェックボックス記録を$1",
 	"logentry-bs-checklist-checked": "$1 がページ「$3」のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
 	"logentry-bs-checklist-unchecked": "$1 がページ「$3」のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}",
+	"bs-checklist-savelist-error-invalid-title": "指定したリストは無効です",
+	"bs-checklist-savelist-error-edit-not-permitted": "リストを保存するための権限が不十分です",
+	"bs-checklist-update-list": "更新されたリスト",
+	"apihelp-bs-checklist-tasks-description": "Checklist 拡張機能の操作を提供します",
+	"apihelp-bs-checklist-tasks-summary": "Checklist 拡張機能の操作を提供します",
+	"bs-tag-checklist": "チェックリストタグ",
+	"bs-checklist-ve-checklistinspector-title": "チェックリスト",
+	"bs-checklist-ve-checklistinspector-cb-checked": "チェック済み",
 	"right-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更",
-	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス"
+	"prefs-checklist": "チェックリスト",
+	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス",
+	"bs-checklist-tag-checklist-tab-list": "リスト",
+	"bs-checklist-tag-checklist-attr-list-label": "オプションリスト",
+	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション"
 }
