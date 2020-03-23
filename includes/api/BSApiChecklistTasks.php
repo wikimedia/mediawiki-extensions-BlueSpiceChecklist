@@ -177,7 +177,9 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		if ( !$oTitle->userCan( 'edit' ) ) {
+		if ( !\MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+			->userCan( 'edit', $this->getUser(), $oTitle )
+		) {
 			$oResponse->message = wfMessage( "bs-checklist-savelist-error-edit-not-permitted" )->plain();
 			return $oResponse;
 		}
