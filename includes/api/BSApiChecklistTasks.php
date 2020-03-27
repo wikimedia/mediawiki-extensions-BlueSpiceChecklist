@@ -1,6 +1,7 @@
 <?php
 
 use BlueSpice\Api\Response\Standard;
+use BlueSpice\Checklist\Extension as Checklist;
 
 class BSApiChecklistTasks extends BSApiTasksBase {
 
@@ -13,7 +14,8 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			'examples' => [
 				[
 					'pos' => '2',
-					'value' => 'true'
+					'value' => 'true',
+					'type' => 'check'
 				]
 			],
 			'params' => [
@@ -24,6 +26,11 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 				],
 				'value' => [
 					'desc' => 'Value of checkbox in form of "true"/"false"',
+					'type' => 'string',
+					'required' => true
+				],
+				'type' => [
+					'desc' => 'Type of the checklist: list or check',
 					'type' => 'string',
 					'required' => true
 				]
@@ -81,9 +88,11 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		$sValue = empty( $oTaskData->value ) ? '' : trim( $oTaskData->value );
-		if ( $sValue === '' ) {
-			return $oResponse;
+		$type = property_exists( $oTaskData, 'type' ) ? $oTaskData->type : 'check';
+		$value = property_exists( $oTaskData, 'value' ) ? $oTaskData->value : '';
+
+		if ( $type === 'check' ) {
+			$value = (bool)$value;
 		}
 
 		$sArticleId = $this->getTitle()->getArticleID();
@@ -95,27 +104,12 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$oContent = $oWikiPage->getContent();
 		$sContent = $oContent->getNativeData();
 
-		$bChecked = null;
-		// Maybe a sanity-check is just enough here
-		$sNewValue = 'value="';
-		if ( $sValue === true ) {
-			$sNewValue .= "checked";
-			$summary = wfMessage( "bs-checklist-summary-checked", $iPos )->plain();
-			$bChecked = true;
-		} elseif ( $sValue === false ) {
-			$bChecked = false;
-			$sNewValue .= "";
-			$summary = wfMessage( "bs-checklist-summary-unchecked", $iPos )->plain();
-		} else {
-			$sNewValue .= $sValue;
-			$summary = wfMessage( "bs-checklist-summary-changed", $iPos, $sValue )->plain();
-		}
+		$newValue = $this->getNewValue( $value, $type );
+		$summary = $this->getSummary( $value, $type, $iPos );
 
-		$sNewValue .= '" ';
-
-		$sContent = \BlueSpice\Checklist\Extension::preg_replace_nth(
+		$sContent = Checklist::preg_replace_nth(
 			"/(<bs:checklist )([^>]*?>)/",
-			"$1" . $sNewValue . "$2",
+			"$1" . $newValue . "$2",
 			$sContent,
 			$iPos
 		);
@@ -127,7 +121,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$flags = 0;
 		}
-		$oResult = $oWikiPage->doEditContent(
+		$oWikiPage->doEditContent(
 			$oNewContent,
 			$summary,
 			$flags,
@@ -138,8 +132,9 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		);
 
 		// Create a log entry for the changes on the checklist values
-		if ( $bChecked !== null ) {
-			if ( $bChecked ) {
+
+		if ( $type === 'check' ) {
+			if ( $value ) {
 				$this->logTaskAction( 'checked', [
 					'4::position' => $iPos
 				] );
@@ -151,7 +146,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$this->logTaskAction( 'selected', [
 					'4::position' => $iPos,
-					'5::selected' => $sValue
+					'5::selected' => $value
 			] );
 		}
 
@@ -205,4 +200,40 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		return $oResponse;
 	}
 
+	/**
+	 * @param string|bool $value
+	 * @param string $type
+	 * @return string
+	 */
+	protected function getNewValue( $value, $type ) {
+		if ( $type === 'check' ) {
+			return "checked=\"" . ( $value ? 'true' : 'false' ) . "\" ";
+		}
+		if ( $type === 'list' ) {
+			return "value=\"$value\" ";
+		}
+
+		return '';
+	}
+
+	/**
+	 * @param string|bool $value
+	 * @param string $type
+	 * @param int $pos
+	 * @return string
+	 */
+	protected function getSummary( $value, $type, $pos ) {
+		if ( $type === 'check' ) {
+			if ( $value ) {
+				return wfMessage( "bs-checklist-summary-checked", $pos )->plain();
+			} else {
+				return wfMessage( "bs-checklist-summary-unchecked", $pos )->plain();
+			}
+		}
+		if ( $type === 'list' ) {
+			return wfMessage( "bs-checklist-summary-changed", $pos, $value )->plain();
+		}
+
+		return '';
+	}
 }
