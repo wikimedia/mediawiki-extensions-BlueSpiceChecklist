@@ -36,6 +36,9 @@
 
 namespace BlueSpice\Checklist;
 
+use Title;
+use WikiPage;
+
 class Extension extends \BlueSpice\Extension {
 
 	public static $iCheckboxCounter = 0;
@@ -48,31 +51,32 @@ class Extension extends \BlueSpice\Extension {
 	 * @return array
 	 */
 	public static function getListOptions( $listTitle ) {
-		$aOptions = [];
-		$oTitle = \Title::newFromText( $listTitle, NS_TEMPLATE );
-		// echo $args['list']." ".$oTitle->getArticleID();
-		if ( is_object( $oTitle ) ) {
-			$oWikiPage = \WikiPage::newFromID( $oTitle->getArticleID() );
-			if ( is_object( $oWikiPage ) ) {
-				$sContent = $oWikiPage->getContent()->getNativeData();
+		$options = [];
+
+		$title = Title::newFromText( $listTitle, NS_TEMPLATE );
+		if ( $title instanceof Title && $title->exists() ) {
+			$wikipage = WikiPage::newFromID( $title->getArticleID() );
+			if ( $wikipage instanceof WikiPage ) {
+				$content = $wikipage->getContent()->getNativeData();
 				// Noinclude handling
 				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/ED_GetData.php
-				$sContent = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $sContent );
-				$sContent = strtr( $sContent, [ '<includeonly>' => '', '</includeonly>' => '' ] );
-				$aLines = explode( "\n", trim( $sContent ) );
-				foreach ( $aLines as $sLine ) {
-					if ( strpos( $sLine, '*' ) !== 0 ) {
+				$content = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $content );
+				$content = strtr( $content, [ '<includeonly>' => '', '</includeonly>' => '' ] );
+
+				$lines = explode( "\n", trim( $content ) );
+				foreach ( $lines as $line ) {
+					if ( strpos( $line, '*' ) !== 0 ) {
 						return [];
 					}
-					if ( strlen( $sLine ) > self::$iChecklistMaxItemLength ) {
+					if ( strlen( $line ) > self::$iChecklistMaxItemLength ) {
 						return [];
 					}
-					$sNewLine = trim( substr( $sLine, 1 ) );
-					$aOptions[] = $sNewLine;
+					$newLine = trim( substr( $line, 1 ) );
+					$options[] = $newLine;
 				}
 			}
 		}
-		return $aOptions;
+		return $options;
 	}
 
 	/**
@@ -88,7 +92,8 @@ class Extension extends \BlueSpice\Extension {
 			function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
 					$nth--;
 					if ( $nth == 0 ) {
-						$sResult = preg_replace( '/value=".*?" /', '', reset( $found ) );
+						$sResult = preg_replace( '/value=".*?"(\s*|)/', '', reset( $found ) );
+						$sResult = preg_replace( '/checked=".*?"(\s*|)/', '', $sResult );
 						$sResult = preg_replace( $pattern, $replacement, $sResult );
 						return $sResult;
 					}

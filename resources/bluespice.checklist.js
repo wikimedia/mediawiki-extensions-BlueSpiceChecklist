@@ -33,7 +33,8 @@ BsChecklist = {
 
 		bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
 			pos: id,
-			value: elem.checked
+			value: elem.checked,
+			type: 'check'
 		});
 	},
 
@@ -45,7 +46,8 @@ BsChecklist = {
 
 		bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
 			pos: id,
-			value: $( '#'+elem.id ).find( ":selected" ).text()
+			value: $( '#'+elem.id ).find( ":selected" ).text(),
+			type: 'list'
 		});
 	},
 
