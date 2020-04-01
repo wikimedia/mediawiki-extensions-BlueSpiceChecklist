@@ -51,7 +51,7 @@
 	"bs-tag-checklist": "тег контрольного списку",
 	"bs-checklist-ve-checklistinspector-title": "Контрольний список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Позначено",
-	"right-checklistmodify": "змінювання значень елементів контрольного списку без редагування вікісторінки",
+	"right-checklistmodify": "Зміна значень елементів контрольного списку без редагування вікісторінки",
 	"bs-checklist-config-markasminoredit": "Позначати зміни в контрольному списку як незначні редагування",
 	"tag-bs-checklist-change": "Зміна контрольного списку",
 	"tag-bs-checklist-change-description": "Користувач змінив галочку або значення поля вибору на сторінці",
@@ -63,7 +63,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Вибирає конкретний список опцій. Списки можна створювати в просторі шаблонів шляхом створення сторінки з маркованим списком.",
 	"bs-checklist-tag-checklist-attr-value-label": "Вибрана опція",
 	"bs-checklist-tag-checklist-attr-value-help": "Вибирає конкретні опції зі списку вгорі.",
-	"action-checklistmodify": "змінювання значень елементів контрольного списку без редагування вікісторінки",
+	"action-checklistmodify": "зміну значень елементів контрольного списку без редагування вікісторінки",
 	"prefs-checklist-sesp-alias": "Контрольний список",
 	"prefs-checklist-sesp-desc": "Показує, чи елемент контрольного списку використаний на цій сторінці"
 }

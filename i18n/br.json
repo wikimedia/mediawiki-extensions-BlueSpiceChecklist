@@ -21,5 +21,6 @@
 	"bs-checklist-dlg-new-prompt": "Lakaat titl ur roll",
 	"bs-checklist-alert": "Diwallit !",
 	"bs-checklist-confirm-dirty-title": "Cheñchamantoù n'int ket bet enrollet !",
-	"bs-checklist-confirm-dirty-text": "Kemmoù ho peus graet d'ar roll-gwiriañ ha n'int ket bet enrollet c'hoazh. Ha sur oc'h e fell deoc'h disteurel ar c'hemmoù ?"
+	"bs-checklist-confirm-dirty-text": "Kemmoù ho peus graet d'ar roll-gwiriañ ha n'int ket bet enrollet c'hoazh. Ha sur oc'h e fell deoc'h disteurel ar c'hemmoù ?",
+	"bs-checklist-modified-check": "Talvoud ar roll gwiriañ bet kemmet"
 }
