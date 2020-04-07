@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente",
 			"Diniscoelho",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
 		]
 	},
 	"bs-checklist-desc": "Fornece funcionalidade de criação de listas de verificação",

@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Elodark",
 			"Gomoko",
 			"Jean-Frédéric",
-			"Elodark",
 			"Ltrlg",
-			"Wladek92",
-			"Trial",
 			"Thibaut120094",
-			"Verdy p"
+			"Trial",
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"bs-checklist-desc": "Fournit une fonctionnalité de liste de vérification",

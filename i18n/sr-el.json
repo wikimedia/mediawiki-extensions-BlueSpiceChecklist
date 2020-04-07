@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-checklist-desc": "Pruža funkcionalnost kontrolne liste",
 	"bs-checklist-button-checkbox-title": "Elementi kontrolne liste",
 	"bs-checklist-menu-insert-list-title": "Unesi spisak",

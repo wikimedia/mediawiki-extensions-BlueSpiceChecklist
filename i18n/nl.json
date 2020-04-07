@@ -1,20 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"SPQRobin",
 			"Esketti",
-			"Siebrand",
-			"Sjoerddebruin",
-			"Jeleniccz",
 			"Festina90",
-			"Mar(c)",
-			"Patio",
+			"Jeleniccz",
+			"Klaas van Buiten",
 			"KlaasZ4usV",
-			"Optilete",
-			"Ndecouck",
 			"Mainframe98",
+			"Mar(c)",
+			"Ndecouck",
+			"Optilete",
+			"Patio",
 			"Rots61",
-			"Klaas van Buiten"
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-checklist-desc": "Biedt checklistfunctionaliteit",
