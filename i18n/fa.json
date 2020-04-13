@@ -26,6 +26,7 @@
 	"bs-checklist-dlg-new-prompt": "واردکردن نام فهرست",
 	"bs-checklist-alert": "هشدار!",
 	"bs-checklist-confirm-dirty-title": "تغییرات ذخیره‌نشده!",
+	"bs-checklist-savelist-error-invalid-title": "عنوان نامعتبری برگزیده شده است",
 	"bs-checklist-update-list": "فهرست روزآمد",
 	"bs-checklist-ve-checklistinspector-title": "بازبینه",
 	"bs-checklist-ve-checklistinspector-cb-checked": "بازبینی‌شده",
