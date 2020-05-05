@@ -6,6 +6,8 @@
 	},
 	"bs-checklist-menu-insert-list-title": "Indsæt liste",
 	"bs-checklist-dlg-insert-list-value-list": "Værdiliste",
+	"bs-checklist-dlg-new-list": "Opret en ny liste",
+	"bs-checklist-dlg-save-list": "Gem ændringer til listen",
 	"bs-checklist-dlg-panel-title": "Tilgengælige lister",
 	"bs-checklist-dlg-new-prompt": "Indtast en listetitel",
 	"bs-checklist-confirm-dirty-title": "Ugemte ændringer!",
