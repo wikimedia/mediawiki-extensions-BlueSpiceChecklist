@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Ата",
-			"Shirayuki",
-			"Markus Glaser <glaser@hallowelt.biz>",
 			"Liuxinyu970226",
-			"Umherirrender",
+			"Markus Glaser <glaser@hallowelt.biz>",
 			"Mglaser",
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Umherirrender",
 			"Wladek92",
-			"Robby"
+			"Ата"
 		]
 	},
 	"bs-checklist-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of checklist extension",

@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
-			"Striking Blue",
+			"BlastingStone",
 			"Happy13241",
-			"Vlad5250",
 			"Link2xt",
-			"Romanko Mikhail",
 			"Movses",
-			"Марио",
-			"BlastingStone"
+			"Okras",
+			"Romanko Mikhail",
+			"Striking Blue",
+			"Vlad5250",
+			"Марио"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",

@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"ProtoplasmaKid",
 			"AVIADOR",
-			"Fitoschido",
+			"Agusbou2015",
 			"AlvaroMolina",
-			"Igv",
 			"Carlosmg.dg",
-			"Mynor Archila",
 			"DannyS712",
-			"Agusbou2015"
+			"Fitoschido",
+			"Igv",
+			"Macofe",
+			"Mynor Archila",
+			"ProtoplasmaKid"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",

@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
-			"Reza1615",
-			"Dalba",
 			"Amirsara",
-			"FarsiNevis"
+			"Dalba",
+			"FarsiNevis",
+			"Reza1615"
 		]
 	},
 	"bs-checklist-desc": "قابلیت فهرست بازبینی را فراهم می‌کند",
@@ -33,5 +33,6 @@
 	"prefs-checklist": "بازبینه",
 	"prefs-checklist-sesp-alias": "بازبینه",
 	"bs-checklist-tag-checklist-attr-list-label": "فهرست گزینه‌ها",
-	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده"
+	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده",
+	"bs-checklist-savelist-error-invalid-title": "عنوان نامعتبری برگزیده شده است"
 }
