@@ -63,5 +63,7 @@
 	"prefs-checklist-sesp-alias": "Lista de verificación",
 	"action-checklistmodify": "modificar los valores de los elementos de la lista de control sin editar la página wiki",
 	"bs-checklist-config-markasminoredit": "Marcar los cambios de la lista de comprobación como edición menor",
-	"tag-bs-checklist-change": "Cambio de la lista de control"
+	"tag-bs-checklist-change": "Cambio de la lista de control",
+	"bs-checklist-summary-checked": "Casilla marcada n.º $1",
+	"bs-checklist-summary-unchecked": "Casilla desmarcada n.º $1"
 }
