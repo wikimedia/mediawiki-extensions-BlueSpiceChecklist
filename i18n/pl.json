@@ -4,7 +4,8 @@
 			"Chrumps",
 			"InternerowyGołąb",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"WaldiSt"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Wstaw listę",
@@ -12,9 +13,11 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Żadna lista nie została załadowana",
 	"bs-checklist-dlg-insert-list-value-list": "Lista wartości",
 	"bs-checklist-tag-checklist-example-check": "Pole wyboru",
+	"bs-checklist-tag-checklist-example-list": "Wybierz menu",
 	"bs-checklist-dlg-new-list": "Utwórz nową listę",
 	"bs-checklist-dlg-save-list": "Zapisz zmiany na liście",
 	"bs-checklist-dlg-items-label": "Elementy na liście",
+	"bs-checklist-dlg-items-emptytext": "Brak pozycji na tej liście",
 	"bs-checklist-dlg-panel-title": "Dostępne listy",
 	"bs-checklist-dlg-new-title": "Dodaj nową listę",
 	"bs-checklist-dlg-new-prompt": "Wprowadź tytuł listy",
