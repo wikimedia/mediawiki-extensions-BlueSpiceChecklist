@@ -4,7 +4,8 @@
 			"Chrumps",
 			"InternerowyGołąb",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"WaldiSt"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Wstaw listę",
@@ -25,5 +26,7 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Pole wyboru",
 	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja",
 	"action-checklistmodify": "modyfikowania wartości elementów list bez edytowania stron wiki",
-	"right-checklistmodify": "Modyfikowanie wartości elementów list bez edytowania stron wiki"
+	"right-checklistmodify": "Modyfikowanie wartości elementów list bez edytowania stron wiki",
+	"bs-checklist-tag-checklist-example-list": "Wybierz menu",
+	"bs-checklist-dlg-items-emptytext": "Brak pozycji na tej liście"
 }
