@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"2nd-player",
+			"A2y4",
 			"Aefgh39622",
 			"Otokoume",
 			"Shirayuki",
@@ -43,6 +44,7 @@
 	"bs-checklist-ve-checklistinspector-cb-checked": "チェック済み",
 	"right-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更",
 	"prefs-checklist": "チェックリスト",
+	"prefs-checklist-sesp-alias": "チェックリスト",
 	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス",
 	"bs-checklist-tag-checklist-tab-list": "リスト",
 	"bs-checklist-tag-checklist-attr-list-label": "オプションリスト",
