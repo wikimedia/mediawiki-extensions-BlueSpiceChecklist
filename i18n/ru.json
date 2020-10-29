@@ -4,6 +4,7 @@
 			"Alexandr Efremov",
 			"BlastingStone",
 			"Happy13241",
+			"Kareyac",
 			"Link2xt",
 			"Movses",
 			"Okras",
@@ -45,5 +46,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
+	"prefs-checklist-sesp-alias": "Контрольный список"
 }
