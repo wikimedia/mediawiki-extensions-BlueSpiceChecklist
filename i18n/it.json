@@ -5,7 +5,8 @@
 			"Dansita",
 			"Matteocng",
 			"Nicole Scalinci",
-			"Selven"
+			"Selven",
+			"TheRukk"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Inserire elenco",
@@ -34,6 +35,7 @@
 	"bs-checklist-ve-checklistinspector-title": "Checklist",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Selezionato",
 	"prefs-checklist": "Checklist",
+	"prefs-checklist-sesp-alias": "Elenco di controllo",
 	"bs-checklist-tag-checklist-tab-checkbox": "Casella di controllo",
 	"bs-checklist-tag-checklist-tab-list": "Elenco",
 	"bs-checklist-tag-checklist-attr-checked-help": "Se impostato, la casella di controllo appare selezionata",
