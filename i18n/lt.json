@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Tomasdd"
 		]
 	},
 	"bs-checklist-desc": "Suteikia kontrolinio sąrašo funkciją",
@@ -27,8 +28,8 @@
 	"log-name-bs-checklist": "Langelio žurnalas",
 	"log-description-bs-checklist": "Langelių puslapiuose pakeitimų žurnalas.",
 	"log-show-hide-bs-checklist": "$1 langelio žurnalą",
-	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|pažymėjo}} langelį #$4, $3",
-	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|atžymėjo}} langelį #$4, $3",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|pažymėjo}} langelį #$4, $3 puslapyje",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|atžymėjo}} langelį #$4, $3 puslapyje",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|pasirinko}} reikšmę „$5“ pasirinkimų langelyje #$4, $3",
 	"bs-checklist-savelist-error-invalid-title": "Nurodytas neleistinas pavadinimas",
 	"bs-checklist-savelist-error-edit-not-permitted": "Nepakanka teisių sąrašui išsaugoti.",
