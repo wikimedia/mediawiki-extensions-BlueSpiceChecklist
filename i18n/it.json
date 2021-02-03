@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"Dansita",
 			"Matteocng",
-			"Selven",
 			"Nicole Scalinci",
-			"Dansita"
+			"Selven",
+			"TheRukk"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Inserire elenco",
@@ -39,5 +40,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
 	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
-	"bs-checklist-menu-insert-no-list-loaded": "Nessuna lista caricata"
+	"bs-checklist-menu-insert-no-list-loaded": "Nessuna lista caricata",
+	"prefs-checklist-sesp-alias": "Elenco di controllo"
 }

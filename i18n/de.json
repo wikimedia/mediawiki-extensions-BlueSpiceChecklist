@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Markus Glaser <glaser@hallowelt.biz>",
-			"Osnard",
-			"Metalhead64",
 			"Hwboehm",
-			"Mglaser"
+			"Markus Glaser <glaser@hallowelt.biz>",
+			"Metalhead64",
+			"Mglaser",
+			"Osnard",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-checklist-desc": "Ermöglicht das Erstellen von Checklisten",

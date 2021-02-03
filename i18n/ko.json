@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라",
-			"Hwangjy9",
-			"Ykhwong",
-			"Nuevo Paso",
+			"Comjun04",
 			"Garam",
-			"Comjun04"
+			"Hwangjy9",
+			"Nuevo Paso",
+			"Ykhwong",
+			"아라"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "리스트 삽입",
@@ -54,5 +54,6 @@
 	"bs-checklist-confirm-dirty-title": "변경사항이 저장되지 않았습니다!",
 	"bs-tag-checklist": "체크리스트 태그",
 	"action-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정합니다",
-	"prefs-checklist-sesp-alias": "체크리스트"
+	"prefs-checklist-sesp-alias": "체크리스트",
+	"bs-checklist-savelist-error-edit-not-permitted": "목록을 저장할 권한이 부족합니다"
 }

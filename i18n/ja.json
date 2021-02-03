@@ -1,16 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
 			"2nd-player",
+			"A2y4",
+			"Aefgh39622",
 			"Otokoume",
+			"Shirayuki",
 			"Yusuke1109"
 		]
 	},
 	"bs-checklist-desc": "チェックリストの機能を提供する",
 	"bs-checklist-menu-insert-checkbox": "チェックボックス",
 	"bs-checklist-dlg-insert-list-title": "チェックリストの挿入",
-	"bs-checklist-tag-checklist-desc": "チェックボックスや選択メニューを生成します。チェックリストは、さまざまなパラメータで変更できます。",
+	"bs-checklist-tag-checklist-desc": "チェックボックスや選択メニューを生成します。チェックリストは、さまざまなパラメーターで変更できます。",
 	"bs-checklist-tag-checklist-example-check": "チェックボックス",
 	"bs-checklist-dlg-new-list": "リストを新規作成",
 	"bs-checklist-dlg-save-list": "リストの変更内容を保存",
@@ -28,5 +30,23 @@
 	"logentry-bs-checklist-checked": "$1 がページ「$3」のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
 	"logentry-bs-checklist-unchecked": "$1 がページ「$3」のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}",
 	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス",
-	"right-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更"
+	"right-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更",
+	"bs-checklist-menu-insert-list-title": "リストを挿入",
+	"bs-checklist-menu-insert-no-list-loaded": "リストが読み込まれていません",
+	"bs-checklist-dlg-insert-list-value-list": "値のリスト",
+	"bs-checklist-tag-checklist-example-list": "選択メニュー",
+	"bs-checklist-dlg-new-prompt": "リストのタイトルを入力",
+	"bs-checklist-savelist-error-invalid-title": "指定したリストは無効です",
+	"bs-checklist-savelist-error-edit-not-permitted": "リストを保存するための権限が不十分です",
+	"bs-checklist-update-list": "更新されたリスト",
+	"apihelp-bs-checklist-tasks-description": "Checklist 拡張機能の操作を提供します",
+	"apihelp-bs-checklist-tasks-summary": "Checklist 拡張機能の操作を提供します",
+	"bs-tag-checklist": "チェックリストタグ",
+	"bs-checklist-ve-checklistinspector-title": "チェックリスト",
+	"bs-checklist-ve-checklistinspector-cb-checked": "チェック済み",
+	"prefs-checklist": "チェックリスト",
+	"prefs-checklist-sesp-alias": "チェックリスト",
+	"bs-checklist-tag-checklist-tab-list": "リスト",
+	"bs-checklist-tag-checklist-attr-list-label": "オプションリスト",
+	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション"
 }

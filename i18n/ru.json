@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
-			"Striking Blue",
+			"BlastingStone",
 			"Happy13241",
-			"Vlad5250",
+			"Kareyac",
 			"Link2xt",
-			"Romanko Mikhail",
 			"Movses",
-			"Марио",
-			"BlastingStone"
+			"Okras",
+			"Romanko Mikhail",
+			"Striking Blue",
+			"Vlad5250",
+			"Марио"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -45,5 +46,6 @@
 	"log-name-bs-checklist": "Журнал Checkbox",
 	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
 	"logeventslist-bs-checklist-log": "Журнал Checkbox",
-	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены"
+	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены",
+	"prefs-checklist-sesp-alias": "Контрольный список"
 }

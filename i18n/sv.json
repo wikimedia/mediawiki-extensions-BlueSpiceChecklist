@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lokal Profil",
-			"WikiPhoenix",
 			"Jopparn",
-			"Magol",
 			"Larske",
-			"Mjälten"
+			"Lokal Profil",
+			"Magol",
+			"Mjälten",
+			"WikiPhoenix"
 		]
 	},
 	"bs-checklist-desc": "Tillhandahåller funktionalitet för checklista",
