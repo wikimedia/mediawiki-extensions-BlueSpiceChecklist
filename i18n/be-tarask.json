@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"W"
+		]
+	},
+	"bs-checklist-menu-insert-list-title": "Уставіць сьпіс",
+	"bs-checklist-dlg-new-list": "Стварыць новы сьпіс",
+	"bs-checklist-dlg-panel-title": "Даступныя сьпісы",
+	"bs-checklist-dlg-new-title": "Дадаць новы сьпіс",
+	"bs-checklist-dlg-new-prompt": "Увесьці загаловак сьпіса",
+	"bs-checklist-update-list": "Абноўлены сьпіс",
+	"bs-checklist-tag-checklist-tab-list": "Сьпіс"
+}
