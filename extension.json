@@ -80,7 +80,7 @@
 		]
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\Checklist\\" : "src/"
+		"BlueSpice\\Checklist\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BSApiChecklistAvailableOptionsStore": "includes/api/BSApiChecklistAvailableOptionsStore.php",
