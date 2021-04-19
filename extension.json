@@ -17,11 +17,11 @@
 			"Extensions": {
 				"BlueSpiceChecklist": {
 					"className": "\\BlueSpice\\Checklist\\Extension",
-					"extPath": "/BlueSpiceChecklist",
-					"configDefinitions": {
-						"ChecklistMarkAsMinorEdit": "\\BlueSpice\\Checklist\\ConfigDefinition\\MarkAsMinorEdit::getInstance"
-					}
+					"extPath": "/BlueSpiceChecklist"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"ChecklistMarkAsMinorEdit": "\\BlueSpice\\Checklist\\ConfigDefinition\\MarkAsMinorEdit::getInstance"
 			},
 			"PermissionRegistry": {
 				"checklistmodify": {
