@@ -91,7 +91,7 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth = 1 ) {
 		return preg_replace_callback( $pattern,
-			function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
+			static function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
 					$nth--;
 					if ( $nth == 0 ) {
 						$sResult = preg_replace( '/value=".*?"(\s*|)/', '', reset( $found ) );
