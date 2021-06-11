@@ -6,6 +6,7 @@
 			"Amirsara",
 			"Dalba",
 			"FarsiNevis",
+			"Jeeputer",
 			"Reza1615"
 		]
 	},
@@ -35,5 +36,29 @@
 	"prefs-checklist-sesp-alias": "بازبینه",
 	"bs-checklist-tag-checklist-tab-list": "فهرست",
 	"bs-checklist-tag-checklist-attr-list-label": "فهرست گزینه‌ها",
-	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده"
+	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده",
+	"bs-checklist-menu-insert-no-list-loaded": "فهرستی دریافت نشد",
+	"bs-checklist-dlg-items-hint": "برای افزودن یک آیتم جدید، در جعبهٔ بالا تایپ کنید و سپس <kbd>Enter</kbd> را بفشارید.",
+	"bs-checklist-confirm-dirty-text": "تغییراتی که در فهرست بررسی انجام دادید هنوز ذخیره نشده‌اند. آیا از صرف نظر کردن از این تغییرات مطمئن هستید؟",
+	"log-name-bs-checklist": "سیاههٔ فهرست بررسی",
+	"log-description-bs-checklist": "سیاههٔ تغییرات در جعبه‌های بررسی در صفحه‌ها",
+	"log-show-hide-bs-checklist": "$1 سیاههٔ جعبهٔ بررسی",
+	"logeventslist-bs-checklist-log": "سیاههٔ جعبهٔ بررسی",
+	"logentry-bs-checklist-checked": "$1 جعبهٔ بررسی شمارهٔ $4 در صفحهٔ $3 را {{GENDER:$2|بررسی کرد}}",
+	"logentry-bs-checklist-unchecked": "$1 جعبهٔ بررسی شمارهٔ $4 در صفحهٔ $3 را {{GENDER:$2|غیر فعال کرد}}",
+	"logentry-bs-checklist-selected": "$1 مقدار «$5» را برای جعبه انتخاب شمارهٔ $4 در صفحهٔ $3 {{GENDER:$2|انتخاب کرد}}",
+	"bs-checklist-savelist-error-edit-not-permitted": "مجوزهای ناکافی برای ذخیرهٔ فهرست",
+	"bs-checklist-modified-check": "مقدار تغییریافتهٔ فهرست بررسی",
+	"bs-checklist-summary-checked": "جعبه بررسی شمارهٔ $1 فعال شد",
+	"bs-checklist-summary-unchecked": "جعبه بررسی شمارهٔ $1 غیرفعال شد",
+	"bs-checklist-summary-changed": "مقدار «$2» در جعبه انتخاب شمارهٔ $1 انتخاب شد",
+	"bs-tag-checklist": "برچسب فهرست بررسی",
+	"action-checklistmodify": "مقدار آیتم‌های فهرست بررسی را بدون ویرایش صفحهٔ ویکی تغییر دهید",
+	"right-checklistmodify": "مقدار آیتم‌های فهرست بررسی را بدون ویرایش صفحهٔ ویکی تغییر دهید",
+	"bs-checklist-config-markasminoredit": "علامت‌زده تغییرات فهرست بررسی به‌عنوان ویرایش جزئی",
+	"tag-bs-checklist-change": "تغییر در فهرست بررسی",
+	"tag-bs-checklist-change-description": "کاربر مقدار یک جعبه بررسی یا جعبه انتخاب در صفحه را تغییر داد",
+	"bs-checklist-tag-checklist-tab-checkbox": "جعبهٔ بررسی",
+	"bs-checklist-tag-checklist-attr-checked-help": "اگر تنظیم شود، جعبهٔ بررسی فعال می‌شود",
+	"bs-checklist-tag-checklist-attr-value-help": "گزینه‌های مشخصی را از فهرست بالا انتخاب می‌کند."
 }
