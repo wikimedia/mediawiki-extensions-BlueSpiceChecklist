@@ -63,5 +63,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Option list",
 	"bs-checklist-tag-checklist-attr-list-help": "Selects a specific options list. Lists can be created in Template namespace by creating a page with a bullet list.",
 	"bs-checklist-tag-checklist-attr-value-label": "Selected option",
-	"bs-checklist-tag-checklist-attr-value-help": "Selects a specific options from the above list."
+	"bs-checklist-tag-checklist-attr-value-help": "Selects a specific options from the above list.",
+	"bs-checklist-config-markasminoredit-help": "Activated: Changes to a checklist in view mode are versioned as minor edits. Inactive: Changes to a checklist in view mode are versioned as normal edits."
 }

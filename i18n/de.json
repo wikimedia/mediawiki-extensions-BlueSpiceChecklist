@@ -67,5 +67,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Optionsliste",
 	"bs-checklist-tag-checklist-attr-list-help": "Wählt eine Liste mit Optionen aus. Listen können im Vorlagen-Namensraum erstellt werden, indem man eine Seite mit einer Aufzählungsliste erzeugt.",
 	"bs-checklist-tag-checklist-attr-value-label": "Gewählte Option",
-	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus."
+	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus.",
+	"bs-checklist-config-markasminoredit-help": "Aktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als kleine Änderung versioniert. Deaktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als normale Änderung versioniert."
 }
