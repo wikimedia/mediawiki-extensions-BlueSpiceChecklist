@@ -23,4 +23,12 @@ class MarkAsMinorEdit extends \BlueSpice\ConfigDefinition\BooleanSetting {
 	public function getLabelMessageKey() {
 		return 'bs-checklist-config-markasminoredit';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-checklist-config-markasminoredit-help';
+	}
 }
