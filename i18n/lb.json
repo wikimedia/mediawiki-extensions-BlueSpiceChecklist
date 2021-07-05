@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Les Meloures",
 			"Robby"
 		]
 	},
@@ -17,7 +18,7 @@
 	"bs-checklist-dlg-items-label": "Elementer an der Lëscht",
 	"bs-checklist-dlg-items-emptytext": "Keng Elementer an dëser Lëscht",
 	"bs-checklist-dlg-panel-title": "Disponibel Lëschten",
-	"bs-checklist-dlg-new-title": "Nei Lëscht dobäisetzen",
+	"bs-checklist-dlg-new-title": "Nei Lëscht derbäisetzen",
 	"bs-checklist-dlg-new-prompt": "En Titel vun enger Lëscht aginn",
 	"bs-checklist-alert": "Opgepasst!",
 	"bs-checklist-confirm-dirty-title": "Net-gespäichert Ännerungen!",
