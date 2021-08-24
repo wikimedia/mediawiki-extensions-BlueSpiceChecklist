@@ -6,6 +6,7 @@
 			"Matteocng",
 			"Nicole Scalinci",
 			"Selven",
+			"Stefano",
 			"TheRukk"
 		]
 	},
@@ -21,6 +22,7 @@
 	"bs-checklist-dlg-save-list": "Salva le modifiche all'elenco",
 	"bs-checklist-dlg-items-label": "Elementi nell'elenco",
 	"bs-checklist-dlg-items-emptytext": "Non ci sono elementi in questo elenco",
+	"bs-checklist-dlg-items-hint": "Per aggiungere un nuovo elemento, digita nel campo sopra e premi <kbd> Invio </kbd>.",
 	"bs-checklist-dlg-panel-title": "Elenchi disponibili",
 	"bs-checklist-dlg-new-title": "Aggiungi nuovo elenco",
 	"bs-checklist-dlg-new-prompt": "Inserisci un titolo per l'elenco",
