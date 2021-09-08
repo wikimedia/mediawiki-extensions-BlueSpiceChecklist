@@ -5,6 +5,7 @@
 			"Agusbou2015",
 			"AlvaroMolina",
 			"Carlosmg.dg",
+			"Danniel07",
 			"DannyS712",
 			"Fitoschido",
 			"Igv",
@@ -65,5 +66,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Casilla de verificación",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-list-label": "Lista de opción",
-	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción"
+	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción",
+	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales."
 }
