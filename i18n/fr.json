@@ -69,5 +69,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Liste d’options",
 	"bs-checklist-tag-checklist-attr-list-help": "Sélectionne une liste d’options spécifique. Les listes peuvent être créées dans l’espace de noms Modèle en créant une page avec une liste à puces.",
 	"bs-checklist-tag-checklist-attr-value-label": "Option sélectionnée",
-	"bs-checklist-tag-checklist-attr-value-help": "Sélectionne une option spécifique de la liste ci-dessus."
+	"bs-checklist-tag-checklist-attr-value-help": "Sélectionne une option spécifique de la liste ci-dessus.",
+	"bs-checklist-config-markasminoredit-help": "Activé : Les modifications d’une liste à cocher en mode vue sont versionnées comme mineures. Inactif : Les changements d’une liste à cocher en mode vue sont versionnées comme normales."
 }
