@@ -62,5 +62,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Lista de optiones",
 	"bs-checklist-tag-checklist-attr-list-help": "Selige un lista specific de optiones. Pro crear un lista in le spatio de nomines Patrono, crea un pagina con un lista a punctos.",
 	"bs-checklist-tag-checklist-attr-value-label": "Option seligite",
-	"bs-checklist-tag-checklist-attr-value-help": "Selige un option specific del lista hic supra."
+	"bs-checklist-tag-checklist-attr-value-help": "Selige un option specific del lista hic supra.",
+	"bs-checklist-config-markasminoredit-help": "Activate: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes minor. Inactive: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes normal."
 }
