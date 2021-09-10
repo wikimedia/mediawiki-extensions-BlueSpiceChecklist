@@ -69,5 +69,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "Sélectionne une option spécifique de la liste ci-dessus.",
 	"action-checklistmodify": "modifier les valeurs des éléments de la liste de vérification, sans modifier la page wiki",
 	"prefs-checklist-sesp-alias": "Liste de vérification",
-	"prefs-checklist-sesp-desc": "Indique si un élément de liste de vérification a été utilisé sur cette page"
+	"prefs-checklist-sesp-desc": "Indique si un élément de liste de vérification a été utilisé sur cette page",
+	"bs-checklist-config-markasminoredit-help": "Activé : Les modifications d’une liste à cocher en mode vue sont versionnées comme mineures. Inactif : Les changements d’une liste à cocher en mode vue sont versionnées comme normales."
 }

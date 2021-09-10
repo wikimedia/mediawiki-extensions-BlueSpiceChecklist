@@ -3,6 +3,7 @@
 		"authors": [
 			"A Chinese Wikipedian",
 			"A Retired User",
+			"AYZ04",
 			"LNDDYL",
 			"Liuxinyu970226",
 			"VulpesVulpes825",
@@ -70,5 +71,6 @@
 	"bs-checklist-tag-checklist-attr-value-label": "选择一个选项",
 	"bs-checklist-tag-checklist-attr-value-help": "从上面的列表中选择一个特定选项。",
 	"action-checklistmodify": "允许修改清单项目的值而无需编辑Wiki页面。",
-	"prefs-checklist-sesp-alias": "监视列表"
+	"prefs-checklist-sesp-alias": "监视列表",
+	"prefs-checklist-sesp-desc": "告知是否在该页面上使用了清单元素"
 }

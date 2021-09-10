@@ -67,5 +67,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "Wählt eine Option aus der obigen Liste aus.",
 	"action-checklistmodify": "die Werte von Checklistenelementen ohne Bearbeitung der Wikiseite zu verändern",
 	"prefs-checklist-sesp-alias": "Checkliste",
-	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde"
+	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde",
+	"bs-checklist-config-markasminoredit-help": "Aktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als kleine Änderung versioniert. Deaktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als normale Änderung versioniert."
 }
