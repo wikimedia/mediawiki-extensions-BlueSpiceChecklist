@@ -55,5 +55,8 @@
 	"bs-tag-checklist": "체크리스트 태그",
 	"action-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정합니다",
 	"prefs-checklist-sesp-alias": "체크리스트",
-	"bs-checklist-savelist-error-edit-not-permitted": "목록을 저장할 권한이 부족합니다"
+	"bs-checklist-savelist-error-edit-not-permitted": "목록을 저장할 권한이 부족합니다",
+	"bs-checklist-modified-check": "체크리스트 값을 수정함",
+	"bs-checklist-summary-changed": "선택 상자 #$1에서 \"$2\" 값을 선택함",
+	"bs-checklist-update-list": "목록을 업데이트함"
 }

@@ -64,5 +64,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "Seleciona uma opção específica da lista acima.",
 	"action-checklistmodify": "modificar os valores das entradas das listas de verificação sem editar a página da wiki.",
 	"prefs-checklist-sesp-alias": "Lista de verificação",
-	"prefs-checklist-sesp-desc": "Informa se foi usado nessa página um elemento de uma lista de verificação"
+	"prefs-checklist-sesp-desc": "Informa se foi usado nessa página um elemento de uma lista de verificação",
+	"bs-checklist-config-markasminoredit-help": "Ativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições menores. Desativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições normais."
 }

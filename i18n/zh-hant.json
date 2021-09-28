@@ -67,5 +67,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "從以上清單選擇指定項目。",
 	"action-checklistmodify": "不靠編輯維基頁面來變動核選清單項目的值",
 	"prefs-checklist-sesp-alias": "核對清單",
-	"prefs-checklist-sesp-desc": "若核對清單元素使用在頁面上的話告知"
+	"prefs-checklist-sesp-desc": "若核對清單元素使用在頁面上的話告知",
+	"bs-checklist-config-markasminoredit-help": "已啟用：在檢視模式下對清單的變動歸為小修改。非啟用：在檢視模式下對清單的變動歸為一般編輯修改。"
 }
