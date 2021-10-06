@@ -3,6 +3,7 @@
 		"authors": [
 			"Alexandr Efremov",
 			"BlastingStone",
+			"DDPAT",
 			"Happy13241",
 			"Kareyac",
 			"Link2xt",
@@ -47,5 +48,6 @@
 	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
 	"logeventslist-bs-checklist-log": "Журнал Checkbox",
 	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены",
-	"prefs-checklist-sesp-alias": "Контрольный список"
+	"prefs-checklist-sesp-alias": "Контрольный список",
+	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок"
 }

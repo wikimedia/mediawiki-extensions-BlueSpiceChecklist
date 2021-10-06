@@ -62,5 +62,6 @@
 	"prefs-checklist-sesp-alias": "Elenghe de verifeche",
 	"prefs-checklist-sesp-desc": "Dice ce 'na vôsce de 'n'elenghe de condrolle ha state ausate jndr'à quedda pàgene",
 	"bs-checklist-tag-checklist-attr-checked-help": "Ce 'mbostate, l'elenghe de condrolle iesse condrassegnate",
-	"bs-checklist-tag-checklist-attr-list-help": "Scacchie 'nu specifeche elenghe de opziune. Le elenghe ponne essere ccrejate jndr'à 'u namespace Template creanne 'na pàgene cu 'n'elenghe pundate."
+	"bs-checklist-tag-checklist-attr-list-help": "Scacchie 'nu specifeche elenghe de opziune. Le elenghe ponne essere ccrejate jndr'à 'u namespace Template creanne 'na pàgene cu 'n'elenghe pundate.",
+	"bs-checklist-config-markasminoredit-help": "Attivate: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde stuèdeche. Inattive: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde normale."
 }
