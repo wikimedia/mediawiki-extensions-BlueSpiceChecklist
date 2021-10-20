@@ -71,5 +71,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Label for the parameter \"list\"",
 	"bs-checklist-tag-checklist-attr-list-help": "Help message for the parameter \"list\"",
 	"bs-checklist-tag-checklist-attr-value-label": "Label for the tab \"option\"",
-	"bs-checklist-tag-checklist-attr-value-help": "Help message for the parameter \"option\""
+	"bs-checklist-tag-checklist-attr-value-help": "Help message for the parameter \"option\"",
+	"bs-checklist-config-markasminoredit-help": "Description for config variable \"ChecklistMarkAsMinorEdit\""
 }

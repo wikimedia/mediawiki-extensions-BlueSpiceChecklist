@@ -55,5 +55,8 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "설정하면 체크 상자는 체크된 것으로 표시됩니다",
 	"bs-checklist-tag-checklist-attr-list-label": "옵션 목록",
 	"bs-checklist-tag-checklist-attr-value-label": "선택된 옵션",
-	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다."
+	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다.",
+	"bs-checklist-modified-check": "체크리스트 값을 수정함",
+	"bs-checklist-summary-changed": "선택 상자 #$1에서 \"$2\" 값을 선택함",
+	"bs-checklist-update-list": "목록을 업데이트함"
 }
