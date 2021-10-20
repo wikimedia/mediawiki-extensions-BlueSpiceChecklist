@@ -3,6 +3,7 @@
 		"authors": [
 			"Alexandr Efremov",
 			"BlastingStone",
+			"DDPAT",
 			"Happy13241",
 			"Kareyac",
 			"Link2xt",
@@ -47,5 +48,6 @@
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
 	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
-	"prefs-checklist-sesp-alias": "Контрольный список"
+	"prefs-checklist-sesp-alias": "Контрольный список",
+	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок"
 }
