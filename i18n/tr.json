@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"Sayginer",
 			"Violetanka"
 		]
@@ -64,5 +65,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Seçenek listesi",
 	"bs-checklist-tag-checklist-attr-list-help": "Belirli bir seçenek listesi seçer. Listeler, madde işaretli bir sayfa oluşturularak Şablon ad alanında oluşturulabilir.",
 	"bs-checklist-tag-checklist-attr-value-label": "Seçilen seçenek",
-	"bs-checklist-tag-checklist-attr-value-help": "Yukarıdaki listeden belirli bir seçenek seçer."
+	"bs-checklist-tag-checklist-attr-value-help": "Yukarıdaki listeden belirli bir seçenek seçer.",
+	"bs-checklist-config-markasminoredit-help": "Etkin: Kontrol listesine görüntüleme kipinde yapılan değişikliklere, küçük değişiklik olarak sürüm verilir. Etkin değil: Kontrol listesine görüntüleme kipinde yapılan değişikliklere, normal değişiklik olarak sürüm verilir."
 }
