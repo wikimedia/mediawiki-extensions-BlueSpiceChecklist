@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Dinhxuanduyet",
-			"Harriettruong3"
+			"Harriettruong3",
+			"Ioe2015"
 		]
 	},
 	"bs-checklist-alert": "Cẩn thận!",
 	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!",
 	"bs-checklist-ve-checklistinspector-title": "Danh sách cần kiểm tra",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra"
+	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra",
+	"bs-checklist-tag-checklist-example-list": "Chọn bảng chọn"
 }
