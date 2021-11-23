@@ -5,6 +5,7 @@
 			"Garam",
 			"Hwangjy9",
 			"Nuevo Paso",
+			"Underbaaar",
 			"Ykhwong",
 			"아라"
 		]
@@ -58,5 +59,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다.",
 	"bs-checklist-modified-check": "체크리스트 값을 수정함",
 	"bs-checklist-summary-changed": "선택 상자 #$1에서 \"$2\" 값을 선택함",
-	"bs-checklist-update-list": "목록을 업데이트함"
+	"bs-checklist-update-list": "목록을 업데이트함",
+	"bs-checklist-dlg-items-hint": "새 원소를 추가하려면 위 입력란에 입력후 <kbd>엔터</kbd>를 누르십시오."
 }

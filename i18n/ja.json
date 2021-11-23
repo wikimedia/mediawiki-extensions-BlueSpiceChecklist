@@ -5,6 +5,7 @@
 			"A2y4",
 			"Aefgh39622",
 			"Otokoume",
+			"RYOUMA1117",
 			"Shirayuki",
 			"Yusuke1109"
 		]
@@ -48,5 +49,8 @@
 	"bs-checklist-tag-checklist-tab-list": "リスト",
 	"bs-checklist-tag-checklist-attr-list-label": "オプションリスト",
 	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション",
-	"prefs-checklist-sesp-alias": "チェックリスト"
+	"prefs-checklist-sesp-alias": "チェックリスト",
+	"logeventslist-bs-checklist-log": "チェックボックスログ",
+	"bs-checklist-summary-checked": "チェックされた #$1 チェックボックス",
+	"tag-bs-checklist-change": "チェックリストを変更"
 }
