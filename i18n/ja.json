@@ -6,7 +6,8 @@
 			"Aefgh39622",
 			"Otokoume",
 			"Shirayuki",
-			"Yusuke1109"
+			"Yusuke1109",
+			"RYOUMA1117"
 		]
 	},
 	"bs-checklist-desc": "チェックリストの機能を提供する",
@@ -32,10 +33,12 @@
 	"log-name-bs-checklist": "チェックボックス記録",
 	"log-description-bs-checklist": "ページのチェックボックスの変更記録。",
 	"log-show-hide-bs-checklist": "チェックボックス記録を$1",
+	"logeventslist-bs-checklist-log": "チェックボックスログ",
 	"logentry-bs-checklist-checked": "$1 がページ「$3」のチェックボックス #$4 に{{GENDER:$2|チェックを入れました}}",
 	"logentry-bs-checklist-unchecked": "$1 がページ「$3」のチェックボックス #$4 の{{GENDER:$2|チェックを外しました}}",
 	"bs-checklist-savelist-error-invalid-title": "指定したリストは無効です",
 	"bs-checklist-savelist-error-edit-not-permitted": "リストを保存するための権限が不十分です",
+	"bs-checklist-summary-checked": "チェックされた #$1 チェックボックス",
 	"bs-checklist-update-list": "更新されたリスト",
 	"apihelp-bs-checklist-tasks-description": "Checklist 拡張機能の操作を提供します",
 	"apihelp-bs-checklist-tasks-summary": "Checklist 拡張機能の操作を提供します",
@@ -43,6 +46,7 @@
 	"bs-checklist-ve-checklistinspector-title": "チェックリスト",
 	"bs-checklist-ve-checklistinspector-cb-checked": "チェック済み",
 	"right-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更",
+	"tag-bs-checklist-change": "チェックリストを変更",
 	"prefs-checklist": "チェックリスト",
 	"prefs-checklist-sesp-alias": "チェックリスト",
 	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス",
