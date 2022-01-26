@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karit"
+			"Karit",
+			"Patsagorn Y."
 		]
 	},
-	"prefs-checklist-sesp-desc": "บอกว่ามีการใช้องค์ประกอบรายการตรวจสอบไม้"
+	"prefs-checklist-sesp-desc": "แสดงหากมีการใช้อิลิเมนต์เช็คลิสต์ในหน้านั้น"
 }
