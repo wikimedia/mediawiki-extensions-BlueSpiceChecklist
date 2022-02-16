@@ -12,7 +12,8 @@
 			"Macofe",
 			"Mynor Archila",
 			"ProtoplasmaKid",
-			"Jakeukalane"
+			"Jakeukalane",
+			"TehFrog"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",
@@ -39,6 +40,7 @@
 	"log-name-bs-checklist": "Registro de casillas",
 	"log-description-bs-checklist": "Registro de los cambios de casillas en las páginas.",
 	"log-show-hide-bs-checklist": "$1 registro de casillas de verificación",
+	"logeventslist-bs-checklist-log": "Registro de casillas",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|ha marcado}} la casilla $4 de la página $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|ha desmarcado}} la casilla $4 en la página $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha seleccionado}} el valor de «$5» en la casilla $4 de la página $3",
