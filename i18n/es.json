@@ -13,7 +13,8 @@
 			"Macofe",
 			"Mynor Archila",
 			"ProtoplasmaKid",
-			"TehFrog"
+			"TehFrog",
+			"Ihojose"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",
@@ -64,10 +65,13 @@
 	"right-checklistmodify": "Modificar los valores de los elementos de las listas de comprobación sin editar la página de la wiki.",
 	"bs-checklist-config-markasminoredit": "Marcar los cambios de la lista de comprobación como edición menor",
 	"tag-bs-checklist-change": "Cambio de la lista de control",
+	"tag-bs-checklist-change-description": "El usuario cambió una casilla de verificación o un valor de cuadro de selección en la página",
 	"prefs-checklist": "Lista de verificación",
 	"prefs-checklist-sesp-alias": "Lista de verificación",
+	"prefs-checklist-sesp-desc": "Indica si se utilizó un elemento de la lista de verificación en esa página",
 	"bs-checklist-tag-checklist-tab-checkbox": "Casilla de verificación",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
+	"bs-checklist-tag-checklist-attr-checked-help": "Si está establecido, la casilla de verificación aparece marcada",
 	"bs-checklist-tag-checklist-attr-list-label": "Lista de opción",
 	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción",
 	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales."
