@@ -7,6 +7,7 @@
 			"Carlosmg.dg",
 			"Danniel07",
 			"DannyS712",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Igv",
 			"Ihojose",
@@ -73,6 +74,7 @@
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-checked-help": "Si está establecido, la casilla de verificación aparece marcada",
 	"bs-checklist-tag-checklist-attr-list-label": "Lista de opción",
+	"bs-checklist-tag-checklist-attr-list-help": "Selecciona una lista de opciones específica. Las listas se pueden crear en el espacio de nombres de Plantilla creando una página con una lista de viñetas.",
 	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción",
 	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales."
 }
