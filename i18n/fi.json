@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Joquliina",
+			"Markus Mikkonen",
 			"Pyscowicz",
 			"Silvonen"
 		]
@@ -9,6 +10,7 @@
 	"bs-checklist-menu-insert-checkbox": "Valintaruutu",
 	"bs-checklist-tag-checklist-example-check": "Valintaruutu",
 	"bs-checklist-dlg-new-list": "Luo uusi lista",
+	"bs-checklist-dlg-items-label": "Kohteet luettelossa",
 	"bs-checklist-dlg-new-title": "Lisää uusi lista",
 	"bs-checklist-alert": "Huomio!",
 	"bs-checklist-confirm-dirty-title": "Tallentamattomia muutoksia!",
