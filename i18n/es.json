@@ -7,12 +7,15 @@
 			"Carlosmg.dg",
 			"Danniel07",
 			"DannyS712",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Igv",
+			"Ihojose",
 			"Jakeukalane",
 			"Macofe",
 			"Mynor Archila",
-			"ProtoplasmaKid"
+			"ProtoplasmaKid",
+			"TehFrog"
 		]
 	},
 	"bs-checklist-desc": "Proporciona una lista de comprobación",
@@ -68,5 +71,10 @@
 	"tag-bs-checklist-change": "Cambio de la lista de control",
 	"bs-checklist-summary-checked": "Casilla marcada n.º $1",
 	"bs-checklist-summary-unchecked": "Casilla desmarcada n.º $1",
-	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales."
+	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales.",
+	"logeventslist-bs-checklist-log": "Registro de casillas",
+	"tag-bs-checklist-change-description": "El usuario cambió una casilla de verificación o un valor de cuadro de selección en la página",
+	"prefs-checklist-sesp-desc": "Indica si se utilizó un elemento de la lista de verificación en esa página",
+	"bs-checklist-tag-checklist-attr-checked-help": "Si está establecido, la casilla de verificación aparece marcada",
+	"bs-checklist-tag-checklist-attr-list-help": "Selecciona una lista de opciones específica. Las listas se pueden crear en el espacio de nombres de Plantilla creando una página con una lista de viñetas."
 }

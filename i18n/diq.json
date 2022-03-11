@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"bs-checklist-alert": "Diqet!",
-	"bs-checklist-confirm-dirty-title": "Vuryayışêk star nêbıtê"
+	"bs-checklist-confirm-dirty-title": "Vuryayışêk star nêbıtê",
+	"bs-checklist-tag-checklist-tab-list": "Liste"
 }
