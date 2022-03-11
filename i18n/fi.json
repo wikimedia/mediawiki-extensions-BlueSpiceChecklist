@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Joquliina",
+			"Markus Mikkonen",
 			"Pyscowicz",
 			"Silvonen"
 		]
@@ -13,5 +14,6 @@
 	"bs-checklist-alert": "Huomio!",
 	"bs-checklist-confirm-dirty-title": "Tallentamattomia muutoksia!",
 	"bs-checklist-tag-checklist-tab-list": "Luettelo",
-	"bs-checklist-dlg-new-title": "Lisää uusi lista"
+	"bs-checklist-dlg-new-title": "Lisää uusi lista",
+	"bs-checklist-dlg-items-label": "Kohteet luettelossa"
 }

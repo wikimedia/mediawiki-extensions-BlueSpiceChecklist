@@ -63,5 +63,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Alternativliste",
 	"bs-checklist-tag-checklist-attr-list-help": "Velger en spesifikk alternativliste. Lister kan opprettes i malnavnerommet ved å opprette ei side med ei punktliste.",
 	"bs-checklist-tag-checklist-attr-value-label": "Valgte valg",
-	"bs-checklist-tag-checklist-attr-value-help": "Velger et spesifikt alternativ fra lista ovenfor."
+	"bs-checklist-tag-checklist-attr-value-help": "Velger et spesifikt alternativ fra lista ovenfor.",
+	"bs-checklist-config-markasminoredit-help": "Aktivert: Endringer i ei sjekkliste i visningsmodus versjoneres som mindre redigeringer. Deaktivert: Endringer i sjekklister i visningsmodus versjoneres som vanlige redigeringer."
 }
