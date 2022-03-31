@@ -7,7 +7,8 @@
 			"Dalba",
 			"FarsiNevis",
 			"Jeeputer",
-			"Reza1615"
+			"Reza1615",
+			"Beginneruser"
 		]
 	},
 	"bs-checklist-desc": "قابلیت فهرست بازبینی را فراهم می‌کند",
@@ -20,7 +21,7 @@
 	"bs-checklist-tag-checklist-desc": "یک فهرست گزینه ای یا فهرست انتخابی می سازد. گزینه های می توانند با شاخص های متنوع ویرایش شوند.",
 	"bs-checklist-tag-checklist-example-check": "جعبهٔ بررسی",
 	"bs-checklist-tag-checklist-example-list": "انتخاب منو",
-	"bs-checklist-dlg-new-list": "ساخت یک فهرست تازه",
+	"bs-checklist-dlg-new-list": "ایجاد یک فهرست تازه",
 	"bs-checklist-dlg-save-list": "ذخیره‌سازی تغییرات در فهرست",
 	"bs-checklist-dlg-items-label": "موارد فهرست",
 	"bs-checklist-dlg-items-emptytext": "هیچ موردی در این فهرست نیست",
