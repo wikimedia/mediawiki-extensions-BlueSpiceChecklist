@@ -76,5 +76,6 @@
 	"tag-bs-checklist-change-description": "El usuario cambió una casilla de verificación o un valor de cuadro de selección en la página",
 	"prefs-checklist-sesp-desc": "Indica si se utilizó un elemento de la lista de verificación en esa página",
 	"bs-checklist-tag-checklist-attr-checked-help": "Si está establecido, la casilla de verificación aparece marcada",
-	"bs-checklist-tag-checklist-attr-list-help": "Selecciona una lista de opciones específica. Las listas se pueden crear en el espacio de nombres de Plantilla creando una página con una lista de viñetas."
+	"bs-checklist-tag-checklist-attr-list-help": "Selecciona una lista de opciones específica. Las listas se pueden crear en el espacio de nombres de Plantilla creando una página con una lista de viñetas.",
+	"bs-checklist-tag-checklist-attr-value-help": "Selecciona una opción específica de la lista anterior."
 }
