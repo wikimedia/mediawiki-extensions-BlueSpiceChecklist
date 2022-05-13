@@ -3,6 +3,7 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
+			"GpieroMW",
 			"Matteocng",
 			"Nicole Scalinci",
 			"Selven",
@@ -28,6 +29,8 @@
 	"bs-checklist-dlg-new-prompt": "Inserisci un titolo per l'elenco",
 	"bs-checklist-alert": "Attenzione!",
 	"bs-checklist-confirm-dirty-title": "Modifiche non salvate!",
+	"log-show-hide-bs-checklist": "$1 registro della casella di controllo",
+	"logeventslist-bs-checklist-log": "Registro della casella di controllo",
 	"bs-checklist-savelist-error-invalid-title": "Titolo indicato non valido",
 	"bs-checklist-savelist-error-edit-not-permitted": "Autorizzazioni insufficienti per salvare l'elenco",
 	"bs-checklist-update-list": "Elenco aggiornato",
