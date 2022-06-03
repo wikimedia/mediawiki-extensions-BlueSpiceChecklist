@@ -3,9 +3,9 @@
 		"authors": [
 			"Eladk",
 			"Erelon",
+			"Ex-Diktator",
 			"Guycn2",
-			"Steeve815",
-			"Ex-Diktator"
+			"Steeve815"
 		]
 	},
 	"bs-checklist-desc": "אספקת אפשרויות של רשימות תיוג",
@@ -65,5 +65,7 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "אם זה מסומן, תיבת הסימון נראית מסומנת",
 	"bs-checklist-tag-checklist-attr-list-label": "רשימת אפשרויות",
 	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה",
-	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות."
+	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות.",
+	"bs-checklist-tag-checklist-attr-list-help": "בחירת רשימת אפשרויות מסוימת. הרשימות יכולות להיות מיוצרות במרחב תבנית באמצעות יצירת דף עם רשימת תבליטים.",
+	"bs-checklist-tag-checklist-attr-value-help": "בחירת אפשרות מסוימת מהרשימה לעיל."
 }

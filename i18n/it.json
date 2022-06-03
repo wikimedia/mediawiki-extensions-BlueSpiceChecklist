@@ -3,12 +3,12 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
+			"GpieroMW",
 			"Matteocng",
 			"Nicole Scalinci",
 			"Selven",
 			"Stefano",
-			"TheRukk",
-			"GpieroMW"
+			"TheRukk"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Inserire elenco",
@@ -50,5 +50,6 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "Se impostato, la casella di controllo appare selezionata",
 	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
-	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra."
+	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
+	"bs-checklist-tag-checklist-attr-list-help": "Seleziona un elenco di opzioni specifiche. Gli elenchi si possono creare nel namespace Template creando una pagina con un elenco puntato."
 }
