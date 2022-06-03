@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
+			"SaldırganSincap",
 			"Sayginer",
 			"Violetanka"
 		]
@@ -32,9 +33,9 @@
 	"log-description-bs-checklist": "Sayfalardaki onay kutularındaki değişikliklerin günlüğü.",
 	"log-show-hide-bs-checklist": "$1 onay kutusu günlüğü",
 	"logeventslist-bs-checklist-log": "Onay kutusu günlüğü",
-	"logentry-bs-checklist-checked": "$1 onay kutusu #$4, sayfa $3 {{GENDER:$2|kontrol etti}}",
-	"logentry-bs-checklist-unchecked": "$1 onay kutusu #$4, sayfa $3 {{GENDER:$2|kontrol etmedi}}",
-	"logentry-bs-checklist-selected": "$1, sayfa $3 üzerindeki #$4 seçim kutusunda \"$5\" değerini {{GENDER:$2|seçti}}",
+	"logentry-bs-checklist-checked": "$1, #$4 onay kutusunu $3 sayfasında {{GENDER:$2|işaretledi}}",
+	"logentry-bs-checklist-unchecked": "$1, #$4 onay kutusunu $3 sayfasında {{GENDER:$2|işareti kaldırdı}}",
+	"logentry-bs-checklist-selected": "$1, $3 sayfasında #$4 seçim kutusunda \"$5\" değerini {{GENDER:$2|seçti}}",
 	"bs-checklist-savelist-error-invalid-title": "Geçersiz başlık sağlandı",
 	"bs-checklist-savelist-error-edit-not-permitted": "Listeyi kaydetmek için yeterli izin yok",
 	"bs-checklist-modified-check": "Değiştirilmiş kontrol listesi değeri",
