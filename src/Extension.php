@@ -36,6 +36,7 @@
 
 namespace BlueSpice\Checklist;
 
+use MediaWiki\MediaWikiServices;
 use Parser;
 use PPFrame;
 use Title;
@@ -57,7 +58,7 @@ class Extension extends \BlueSpice\Extension {
 
 		$title = Title::newFromText( $listTitle, NS_TEMPLATE );
 		if ( $title instanceof Title && $title->exists() ) {
-			$wikipage = WikiPage::newFromID( $title->getArticleID() );
+			$wikipage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromID( $title->getArticleID() );
 			if ( $wikipage instanceof WikiPage ) {
 				$content = $wikipage->getContent()->getNativeData();
 				// Noinclude handling

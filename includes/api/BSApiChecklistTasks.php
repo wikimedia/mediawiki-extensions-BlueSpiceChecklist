@@ -2,6 +2,7 @@
 
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\Checklist\Extension as Checklist;
+use MediaWiki\MediaWikiServices;
 
 class BSApiChecklistTasks extends BSApiTasksBase {
 
@@ -100,7 +101,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		$oWikiPage = WikiPage::newFromID( $sArticleId );
+		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromID( $sArticleId );
 		$oContent = $oWikiPage->getContent();
 		$sContent = $oContent->getNativeData();
 
@@ -186,7 +187,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 
 		$sSummary = wfMessage( "bs-checklist-update-list" )->plain();
 
-		$oWikiPage = WikiPage::factory( $oTitle );
+		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $oTitle );
 		$oContentHandler = $oWikiPage->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
 		$oResult = $oWikiPage->doEditContent( $oNewContent, $sSummary );
