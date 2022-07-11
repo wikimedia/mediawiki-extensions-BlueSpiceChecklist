@@ -51,5 +51,12 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
 	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
-	"bs-checklist-tag-checklist-attr-list-help": "Seleziona un elenco di opzioni specifiche. Gli elenchi si possono creare nel namespace Template creando una pagina con un elenco puntato."
+	"bs-checklist-tag-checklist-attr-list-help": "Seleziona un elenco di opzioni specifiche. Gli elenchi si possono creare nel namespace Template creando una pagina con un elenco puntato.",
+	"bs-checklist-button-checkbox-title": "Elementi della lista di controllo",
+	"log-name-bs-checklist": "Registro della casella di controllo",
+	"bs-checklist-modified-check": "Valori della lista di controllo modificati",
+	"bs-checklist-summary-checked": "Casella di controllo #$1 selezionata",
+	"bs-checklist-summary-unchecked": "Casella di controllo #$1 deselezionata",
+	"bs-checklist-summary-changed": "Selezionato il valore \"$2\" nel menu di selezione #$1",
+	"tag-bs-checklist-change": "Modifica alla lista di controllo"
 }
