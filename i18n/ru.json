@@ -13,7 +13,8 @@
 			"Romanko Mikhail",
 			"Striking Blue",
 			"Vlad5250",
-			"Марио"
+			"Марио",
+			"Pacha Tchernof"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -27,7 +28,7 @@
 	"bs-checklist-tag-checklist-example-check": "Флажок",
 	"bs-checklist-tag-checklist-example-list": "Выберите меню",
 	"bs-checklist-dlg-new-list": "Создать новый список",
-	"bs-checklist-dlg-save-list": "Сохранить изменения в список",
+	"bs-checklist-dlg-save-list": "Сохранить изменения в списке",
 	"bs-checklist-dlg-items-label": "Объекты в списке",
 	"bs-checklist-dlg-items-emptytext": "Нет элементов в этом списке",
 	"bs-checklist-dlg-items-hint": "Чтобы добавить новый элемент, заполните поле выше и нажмите <kbd>Ввод</kbd>.",
@@ -40,15 +41,15 @@
 	"log-name-bs-checklist": "Журнал Checkbox",
 	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
 	"logeventslist-bs-checklist-log": "Журнал Checkbox",
+	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок",
 	"bs-checklist-savelist-error-edit-not-permitted": "Недостаточно прав для сохранения списка",
 	"bs-checklist-update-list": "Обновленный список",
 	"bs-checklist-ve-checklistinspector-title": "Контрольный список",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Помечен",
 	"prefs-checklist": "Контрольный список",
+	"prefs-checklist-sesp-alias": "Контрольный список",
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
-	"prefs-checklist-sesp-alias": "Контрольный список",
-	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
 }
