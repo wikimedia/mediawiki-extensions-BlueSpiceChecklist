@@ -13,7 +13,8 @@
 			"Romanko Mikhail",
 			"Striking Blue",
 			"Vlad5250",
-			"Марио"
+			"Марио",
+			"Pacha Tchernof"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -27,7 +28,7 @@
 	"bs-checklist-tag-checklist-example-check": "Флажок",
 	"bs-checklist-tag-checklist-example-list": "Выберите меню",
 	"bs-checklist-dlg-new-list": "Создать новый список",
-	"bs-checklist-dlg-save-list": "Сохранить изменения в список",
+	"bs-checklist-dlg-save-list": "Сохранить изменения в списке",
 	"bs-checklist-dlg-items-label": "Объекты в списке",
 	"bs-checklist-dlg-items-emptytext": "Нет элементов в этом списке",
 	"bs-checklist-dlg-items-hint": "Чтобы добавить новый элемент, заполните поле выше и нажмите <kbd>Ввод</kbd>.",
