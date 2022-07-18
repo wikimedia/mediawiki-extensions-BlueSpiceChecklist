@@ -30,6 +30,7 @@
 	"bs-checklist-dlg-new-prompt": "Inserisci un titolo per l'elenco",
 	"bs-checklist-alert": "Attenzione!",
 	"bs-checklist-confirm-dirty-title": "Modifiche non salvate!",
+	"bs-checklist-confirm-dirty-text": "Hai apportato modifiche alla lista di controllo che non sono state ancora salvate. Sei sicuro di voler annullare le modifiche?",
 	"log-name-bs-checklist": "Registro della casella di controllo",
 	"log-show-hide-bs-checklist": "$1 registro della casella di controllo",
 	"logeventslist-bs-checklist-log": "Registro della casella di controllo",
