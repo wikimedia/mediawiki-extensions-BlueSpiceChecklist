@@ -58,5 +58,6 @@
 	"bs-checklist-summary-checked": "Casella di controllo #$1 selezionata",
 	"bs-checklist-summary-unchecked": "Casella di controllo #$1 deselezionata",
 	"bs-checklist-summary-changed": "Selezionato il valore \"$2\" nel menu di selezione #$1",
-	"tag-bs-checklist-change": "Modifica alla lista di controllo"
+	"tag-bs-checklist-change": "Modifica alla lista di controllo",
+	"bs-checklist-confirm-dirty-text": "Hai apportato modifiche alla lista di controllo che non sono state ancora salvate. Sei sicuro di voler annullare le modifiche?"
 }
