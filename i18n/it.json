@@ -58,5 +58,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
 	"bs-checklist-tag-checklist-attr-list-help": "Seleziona un elenco di opzioni specifiche. Gli elenchi si possono creare nel namespace Template creando una pagina con un elenco puntato.",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
-	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra."
+	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
+	"bs-checklist-confirm-dirty-text": "Hai apportato modifiche alla lista di controllo che non sono state ancora salvate. Sei sicuro di voler annullare le modifiche?"
 }
