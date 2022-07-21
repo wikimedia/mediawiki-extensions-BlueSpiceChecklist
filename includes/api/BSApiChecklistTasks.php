@@ -2,7 +2,9 @@
 
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\Checklist\Extension as Checklist;
+use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\SlotRecord;
 
 class BSApiChecklistTasks extends BSApiTasksBase {
 
@@ -122,15 +124,18 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$flags = 0;
 		}
-		$oWikiPage->doEditContent(
-			$oNewContent,
-			$summary,
-			$flags,
-			false,
-			null,
-			null,
-			[ 'bs-checklist-change' ]
-		);
+		$user = $this->getServices()->getService( 'BSUtilityFactory' )
+			->getMaintenanceUser()->getUser();
+		$updater = $oWikiPage->newPageUpdater( $user );
+		$updater->setContent( SlotRecord::MAIN, $oNewContent );
+		$comment = CommentStoreComment::newUnsavedComment( $summary );
+		$updater->addTag( 'bs-checklist-change' );
+		try {
+			$updater->saveRevision( $comment, $flags );
+		} catch ( Exception $e ) {
+			$logger = LoggerFactory::getInstance( 'BlueSpiceChecklist' );
+			$logger->error( $e->getMessage() );
+		}
 
 		// Create a log entry for the changes on the checklist values
 
@@ -173,7 +178,8 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		if ( !\MediaWiki\MediaWikiServices::getInstance()->getPermissionManager()
+		$services = $this->getServices();
+		if ( !$services->getPermissionManager()
 			->userCan( 'edit', $this->getUser(), $oTitle )
 		) {
 			$oResponse->message = wfMessage( "bs-checklist-savelist-error-edit-not-permitted" )->plain();
@@ -190,8 +196,18 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $oTitle );
 		$oContentHandler = $oWikiPage->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
-		$oResult = $oWikiPage->doEditContent( $oNewContent, $sSummary );
-
+		$user = $services->getService( 'BSUtilityFactory' )
+			->getMaintenanceUser()->getUser();
+		$updater = $oWikiPage->newPageUpdater( $user );
+		$updater->setContent( SlotRecord::MAIN, $oNewContent );
+		$comment = CommentStoreComment::newUnsavedComment( $sSummary );
+		try {
+			$updater->saveRevision( $comment );
+		} catch ( Exception $e ) {
+			$logger = LoggerFactory::getInstance( 'BlueSpiceChecklist' );
+			$logger->error( $e->getMessage() );
+		}
+		$oResult = $updater->getStatus();
 		if ( $oResult->isGood() ) {
 			$oResponse->success = true;
 		} else {
