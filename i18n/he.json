@@ -5,7 +5,8 @@
 			"Erelon",
 			"Guycn2",
 			"Steeve815",
-			"Ex-Diktator"
+			"Ex-Diktator",
+			"Amire80"
 		]
 	},
 	"bs-checklist-desc": "אספקת אפשרויות של רשימות תיוג",
@@ -21,7 +22,7 @@
 	"bs-checklist-dlg-new-list": "יצירת רשימה חדשה",
 	"bs-checklist-dlg-save-list": "שמירת שינויים ברשימה",
 	"bs-checklist-dlg-items-label": "פריטים ברשימה",
-	"bs-checklist-dlg-items-emptytext": "אין פריטים ברשימה זו",
+	"bs-checklist-dlg-items-emptytext": "אין פריטים ברשימה הזאת",
 	"bs-checklist-dlg-items-hint": "כדי להוסיף פריט חדש, יש להקליד בשדה למעלה ולהקיש <kbd>Enter</kbd>.",
 	"bs-checklist-dlg-panel-title": "רשימות זמינות",
 	"bs-checklist-dlg-new-title": "הוספת רשימה חדשה",
