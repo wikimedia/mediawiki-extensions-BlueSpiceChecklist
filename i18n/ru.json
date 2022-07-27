@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alexandr Efremov",
+			"Amire80",
 			"BlastingStone",
 			"DDPAT",
 			"Happy13241",
@@ -51,5 +52,6 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|отметил|отметила}} флажок #$4 на странице $3"
 }
