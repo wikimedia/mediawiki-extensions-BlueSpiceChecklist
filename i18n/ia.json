@@ -19,7 +19,7 @@
 	"bs-checklist-dlg-panel-title": "Listas disponibile",
 	"bs-checklist-dlg-new-title": "Adder nove lista",
 	"bs-checklist-dlg-new-prompt": "Entra un titulo de lista",
-	"bs-checklist-alert": "Attention!",
+	"bs-checklist-alert": "Attention !",
 	"bs-checklist-confirm-dirty-title": "Cambiamentos non salveguardate!",
 	"bs-checklist-confirm-dirty-text": "Tu ha facite modificationes in le lista de controlo que non ha ancora essite salveguardate. Es tu secur de voler abandonar iste cambiamentos?",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|seligeva}} le valor \"$5\" in le quadrato de selection #$4 sur le pagina $3",
