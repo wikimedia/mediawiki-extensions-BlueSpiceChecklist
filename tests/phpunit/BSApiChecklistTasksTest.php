@@ -82,10 +82,11 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$oTitleAfter = Title::makeTitle( NS_TEMPLATE, 'Test' );
 		$this->assertTrue( $oTitleAfter->exists() );
 
-		$sContent = WikiPage::newFromID( $oTitleAfter->getArticleID() )->getContent()->getNativeData();
+		$contentObj = WikiPage::newFromID( $oTitleAfter->getArticleID() )->getContent();
+		$content = ( $contentObj instanceof TextContent ) ? $contentObj->getText() : '';
 
 		foreach ( $arrRecords as $record ) {
-			$this->assertContains( "* " . $record, $sContent );
+			$this->assertContains( "* " . $record, $content );
 		}
 
 		return $data;
