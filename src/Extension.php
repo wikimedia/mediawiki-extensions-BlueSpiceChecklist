@@ -39,6 +39,7 @@ namespace BlueSpice\Checklist;
 use MediaWiki\MediaWikiServices;
 use Parser;
 use PPFrame;
+use TextContent;
 use Title;
 use WikiPage;
 
@@ -49,7 +50,6 @@ class Extension extends \BlueSpice\Extension {
 	public static $iChecklistMaxItemLength = 60;
 
 	/**
-	 *
 	 * @param string $listTitle
 	 * @return array
 	 */
@@ -60,7 +60,8 @@ class Extension extends \BlueSpice\Extension {
 		if ( $title instanceof Title && $title->exists() ) {
 			$wikipage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromID( $title->getArticleID() );
 			if ( $wikipage instanceof WikiPage ) {
-				$content = $wikipage->getContent()->getNativeData();
+				$contentObj = $wikipage->getContent();
+				$content = ( $contentObj instanceof TextContent ) ? $contentObj->getText() : '';
 				// Noinclude handling
 				// See https://github.com/wikimedia/mediawiki-extensions-ExternalData/blob/master/ED_GetData.php
 				$content = \StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $content );
@@ -84,6 +85,7 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * http://www.php.net/manual/en/function.preg-replace.php#112400
+	 *
 	 * @param mixed $pattern
 	 * @param mixed $replacement
 	 * @param mixed $subject
@@ -105,7 +107,6 @@ class Extension extends \BlueSpice\Extension {
 	}
 
 	/**
-	 *
 	 * @param Parser &$parser
 	 * @return bool
 	 */
@@ -116,6 +117,7 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * handle tag "bs:checkbox"
+	 *
 	 * @param string $input
 	 * @param array $args
 	 * @param Parser $parser
@@ -189,12 +191,10 @@ class Extension extends \BlueSpice\Extension {
 	}
 
 	/**
-	 *
 	 * @return int
 	 */
 	protected static function getNewCheckboxId() {
 		self::$iCheckboxCounter++;
 		return self::$iCheckboxCounter;
 	}
-
 }

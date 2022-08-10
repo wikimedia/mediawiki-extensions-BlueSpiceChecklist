@@ -9,7 +9,6 @@ use MediaWiki\Revision\SlotRecord;
 class BSApiChecklistTasks extends BSApiTasksBase {
 
 	/**
-	 *
 	 * @var array
 	 */
 	protected $aTasks = [
@@ -62,7 +61,6 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 	];
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getRequiredTaskPermissions() {
@@ -73,13 +71,11 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @var string
 	 */
 	protected $sTaskLogType = 'bs-checklist';
 
 	/**
-	 *
 	 * @param \stdClass $oTaskData
 	 * @param array $aParams
 	 * @return Standard
@@ -104,21 +100,21 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		}
 
 		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromID( $sArticleId );
-		$oContent = $oWikiPage->getContent();
-		$sContent = $oContent->getNativeData();
+		$contentObj = $oWikiPage->getContent();
+		$content = ( $contentObj instanceof TextContent ) ? $contentObj->getText() : '';
 
 		$newValue = $this->getNewValue( $value, $type );
 		$summary = $this->getSummary( $value, $type, $iPos );
 
-		$sContent = Checklist::preg_replace_nth(
+		$content = Checklist::preg_replace_nth(
 			"/(<bs:checklist )([^>]*?>)/",
 			"$1" . $newValue . "$2",
-			$sContent,
+			$content,
 			$iPos
 		);
 
-		$oContentHandler = $oContent->getContentHandler();
-		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
+		$oContentHandler = $contentObj->getContentHandler();
+		$oNewContent = $oContentHandler->makeContent( $content, $oWikiPage->getTitle() );
 		if ( $this->getConfig()->get( 'ChecklistMarkAsMinorEdit' ) ) {
 			$flags = EDIT_MINOR;
 		} else {
@@ -163,7 +159,6 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @param \stdClass $oTaskData
 	 * @param array $aParams
 	 * @return Standard
