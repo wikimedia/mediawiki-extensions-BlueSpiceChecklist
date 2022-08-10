@@ -4,11 +4,11 @@ namespace BlueSpice\Checklist;
 
 use BlueSpice\SMWConnector\PropertyValueProvider;
 use SMWDataItem;
+use TextContent;
 
 class ChecklistPropertyValueProvider extends PropertyValueProvider {
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getAliasMessageKey() {
@@ -16,7 +16,6 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getDescriptionMessageKey() {
@@ -24,7 +23,6 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 	}
 
 	/**
-	 *
 	 * @return int
 	 */
 	public function getType() {
@@ -32,7 +30,6 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getId() {
@@ -40,7 +37,6 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getLabel() {
@@ -57,7 +53,9 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 		$wikiPage = $appFactory->newWikiPage( $semanticData->getSubject()->getTitle() );
 		// parse wikipage for bs:checklist tag
 		if ( $wikiPage !== null && $wikiPage->getContent() !== null ) {
-			$isChecklistFound = $this->isChecklistFound( $wikiPage->getContent()->getNativeData() );
+			$contentObj = $wikiPage->getContent();
+			$content = ( $contentObj instanceof TextContent ) ? $contentObj->getText() : '';
+			$isChecklistFound = $this->isChecklistFound( $content );
 			$semanticData->addPropertyObjectValue( $property, new \SMWDIBoolean( $isChecklistFound ) );
 		}
 
