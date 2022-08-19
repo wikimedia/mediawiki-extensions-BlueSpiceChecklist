@@ -37,12 +37,23 @@
 		},
 		"BlueSpiceVisualEditorConnector": {
 			"TagDefinitions": [
-				"ext.bluespice.checklist.visualEditor"
+				"ext.bluespice.checklist.visualEditor",
+				"ext.bluespice.checkbox.visualEditor"
 			]
 		},
 		"BlueSpiceSMWConnector": {
 			"ExtraPropertyRegistry": {
 				"checklistfields": "\\BlueSpice\\Checklist\\ChecklistPropertyValueProvider::factory"
+			}
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"checklist": {
+					"class": "\\BlueSpice\\Checklist\\ContentDroplets\\ChecklistDroplet"
+				},
+				"checkbox": {
+					"class": "\\BlueSpice\\Checklist\\ContentDroplets\\CheckboxDroplet"
+				}
 			}
 		}
 	},
@@ -128,20 +139,39 @@
 				"bs.chklst/ui/widget/ChecklistInputWidget.js",
 				"bs.chklst/ui/widget/ChecklistOptionsInputWidget.js"
 			],
+			"styles": [
+				"stylesheets/bs.chklst.droplet.checklist.css"
+			],
 			"messages": [
 				"bs-checklist-ve-checklistinspector-title",
 				"bs-checklist-tag-checklist-desc",
-				"bs-checklist-ve-checklistinspector-cb-checked",
-				"bs-checklist-tag-checklist-tab-checkbox",
 				"bs-checklist-tag-checklist-tab-list",
-				"bs-checklist-tag-checklist-attr-checked-help",
 				"bs-checklist-tag-checklist-attr-list-label",
 				"bs-checklist-tag-checklist-attr-list-help",
 				"bs-checklist-tag-checklist-attr-value-label",
 				"bs-checklist-tag-checklist-attr-value-help"
 			],
 			"dependencies": [
-				"ext.visualEditor.mwcore"
+				"ext.visualEditor.mwcore",
+				"ext.bluespice.visualEditorConnector.tags.classes"
+			]
+		},
+		"ext.bluespice.checkbox.visualEditor": {
+			"scripts": [
+				"bs.chklst/util/tag/CheckboxDefinition.js"
+			],
+			"styles": [
+				"stylesheets/bs.chklst.droplet.checkbox.css"
+			],
+			"messages": [
+				"bs-checkbox-ve-checkboxinspector-title",
+				"bs-checkbox-tag-checkbox-desc",
+				"bs-checklist-ve-checklistinspector-cb-checked",
+				"bs-checklist-tag-checklist-tab-checkbox",
+				"bs-checklist-tag-checklist-attr-checked-help"
+			],
+			"dependencies": [
+				"ext.bluespice.checklist.visualEditor"
 			]
 		},
 		"ext.bluespice.checklist.view": {
