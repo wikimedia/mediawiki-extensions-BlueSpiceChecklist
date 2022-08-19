@@ -14,28 +14,13 @@ bs.chklst.util.tag.ChecklistDefinition.prototype.getCfg = function() {
 		descriptionMsg: 'bs-checklist-tag-checklist-desc',
 		menuItemMsg: 'bs-checklist-ve-checklistinspector-title',
 		toolGroup: 'object',
-		tabbed: true,
+		tabbed: false,
 		tabs: [{
-			name: 'check',
-			labelMsg: 'bs-checklist-tag-checklist-tab-checkbox',
-			value: 'check'
-		},{
 			name: 'list',
 			labelMsg: 'bs-checklist-tag-checklist-tab-list',
 			value: 'list'
 		}],
 		attributes: [{
-			name: 'type',
-			type: 'tab',
-			default: 'check'
-		},{
-			name: 'checked',
-			labelMsg: 'bs-checklist-ve-checklistinspector-cb-checked',
-			helpMsg: 'bs-checklist-tag-checklist-attr-checked-help',
-			type: 'toggle',
-			default: 'false',
-			tab: 'check'
-		},{
 			name: 'list',
 			labelMsg: 'bs-checklist-tag-checklist-attr-list-label',
 			helpMsg: 'bs-checklist-tag-checklist-attr-list-help',

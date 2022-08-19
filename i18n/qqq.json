@@ -72,5 +72,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Help message for the parameter \"list\"",
 	"bs-checklist-tag-checklist-attr-value-label": "Label for the tab \"option\"",
 	"bs-checklist-tag-checklist-attr-value-help": "Help message for the parameter \"option\"",
-	"bs-checklist-config-markasminoredit-help": "Description for config variable \"ChecklistMarkAsMinorEdit\""
+	"bs-checklist-config-markasminoredit-help": "Description for config variable \"ChecklistMarkAsMinorEdit\"",
+	"bs-checkbox-ve-checkboxinspector-title": "Title for insert checkbox dialogue",
+	"bs-checkbox-tag-checkbox-desc": "Text for renders a checkbox"
 }

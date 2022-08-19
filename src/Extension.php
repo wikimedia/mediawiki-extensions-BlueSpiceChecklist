@@ -112,6 +112,7 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
 		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
+		$parser->setHook( 'bs:checkbox', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
 		return true;
 	}
 
