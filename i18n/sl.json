@@ -24,6 +24,6 @@
 	"bs-checklist-alert": "Pozor!",
 	"bs-checklist-confirm-dirty-title": "Neshranjene spremembe!",
 	"bs-checklist-confirm-dirty-text": "Nekatere spremembe na seznamu še niso shranjene. Ali ste prepičani, da želite zavreči te spremembe?",
-	"tag-bs-checklist-change": "sprememba potrdilnega polja",
+	"tag-bs-checklist-change": "sprememba potrditvenega polja",
 	"tag-bs-checklist-change-description": "Uporabnik je na strani spremenil potrdilno polje ali izbral vrednost polja"
 }
