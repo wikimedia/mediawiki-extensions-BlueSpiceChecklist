@@ -124,7 +124,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$flags = 0;
 		}
-		$user = $this->getServices()->getService( 'BSUtilityFactory' )
+		$user = $this->services->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 		$updater = $oWikiPage->newPageUpdater( $user );
 		$updater->setContent( SlotRecord::MAIN, $oNewContent );
@@ -178,8 +178,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			return $oResponse;
 		}
 
-		$services = $this->getServices();
-		if ( !$services->getPermissionManager()
+		if ( !$this->services->getPermissionManager()
 			->userCan( 'edit', $this->getUser(), $oTitle )
 		) {
 			$oResponse->message = wfMessage( "bs-checklist-savelist-error-edit-not-permitted" )->plain();
@@ -196,7 +195,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $oTitle );
 		$oContentHandler = $oWikiPage->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
-		$user = $services->getService( 'BSUtilityFactory' )
+		$user = $this->services->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 		$updater = $oWikiPage->newPageUpdater( $user );
 		$updater->setContent( SlotRecord::MAIN, $oNewContent );
