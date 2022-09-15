@@ -34,7 +34,7 @@
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|marcou}} a caixa de verificação #$4 na página $3",
 	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|desmarcou}} a caixa de verificação #$4 na página $3",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|selecionou}} o valor \"$5\" do menu de seleção #$4 na página $3",
-	"bs-checklist-savelist-error-invalid-title": "O titulo fornecido é inválido",
+	"bs-checklist-savelist-error-invalid-title": "O título fornecido é inválido",
 	"bs-checklist-savelist-error-edit-not-permitted": "Permissões insuficientes para gravar a lista",
 	"bs-checklist-modified-check": "Modificou valor de lista de verificação",
 	"bs-checklist-summary-checked": "Caixa de verificação #$1 marcada",
