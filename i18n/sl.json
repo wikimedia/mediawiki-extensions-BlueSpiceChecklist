@@ -17,7 +17,7 @@
 	"bs-checklist-dlg-save-list": "Shrani spremembe seznama",
 	"bs-checklist-dlg-items-label": "Elementi seznama",
 	"bs-checklist-dlg-items-emptytext": "Seznam ne vsebuje nobenih elementov",
-	"bs-checklist-dlg-items-hint": "Nov element vpišite v zgornje polje in pritisnite tipko <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-items-hint": "Nov element vpišite v zgornje polje in pritisnite vnašalko (tipko <kbd>Enter</kbd>).",
 	"bs-checklist-dlg-panel-title": "Seznami na voljo",
 	"bs-checklist-dlg-new-title": "Dodaj nov seznam",
 	"bs-checklist-dlg-new-prompt": "Vpišite naslov seznama",
