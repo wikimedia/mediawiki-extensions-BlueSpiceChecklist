@@ -183,7 +183,7 @@ class Extension extends \BlueSpice\Extension {
 			}
 			$sOut[] = "/>";
 		}
-		$sOut = implode( $sOut, '' );
+		$sOut = implode( '', $sOut );
 		$sOut = str_replace( '{color}', $sSelectColor, $sOut );
 		return $sOut;
 	}

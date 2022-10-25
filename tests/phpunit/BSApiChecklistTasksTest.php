@@ -28,27 +28,20 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$this->insertPage( "Test", "<bs:checklist />" );
 	}
 
-	public function getTokens() {
-		return $this->getTokenList( self::$users[ 'sysop' ] );
-	}
-
 	/**
 	 * @covers \BSApiChecklistTasks::task_doChangeCheckItem
 	 * @return array
 	 */
 	public function testTask_doChangeCheckItem() {
-		$tokens = $this->getTokens();
-
-		$data = $this->doApiRequest( [
+		$data = $this->doApiRequestWithToken( [
 			'action' => 'bs-checklist-tasks',
-			'token' => $tokens[ 'edittoken' ],
 			'task' => 'doChangeCheckItem',
 			'taskData' => json_encode( [
 				'pos' => '1',
 				'value' => 'true'
 			] ),
 			'context' => json_encode( [ 'wgTitle' => 'Test' ] )
-		  ] );
+		  ], null, null );
 
 		$this->assertTrue( $data[ 0 ][ 'success' ] );
 
@@ -60,22 +53,19 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 	 * @return array
 	 */
 	public function testTask_saveOptionsList() {
-		$tokens = $this->getTokens();
-
 		$oTitle = Title::makeTitle( NS_TEMPLATE, 'Test' );
 		$this->assertFalse( $oTitle->exists() );
 
 		$arrRecords = [ 'a', 'b', 'c' ];
 
-		$data = $this->doApiRequest( [
+		$data = $this->doApiRequestWithToken( [
 			'action' => 'bs-checklist-tasks',
-			'token' => $tokens[ 'edittoken' ],
 			'task' => 'saveOptionsList',
 			'taskData' => json_encode( [
 				'title' => $oTitle->getText(),
 				'records' => $arrRecords
 			] ),
-		  ] );
+		  ], null, null, 'csrf' );
 
 		$this->assertTrue( $data[ 0 ][ 'success' ] );
 
@@ -86,7 +76,7 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		$content = ( $contentObj instanceof TextContent ) ? $contentObj->getText() : '';
 
 		foreach ( $arrRecords as $record ) {
-			$this->assertContains( "* " . $record, $content );
+			$this->assertStringContainsString( "* " . $record, $content );
 		}
 
 		return $data;
