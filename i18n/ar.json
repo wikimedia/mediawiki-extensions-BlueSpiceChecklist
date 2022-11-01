@@ -63,5 +63,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "قائمة الخيارات",
 	"bs-checklist-tag-checklist-attr-list-help": "يختار قائمة خيارات محددة، يمكن إنشاء قوائم في نطاق القالب عن طريق إنشاء صفحة تحتوي على قائمة نقطية.",
 	"bs-checklist-tag-checklist-attr-value-label": "الخيار المحدد",
-	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه."
+	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه.",
+	"bs-checklist-config-markasminoredit-help": "تم التنشيط: التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض يتم تعديلها كتعديلات طفيفة. غير نشط: يتم تعيين إصدارات التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض كتعديلات عادية."
 }
