@@ -61,5 +61,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Elenco opzioni",
 	"bs-checklist-tag-checklist-attr-list-help": "Seleziona un elenco di opzioni specifiche. Gli elenchi si possono creare nel namespace Template creando una pagina con un elenco puntato.",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione selezionata",
-	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra."
+	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha selezionato}} il valore \"$5\" nella casella di selezione #$4 a pagina $3"
 }
