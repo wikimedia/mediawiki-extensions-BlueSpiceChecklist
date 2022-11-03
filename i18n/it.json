@@ -35,6 +35,7 @@
 	"log-description-bs-checklist": "Registro delle modifiche nelle caselle di controllo nelle pagine.",
 	"log-show-hide-bs-checklist": "$1 registro della casella di controllo",
 	"logeventslist-bs-checklist-log": "Registro della casella di controllo",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha selezionato}} il valore \"$5\" nella casella di selezione #$4 a pagina $3",
 	"bs-checklist-savelist-error-invalid-title": "Titolo indicato non valido",
 	"bs-checklist-savelist-error-edit-not-permitted": "Autorizzazioni insufficienti per salvare l'elenco",
 	"bs-checklist-modified-check": "Valori della lista di controllo modificati",
