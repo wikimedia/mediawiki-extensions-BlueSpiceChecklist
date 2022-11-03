@@ -61,5 +61,6 @@
 	"bs-checklist-tag-checklist-attr-value-help": "Seleziona un'opzione specifica dall'elenco sopra.",
 	"bs-checklist-confirm-dirty-text": "Hai apportato modifiche alla lista di controllo che non sono state ancora salvate. Sei sicuro di voler annullare le modifiche?",
 	"log-description-bs-checklist": "Registro delle modifiche nelle caselle di controllo nelle pagine.",
-	"tag-bs-checklist-change-description": "L'utente ha modificato una casella di controllo o ha selezionato il valore della casella nella pagina"
+	"tag-bs-checklist-change-description": "L'utente ha modificato una casella di controllo o ha selezionato il valore della casella nella pagina",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha selezionato}} il valore \"$5\" nella casella di selezione #$4 a pagina $3"
 }
