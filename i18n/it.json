@@ -64,5 +64,6 @@
 	"tag-bs-checklist-change-description": "L'utente ha modificato una casella di controllo o ha selezionato il valore della casella nella pagina",
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha selezionato}} il valore \"$5\" nella casella di selezione #$4 a pagina $3",
 	"apihelp-bs-checklist-available-options-store-description": "Elenca tutte le opzioni disponibili per l'elenco di controllo dei template. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store.",
-	"apihelp-bs-checklist-available-options-store-summary": "Elenca tutte le opzioni disponibili per l'elenco di controllo dei template. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store."
+	"apihelp-bs-checklist-available-options-store-summary": "Elenca tutte le opzioni disponibili per l'elenco di controllo dei template. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store.",
+	"apihelp-bs-checklist-template-store-description": "Elenca tutti i template che sono fonti di elenchi di controllo validi. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store."
 }
