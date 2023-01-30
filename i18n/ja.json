@@ -4,6 +4,7 @@
 			"2nd-player",
 			"A2y4",
 			"Aefgh39622",
+			"Buehl",
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
@@ -52,5 +53,7 @@
 	"prefs-checklist-sesp-alias": "チェックリスト",
 	"logeventslist-bs-checklist-log": "チェックボックスログ",
 	"bs-checklist-summary-checked": "チェックされた #$1 チェックボックス",
-	"tag-bs-checklist-change": "チェックリストを変更"
+	"tag-bs-checklist-change": "チェックリストを変更",
+	"bs-checklist-summary-unchecked": "チェックされていないチェックボックス #$1",
+	"bs-checklist-config-markasminoredit": "チェックリストの変更を細部の編集としてマーク"
 }
