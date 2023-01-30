@@ -4,6 +4,7 @@
 			"2nd-player",
 			"A2y4",
 			"Aefgh39622",
+			"Buehl",
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
@@ -52,5 +53,7 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "チェックボックス",
 	"bs-checklist-tag-checklist-tab-list": "リスト",
 	"bs-checklist-tag-checklist-attr-list-label": "オプションリスト",
-	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション"
+	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション",
+	"bs-checklist-summary-unchecked": "チェックされていないチェックボックス #$1",
+	"bs-checklist-config-markasminoredit": "チェックリストの変更を細部の編集としてマーク"
 }
