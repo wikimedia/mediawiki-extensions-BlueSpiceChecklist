@@ -8,7 +8,8 @@
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
-			"Yusuke1109"
+			"Yusuke1109",
+			"背番号4のエース"
 		]
 	},
 	"bs-checklist-desc": "チェックリストの機能を提供する",
@@ -55,5 +56,20 @@
 	"bs-checklist-summary-checked": "チェックされた #$1 チェックボックス",
 	"tag-bs-checklist-change": "チェックリストを変更",
 	"bs-checklist-summary-unchecked": "チェックされていないチェックボックス #$1",
-	"bs-checklist-config-markasminoredit": "チェックリストの変更を細部の編集としてマーク"
+	"bs-checklist-config-markasminoredit": "チェックリストの変更を細部の編集としてマーク",
+	"bs-checklist-button-checkbox-title": "チェックリストの要素",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|$3ページの選択ボックス # $4の値 \" $5 \"}}",
+	"bs-checklist-modified-check": "変更されたチェックリストの値",
+	"bs-checklist-summary-changed": "選択ボックス # $1で値 \" $2 \" を選択しました",
+	"apihelp-bs-checklist-available-options-store-description": "ファイルバックエンドからすべてのファイルを一覧表示します。並び替え、フィルタおよびページ区切りができます。ExtJS Store 引数を実装します。",
+	"apihelp-bs-checklist-available-options-store-summary": "ファイルバックエンドからすべてのファイルを一覧表示します。並び替え、フィルタおよびページ区切りができます。ExtJS Store 引数を実装します。",
+	"apihelp-bs-checklist-template-store-description": "ファイルバックエンドからすべてのファイルを一覧表示します。並び替え、フィルタおよびページ区切りができます。ExtJS Store 引数を実装します。",
+	"apihelp-bs-checklist-template-store-summary": "ファイルバックエンドからすべてのファイルを一覧表示します。並び替え、フィルタおよびページ区切りができます。ExtJS Store 引数を実装します。",
+	"action-checklistmodify": "ウィキページを編集することなくチェックリスト項目の値を変更",
+	"tag-bs-checklist-change-description": "ユーザーがページのチェックボックスまたは選択ボックスの値を変更しました",
+	"prefs-checklist-sesp-desc": "そのページでチェックリスト要素が使用されたかどうかを示します",
+	"bs-checklist-tag-checklist-attr-checked-help": "設定されている場合、チェックボックスがチェックされた状態で表示されます",
+	"bs-checklist-tag-checklist-attr-list-help": "特定のオプション リストを選択します。リストは、箇条書きリストを含むページを作成することにより、Template名前空間に作成できます。",
+	"bs-checklist-tag-checklist-attr-value-help": "上記のリストから特定のオプションを選択します。",
+	"bs-checklist-config-markasminoredit-help": "アクティブ化:表示モードでのチェックリストへの変更は、小さな編集としてバージョン管理されます。非アクティブ:表示モードでのチェックリストへの変更は、通常の編集としてバージョン管理されます。"
 }
