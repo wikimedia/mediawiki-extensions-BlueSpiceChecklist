@@ -11,7 +11,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Nulle lista cargate",
 	"bs-checklist-dlg-insert-list-title": "Inserer un lista de controlo",
 	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
-	"bs-checklist-tag-checklist-desc": "Genera un quadrato marcabile o menu de selection. Le lista de optiones pote esser modificate per varie parametros.",
+	"bs-checklist-tag-checklist-desc": "Genera un menu de selection. Le lista de optiones pote esser modificate per varie parametros.",
 	"bs-checklist-tag-checklist-example-check": "Quadrato de selection",
 	"bs-checklist-tag-checklist-example-list": "Menu de selection",
 	"bs-checklist-dlg-new-list": "Crear un nove lista",
@@ -63,5 +63,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Selige un lista specific de optiones. Pro crear un lista in le spatio de nomines Patrono, crea un pagina con un lista a punctos.",
 	"bs-checklist-tag-checklist-attr-value-label": "Option seligite",
 	"bs-checklist-tag-checklist-attr-value-help": "Selige un option specific del lista hic supra.",
-	"bs-checklist-config-markasminoredit-help": "Activate: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes minor. Inactive: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes normal."
+	"bs-checklist-config-markasminoredit-help": "Activate: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes minor. Inactive: Le cambiamentos a un lista de controlo in modo de visualisation se versiona como modificationes normal.",
+	"bs-checkbox-ve-checkboxinspector-title": "Quadrato de selection",
+	"bs-checkbox-tag-checkbox-desc": "Genera un quadrato de selection",
+	"bs-checklist-droplet-checkbox-name": "Quadrato de selection",
+	"bs-checklist-droplet-checkbox-desc": "Quadrato de selection que pote esser marcate in modo de visualisation",
+	"bs-checklist-droplet-checklist-name": "Lista de verification",
+	"bs-checklist-droplet-checklist-desc": "Lista que permitte definir un valor in modo de visualisation"
 }
