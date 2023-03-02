@@ -5,10 +5,12 @@
 			"A2y4",
 			"Aefgh39622",
 			"Buehl",
+			"MathXplore",
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
 			"Yusuke1109",
+			"もなー(偽物)",
 			"背番号4のエース"
 		]
 	},
@@ -71,5 +73,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "特定のオプション リストを選択します。リストは、箇条書きリストを含むページを作成することにより、Template名前空間に作成できます。",
 	"bs-checklist-tag-checklist-attr-value-label": "選択されたオプション",
 	"bs-checklist-tag-checklist-attr-value-help": "上記のリストから特定のオプションを選択します。",
-	"bs-checklist-config-markasminoredit-help": "アクティブ化:表示モードでのチェックリストへの変更は、小さな編集としてバージョン管理されます。非アクティブ:表示モードでのチェックリストへの変更は、通常の編集としてバージョン管理されます。"
+	"bs-checklist-config-markasminoredit-help": "アクティブ化:表示モードでのチェックリストへの変更は、小さな編集としてバージョン管理されます。非アクティブ:表示モードでのチェックリストへの変更は、通常の編集としてバージョン管理されます。",
+	"bs-checkbox-ve-checkboxinspector-title": "チェックボックス",
+	"bs-checkbox-tag-checkbox-desc": "チェックボックスを生成",
+	"bs-checklist-droplet-checkbox-name": "チェックボックス",
+	"bs-checklist-droplet-checkbox-desc": "閲覧モードで確認可能なチェックボックス",
+	"bs-checklist-droplet-checklist-name": "チェックリスト",
+	"bs-checklist-droplet-checklist-desc": "閲覧モードで値を設定できるリスト"
 }

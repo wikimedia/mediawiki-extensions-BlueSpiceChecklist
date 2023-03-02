@@ -13,7 +13,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Naložen ni noben seznam",
 	"bs-checklist-dlg-insert-list-title": "Vstavi kontrolni seznam",
 	"bs-checklist-dlg-insert-list-value-list": "Seznam vrednosti",
-	"bs-checklist-tag-checklist-desc": "Ustvari označevalno polje ali izbirni meni. Kontrolni seznam lahko spremenite z različnimi parametri.",
+	"bs-checklist-tag-checklist-desc": "Ustvari izbirni meni. Kontrolni seznam lahko spremenite z različnimi parametri.",
 	"bs-checklist-tag-checklist-example-check": "Potrditveno polje",
 	"bs-checklist-tag-checklist-example-list": "Izberite meni",
 	"bs-checklist-dlg-new-list": "Ustvari nov seznam",
@@ -65,5 +65,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Izbere določen seznam možnosti. Sezname lahko ustvarite v imenskem prostoru »Predloga« tako, da ustvarite stran s seznamom oznak.",
 	"bs-checklist-tag-checklist-attr-value-label": "Izbrana možnost",
 	"bs-checklist-tag-checklist-attr-value-help": "Izbere določeno možnost z zgornjega seznama.",
-	"bs-checklist-config-markasminoredit-help": "Aktivirano: Spremembe kontrolnega seznama v načinu pogleda so označene kot manjša urejanja. Neaktivno: Spremembe kontrolnega seznama v načinu pogleda so označene kot običajna urejanja."
+	"bs-checklist-config-markasminoredit-help": "Aktivirano: Spremembe kontrolnega seznama v načinu pogleda so označene kot manjša urejanja. Neaktivno: Spremembe kontrolnega seznama v načinu pogleda so označene kot običajna urejanja.",
+	"bs-checkbox-ve-checkboxinspector-title": "Potrditveno polje",
+	"bs-checkbox-tag-checkbox-desc": "Ustvari potrditveno polje",
+	"bs-checklist-droplet-checkbox-name": "Potrditveno polje",
+	"bs-checklist-droplet-checkbox-desc": "Potrditveno polje, ki ga lahko označite v načinu pogleda",
+	"bs-checklist-droplet-checklist-name": "Kontrolni seznam",
+	"bs-checklist-droplet-checklist-desc": "Seznam, ki omogoča nastavitev vrednosti v načinu pogleda"
 }
