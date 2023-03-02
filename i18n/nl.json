@@ -25,7 +25,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Geen lijst geladen",
 	"bs-checklist-dlg-insert-list-title": "Een checklist invoegen",
 	"bs-checklist-dlg-insert-list-value-list": "Lijst met waarden",
-	"bs-checklist-tag-checklist-desc": "Genereert een checkbox of een selectiemenu. De checklist kan door diverse parameters worden gewijzigd.",
+	"bs-checklist-tag-checklist-desc": "Genereert een keuzemenu. De controlelijst kan met diverse parameters worden gewijzigd.",
 	"bs-checklist-tag-checklist-example-check": "Checkbox",
 	"bs-checklist-tag-checklist-example-list": "Menu selecteren",
 	"bs-checklist-dlg-new-list": "Nieuwe lijst aanmaken",
@@ -77,5 +77,11 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "Indien ingesteld wordt het selectievakje vooraf aangevinkt",
 	"bs-checklist-tag-checklist-attr-list-help": "Selecteert een specifieke optielijst. Lijsten kunnen worden gemaakt in de sjabloonnaamruimte door een pagina met een opsommingslijst te maken.",
 	"bs-checklist-tag-checklist-attr-value-help": "Selecteert een specifieke optie uit de bovenstaande lijst.",
-	"bs-checklist-config-markasminoredit-help": "Aan: wijzigingen aan een controlelijst in de weergavemodus worden als kleine bewerkingen doorgevoerd. Uit: wijzigingen aan een controlelijst in de weergavemodus worden als normale bewerkingen doorgevoerd."
+	"bs-checklist-config-markasminoredit-help": "Aan: wijzigingen aan een controlelijst in de weergavemodus worden als kleine bewerkingen doorgevoerd. Uit: wijzigingen aan een controlelijst in de weergavemodus worden als normale bewerkingen doorgevoerd.",
+	"bs-checkbox-ve-checkboxinspector-title": "Selectievakje",
+	"bs-checkbox-tag-checkbox-desc": "Genereert een selectievakje",
+	"bs-checklist-droplet-checkbox-name": "Selectievakje",
+	"bs-checklist-droplet-checkbox-desc": "Selectievakje dat kan worden aangevinkt in weergavemodus",
+	"bs-checklist-droplet-checklist-name": "Controlelijst",
+	"bs-checklist-droplet-checklist-desc": "Lijst waarmee een waarde kan worden ingesteld in weergavemodus"
 }
