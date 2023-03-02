@@ -4,6 +4,7 @@
 			"Elodark",
 			"Gomoko",
 			"Jean-Frédéric",
+			"Lewis2013",
 			"Ltrlg",
 			"Thibaut120094",
 			"Trial",
@@ -18,7 +19,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Aucune liste chargée",
 	"bs-checklist-dlg-insert-list-title": "Insérer une liste de vérification",
 	"bs-checklist-dlg-insert-list-value-list": "Liste de valeurs",
-	"bs-checklist-tag-checklist-desc": "Affiche une case à cocher ou un menu de sélection. Configurable selon divers paramètres.",
+	"bs-checklist-tag-checklist-desc": "Génère un menu de sélection. La liste de contrôles peut être modifiée à l’aide de divers paramètres.",
 	"bs-checklist-tag-checklist-example-check": "Case à cocher",
 	"bs-checklist-tag-checklist-example-list": "Menu de sélection",
 	"bs-checklist-dlg-new-list": "Créer une nouvelle liste",
@@ -70,5 +71,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Sélectionne une liste d’options spécifique. Les listes peuvent être créées dans l’espace de noms Modèle en créant une page avec une liste à puces.",
 	"bs-checklist-tag-checklist-attr-value-label": "Option sélectionnée",
 	"bs-checklist-tag-checklist-attr-value-help": "Sélectionne une option spécifique de la liste ci-dessus.",
-	"bs-checklist-config-markasminoredit-help": "Activé : les modifications d’une liste à cocher en mode vue sont versionnées comme mineures. Inactif : les modifications d’une liste à cocher en mode vue sont versionnées comme normales."
+	"bs-checklist-config-markasminoredit-help": "Activé : les modifications d’une liste à cocher en mode vue sont versionnées comme mineures. Inactif : les modifications d’une liste à cocher en mode vue sont versionnées comme normales.",
+	"bs-checkbox-ve-checkboxinspector-title": "Case à cocher",
+	"bs-checkbox-tag-checkbox-desc": "Génère une case à cocher",
+	"bs-checklist-droplet-checkbox-name": "Case à cocher",
+	"bs-checklist-droplet-checkbox-desc": "Case à cocher pouvant être cochée en mode visualisation",
+	"bs-checklist-droplet-checklist-name": "Liste de vérification",
+	"bs-checklist-droplet-checklist-desc": "Liste qui permet de définir une valeur en mode visualisation"
 }

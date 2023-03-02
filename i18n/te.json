@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"V Bhavya",
 			"Veeven"
 		]
 	},
-	"bs-checklist-confirm-dirty-title": "భద్రపరచని మార్పులు!"
+	"bs-checklist-confirm-dirty-title": "భద్రపరచని మార్పులు!",
+	"bs-checkbox-ve-checkboxinspector-title": "చెక్‌బాక్స్",
+	"bs-checklist-droplet-checkbox-name": "hai bhavya",
+	"bs-checklist-droplet-checklist-name": "హాయ్ భవ్య"
 }
