@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Divya4232",
 			"V Bhavya",
 			"Veeven"
 		]
 	},
 	"bs-checklist-confirm-dirty-title": "భద్రపరచని మార్పులు!",
 	"bs-checkbox-ve-checkboxinspector-title": "చెక్‌బాక్స్",
-	"bs-checklist-droplet-checkbox-name": "hai bhavya",
-	"bs-checklist-droplet-checklist-name": "హాయ్ భవ్య"
+	"bs-checkbox-tag-checkbox-desc": "చెక్‌బాక్స్‌ని రూపొందించండి",
+	"bs-checklist-droplet-checkbox-name": "చెక్ బాక్స్",
+	"bs-checklist-droplet-checklist-name": "చెక్ లిస్ట్"
 }
