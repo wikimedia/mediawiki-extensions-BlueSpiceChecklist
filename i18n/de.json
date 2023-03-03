@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"*Surak*",
 			"Hwboehm",
 			"Markus Glaser <glaser@hallowelt.biz>",
 			"Metalhead64",
@@ -16,7 +17,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Keine Liste geladen",
 	"bs-checklist-dlg-insert-list-title": "Eine Checkliste einfügen",
 	"bs-checklist-dlg-insert-list-value-list": "Werteliste",
-	"bs-checklist-tag-checklist-desc": "Erzeugt ein Kontrollkästchen oder ein Auswahlmenü. Die Auswahlliste kann durch verschiedene Parameter verändert werden.",
+	"bs-checklist-tag-checklist-desc": "Erzeugt ein Auswahlmenü. Die Auswahlliste kann durch verschiedene Parameter verändert werden.",
 	"bs-checklist-tag-checklist-example-check": "Kontrollkästchen",
 	"bs-checklist-tag-checklist-example-list": "Auswahlmenü",
 	"bs-checklist-dlg-new-list": "Eine neue Liste erzeugen",

@@ -17,7 +17,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Nessuna lista caricata",
 	"bs-checklist-dlg-insert-list-title": "Inserire un elenco di controllo",
 	"bs-checklist-dlg-insert-list-value-list": "Elenco di valori",
-	"bs-checklist-tag-checklist-desc": "Genera una casella di controllo o un menu di selezione. La lista di controllo può essere modificata da vari parametri.",
+	"bs-checklist-tag-checklist-desc": "Genera un menu di selezione. La lista di controllo può essere modificata da vari parametri.",
 	"bs-checklist-tag-checklist-example-check": "Casella di controllo",
 	"bs-checklist-tag-checklist-example-list": "Menu di selezione",
 	"bs-checklist-dlg-new-list": "Crea un nuovo elenco",
@@ -65,5 +65,9 @@
 	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|ha selezionato}} il valore \"$5\" nella casella di selezione #$4 a pagina $3",
 	"apihelp-bs-checklist-available-options-store-description": "Elenca tutte le opzioni disponibili per l'elenco di controllo dei template. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store.",
 	"apihelp-bs-checklist-available-options-store-summary": "Elenca tutte le opzioni disponibili per l'elenco di controllo dei template. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store.",
-	"apihelp-bs-checklist-template-store-description": "Elenca tutti i template che sono fonti di elenchi di controllo validi. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store."
+	"apihelp-bs-checklist-template-store-description": "Elenca tutti i template che sono fonti di elenchi di controllo validi. Consente l'ordinamento, il filtraggio e l'impaginazione. Implementa i parametri ExtJS Store.",
+	"bs-checkbox-ve-checkboxinspector-title": "Casella di controllo",
+	"bs-checkbox-tag-checkbox-desc": "Genera una casella di controllo",
+	"bs-checklist-droplet-checkbox-name": "Casella di controllo",
+	"bs-checklist-droplet-checklist-name": "Elenco di controllo"
 }
