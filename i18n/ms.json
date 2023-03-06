@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"bs-checklist-dlg-insert-list-title": "Masukkan senarai semak",
@@ -15,5 +16,6 @@
 	"bs-checklist-dlg-new-prompt": "Berikan tajuk senarai",
 	"bs-checklist-alert": "Awas!",
 	"bs-checklist-confirm-dirty-title": "Suntingan tidak disimpan!",
-	"bs-checklist-confirm-dirty-text": "Anda telah melakukan pengubahsuaian pada senarai semak yang belum disimpan. Adakah anda pasti mahu menyingkirkan suntingan tersebut?"
+	"bs-checklist-confirm-dirty-text": "Anda telah melakukan pengubahsuaian pada senarai semak yang belum disimpan. Adakah anda pasti mahu menyingkirkan suntingan tersebut?",
+	"bs-checklist-droplet-checklist-name": "Senarai semak"
 }
