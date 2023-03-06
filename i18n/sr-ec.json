@@ -3,6 +3,7 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Obsuser",
 			"Zoranzoki21"
 		]
@@ -47,5 +48,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Списак опција",
 	"bs-checklist-tag-checklist-attr-list-help": "Бира одређену листу опција. Листе се могу направити у именском простору „Шаблон” прављењем странице са листом са знаковима за набрајање",
 	"bs-checklist-tag-checklist-attr-value-label": "Изабрана опција",
-	"bs-checklist-tag-checklist-attr-value-help": "Бира одређене опције са горенаведене листе."
+	"bs-checklist-tag-checklist-attr-value-help": "Бира одређене опције са горенаведене листе.",
+	"bs-checklist-droplet-checklist-name": "Контролна листа"
 }
