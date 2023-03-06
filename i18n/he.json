@@ -16,7 +16,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "לא נטענה רשימה",
 	"bs-checklist-dlg-insert-list-title": "הוספת רשימת תיוג",
 	"bs-checklist-dlg-insert-list-value-list": "רשימת ערכים",
-	"bs-checklist-tag-checklist-desc": "יצירת תיבת סימון או תפריט בחירה. רשימת התיוג יכולה להשתנות בהתאם לפרמטרים שונים.",
+	"bs-checklist-tag-checklist-desc": "יצירת תפריט בחירה. רשימת התיוג יכולה להשתנות בהתאם לפרמטרים שונים.",
 	"bs-checklist-tag-checklist-example-check": "תיבת סימון",
 	"bs-checklist-tag-checklist-example-list": "תיבת בחירה",
 	"bs-checklist-dlg-new-list": "יצירת רשימה חדשה",
@@ -68,5 +68,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "בחירת רשימת אפשרויות מסוימת. הרשימות יכולות להיות מיוצרות במרחב תבנית באמצעות יצירת דף עם רשימת תבליטים.",
 	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה",
 	"bs-checklist-tag-checklist-attr-value-help": "בחירת אפשרות מסוימת מהרשימה לעיל.",
-	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות."
+	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות.",
+	"bs-checkbox-ve-checkboxinspector-title": "תיבת סימון",
+	"bs-checkbox-tag-checkbox-desc": "יצירת תיבת סימון",
+	"bs-checklist-droplet-checkbox-name": "תיבת סימון",
+	"bs-checklist-droplet-checkbox-desc": "תיבת סימון שניתן לסמן במצב תצוגה",
+	"bs-checklist-droplet-checklist-name": "רשימת סימון",
+	"bs-checklist-droplet-checklist-desc": "רשימה שמאפשרת להגדיר ערך במצב תצוגה"
 }
