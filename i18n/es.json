@@ -25,7 +25,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "No se cargó ninguna lista",
 	"bs-checklist-dlg-insert-list-title": "Insertar una lista de comprobación",
 	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
-	"bs-checklist-tag-checklist-desc": "Genera una casilla de verificación o un menú de selección. La lista puede modificarse por varios parámetros.",
+	"bs-checklist-tag-checklist-desc": "Genera un menú de selección. Es posible modificar la lista de comprobación a través de diversos parámetros.",
 	"bs-checklist-tag-checklist-example-check": "Casilla de verificación",
 	"bs-checklist-tag-checklist-example-list": "Menú de selección",
 	"bs-checklist-dlg-new-list": "Crear una lista nueva",
@@ -77,5 +77,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Selecciona una lista de opciones específica. Las listas se pueden crear en el espacio de nombres de Plantilla creando una página con una lista de viñetas.",
 	"bs-checklist-tag-checklist-attr-value-label": "Selecciona una opción",
 	"bs-checklist-tag-checklist-attr-value-help": "Selecciona una opción específica de la lista anterior.",
-	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales."
+	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales.",
+	"bs-checkbox-ve-checkboxinspector-title": "Casilla",
+	"bs-checkbox-tag-checkbox-desc": "Genera una casilla",
+	"bs-checklist-droplet-checkbox-name": "Casilla",
+	"bs-checklist-droplet-checkbox-desc": "Casilla que puede marcarse en el modo de visualización",
+	"bs-checklist-droplet-checklist-name": "Lista de comprobación",
+	"bs-checklist-droplet-checklist-desc": "Lista que permite definir un valor en el modo de visualización"
 }
