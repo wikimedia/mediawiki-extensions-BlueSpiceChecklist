@@ -69,5 +69,6 @@
 	"bs-checkbox-tag-checkbox-desc": "Genererer en avkrysningsboks",
 	"bs-checklist-droplet-checkbox-name": "Avkrysningsboks",
 	"bs-checklist-droplet-checkbox-desc": "Avkrysningsboks som kan velges i visningsmodus",
-	"bs-checklist-droplet-checklist-name": "Sjekkliste"
+	"bs-checklist-droplet-checklist-name": "Sjekkliste",
+	"bs-checklist-droplet-checklist-desc": "Liste som gjør det mulig å sette en verdi i visningsmodus"
 }
