@@ -12,7 +12,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Ingen liste lastet",
 	"bs-checklist-dlg-insert-list-title": "Sett inn en sjekkliste",
 	"bs-checklist-dlg-insert-list-value-list": "Verdiliste",
-	"bs-checklist-tag-checklist-desc": "Genererer en avkrysningsboks eller en utvalgsmeny. Sjekklisten kan modifiseres med forskjellige parametre.",
+	"bs-checklist-tag-checklist-desc": "Genererer en en utvalgsmeny. Sjekklisten kan modifiseres med forskjellige parametre.",
 	"bs-checklist-tag-checklist-example-check": "Avkrysningsboks",
 	"bs-checklist-tag-checklist-example-list": "Valgmeny",
 	"bs-checklist-dlg-new-list": "Opprett en ny liste",
@@ -64,5 +64,11 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Velger en spesifikk alternativliste. Lister kan opprettes i malnavnerommet ved å opprette ei side med ei punktliste.",
 	"bs-checklist-tag-checklist-attr-value-label": "Valgte valg",
 	"bs-checklist-tag-checklist-attr-value-help": "Velger et spesifikt alternativ fra lista ovenfor.",
-	"bs-checklist-config-markasminoredit-help": "Aktivert: Endringer i ei sjekkliste i visningsmodus versjoneres som mindre redigeringer. Deaktivert: Endringer i sjekklister i visningsmodus versjoneres som vanlige redigeringer."
+	"bs-checklist-config-markasminoredit-help": "Aktivert: Endringer i ei sjekkliste i visningsmodus versjoneres som mindre redigeringer. Deaktivert: Endringer i sjekklister i visningsmodus versjoneres som vanlige redigeringer.",
+	"bs-checkbox-ve-checkboxinspector-title": "Avkrysningsboks",
+	"bs-checkbox-tag-checkbox-desc": "Genererer en avkrysningsboks",
+	"bs-checklist-droplet-checkbox-name": "Avkrysningsboks",
+	"bs-checklist-droplet-checkbox-desc": "Avkrysningsboks som kan velges i visningsmodus",
+	"bs-checklist-droplet-checklist-name": "Sjekkliste",
+	"bs-checklist-droplet-checklist-desc": "Liste som gjør det mulig å sette en verdi i visningsmodus"
 }
