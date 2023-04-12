@@ -111,9 +111,27 @@ class Extension extends \BlueSpice\Extension {
 	 * @return bool
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
-		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
+		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onBsChecklist' );
 		$parser->setHook( 'bs:checkbox', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
 		return true;
+	}
+
+	/**
+	 * handle tag "bs:checklist"
+	 * with splitting tags type value is not set automatically
+	 *
+	 * @param string $input
+	 * @param array $args
+	 * @param Parser $parser
+	 * @param PPFrame $frame
+	 * @return string
+	 */
+	public static function onBsChecklist( $input, array $args, \Parser $parser,
+		\PPFrame $frame ) {
+		if ( !isset( $args['type'] ) ) {
+			$args['type'] = 'list';
+		}
+		return self::onMagicWordBsChecklist( $input, $args, $parser, $frame );
 	}
 
 	/**
@@ -133,6 +151,7 @@ class Extension extends \BlueSpice\Extension {
 		$parserOutput->setPageProperty( 'bs-tag-checklist', 1 );
 		self::$bCheckboxFound = true;
 		$sOut = [];
+		$aOptions = [];
 
 		if ( isset( $args['list'] ) ) {
 			$aOptions = self::getListOptions( $args['list'] );
