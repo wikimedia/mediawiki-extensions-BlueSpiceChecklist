@@ -13,7 +13,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "لم يتم تحميل قائمة",
 	"bs-checklist-dlg-insert-list-title": "أدخل قائمة مراجعة",
 	"bs-checklist-dlg-insert-list-value-list": "قائمة القيم",
-	"bs-checklist-tag-checklist-desc": "يولد صندوق اختيار أو قائمة اختيار، يمكن تعديل قائمة التحقق بوسائط مختلفة.",
+	"bs-checklist-tag-checklist-desc": "يولد قائمة اختيار.  يمكن تعديل قائمة التحقق من خلال معايير مختلفة.",
 	"bs-checklist-tag-checklist-example-check": "صندوق اختيار",
 	"bs-checklist-tag-checklist-example-list": "قائمة اختيار",
 	"bs-checklist-dlg-new-list": "إنشاء قائمة جديدة",
@@ -66,5 +66,10 @@
 	"bs-checklist-tag-checklist-attr-value-label": "الخيار المحدد",
 	"bs-checklist-tag-checklist-attr-value-help": "يختار خيارات محددة من القائمة أعلاه.",
 	"bs-checklist-config-markasminoredit-help": "تم التنشيط: التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض يتم تعديلها كتعديلات طفيفة. غير نشط: يتم تعيين إصدارات التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض كتعديلات عادية.",
-	"bs-checklist-droplet-checklist-desc": "قائمة تسمح بتعيين قيمة في وضع العرض"
+	"bs-checklist-droplet-checklist-desc": "قائمة تسمح بتعيين قيمة في وضع العرض",
+	"bs-checkbox-ve-checkboxinspector-title": "صندوق اختيار",
+	"bs-checkbox-tag-checkbox-desc": "يولد مربع اختيار",
+	"bs-checklist-droplet-checkbox-name": "صندوق اختيار",
+	"bs-checklist-droplet-checkbox-desc": "صندوق الاختيار التي يمكن التحقق منها في وضع العرض",
+	"bs-checklist-droplet-checklist-name": "قائمة التحقق"
 }
