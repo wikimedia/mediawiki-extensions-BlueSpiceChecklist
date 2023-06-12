@@ -60,5 +60,10 @@
 	"bs-checklist-modified-check": "체크리스트 값을 수정함",
 	"bs-checklist-summary-changed": "선택 상자 #$1에서 \"$2\" 값을 선택함",
 	"bs-checklist-update-list": "목록을 업데이트함",
-	"bs-checklist-dlg-items-hint": "새 원소를 추가하려면 위 입력란에 입력후 <kbd>엔터</kbd>를 누르십시오."
+	"bs-checklist-dlg-items-hint": "새 원소를 추가하려면 위 입력란에 입력후 <kbd>엔터</kbd>를 누르십시오.",
+	"bs-checkbox-ve-checkboxinspector-title": "체크 상자",
+	"bs-checkbox-tag-checkbox-desc": "체크 상자 생성",
+	"bs-checklist-droplet-checkbox-name": "체크 상자",
+	"bs-checklist-droplet-checkbox-desc": "뷰 모드에서 체크가 가능한 체크 상자",
+	"bs-checklist-droplet-checklist-name": "체크리스트"
 }
