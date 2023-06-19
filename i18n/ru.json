@@ -25,7 +25,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Листы не загружены",
 	"bs-checklist-dlg-insert-list-title": "Вставить контрольный список",
 	"bs-checklist-dlg-insert-list-value-list": "Список значений",
-	"bs-checklist-tag-checklist-desc": "Создаёт чекбокс или поле выбора. Список может быть изменён с помощью различных параметров.",
+	"bs-checklist-tag-checklist-desc": "Создаёт поле выбора. Список может быть изменён с помощью различных параметров.",
 	"bs-checklist-tag-checklist-example-check": "Флажок",
 	"bs-checklist-tag-checklist-example-list": "Выберите меню",
 	"bs-checklist-dlg-new-list": "Создать новый список",
