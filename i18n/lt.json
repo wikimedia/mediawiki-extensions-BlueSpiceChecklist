@@ -40,8 +40,6 @@
 	"bs-checklist-summary-unchecked": "Atžymėjo laukelį #$1",
 	"bs-checklist-summary-changed": "Laukelyje #$1 pasirinko reikšmę „$2“",
 	"bs-checklist-update-list": "Sąrašas atnaujintas",
-	"apihelp-bs-checklist-available-options-store-description": "Nurodo visus prieinamus kontrolinio sąrašo šablonus. Leidžia rūšiuoti, filtruoti ir numeruoti. Įterpia ExtJS Store parametrus.",
-	"apihelp-bs-checklist-template-store-description": "Nurodo visus šablonus, kurie yra galimi kontrolinio sąrašo šaltiniai. Leidžia rūšiuoti, filtruoti ir numeruoti. Įterpia ExtJS Store parametrus.",
 	"bs-tag-checklist": "kontrolinio sąrašo žymė",
 	"bs-checklist-ve-checklistinspector-title": "Kontrolinis sąrašas",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Pasirinkta",
