@@ -50,9 +50,6 @@
 			"Droplets": {
 				"checklist": {
 					"class": "\\BlueSpice\\Checklist\\ContentDroplets\\ChecklistDroplet"
-				},
-				"checkbox": {
-					"class": "\\BlueSpice\\Checklist\\ContentDroplets\\CheckboxDroplet"
 				}
 			}
 		}
@@ -159,9 +156,6 @@
 		"ext.bluespice.checkbox.visualEditor": {
 			"scripts": [
 				"bs.chklst/util/tag/CheckboxDefinition.js"
-			],
-			"styles": [
-				"stylesheets/bs.chklst.droplet.checkbox.css"
 			],
 			"messages": [
 				"bs-checkbox-ve-checkboxinspector-title",
