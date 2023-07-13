@@ -76,5 +76,7 @@
 	"bs-checkbox-ve-checkboxinspector-title": "Title for insert checkbox dialogue",
 	"bs-checkbox-tag-checkbox-desc": "Text for renders a checkbox",
 	"bs-checklist-droplet-checklist-name": "Title of droplet for tag Checklist",
-	"bs-checklist-droplet-checklist-desc": "Description of droplet for tag Checklist"
+	"bs-checklist-droplet-checklist-desc": "Description of droplet for tag Checklist",
+	"bs-checklist-droplet-checkbox-name": "Title of droplet for tag Checkbox",
+	"bs-checklist-droplet-checkbox-desc": "Description of droplet for tag Checkbox"
 }

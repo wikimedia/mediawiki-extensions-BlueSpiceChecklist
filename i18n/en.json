@@ -68,5 +68,7 @@
 	"bs-checkbox-ve-checkboxinspector-title": "Checkbox",
 	"bs-checkbox-tag-checkbox-desc": "Generates a checkbox",
 	"bs-checklist-droplet-checklist-name": "Checklist",
-	"bs-checklist-droplet-checklist-desc": "List that allows to set a value in view mode"
+	"bs-checklist-droplet-checklist-desc": "List that allows to set a value in view mode",
+	"bs-checklist-droplet-checkbox-name": "Checkbox",
+	"bs-checklist-droplet-checkbox-desc": "Checkbox that can be checked in view mode"
 }
