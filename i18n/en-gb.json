@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|selected}} the value '$5' in select box #$4 on page $3",
+	"bs-checklist-summary-changed": "Selected the value '$2' in select box #$1"
+}
