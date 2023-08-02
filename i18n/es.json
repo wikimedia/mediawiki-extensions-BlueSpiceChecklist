@@ -77,8 +77,6 @@
 	"bs-checklist-config-markasminoredit-help": "Activado: los cambios a una lista de verificación en el modo de visualización se versionan como ediciones menores. Inactivo: los cambios en una lista de verificación en el modo de visualización se versionan como ediciones normales.",
 	"bs-checkbox-ve-checkboxinspector-title": "Casilla",
 	"bs-checkbox-tag-checkbox-desc": "Genera una casilla",
-	"bs-checklist-droplet-checkbox-name": "Casilla",
-	"bs-checklist-droplet-checkbox-desc": "Casilla que puede marcarse en el modo de visualización",
 	"bs-checklist-droplet-checklist-name": "Lista de comprobación",
 	"bs-checklist-droplet-checklist-desc": "Lista que permite definir un valor en el modo de visualización"
 }

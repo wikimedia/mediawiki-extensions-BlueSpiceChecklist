@@ -64,8 +64,6 @@
 	"bs-checklist-config-markasminoredit-help": "Aktivert: Endringer i ei sjekkliste i visningsmodus versjoneres som mindre redigeringer. Deaktivert: Endringer i sjekklister i visningsmodus versjoneres som vanlige redigeringer.",
 	"bs-checkbox-ve-checkboxinspector-title": "Avkrysningsboks",
 	"bs-checkbox-tag-checkbox-desc": "Genererer en avkrysningsboks",
-	"bs-checklist-droplet-checkbox-name": "Avkrysningsboks",
-	"bs-checklist-droplet-checkbox-desc": "Avkrysningsboks som kan velges i visningsmodus",
 	"bs-checklist-droplet-checklist-name": "Sjekkliste",
 	"bs-checklist-droplet-checklist-desc": "Liste som gjør det mulig å sette en verdi i visningsmodus"
 }

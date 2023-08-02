@@ -63,7 +63,5 @@
 	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다.",
 	"bs-checkbox-ve-checkboxinspector-title": "체크 상자",
 	"bs-checkbox-tag-checkbox-desc": "체크 상자 생성",
-	"bs-checklist-droplet-checkbox-name": "체크 상자",
-	"bs-checklist-droplet-checkbox-desc": "뷰 모드에서 체크가 가능한 체크 상자",
 	"bs-checklist-droplet-checklist-name": "체크리스트"
 }

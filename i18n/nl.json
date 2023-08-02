@@ -77,8 +77,6 @@
 	"bs-checklist-config-markasminoredit-help": "Aan: wijzigingen aan een controlelijst in de weergavemodus worden als kleine bewerkingen doorgevoerd. Uit: wijzigingen aan een controlelijst in de weergavemodus worden als normale bewerkingen doorgevoerd.",
 	"bs-checkbox-ve-checkboxinspector-title": "Selectievakje",
 	"bs-checkbox-tag-checkbox-desc": "Genereert een selectievakje",
-	"bs-checklist-droplet-checkbox-name": "Selectievakje",
-	"bs-checklist-droplet-checkbox-desc": "Selectievakje dat kan worden aangevinkt in weergavemodus",
 	"bs-checklist-droplet-checklist-name": "Controlelijst",
 	"bs-checklist-droplet-checklist-desc": "Lijst waarmee een waarde kan worden ingesteld in weergavemodus"
 }

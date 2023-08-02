@@ -66,8 +66,6 @@
 	"bs-checklist-config-markasminoredit-help": "Ativado: as mudanças a uma lista de verificação no modo de visualização são visionadas como edições menores. Desativado: as mudanças a uma lista de verificação no modo de visualização são visionadas como edições normais.",
 	"bs-checkbox-ve-checkboxinspector-title": "Caixa de Seleção",
 	"bs-checkbox-tag-checkbox-desc": "Gera uma caixa de seleção",
-	"bs-checklist-droplet-checkbox-name": "Caixa de Seleção",
-	"bs-checklist-droplet-checkbox-desc": "Caixa de seleção que pode ser selecionada em modo de exibição",
 	"bs-checklist-droplet-checklist-name": "Lista de verificação",
 	"bs-checklist-droplet-checklist-desc": "Lista que permiter definir um valor em modo de exibição"
 }

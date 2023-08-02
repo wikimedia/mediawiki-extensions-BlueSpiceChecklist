@@ -69,8 +69,6 @@
 	"bs-checklist-config-markasminoredit-help": "Aktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als kleine Änderung versioniert. Deaktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als normale Änderung versioniert.",
 	"bs-checkbox-ve-checkboxinspector-title": "Kontrollkästchen",
 	"bs-checkbox-tag-checkbox-desc": "Erzeugt ein Kontrollkästchen",
-	"bs-checklist-droplet-checkbox-name": "Kontrollkästchen",
-	"bs-checklist-droplet-checkbox-desc": "Kontrollkästchen, das im Ansichtsmodus aktiviert wird",
 	"bs-checklist-droplet-checklist-name": "Kontrollliste",
 	"bs-checklist-droplet-checklist-desc": "Liste zur Auswahl eines Wertes im Ansichtsmodus"
 }

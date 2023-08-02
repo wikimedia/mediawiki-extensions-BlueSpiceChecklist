@@ -68,8 +68,6 @@
 	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות.",
 	"bs-checkbox-ve-checkboxinspector-title": "תיבת סימון",
 	"bs-checkbox-tag-checkbox-desc": "יצירת תיבת סימון",
-	"bs-checklist-droplet-checkbox-name": "תיבת סימון",
-	"bs-checklist-droplet-checkbox-desc": "תיבת סימון שניתן לסמן במצב תצוגה",
 	"bs-checklist-droplet-checklist-name": "רשימת סימון",
 	"bs-checklist-droplet-checklist-desc": "רשימה שמאפשרת להגדיר ערך במצב תצוגה"
 }

@@ -65,8 +65,6 @@
 	"bs-checklist-config-markasminoredit-help": "تم التنشيط: التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض يتم تعديلها كتعديلات طفيفة. غير نشط: يتم تعيين إصدارات التغييرات التي يتم إجراؤها على قائمة التحقق في وضع العرض كتعديلات عادية.",
 	"bs-checkbox-ve-checkboxinspector-title": "صندوق اختيار",
 	"bs-checkbox-tag-checkbox-desc": "يولد مربع اختيار",
-	"bs-checklist-droplet-checkbox-name": "صندوق اختيار",
-	"bs-checklist-droplet-checkbox-desc": "صندوق الاختيار التي يمكن التحقق منها في وضع العرض",
 	"bs-checklist-droplet-checklist-name": "قائمة التحقق",
 	"bs-checklist-droplet-checklist-desc": "قائمة تسمح بتعيين قيمة في وضع العرض"
 }

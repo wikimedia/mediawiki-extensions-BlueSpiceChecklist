@@ -73,8 +73,6 @@
 	"bs-checklist-config-markasminoredit-help": "アクティブ化:表示モードでのチェックリストへの変更は、小さな編集としてバージョン管理されます。非アクティブ:表示モードでのチェックリストへの変更は、通常の編集としてバージョン管理されます。",
 	"bs-checkbox-ve-checkboxinspector-title": "チェックボックス",
 	"bs-checkbox-tag-checkbox-desc": "チェックボックスを生成",
-	"bs-checklist-droplet-checkbox-name": "チェックボックス",
-	"bs-checklist-droplet-checkbox-desc": "閲覧モードで確認可能なチェックボックス",
 	"bs-checklist-droplet-checklist-name": "チェックリスト",
 	"bs-checklist-droplet-checklist-desc": "閲覧モードで値を設定できるリスト"
 }

@@ -77,8 +77,6 @@
 	"bs-checklist-config-markasminoredit-help": "已启用：在检视模式下对清单的更改归为小编辑。未启用：在检视模式下对清单的更改归为一般编辑。",
 	"bs-checkbox-ve-checkboxinspector-title": "复选框",
 	"bs-checkbox-tag-checkbox-desc": "生成复选框",
-	"bs-checklist-droplet-checkbox-name": "复选框",
-	"bs-checklist-droplet-checkbox-desc": "可以在视图模式下选中的复选框",
 	"bs-checklist-droplet-checklist-name": "检查表",
 	"bs-checklist-droplet-checklist-desc": "允许在视图模式下设置值的列表"
 }

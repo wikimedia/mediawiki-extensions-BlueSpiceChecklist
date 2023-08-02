@@ -71,8 +71,6 @@
 	"bs-checklist-config-markasminoredit-help": "Activé : les modifications d’une liste à cocher en mode vue sont versionnées comme mineures. Inactif : les modifications d’une liste à cocher en mode vue sont versionnées comme normales.",
 	"bs-checkbox-ve-checkboxinspector-title": "Case à cocher",
 	"bs-checkbox-tag-checkbox-desc": "Génère une case à cocher",
-	"bs-checklist-droplet-checkbox-name": "Case à cocher",
-	"bs-checklist-droplet-checkbox-desc": "Case à cocher pouvant être cochée en mode visualisation",
 	"bs-checklist-droplet-checklist-name": "Liste de vérification",
 	"bs-checklist-droplet-checklist-desc": "Liste qui permet de définir une valeur en mode visualisation"
 }

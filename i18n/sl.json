@@ -65,8 +65,6 @@
 	"bs-checklist-config-markasminoredit-help": "Aktivirano: Spremembe kontrolnega seznama v načinu pogleda so označene kot manjša urejanja. Neaktivno: Spremembe kontrolnega seznama v načinu pogleda so označene kot običajna urejanja.",
 	"bs-checkbox-ve-checkboxinspector-title": "Potrditveno polje",
 	"bs-checkbox-tag-checkbox-desc": "Ustvari potrditveno polje",
-	"bs-checklist-droplet-checkbox-name": "Potrditveno polje",
-	"bs-checklist-droplet-checkbox-desc": "Potrditveno polje, ki ga lahko označite v načinu pogleda",
 	"bs-checklist-droplet-checklist-name": "Kontrolni seznam",
 	"bs-checklist-droplet-checklist-desc": "Seznam, ki omogoča nastavitev vrednosti v načinu pogleda"
 }
