@@ -53,5 +53,7 @@
 	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
 	"prefs-checklist-sesp-alias": "Контрольный список",
 	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок",
-	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|отметил|отметила}} флажок #$4 на странице $3"
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|отметил|отметила}} флажок #$4 на странице $3",
+	"bs-checkbox-ve-checkboxinspector-title": "Флажок",
+	"bs-checklist-droplet-checklist-name": "Контрольный список"
 }
