@@ -53,5 +53,7 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Флажок",
 	"bs-checklist-tag-checklist-tab-list": "Список",
 	"bs-checklist-tag-checklist-attr-list-label": "Список опций",
-	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция"
+	"bs-checklist-tag-checklist-attr-value-label": "Выбранная опция",
+	"bs-checkbox-ve-checkboxinspector-title": "Флажок",
+	"bs-checklist-droplet-checklist-name": "Контрольный список"
 }
