@@ -12,7 +12,7 @@
 	"bs-checklist-menu-insert-checkbox": "Флажок",
 	"bs-checklist-dlg-insert-list-title": "Котроль исемлек өҫтәргә",
 	"bs-checklist-dlg-insert-list-value-list": "Мәғәнәләр исемлеге",
-	"bs-checklist-tag-checklist-desc": "Билдәне йәки һайлау ҡырын күрһәтә. Конфигурацияның ҡулланыу мөмкин булҙан атрибуттары:",
+	"bs-checklist-tag-checklist-desc": "Һайлау менюһын барлыҡҡа килтерә. Исемлек төрлө параметрҙар ярҙамында үҙгәртелә ала.",
 	"bs-checklist-dlg-new-list": "Яңы исемлек булдырырға",
 	"bs-checklist-dlg-save-list": "Исемлектә үҙгәртеүҙәрҙе һаҡларға",
 	"bs-checklist-dlg-items-label": "Исемлектәге объекттар",
