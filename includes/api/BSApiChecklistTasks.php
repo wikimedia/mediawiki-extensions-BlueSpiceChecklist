@@ -106,8 +106,13 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$newValue = $this->getNewValue( $value, $type );
 		$summary = $this->getSummary( $value, $type, $iPos );
 
+		$pattern = "/(<bs:checklist )([^>]*?>)/";
+		if ( $type === 'check' ) {
+			$pattern = "/(<bs:checkbox )([^>]*?>)/";
+		}
+
 		$content = Checklist::preg_replace_nth(
-			"/(<bs:checklist )([^>]*?>)/",
+			$pattern,
 			"$1" . $newValue . "$2",
 			$content,
 			$iPos
@@ -120,8 +125,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		} else {
 			$flags = 0;
 		}
-		$user = $this->services->getService( 'BSUtilityFactory' )
-			->getMaintenanceUser()->getUser();
+		$user = $this->getUser();
 		$updater = $oWikiPage->newPageUpdater( $user );
 		$updater->setContent( SlotRecord::MAIN, $oNewContent );
 		$comment = CommentStoreComment::newUnsavedComment( $summary );
@@ -190,8 +194,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $oTitle );
 		$oContentHandler = $oWikiPage->getContentHandler();
 		$oNewContent = $oContentHandler->makeContent( $sContent, $oWikiPage->getTitle() );
-		$user = $this->services->getService( 'BSUtilityFactory' )
-			->getMaintenanceUser()->getUser();
+		$user = $this->getUser();
 		$updater = $oWikiPage->newPageUpdater( $user );
 		$updater->setContent( SlotRecord::MAIN, $oNewContent );
 		$comment = CommentStoreComment::newUnsavedComment( $sSummary );
