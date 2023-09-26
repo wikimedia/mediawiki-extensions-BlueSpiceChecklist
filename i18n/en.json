@@ -13,8 +13,6 @@
 	"bs-checklist-dlg-insert-list-title": "Insert a checklist",
 	"bs-checklist-dlg-insert-list-value-list": "Value list",
 	"bs-checklist-tag-checklist-desc": "Generates a select menu. The checklist can be modified by various parameters.",
-	"bs-checklist-tag-checklist-example-check": "Checkbox",
-	"bs-checklist-tag-checklist-example-list": "Select menu",
 	"bs-checklist-dlg-new-list": "Create a new list",
 	"bs-checklist-dlg-save-list": "Save changes to list",
 	"bs-checklist-dlg-items-label": "Items in list",

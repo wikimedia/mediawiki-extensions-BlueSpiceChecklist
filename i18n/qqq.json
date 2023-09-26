@@ -21,8 +21,6 @@
 	"bs-checklist-dlg-insert-list-title": "Title for insert checklist dialogue",
 	"bs-checklist-dlg-insert-list-value-list": "Label for value list\n{{Identical|Value list}}",
 	"bs-checklist-tag-checklist-desc": "Text for renders a checkbox or select field. Available configuration attributes:\n{{Related|Bs-tag-desc}}",
-	"bs-checklist-tag-checklist-example-check": "Description of example for checkbox. Used in InsertMagic tag description.\n{{Identical|Checkbox}}",
-	"bs-checklist-tag-checklist-example-list": "Description of example for select menu. Used in InsertMagic tag description.",
 	"bs-checklist-dlg-new-list": "Button text for creating a new checklist",
 	"bs-checklist-dlg-save-list": "Button text for saving changes in a checklist",
 	"bs-checklist-dlg-items-label": "Label for list of checklist items",
