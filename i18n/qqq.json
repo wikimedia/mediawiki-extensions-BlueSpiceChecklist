@@ -76,5 +76,7 @@
 	"bs-checklist-droplet-checklist-name": "Title of droplet for tag Checklist",
 	"bs-checklist-droplet-checklist-desc": "Description of droplet for tag Checklist",
 	"bs-checklist-droplet-checkbox-name": "Title of droplet for tag Checkbox",
-	"bs-checklist-droplet-checkbox-desc": "Description of droplet for tag Checkbox"
+	"bs-checklist-droplet-checkbox-desc": "Description of droplet for tag Checkbox",
+	"bs-checklist-tag-checklist-example-check": "Description of example for checkbox. Used in InsertMagic tag description.\n{{Identical|Checkbox}}",
+	"bs-checklist-tag-checklist-example-list": "Description of example for select menu. Used in InsertMagic tag description."
 }
