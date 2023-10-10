@@ -26,8 +26,6 @@
 	"bs-checklist-dlg-insert-list-title": "插入一个清单",
 	"bs-checklist-dlg-insert-list-value-list": "值列表",
 	"bs-checklist-tag-checklist-desc": "生成一个选择菜单。清单可通过多个参数修改。",
-	"bs-checklist-tag-checklist-example-check": "复选框",
-	"bs-checklist-tag-checklist-example-list": "选择菜单",
 	"bs-checklist-dlg-new-list": "创造一个新列表",
 	"bs-checklist-dlg-save-list": "保存列表更改",
 	"bs-checklist-dlg-items-label": "列表中的项目",

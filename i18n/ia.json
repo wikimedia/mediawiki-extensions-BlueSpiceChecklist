@@ -12,8 +12,6 @@
 	"bs-checklist-dlg-insert-list-title": "Inserer un lista de controlo",
 	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
 	"bs-checklist-tag-checklist-desc": "Genera un menu de selection. Le lista de optiones pote esser modificate per varie parametros.",
-	"bs-checklist-tag-checklist-example-check": "Quadrato de selection",
-	"bs-checklist-tag-checklist-example-list": "Menu de selection",
 	"bs-checklist-dlg-new-list": "Crear un nove lista",
 	"bs-checklist-dlg-save-list": "Salveguardar cambiamentos in lista",
 	"bs-checklist-dlg-items-label": "Elementos in lista",

@@ -17,8 +17,6 @@
 	"bs-checklist-dlg-insert-list-title": "Infoga en checklista",
 	"bs-checklist-dlg-insert-list-value-list": "Värdelista",
 	"bs-checklist-tag-checklist-desc": "Skapar en kryssruta eller en valmeny. Checklistan kan ändras med diverse parametrar:",
-	"bs-checklist-tag-checklist-example-check": "Kryssruta",
-	"bs-checklist-tag-checklist-example-list": "Valmeny",
 	"bs-checklist-dlg-new-list": "Skapa en ny lista",
 	"bs-checklist-dlg-save-list": "Spara ändringar till lista",
 	"bs-checklist-dlg-items-label": "Objekt i listan",

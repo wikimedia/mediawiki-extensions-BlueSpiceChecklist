@@ -13,8 +13,6 @@
 	"bs-checklist-dlg-insert-list-title": "Вметни контролен список",
 	"bs-checklist-dlg-insert-list-value-list": "Список на вредности",
 	"bs-checklist-tag-checklist-desc": "Создава штикларник или мени. Списокот со штикларници може да се менува со разни параметри.",
-	"bs-checklist-tag-checklist-example-check": "Штикларник",
-	"bs-checklist-tag-checklist-example-list": "Изборно мени",
 	"bs-checklist-dlg-new-list": "Создај нов список",
 	"bs-checklist-dlg-save-list": "Зачувај измени",
 	"bs-checklist-dlg-items-label": "Ставки на списокот",

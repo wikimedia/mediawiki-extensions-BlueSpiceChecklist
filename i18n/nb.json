@@ -13,8 +13,6 @@
 	"bs-checklist-dlg-insert-list-title": "Sett inn en sjekkliste",
 	"bs-checklist-dlg-insert-list-value-list": "Verdiliste",
 	"bs-checklist-tag-checklist-desc": "Genererer en en utvalgsmeny. Sjekklisten kan modifiseres med forskjellige parametre.",
-	"bs-checklist-tag-checklist-example-check": "Avkrysningsboks",
-	"bs-checklist-tag-checklist-example-list": "Valgmeny",
 	"bs-checklist-dlg-new-list": "Opprett en ny liste",
 	"bs-checklist-dlg-save-list": "Lagre endringer i listen",
 	"bs-checklist-dlg-items-label": "Elementer i listen",

@@ -18,8 +18,6 @@
 	"bs-checklist-dlg-insert-list-title": "Вставити контрольний список",
 	"bs-checklist-dlg-insert-list-value-list": "Список значень",
 	"bs-checklist-tag-checklist-desc": "Генерує галочку або меню вибору. Перелік можна модифікувати за різними параметрами.",
-	"bs-checklist-tag-checklist-example-check": "Галочка",
-	"bs-checklist-tag-checklist-example-list": "Меню вибору",
 	"bs-checklist-dlg-new-list": "Створити новий список",
 	"bs-checklist-dlg-save-list": "Зберегти зміни у список",
 	"bs-checklist-dlg-items-label": "Елементи у списку",

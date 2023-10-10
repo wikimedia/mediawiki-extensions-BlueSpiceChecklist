@@ -18,8 +18,6 @@
 	"bs-checklist-dlg-insert-list-title": "Eine Checkliste einfügen",
 	"bs-checklist-dlg-insert-list-value-list": "Werteliste",
 	"bs-checklist-tag-checklist-desc": "Erzeugt ein Auswahlmenü. Die Auswahlliste kann durch verschiedene Parameter verändert werden.",
-	"bs-checklist-tag-checklist-example-check": "Kontrollkästchen",
-	"bs-checklist-tag-checklist-example-list": "Auswahlmenü",
 	"bs-checklist-dlg-new-list": "Eine neue Liste erzeugen",
 	"bs-checklist-dlg-save-list": "Änderungen an der Liste speichern",
 	"bs-checklist-dlg-items-label": "Elemente der Liste",

@@ -12,8 +12,6 @@
 	"bs-checklist-dlg-insert-list-title": "Insertar una llista de comprobación",
 	"bs-checklist-dlg-insert-list-value-list": "Llista de valores",
 	"bs-checklist-tag-checklist-desc": "Xenera una caxella de comprobación o un menú de selección. La llista puede cambiase con dellos parámetros.",
-	"bs-checklist-tag-checklist-example-check": "Caxella de comprobación",
-	"bs-checklist-tag-checklist-example-list": "Menú de selección",
 	"bs-checklist-dlg-new-list": "Crear una llista nueva",
 	"bs-checklist-dlg-save-list": "Guardar cambios na llista",
 	"bs-checklist-dlg-items-label": "Elementos de la llista",

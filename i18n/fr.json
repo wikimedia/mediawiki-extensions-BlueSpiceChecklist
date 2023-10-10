@@ -20,8 +20,6 @@
 	"bs-checklist-dlg-insert-list-title": "Insérer une liste de vérification",
 	"bs-checklist-dlg-insert-list-value-list": "Liste de valeurs",
 	"bs-checklist-tag-checklist-desc": "Génère un menu de sélection. La liste de contrôles peut être modifiée à l’aide de divers paramètres.",
-	"bs-checklist-tag-checklist-example-check": "Case à cocher",
-	"bs-checklist-tag-checklist-example-list": "Menu de sélection",
 	"bs-checklist-dlg-new-list": "Créer une nouvelle liste",
 	"bs-checklist-dlg-save-list": "Enregistrer les modifications apportées à la liste",
 	"bs-checklist-dlg-items-label": "Éléments de la liste",
