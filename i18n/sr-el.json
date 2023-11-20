@@ -42,5 +42,6 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Spisak opcija",
 	"bs-checklist-tag-checklist-attr-list-help": "Bira određenu listu opcija. Liste se mogu napraviti u imenskom prostoru „Šablon” pravljenjem stranice sa listom sa znakovima za nabrajanje",
 	"bs-checklist-tag-checklist-attr-value-label": "Izabrana opcija",
-	"bs-checklist-tag-checklist-attr-value-help": "Bira određene opcije sa gorenavedene liste."
+	"bs-checklist-tag-checklist-attr-value-help": "Bira određene opcije sa gorenavedene liste.",
+	"bs-checklist-droplet-checklist-name": "Kontrolna lista"
 }
