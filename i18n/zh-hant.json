@@ -73,5 +73,6 @@
 	"bs-checkbox-ve-checkboxinspector-title": "核取方塊",
 	"bs-checkbox-tag-checkbox-desc": "產生核取方塊",
 	"bs-checklist-droplet-checkbox-name": "核取方塊",
-	"bs-checklist-droplet-checklist-name": "核對清單"
+	"bs-checklist-droplet-checklist-name": "核對清單",
+	"bs-checklist-droplet-checklist-desc": "允許在檢視模式下設定值的清單"
 }

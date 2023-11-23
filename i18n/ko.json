@@ -60,5 +60,8 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "설정하면 체크 상자는 체크된 것으로 표시됩니다",
 	"bs-checklist-tag-checklist-attr-list-label": "옵션 목록",
 	"bs-checklist-tag-checklist-attr-value-label": "선택된 옵션",
-	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다."
+	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다.",
+	"bs-checkbox-ve-checkboxinspector-title": "체크 상자",
+	"bs-checkbox-tag-checkbox-desc": "체크 상자 생성",
+	"bs-checklist-droplet-checklist-name": "체크리스트"
 }
