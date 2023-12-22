@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"ElangoRamanujam",
+			"Fahimrazick",
 			"Sridhar G"
 		]
 	},
 	"bs-checklist-dlg-new-list": "ஒரு புதிய பட்டியலை உருவாக்குக",
 	"bs-checklist-dlg-new-title": "புதுப் பட்டியலைச் சேர்",
-	"bs-checklist-tag-checklist-desc": "தேர்ந்தெடுக்கப்பட்ட பட்டியலை உருவாக்குகிறது. சரிபார்ப்பு பட்டியலை பல்வேறு அளவுருக்கள் மூலம் மாற்றலாம்.",
+	"bs-checklist-tag-checklist-desc": "ஒரு தெரிவு செய்யப்பட்ட பட்டியை ஆக்குகிறது. சரிபார்ப்புப் பட்டியலைப் பல்வேறு அளவுருக்களின் மூலம் மாற்றலாம்.",
 	"bs-checklist-droplet-checkbox-name": "தேர்வுப் பெட்டி",
 	"bs-checklist-droplet-checklist-name": "சரிபார்ப்புப் பட்டியல்",
 	"bs-checkbox-ve-checkboxinspector-title": "தேர்வுப் பெட்டி",
