@@ -13,7 +13,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Nenhuma lista carregada",
 	"bs-checklist-dlg-insert-list-title": "Insira lista de verificação",
 	"bs-checklist-dlg-insert-list-value-list": "Lista de valores",
-	"bs-checklist-tag-checklist-desc": "Gera uma caixa de verificação ou um menu de seleção. A lista de verificação pode ser modificada por vários parâmetros.",
+	"bs-checklist-tag-checklist-desc": "Gera um menu de seleção. A lista de verificação pode ser modificada por vários parâmetros.",
 	"bs-checklist-dlg-new-list": "Criar nova lista",
 	"bs-checklist-dlg-save-list": "Gravar alterações à lista",
 	"bs-checklist-dlg-items-label": "Elementos na lista",
@@ -60,5 +60,9 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Seleciona uma lista de opções específica. As listas podem ser criadas no espaço nominal/domínio Predefinição, criando uma página que contenha uma lista com marcadores.",
 	"bs-checklist-tag-checklist-attr-value-label": "Opção selecionada",
 	"bs-checklist-tag-checklist-attr-value-help": "Seleciona uma opção específica da lista acima.",
-	"bs-checklist-config-markasminoredit-help": "Ativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições menores. Desativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições normais."
+	"bs-checklist-config-markasminoredit-help": "Ativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições menores. Desativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições normais.",
+	"bs-checkbox-ve-checkboxinspector-title": "Caixa de verificação",
+	"bs-checkbox-tag-checkbox-desc": "Gera uma caixa de verificação",
+	"bs-checklist-droplet-checklist-name": "Lista de verificação",
+	"bs-checklist-droplet-checklist-desc": "Lista que permite definir um valor no modo de visualização"
 }
