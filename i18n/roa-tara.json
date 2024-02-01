@@ -11,7 +11,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Nisciune elenghe carecate",
 	"bs-checklist-dlg-insert-list-title": "'Nzerisce 'n'elenghe de condrolle",
 	"bs-checklist-dlg-insert-list-value-list": "Elenghe de valore",
-	"bs-checklist-tag-checklist-desc": "Genere 'na caselle de condrolle o 'nu menù de scacchiamende. L'elenghe de condrolle pò essere cangiate da 'nu sacche de parametre.",
+	"bs-checklist-tag-checklist-desc": "Genere 'nu menù de scacchiamende. L'elenghe de condrolle pò essere cangiate da 'nu sacche de parametre.",
 	"bs-checklist-dlg-new-list": "Ccrèje 'n'elenghe nuéve",
 	"bs-checklist-dlg-save-list": "Reggistre le cangiaminde de l'elenghe",
 	"bs-checklist-dlg-items-label": "Vôsce jndr'à l'elenghe",
@@ -58,5 +58,9 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Scacchie 'nu specifeche elenghe de opziune. Le elenghe ponne essere ccrejate jndr'à 'u namespace Template creanne 'na pàgene cu 'n'elenghe pundate.",
 	"bs-checklist-tag-checklist-attr-value-label": "Opzione scacchiate",
 	"bs-checklist-tag-checklist-attr-value-help": "Scacchie 'n'opzione speifeche da l'elenghe de sus.",
-	"bs-checklist-config-markasminoredit-help": "Attivate: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde stuèdeche. Inattive: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde normale."
+	"bs-checklist-config-markasminoredit-help": "Attivate: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde stuèdeche. Inattive: le cangiaminde a l'elenghe de condrolle jndr'à modalità visuale sò versionate cumme cangiaminde normale.",
+	"bs-checkbox-ve-checkboxinspector-title": "Sckatele de condrolle",
+	"bs-checkbox-tag-checkbox-desc": "Ccreje 'na sckatele de condrolle",
+	"bs-checklist-droplet-checklist-name": "Elenghe de verifeche",
+	"bs-checklist-droplet-checklist-desc": "Elenghe ca permette de 'mbostà 'nu valore jndr'à modalità de 'ndrucamende"
 }
