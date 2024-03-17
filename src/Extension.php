@@ -96,12 +96,12 @@ class Extension extends \BlueSpice\Extension {
 		return preg_replace_callback( $pattern,
 			static function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
 					$nth--;
-					if ( $nth == 0 ) {
-						$sResult = preg_replace( '/value=".*?"(\s*|)/', '', reset( $found ) );
-						$sResult = preg_replace( '/checked=".*?"(\s*|)/', '', $sResult );
-						$sResult = preg_replace( $pattern, $replacement, $sResult );
-						return $sResult;
-					}
+				if ( $nth == 0 ) {
+					$sResult = preg_replace( '/value=".*?"(\s*|)/', '', reset( $found ) );
+					$sResult = preg_replace( '/checked=".*?"(\s*|)/', '', $sResult );
+					$sResult = preg_replace( $pattern, $replacement, $sResult );
+					return $sResult;
+				}
 					return reset( $found );
 			}, $subject, $nth );
 	}
