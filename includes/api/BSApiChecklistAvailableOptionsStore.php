@@ -8,7 +8,7 @@ class BSApiChecklistAvailableOptionsStore extends BSApiExtJSStoreBase {
 	 */
 	protected function makeData( $sQuery = '' ) {
 		$aData = [];
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $this->services->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$res = $dbr->select(
 			[ 'page' ],
 			[ 'page_namespace', 'page_title' ],

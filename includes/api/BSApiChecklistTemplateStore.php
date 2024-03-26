@@ -8,7 +8,7 @@ class BSApiChecklistTemplateStore extends BSApiExtJSStoreBase {
 	 */
 	protected function makeData( $sQuery = '' ) {
 		$aTemplateData = [];
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $this->services->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$res = $dbr->select(
 			[ 'page' ],
 			[ 'page_namespace', 'page_title' ],
