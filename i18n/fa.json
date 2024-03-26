@@ -6,6 +6,7 @@
 			"Amirsara",
 			"Beginneruser",
 			"Dalba",
+			"Ebraminio",
 			"FarsiNevis",
 			"Jeeputer",
 			"Reza1615"
@@ -18,7 +19,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "فهرستی دریافت نشد",
 	"bs-checklist-dlg-insert-list-title": "درج یک بازبینه",
 	"bs-checklist-dlg-insert-list-value-list": "فهرست مقدار",
-	"bs-checklist-tag-checklist-desc": "یک فهرست گزینه ای یا فهرست انتخابی می سازد. گزینه های می توانند با شاخص های متنوع ویرایش شوند.",
+	"bs-checklist-tag-checklist-desc": "یک فهرست گزینه ای یا فهرست انتخابی می سازد. گزینه‌های می توانند با شاخص‌های متنوع ویرایش شوند.",
 	"bs-checklist-dlg-new-list": "ایجاد یک فهرست تازه",
 	"bs-checklist-dlg-save-list": "ذخیره‌سازی تغییرات در فهرست",
 	"bs-checklist-dlg-items-label": "موارد فهرست",
