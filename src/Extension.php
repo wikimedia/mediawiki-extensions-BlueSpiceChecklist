@@ -167,7 +167,7 @@ class Extension extends \BlueSpice\Extension {
 		if ( isset( $args['type'] ) && $args['type'] == 'list' ) {
 			$sOut[] = "<select {color} ";
 			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
-			$sOut[] = "onchange='BsChecklist.change(this);' ";
+			$sOut[] = "class='bs-checklist-list'";
 			$sOut[] = ">";
 
 			$bDefault = empty( $args['value'] ) ? true : false;
@@ -199,7 +199,7 @@ class Extension extends \BlueSpice\Extension {
 		} else {
 			$sOut[] = "<input type='checkbox' ";
 			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
-			$sOut[] = "onclick='BsChecklist.click(this);' ";
+			$sOut[] = "class='bs-checklist-item'";
 			if ( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
 				$sOut[] = "checked='checked' ";
 			}
