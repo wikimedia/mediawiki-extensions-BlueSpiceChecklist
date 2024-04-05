@@ -111,15 +111,25 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			$pattern = "/(<bs:checkbox )([^>]*?>)/";
 		}
 
-		$content = Checklist::preg_replace_nth(
+		$newContent = Checklist::preg_replace_nth(
 			$pattern,
 			"$1" . $newValue . "$2",
 			$content,
 			$iPos
 		);
+		// If checkbox is set with bs:checklist type=check pattern has to be changed
+		if ( $type === 'check' && $newContent === $content ) {
+			$pattern = "/(<bs:checklist )([^>]*?>)/";
+			$newContent = Checklist::preg_replace_nth(
+				$pattern,
+				"$1" . $newValue . "$2",
+				$newContent,
+				$iPos
+			);
+		}
 
 		$oContentHandler = $contentObj->getContentHandler();
-		$oNewContent = $oContentHandler->makeContent( $content, $oWikiPage->getTitle() );
+		$oNewContent = $oContentHandler->makeContent( $newContent, $oWikiPage->getTitle() );
 		if ( $this->getConfig()->get( 'ChecklistMarkAsMinorEdit' ) ) {
 			$flags = EDIT_MINOR;
 		} else {
