@@ -9,34 +9,37 @@
  * @filesource
  */
 
-/**
- * Base class for all Checklist related methods and properties
- */
-BsChecklist = {
+function getId( target ) {
+	var id = $( target ).attr( 'id' );
+	id = id.split( "-" );
+	id = id.pop();
+	return id;
+}
 
-	click: function(elem) {
-		var id = elem.id;
-		id = id.split( "-" );
-		id = id.pop();
-
-		bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
-			pos: id,
-			value: elem.checked,
-			type: 'check'
-		});
-	},
-
-	change: function(elem) {
-		var id = elem.id;
-		id = id.split( "-" );
-		id = id.pop();
-		elem.style.color = elem.options[elem.selectedIndex].style.color;
-
-		bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
-			pos: id,
-			value: $( '#'+elem.id ).find( ":selected" ).text(),
-			type: 'list'
-		});
+$( document ).on( 'click', '.bs-checklist-item', function ( e ) {
+	var target = e.target;
+	var id = getId( target );
+	var isChecked = $( target ).attr( 'checked' );
+	var toCheck = false;
+	if ( isChecked !== 'checked' ) {
+		toCheck = true;
 	}
-};
 
+	bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
+		pos: id,
+		value: toCheck,
+		type: 'check'
+	});
+} );
+
+$( document ).on( 'change', '.bs-checklist-list', function ( e ) {
+	var target = e.target;
+	var id = getId( target );
+	var index = $(target)[0].selectedIndex;
+	target.style.color = target.options[ index ].style.color;
+	bs.api.tasks.exec( 'checklist', 'doChangeCheckItem', {
+		pos: id,
+		value: target.options[ index ].text,
+		type: 'list'
+	});
+} );
