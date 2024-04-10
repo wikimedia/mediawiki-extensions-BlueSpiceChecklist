@@ -38,15 +38,12 @@ namespace BlueSpice\Checklist;
 
 use MediaWiki\MediaWikiServices;
 use Parser;
-use PPFrame;
 use TextContent;
 use Title;
 use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
 
-	public static $iCheckboxCounter = 0;
-	public static $bCheckboxFound = false;
 	public static $iChecklistMaxItemLength = 60;
 
 	/**
@@ -111,110 +108,12 @@ class Extension extends \BlueSpice\Extension {
 	 * @return bool
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
-		$parser->setHook( 'bs:checklist', '\BlueSpice\Checklist\Extension::onBsChecklist' );
-		$parser->setHook( 'bs:checkbox', '\BlueSpice\Checklist\Extension::onMagicWordBsChecklist' );
+		$services = MediaWikiServices::getInstance();
+		$titleFactory = $services->getTitleFactory();
+		$wikiPageFactory = $services->getWikiPageFactory();
+		$checklist = new BlueSpiceChecklists( $titleFactory, $wikiPageFactory );
+		$parser->setHook( 'bs:checklist', [ $checklist , 'onBsChecklist' ] );
+		$parser->setHook( 'bs:checkbox', [ $checklist ,'onMagicWordBsChecklist' ] );
 		return true;
-	}
-
-	/**
-	 * handle tag "bs:checklist"
-	 * with splitting tags type value is not set automatically
-	 *
-	 * @param string $input
-	 * @param array $args
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 * @return string
-	 */
-	public static function onBsChecklist( $input, array $args, \Parser $parser,
-		\PPFrame $frame ) {
-		if ( !isset( $args['type'] ) ) {
-			$args['type'] = 'list';
-		}
-		return self::onMagicWordBsChecklist( $input, $args, $parser, $frame );
-	}
-
-	/**
-	 * handle tag "bs:checkbox"
-	 *
-	 * @param string $input
-	 * @param array $args
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 * @return string
-	 */
-	public static function onMagicWordBsChecklist( $input, array $args, \Parser $parser,
-		\PPFrame $frame ) {
-		$parserOutput = $parser->getOutput();
-		$parserOutput->addModules( [ 'ext.bluespice.checklist.view' ] );
-		$parserOutput->updateCacheExpiry( 0 );
-		$parserOutput->setPageProperty( 'bs-tag-checklist', 1 );
-		self::$bCheckboxFound = true;
-		$sOut = [];
-		$aOptions = [];
-
-		if ( isset( $args['list'] ) ) {
-			$aOptions = self::getListOptions( $args['list'] );
-		}
-		if ( !isset( $args['value'] ) || $args['value'] === 'false' ) {
-			$args['value'] = '';
-		}
-		if ( !isset( $args['checked'] ) ) {
-			$args['checked'] = '';
-		}
-
-		$sSelectColor = '';
-		if ( isset( $args['type'] ) && $args['type'] == 'list' ) {
-			$sOut[] = "<select {color} ";
-			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
-			$sOut[] = "class='bs-checklist-list'";
-			$sOut[] = ">";
-
-			$bDefault = empty( $args['value'] ) ? true : false;
-
-			foreach ( $aOptions as $sOption ) {
-				$aOptionSet = explode( "|", $sOption );
-
-				if ( !$sSelectColor && isset( $aOptionSet[1] ) ) {
-					$sSelectColor = "style='color:" . $aOptionSet[1] . ";' ";
-				}
-
-				$sOption = trim( $aOptionSet[0] );
-				$sOut[] = "<option ";
-				if ( isset( $aOptionSet[1] ) ) {
-					$sOut[] = "style='color:" . $aOptionSet[1] . ";' ";
-				}
-				if ( $bDefault || $args['value'] == $sOption ) {
-					$bDefault = false;
-					$sOut[] = "selected='selected'";
-					if ( isset( $aOptionSet[1] ) ) {
-						$sSelectColor = "style='color:" . $aOptionSet[1] . ";' ";
-					}
-				}
-				$sOut[] = ">";
-				$sOut[] = $sOption;
-				$sOut[] = "</option>";
-			}
-			$sOut[] = "</select>";
-		} else {
-			$sOut[] = "<input type='checkbox' ";
-			$sOut[] = "id='bs-cb-" . self::getNewCheckboxId() . "' ";
-			$sOut[] = "class='bs-checklist-item'";
-			if ( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
-				$sOut[] = "checked='checked' ";
-			}
-			$sOut[] = "/>";
-		}
-		$sOut = implode( '', $sOut );
-		$sOut = str_replace( '{color}', $sSelectColor, $sOut );
-		return $sOut;
-	}
-
-	/**
-	 * @return int
-	 */
-	protected static function getNewCheckboxId() {
-		self::$iCheckboxCounter++;
-		return self::$iCheckboxCounter;
 	}
 }
