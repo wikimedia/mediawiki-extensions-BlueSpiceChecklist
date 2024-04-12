@@ -86,6 +86,10 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 		if ( $iPos == 0 ) {
 			return $oResponse;
 		}
+		$title = $this->getTitle();
+		if ( !$title ) {
+			return $oResponse;
+		}
 
 		$type = property_exists( $oTaskData, 'type' ) ? $oTaskData->type : 'check';
 		$value = property_exists( $oTaskData, 'value' ) ? $oTaskData->value : '';
@@ -94,7 +98,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 			$value = (bool)$value;
 		}
 
-		$sArticleId = $this->getTitle()->getArticleID();
+		$sArticleId = $title->getArticleID();
 		if ( $sArticleId == 0 ) {
 			return $oResponse;
 		}
