@@ -12,8 +12,6 @@
 	"bs-checklist-menu-insert-checkbox": "Pole wyboru",
 	"bs-checklist-menu-insert-no-list-loaded": "Żadna lista nie została załadowana",
 	"bs-checklist-dlg-insert-list-value-list": "Lista wartości",
-	"bs-checklist-tag-checklist-example-check": "Pole wyboru",
-	"bs-checklist-tag-checklist-example-list": "Wybierz menu",
 	"bs-checklist-dlg-new-list": "Utwórz nową listę",
 	"bs-checklist-dlg-save-list": "Zapisz zmiany na liście",
 	"bs-checklist-dlg-items-label": "Elementy na liście",
@@ -25,8 +23,15 @@
 	"bs-checklist-confirm-dirty-title": "Niezapisane zmiany!",
 	"bs-checklist-savelist-error-invalid-title": "Podano nieprawidłowy tytuł",
 	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy",
+	"bs-checklist-ve-checklistinspector-title": "Lista kontrolna",
 	"action-checklistmodify": "modyfikowania wartości elementów list bez edytowania stron wiki",
 	"right-checklistmodify": "Modyfikowanie wartości elementów list bez edytowania stron wiki",
+	"prefs-checklist": "Lista kontrolna",
+	"prefs-checklist-sesp-alias": "Lista kontrolna",
 	"bs-checklist-tag-checklist-tab-checkbox": "Pole wyboru",
-	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja"
+	"bs-checklist-tag-checklist-tab-list": "Lista",
+	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja",
+	"bs-checklist-droplet-checklist-name": "Lista kontrolna",
+	"bs-checklist-tag-checklist-example-check": "Pole wyboru",
+	"bs-checklist-tag-checklist-example-list": "Wybierz menu"
 }
