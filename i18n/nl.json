@@ -32,7 +32,7 @@
 	"bs-checklist-dlg-save-list": "Wijzigingen in lijst opslaan",
 	"bs-checklist-dlg-items-label": "Items in lijst",
 	"bs-checklist-dlg-items-emptytext": "Geen items in deze lijst",
-	"bs-checklist-dlg-items-hint": "Om een nieuw item toe te voegen, typt u in bovenstaand veld en drukt u op <kbd>Enter</kbd>.",
+	"bs-checklist-dlg-items-hint": "Om een nieuw item toe te voegen, typt u in bovenstaand veld en drukt u op <kbd>Enter<\/kbd>.",
 	"bs-checklist-dlg-panel-title": "Beschikbare lijsten",
 	"bs-checklist-dlg-new-title": "Nieuwe lijst toevoegen",
 	"bs-checklist-dlg-new-prompt": "Geef een lijstnaam op",
