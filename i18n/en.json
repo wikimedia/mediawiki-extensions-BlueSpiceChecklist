@@ -17,7 +17,7 @@
 	"bs-checklist-dlg-save-list": "Save changes to list",
 	"bs-checklist-dlg-items-label": "Items in list",
 	"bs-checklist-dlg-items-emptytext": "No items in this list",
-	"bs-checklist-dlg-items-hint": "In order to add a new item, type in the field above and hit <kbd>Enter<\/kbd>.",
+	"bs-checklist-dlg-items-hint": "In order to add a new item, type in the field above and hit <kbd>Enter</kbd>.",
 	"bs-checklist-dlg-panel-title": "Available lists",
 	"bs-checklist-dlg-new-title": "Add new list",
 	"bs-checklist-dlg-new-prompt": "Enter a list title",
