@@ -6,9 +6,9 @@
 			"Ioe2015"
 		]
 	},
-	"bs-checklist-tag-checklist-example-list": "Ch\u1ecdn b\u1ea3ng ch\u1ecdn",
-	"bs-checklist-alert": "C\u1ea9n th\u1eadn!",
-	"bs-checklist-confirm-dirty-title": "Ch\u01b0a \u0111\u01b0\u1ee3c l\u01b0u thay \u0111\u1ed5i!",
-	"bs-checklist-ve-checklistinspector-title": "Danh s\u00e1ch c\u1ea7n ki\u1ec3m tra",
-	"bs-checklist-ve-checklistinspector-cb-checked": "\u0110\u01b0\u1ee3c ki\u1ec3m tra"
+	"bs-checklist-tag-checklist-example-list": "Chọn bảng chọn",
+	"bs-checklist-alert": "Cẩn thận!",
+	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!",
+	"bs-checklist-ve-checklistinspector-title": "Danh sách cần kiểm tra",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra"
 }
