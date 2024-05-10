@@ -44,7 +44,7 @@ use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
 
-	public static $iChecklistMaxItemLength = 60;
+	public static int $iChecklistMaxItemLength = 60;
 
 	/**
 	 * @param string $listTitle
