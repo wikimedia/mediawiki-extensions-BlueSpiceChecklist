@@ -62,6 +62,10 @@ class ChecklistPropertyValueProvider extends PropertyValueProvider {
 		return null;
 	}
 
+	/**
+	 * @param mixed $nativeData
+	 * @return bool
+	 */
 	private function isChecklistFound( $nativeData ) {
 		$found = false;
 		if ( strpos( $nativeData, "<bs:checklist" ) !== false ) {
