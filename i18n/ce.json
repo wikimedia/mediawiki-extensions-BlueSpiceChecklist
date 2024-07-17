@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
@@ -16,13 +17,13 @@
 	"bs-checklist-tag-checklist-example-check": "Байракх",
 	"bs-checklist-tag-checklist-example-list": "Харжа меню",
 	"bs-checklist-dlg-new-list": "Кхолла керла могӀам",
-	"bs-checklist-dlg-save-list": "МогӀаман хийцамаш Ӏалашбе",
+	"bs-checklist-dlg-save-list": "МогӀаман хийцамаш дӀаӀалашбан",
 	"bs-checklist-dlg-items-emptytext": "ХӀокху могӀаман тӀехь элементаш йац",
 	"bs-checklist-dlg-panel-title": "ТӀекхочу могӀамаш",
 	"bs-checklist-dlg-new-title": "ТӀетоха керла могӀам",
-	"log-name-bs-checklist": "Checkbox тептар",
-	"log-show-hide-bs-checklist": "$1 Checkbox тептар",
-	"logeventslist-bs-checklist-log": "Checkbox тептар",
+	"log-name-bs-checklist": "Checkbox журнал",
+	"log-show-hide-bs-checklist": "$1 Checkbox журнал",
+	"logeventslist-bs-checklist-log": "Checkbox журнал",
 	"bs-checklist-update-list": "Карлабаьккхина могӀам",
 	"bs-checklist-ve-checklistinspector-title": "Контролан могӀам",
 	"bs-checklist-tag-checklist-tab-checkbox": "Байракх",
