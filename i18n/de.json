@@ -7,7 +7,8 @@
 			"Metalhead64",
 			"Mglaser",
 			"Osnard",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Justman10000"
 		]
 	},
 	"bs-checklist-desc": "Ermöglicht das Erstellen von Checklisten",
@@ -18,8 +19,6 @@
 	"bs-checklist-dlg-insert-list-title": "Eine Checkliste einfügen",
 	"bs-checklist-dlg-insert-list-value-list": "Werteliste",
 	"bs-checklist-tag-checklist-desc": "Erzeugt ein Auswahlmenü. Die Auswahlliste kann durch verschiedene Parameter verändert werden.",
-	"bs-checklist-tag-checklist-example-check": "Kontrollkästchen",
-	"bs-checklist-tag-checklist-example-list": "Auswahlmenü",
 	"bs-checklist-dlg-new-list": "Eine neue Liste erzeugen",
 	"bs-checklist-dlg-save-list": "Änderungen an der Liste speichern",
 	"bs-checklist-dlg-items-label": "Elemente der Liste",
@@ -64,7 +63,7 @@
 	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde",
 	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
 	"bs-checklist-tag-checklist-tab-list": "Liste",
-	"bs-checklist-tag-checklist-attr-checked-help": "Wenn aktiviert, wird die Checkbox angehakt",
+	"bs-checklist-tag-checklist-attr-checked-help": "Wenn gesetzt, wird die Checkbox angehakt",
 	"bs-checklist-tag-checklist-attr-list-label": "Optionsliste",
 	"bs-checklist-tag-checklist-attr-list-help": "Wählt eine Liste mit Optionen aus. Listen können im Vorlagen-Namensraum erstellt werden, indem man eine Seite mit einer Aufzählungsliste erzeugt.",
 	"bs-checklist-tag-checklist-attr-value-label": "Gewählte Option",
@@ -72,8 +71,10 @@
 	"bs-checklist-config-markasminoredit-help": "Aktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als kleine Änderung versioniert. Deaktiviert: Änderung an einer Checkliste im Ansichtsmodus wird als normale Änderung versioniert.",
 	"bs-checkbox-ve-checkboxinspector-title": "Kontrollkästchen",
 	"bs-checkbox-tag-checkbox-desc": "Erzeugt ein Kontrollkästchen",
+	"bs-checklist-droplet-checklist-name": "Kontrollliste",
+	"bs-checklist-droplet-checklist-desc": "Liste zur Auswahl eines Wertes im Ansichtsmodus",
 	"bs-checklist-droplet-checkbox-name": "Kontrollkästchen",
 	"bs-checklist-droplet-checkbox-desc": "Kontrollkästchen, das im Ansichtsmodus aktiviert wird",
-	"bs-checklist-droplet-checklist-name": "Kontrollliste",
-	"bs-checklist-droplet-checklist-desc": "Liste zur Auswahl eines Wertes im Ansichtsmodus"
+	"bs-checklist-tag-checklist-example-check": "Kontrollkästchen",
+	"bs-checklist-tag-checklist-example-list": "Auswahlmenü"
 }
