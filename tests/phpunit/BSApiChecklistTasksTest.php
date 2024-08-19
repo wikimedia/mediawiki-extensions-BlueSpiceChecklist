@@ -24,10 +24,13 @@ class BSApiChecklistTasksTest extends ApiTestCase {
 		// Be sure to do call the parent setup and teardown functions.
 		// This makes sure that all the various cleanup and restorations
 		// happen as they should (including the restoration for setMwGlobals).
-		global $wgGroupPermissions;
-		$wgGroupPermissions['*']['read'] = true;
-		$wgGroupPermissions['*']['api'] = true;
-		$wgGroupPermissions['*']['writeapi'] = true;
+		$this->setGroupPermissions( [
+			'*' => [
+				'read' => true,
+				'api' => true,
+				'writeapi' => true,
+			],
+		] );
 		parent::setUp();
 		$this->insertPage( "Test", "<bs:checklist />" );
 	}
