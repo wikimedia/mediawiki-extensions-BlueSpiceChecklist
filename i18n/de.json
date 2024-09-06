@@ -3,6 +3,7 @@
 		"authors": [
 			"*Surak*",
 			"Hwboehm",
+			"Justman10000",
 			"Markus Glaser <glaser@hallowelt.biz>",
 			"Metalhead64",
 			"Mglaser",
@@ -64,7 +65,7 @@
 	"prefs-checklist-sesp-desc": "Zeigt an, ob ein Checklistenelement auf der Seite verwendet wurde",
 	"bs-checklist-tag-checklist-tab-checkbox": "Checkbox",
 	"bs-checklist-tag-checklist-tab-list": "Liste",
-	"bs-checklist-tag-checklist-attr-checked-help": "Wenn aktiviert, wird die Checkbox angehakt",
+	"bs-checklist-tag-checklist-attr-checked-help": "Wenn gesetzt, wird die Checkbox angehakt",
 	"bs-checklist-tag-checklist-attr-list-label": "Optionsliste",
 	"bs-checklist-tag-checklist-attr-list-help": "Wählt eine Liste mit Optionen aus. Listen können im Vorlagen-Namensraum erstellt werden, indem man eine Seite mit einer Aufzählungsliste erzeugt.",
 	"bs-checklist-tag-checklist-attr-value-label": "Gewählte Option",
