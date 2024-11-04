@@ -21,8 +21,6 @@
 	"bs-checklist-dlg-insert-list-title": "درج یک بازبینه",
 	"bs-checklist-dlg-insert-list-value-list": "فهرست مقدار",
 	"bs-checklist-tag-checklist-desc": "یک فهرست گزینه‌ای یا فهرست انتخابی می‌سازد. گزینه‌های می‌توانند با شاخص‌های متنوع ویرایش شوند.",
-	"bs-checklist-tag-checklist-example-check": "جعبهٔ بررسی",
-	"bs-checklist-tag-checklist-example-list": "انتخاب منو",
 	"bs-checklist-dlg-new-list": "ایجاد یک فهرست تازه",
 	"bs-checklist-dlg-save-list": "ذخیره‌سازی تغییرات در فهرست",
 	"bs-checklist-dlg-items-label": "موارد فهرست",
@@ -63,5 +61,7 @@
 	"bs-checklist-tag-checklist-attr-checked-help": "اگر تنظیم شود، جعبهٔ بررسی فعال می‌شود",
 	"bs-checklist-tag-checklist-attr-list-label": "فهرست گزینه‌ها",
 	"bs-checklist-tag-checklist-attr-value-label": "گزینهٔ انتخاب‌شده",
-	"bs-checklist-tag-checklist-attr-value-help": "گزینه‌های مشخصی را از فهرست بالا انتخاب می‌کند."
+	"bs-checklist-tag-checklist-attr-value-help": "گزینه‌های مشخصی را از فهرست بالا انتخاب می‌کند.",
+	"bs-checklist-tag-checklist-example-check": "جعبهٔ بررسی",
+	"bs-checklist-tag-checklist-example-list": "انتخاب منو"
 }

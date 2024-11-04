@@ -12,8 +12,6 @@
 	"bs-checklist-dlg-insert-list-title": "Unos provjernoga popisa",
 	"bs-checklist-dlg-insert-list-value-list": "Lista vrijednosti",
 	"bs-checklist-tag-checklist-desc": "Stvaranje potvrdnoga okvira ili izbornika odabranih stavki. Provjerni popis može biti promijenjen raznim parametrima.",
-	"bs-checklist-tag-checklist-example-check": "Potvrdni okvir",
-	"bs-checklist-tag-checklist-example-list": "Izbornik odabranih stavki",
 	"bs-checklist-dlg-new-list": "Stvori novi popis",
 	"bs-checklist-dlg-save-list": "Spremi promjene na popisu",
 	"bs-checklist-dlg-items-label": "Stavki na popisu",
@@ -53,5 +51,7 @@
 	"bs-checklist-tag-checklist-tab-list": "Popis",
 	"bs-checklist-tag-checklist-attr-checked-help": "Ako je postavljeno, provjerni okvir izgledat će kao da je odabran",
 	"bs-checklist-tag-checklist-attr-list-label": "Lista mogućnosti",
-	"bs-checklist-tag-checklist-attr-value-label": "Odabrana mogućnost"
+	"bs-checklist-tag-checklist-attr-value-label": "Odabrana mogućnost",
+	"bs-checklist-tag-checklist-example-check": "Potvrdni okvir",
+	"bs-checklist-tag-checklist-example-list": "Izbornik odabranih stavki"
 }

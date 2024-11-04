@@ -15,8 +15,6 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Нема учитаних спискова",
 	"bs-checklist-dlg-insert-list-title": "Унесите контролну листу",
 	"bs-checklist-dlg-insert-list-value-list": "Вредност списка",
-	"bs-checklist-tag-checklist-example-check": "Поље за потврду",
-	"bs-checklist-tag-checklist-example-list": "Одабери мени",
 	"bs-checklist-dlg-new-list": "Направи нови списак",
 	"bs-checklist-dlg-save-list": "Сачувај промене на списку",
 	"bs-checklist-dlg-items-label": "Ставке на списку",
@@ -49,5 +47,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Бира одређену листу опција. Листе се могу направити у именском простору „Шаблон” прављењем странице са листом са знаковима за набрајање",
 	"bs-checklist-tag-checklist-attr-value-label": "Изабрана опција",
 	"bs-checklist-tag-checklist-attr-value-help": "Бира одређене опције са горенаведене листе.",
-	"bs-checklist-droplet-checklist-name": "Контролна листа"
+	"bs-checklist-droplet-checklist-name": "Контролна листа",
+	"bs-checklist-tag-checklist-example-check": "Поље за потврду",
+	"bs-checklist-tag-checklist-example-list": "Одабери мени"
 }

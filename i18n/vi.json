@@ -7,11 +7,6 @@
 			"SongNgu.xyz"
 		]
 	},
-	"bs-checklist-tag-checklist-example-list": "Chọn bảng chọn",
-	"bs-checklist-alert": "Cẩn thận!",
-	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!",
-	"bs-checklist-ve-checklistinspector-title": "Danh sách cần kiểm tra",
-	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra",
 	"bs-checklist-desc": "Cung cấp chức năng danh sách đánh dấu",
 	"bs-checklist-button-checkbox-title": "Các yếu tố trong danh sách đánh dấu",
 	"bs-checklist-menu-insert-list-title": "Chèn danh sách",
@@ -28,6 +23,8 @@
 	"bs-checklist-dlg-panel-title": "Danh sách có sẵn",
 	"bs-checklist-dlg-new-title": "Thêm vào danh sách",
 	"bs-checklist-dlg-new-prompt": "Nhập tiêu đề danh sách",
+	"bs-checklist-alert": "Cẩn thận!",
+	"bs-checklist-confirm-dirty-title": "Chưa được lưu thay đổi!",
 	"bs-checklist-confirm-dirty-text": "Bạn đã thực hiện các thay đổi đối với danh sách này mà chưa được lưu. Bạn có chắc chắn muốn hủy các thay đổi không?",
 	"log-name-bs-checklist": "Nhật trình đánh dấu hộp kiểm",
 	"log-description-bs-checklist": "Nhật trình thay đổi trạng thái hộp kiểm trên các trang.",
@@ -44,6 +41,8 @@
 	"bs-checklist-summary-changed": "Đã chọn giá trị \"$2\" trong hộp chọn #$1",
 	"bs-checklist-update-list": "Cập nhật danh sách",
 	"bs-tag-checklist": "thẻ hộp kiểm",
+	"bs-checklist-ve-checklistinspector-title": "Danh sách cần kiểm tra",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Được kiểm tra",
 	"action-checklistmodify": "sửa đổi giá trị của các mục danh sách đánh dấu mà không sửa đổi trang wiki",
 	"right-checklistmodify": "Sửa đổi giá trị của các mục danh sách đánh dấu mà không sửa đổi trang wiki",
 	"bs-checklist-config-markasminoredit": "Đánh dấu các thay đổi vào danh sách đánh dấu là sửa đổi nhỏ",
@@ -63,5 +62,6 @@
 	"bs-checkbox-ve-checkboxinspector-title": "Hộp kiểm",
 	"bs-checkbox-tag-checkbox-desc": "Tạo một hộp kiểm",
 	"bs-checklist-droplet-checklist-name": "Danh sách đánh dấu",
-	"bs-checklist-droplet-checklist-desc": "Danh sách cho phép đặt giá trị ở chế độ xem"
+	"bs-checklist-droplet-checklist-desc": "Danh sách cho phép đặt giá trị ở chế độ xem",
+	"bs-checklist-tag-checklist-example-list": "Chọn bảng chọn"
 }

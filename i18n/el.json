@@ -12,8 +12,6 @@
 	"bs-checklist-dlg-insert-list-title": "Εισαγωγή λίστας ελέγχου",
 	"bs-checklist-dlg-insert-list-value-list": "Λίστα αξίας",
 	"bs-checklist-tag-checklist-desc": "Δημιουργεί ένα κουτί ελέγχου ή ένα επιλεγμένο μενού. Η λίστα ελέγχου μπορεί να τροποποιηθεί με διάφορες παραμέτρους.",
-	"bs-checklist-tag-checklist-example-check": "Κουτί ελέγχου",
-	"bs-checklist-tag-checklist-example-list": "Επιλέξτε μενού",
 	"bs-checklist-dlg-new-list": "Δημιουργία νέας λίστας",
 	"bs-checklist-dlg-save-list": "Αποθήκευση αλλαγών στη λίστα",
 	"bs-checklist-dlg-items-label": "Αντικείμενα στη λίστα",
@@ -29,5 +27,7 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Κουτί ελέγχου",
 	"bs-checklist-tag-checklist-tab-list": "Κατάλογος",
 	"bs-checklist-tag-checklist-attr-list-label": "Προαιρετική λίστα",
-	"bs-checklist-tag-checklist-attr-value-label": "Επιλεγμένη επιλογή"
+	"bs-checklist-tag-checklist-attr-value-label": "Επιλεγμένη επιλογή",
+	"bs-checklist-tag-checklist-example-check": "Κουτί ελέγχου",
+	"bs-checklist-tag-checklist-example-list": "Επιλέξτε μενού"
 }

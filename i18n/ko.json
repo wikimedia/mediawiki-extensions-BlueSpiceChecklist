@@ -17,8 +17,6 @@
 	"bs-checklist-menu-insert-no-list-loaded": "불러들인 목록이 없습니다",
 	"bs-checklist-dlg-insert-list-title": "체크리스트 삽입",
 	"bs-checklist-dlg-insert-list-value-list": "값 목록",
-	"bs-checklist-tag-checklist-example-check": "체크 상자",
-	"bs-checklist-tag-checklist-example-list": "메뉴 선택",
 	"bs-checklist-dlg-new-list": "새 목록 만들기",
 	"bs-checklist-dlg-save-list": "리스트에 변경사항 저장",
 	"bs-checklist-dlg-items-label": "목록 내 항목",
@@ -63,7 +61,9 @@
 	"bs-checklist-tag-checklist-attr-value-help": "위 목록에서 특정한 옵션을 선택합니다.",
 	"bs-checkbox-ve-checkboxinspector-title": "체크 상자",
 	"bs-checkbox-tag-checkbox-desc": "체크 상자 생성",
+	"bs-checklist-droplet-checklist-name": "체크리스트",
 	"bs-checklist-droplet-checkbox-name": "체크 상자",
 	"bs-checklist-droplet-checkbox-desc": "뷰 모드에서 체크가 가능한 체크 상자",
-	"bs-checklist-droplet-checklist-name": "체크리스트"
+	"bs-checklist-tag-checklist-example-check": "체크 상자",
+	"bs-checklist-tag-checklist-example-list": "메뉴 선택"
 }

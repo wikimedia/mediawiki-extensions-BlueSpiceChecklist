@@ -12,7 +12,6 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Keng Lëscht gelueden",
 	"bs-checklist-dlg-insert-list-title": "Eng Checklëscht drasetzen",
 	"bs-checklist-dlg-insert-list-value-list": "Lëscht vu Wäerter",
-	"bs-checklist-tag-checklist-example-list": "Menü eraussichen",
 	"bs-checklist-dlg-new-list": "Eng nei Lëscht uleeën",
 	"bs-checklist-dlg-save-list": "Ännerungen an der Lëscht späicheren",
 	"bs-checklist-dlg-items-label": "Elementer an der Lëscht",
@@ -27,5 +26,6 @@
 	"bs-checklist-update-list": "Aktualiséiert Lëscht",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Nogekuckt",
 	"bs-checklist-tag-checklist-tab-list": "Lëscht",
-	"bs-checklist-tag-checklist-attr-list-label": "Lëscht vun den Optiounen"
+	"bs-checklist-tag-checklist-attr-list-label": "Lëscht vun den Optiounen",
+	"bs-checklist-tag-checklist-example-list": "Menü eraussichen"
 }
