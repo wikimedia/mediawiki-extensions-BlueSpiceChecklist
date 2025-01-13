@@ -4,6 +4,8 @@
  * Test BlueSpiceChecklist API Endpoints
  */
 
+use MediaWiki\Tests\Api\ApiTestCase;
+
 /**
  * @group BlueSpiceChecklist
  * @group BlueSpice
