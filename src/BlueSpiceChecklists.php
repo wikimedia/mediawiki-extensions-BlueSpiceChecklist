@@ -4,10 +4,10 @@ namespace BlueSpice\Checklist;
 
 use Html;
 use MediaWiki\Page\WikiPageFactory;
+use MediaWiki\Title\Title;
 use Parser;
 use PPFrame;
 use TextContent;
-use Title;
 use TitleFactory;
 use WikiPage;
 

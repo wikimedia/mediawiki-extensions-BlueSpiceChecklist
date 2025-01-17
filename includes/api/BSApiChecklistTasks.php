@@ -5,6 +5,7 @@ use BlueSpice\Checklist\Extension as Checklist;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 
 class BSApiChecklistTasks extends BSApiTasksBase {
 
