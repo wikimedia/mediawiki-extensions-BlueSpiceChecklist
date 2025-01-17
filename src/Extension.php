@@ -37,9 +37,9 @@
 namespace BlueSpice\Checklist;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use Parser;
 use TextContent;
-use Title;
 use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
