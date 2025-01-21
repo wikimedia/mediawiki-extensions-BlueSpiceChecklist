@@ -5,10 +5,10 @@ namespace BlueSpice\Checklist;
 use Html;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Title\Title;
+use MediaWiki\Title\TitleFactory;
 use Parser;
 use PPFrame;
 use TextContent;
-use TitleFactory;
 use WikiPage;
 
 class BlueSpiceChecklists {
