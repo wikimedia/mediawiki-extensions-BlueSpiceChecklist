@@ -4,6 +4,7 @@
  * Test BlueSpiceChecklist API Endpoints
  */
 
+use MediaWiki\Content\TextContent;
 use MediaWiki\Tests\Api\ApiTestCase;
 use MediaWiki\Title\Title;
 

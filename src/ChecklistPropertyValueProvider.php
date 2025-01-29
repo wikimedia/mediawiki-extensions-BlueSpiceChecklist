@@ -3,8 +3,8 @@
 namespace BlueSpice\Checklist;
 
 use BlueSpice\SMWConnector\PropertyValueProvider;
+use MediaWiki\Content\TextContent;
 use SMWDataItem;
-use TextContent;
 
 class ChecklistPropertyValueProvider extends PropertyValueProvider {
 
