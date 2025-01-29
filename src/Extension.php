@@ -36,10 +36,10 @@
 
 namespace BlueSpice\Checklist;
 
+use MediaWiki\Content\TextContent;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use Parser;
-use TextContent;
 use WikiPage;
 
 class Extension extends \BlueSpice\Extension {

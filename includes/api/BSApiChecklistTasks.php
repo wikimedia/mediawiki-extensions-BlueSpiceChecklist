@@ -2,6 +2,7 @@
 
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\Checklist\Extension as Checklist;
+use MediaWiki\Content\TextContent;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;

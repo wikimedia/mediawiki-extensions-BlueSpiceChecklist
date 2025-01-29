@@ -2,13 +2,13 @@
 
 namespace BlueSpice\Checklist;
 
+use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use Parser;
 use PPFrame;
-use TextContent;
 use WikiPage;
 
 class BlueSpiceChecklists {
