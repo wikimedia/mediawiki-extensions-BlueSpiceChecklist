@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"bs-checklist-menu-insert-list-title": "Nzirisci elencu",
-	"bs-checklist-menu-insert-no-list-loaded": "Nuḍḍu elencu càrricatu",
-	"bs-checklist-dlg-insert-list-value-list": "Elencu di valuri",
-	"bs-checklist-dlg-new-list": "Crea n'elencu novu",
+	"bs-checklist-menu-insert-no-list-loaded": "Nuḍḍa lista carricata",
+	"bs-checklist-dlg-insert-list-value-list": "Lista dî valuri",
+	"bs-checklist-dlg-new-list": "Crìa na lista nova",
 	"bs-checklist-dlg-panel-title": "Elenchi dispunìbbili",
-	"bs-checklist-dlg-new-title": "Agghiunci n'elencu novu",
-	"bs-checklist-dlg-new-prompt": "Nzirisci nu tìtulu pi l'elencu",
+	"bs-checklist-dlg-new-title": "Junci na lista nova",
+	"bs-checklist-dlg-new-prompt": "Metti un tìtulu pâ lista",
 	"bs-checklist-alert": "Accura!",
 	"bs-checklist-confirm-dirty-title": "Canciamenti nun sarvati!",
-	"bs-checklist-tag-checklist-tab-list": "Elencu"
+	"bs-checklist-tag-checklist-tab-list": "Lista"
 }
