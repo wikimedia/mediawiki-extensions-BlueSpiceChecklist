@@ -38,8 +38,8 @@ namespace BlueSpice\Checklist;
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
-use Parser;
 use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
