@@ -5,9 +5,9 @@ namespace BlueSpice\Checklist;
 use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\WikiPageFactory;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
-use Parser;
 use PPFrame;
 use WikiPage;
 
