@@ -6,9 +6,9 @@ use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
-use PPFrame;
 use WikiPage;
 
 class BlueSpiceChecklists {
