@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jrobicek",
 			"Martin Urbanec",
 			"Patriccck",
 			"Patrik L."
 		]
 	},
+	"bs-checklist-savelist-error-edit-not-permitted": "Nedostatečná oprávnění k uložení seznamu",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Zkontrolováno",
 	"bs-checklist-tag-checklist-tab-checkbox": "Zaškrtávací políčko",
 	"bs-checklist-tag-checklist-tab-list": "Seznam"
