@@ -148,7 +148,8 @@
 				"bs-checklist-tag-checklist-attr-value-help"
 			],
 			"dependencies": [
-				"ext.visualEditor.mwcore"
+				"ext.visualEditor.mwcore",
+				"ext.bluespice.visualEditorConnector.tags.classes"
 			]
 		},
 		"ext.bluespice.checkbox.visualEditor": {
