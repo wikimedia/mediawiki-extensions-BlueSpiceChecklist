@@ -16,7 +16,8 @@ class BSApiChecklistTemplateStore extends BSApiExtJSStoreBase {
 			[ 'page_namespace', 'page_title' ],
 			[
 				'page_namespace' => NS_TEMPLATE
-			]
+			],
+			__METHOD__
 		);
 
 		$aTitles = [];
