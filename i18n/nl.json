@@ -72,7 +72,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Selecteert een specifieke optielijst. Lijsten kunnen worden gemaakt in de sjabloonnaamruimte door een pagina met een opsommingslijst te maken.",
 	"bs-checklist-tag-checklist-attr-value-label": "Geselecteerde optie",
 	"bs-checklist-tag-checklist-attr-value-help": "Selecteert een specifieke optie uit de bovenstaande lijst.",
-	"bs-checklist-config-markasminoredit-help": "Aan: wijzigingen aan een controlelijst in de weergavemodus worden als kleine bewerkingen doorgevoerd. Uit: wijzigingen aan een controlelijst in de weergavemodus worden als normale bewerkingen doorgevoerd.",
+	"bs-checklist-config-markasminoredit-help": "Aan: wijzigingen aan een controlelijst in de weergavemodus worden als kleine bewerkingen doorgevoerd. Uit: wijzigingen aan een controlelijst in de weergavemodus worden als normale bewerkingen doorgevoerd",
 	"bs-checkbox-ve-checkboxinspector-title": "Selectievakje",
 	"bs-checkbox-tag-checkbox-desc": "Genereert een selectievakje",
 	"bs-checklist-droplet-checklist-name": "Controlelijst",
