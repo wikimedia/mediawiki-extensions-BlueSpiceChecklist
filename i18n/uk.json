@@ -64,7 +64,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Вибирає конкретний список опцій. Списки можна створювати в просторі шаблонів шляхом створення сторінки з маркованим списком.",
 	"bs-checklist-tag-checklist-attr-value-label": "Вибрана опція",
 	"bs-checklist-tag-checklist-attr-value-help": "Вибирає конкретні опції зі списку вгорі.",
-	"bs-checklist-config-markasminoredit-help": "Активовано: зміни до контрольного списку в режимі перегляду редагуються як незначні зміни. Неактивний: Зміни до контрольного списку в режимі перегляду редагуються як звичайні зміни.",
+	"bs-checklist-config-markasminoredit-help": "Активовано: зміни до контрольного списку в режимі перегляду редагуються як незначні зміни. Неактивний: Зміни до контрольного списку в режимі перегляду редагуються як звичайні зміни",
 	"bs-checkbox-ve-checkboxinspector-title": "Прапорець",
 	"bs-checkbox-tag-checkbox-desc": "Створює прапорець",
 	"bs-checklist-droplet-checklist-name": "Контрольний список",
