@@ -83,7 +83,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 	 * @param array $aParams
 	 * @return Standard
 	 */
-	public function task_doChangeCheckItem( $oTaskData, $aParams ) {
+	public function task_doChangeCheckItem( $oTaskData, $aParams ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$oResponse = $this->makeStandardReturn();
 		$iPos = (int)$oTaskData->pos;
 		if ( $iPos == 0 ) {
@@ -184,7 +184,7 @@ class BSApiChecklistTasks extends BSApiTasksBase {
 	 * @param array $aParams
 	 * @return Standard
 	 */
-	public function task_saveOptionsList( $oTaskData, $aParams ) {
+	public function task_saveOptionsList( $oTaskData, $aParams ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$oResponse = $this->makeStandardReturn();
 
 		$oTitle = Title::newFromText( $oTaskData->title, NS_TEMPLATE );
