@@ -90,7 +90,7 @@ class Extension extends \BlueSpice\Extension {
 	 * @param int $nth
 	 * @return mixed
 	 */
-	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth = 1 ) {
+	public static function preg_replace_nth( $pattern, $replacement, $subject, $nth = 1 ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		return preg_replace_callback( $pattern,
 			static function ( $found ) use ( &$pattern, &$replacement, &$nth ) {
 					$nth--;

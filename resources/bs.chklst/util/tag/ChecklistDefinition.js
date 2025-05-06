@@ -5,22 +5,22 @@ bs.chklst.util.tag.ChecklistDefinition = function BsVecUtilTagChecklistDefinitio
 
 OO.inheritClass( bs.chklst.util.tag.ChecklistDefinition, bs.vec.util.tag.Definition );
 
-bs.chklst.util.tag.ChecklistDefinition.prototype.getCfg = function() {
-	var cfg = bs.chklst.util.tag.ChecklistDefinition.super.prototype.getCfg.call( this );
-	return $.extend( cfg, {
-		classname : 'Checklist',
+bs.chklst.util.tag.ChecklistDefinition.prototype.getCfg = function () {
+	const cfg = bs.chklst.util.tag.ChecklistDefinition.super.prototype.getCfg.call( this );
+	return $.extend( cfg, { // eslint-disable-line no-jquery/no-extend
+		classname: 'Checklist',
 		name: 'checklist',
 		tagname: 'bs:checklist',
 		descriptionMsg: 'bs-checklist-tag-checklist-desc',
 		menuItemMsg: 'bs-checklist-ve-checklistinspector-title',
 		toolGroup: 'object',
 		tabbed: false,
-		tabs: [{
+		tabs: [ {
 			name: 'list',
 			labelMsg: 'bs-checklist-tag-checklist-tab-list',
 			value: 'list'
-		}],
-		attributes: [{
+		} ],
+		attributes: [ {
 			name: 'list',
 			labelMsg: 'bs-checklist-tag-checklist-attr-list-label',
 			helpMsg: 'bs-checklist-tag-checklist-attr-list-help',
@@ -28,7 +28,7 @@ bs.chklst.util.tag.ChecklistDefinition.prototype.getCfg = function() {
 			widgetClass: bs.chklst.ui.ChecklistInputWidget,
 			default: '',
 			tab: 'list'
-		},{
+		}, {
 			name: 'value',
 			labelMsg: 'bs-checklist-tag-checklist-attr-value-label',
 			helpMsg: 'bs-checklist-tag-checklist-attr-value-help',
@@ -36,8 +36,8 @@ bs.chklst.util.tag.ChecklistDefinition.prototype.getCfg = function() {
 			widgetClass: bs.chklst.ui.ChecklistOptionsInputWidget,
 			default: '',
 			tab: 'list'
-		}]
-	});
+		} ]
+	} );
 };
 
 bs.vec.registerTagDefinition(
