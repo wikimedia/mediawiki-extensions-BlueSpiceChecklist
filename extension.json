@@ -35,12 +35,6 @@
 				}
 			}
 		},
-		"BlueSpiceVisualEditorConnector": {
-			"TagDefinitions": [
-				"ext.bluespice.checklist.visualEditor",
-				"ext.bluespice.checkbox.visualEditor"
-			]
-		},
 		"BlueSpiceSMWConnector": {
 			"ExtraPropertyRegistry": {
 				"checklistfields": "\\BlueSpice\\Checklist\\ChecklistPropertyValueProvider::factory"
@@ -96,10 +90,15 @@
 		"BSApiChecklistTasks": "includes/api/BSApiChecklistTasks.php"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Hook\\BSUsageTrackerRegisterCollectors\\AddChecklistTag::callback",
 		"ListDefinedTags": "\\BlueSpice\\Checklist\\Hook\\ListDefinedTags\\AddChecklistTag::callback",
-		"ChangeTagsListActive": "\\BlueSpice\\Checklist\\Hook\\ChangeTagsListActive\\AddChecklistTag::callback"
+		"ChangeTagsListActive": "\\BlueSpice\\Checklist\\Hook\\ChangeTagsListActive\\AddChecklistTag::callback",
+		"MWStakeGenericTagHandlerInitTags": "registerTags"
+	},
+	"HookHandlers": {
+		"registerTags": {
+			"class": "\\BlueSpice\\Checklist\\Hook\\RegisterTags"
+		}
 	},
 	"ResourceModules": {
 		"ext.bluespice.checklist": {
@@ -126,44 +125,6 @@
 				"bs-checklist-confirm-dirty-text"
 			]
 		},
-		"ext.bluespice.checklist.visualEditor": {
-			"scripts": [
-				"bs.chklst/util/tag/ChecklistDefinition.js",
-				"bs.chklst/ui/widget/ChecklistInputWidget.js",
-				"bs.chklst/ui/widget/ChecklistOptionsInputWidget.js"
-			],
-			"styles": [
-				"stylesheets/bs.chklst.droplet.checklist.css"
-			],
-			"messages": [
-				"bs-checklist-ve-checklistinspector-title",
-				"bs-checklist-tag-checklist-desc",
-				"bs-checklist-tag-checklist-tab-list",
-				"bs-checklist-tag-checklist-attr-list-label",
-				"bs-checklist-tag-checklist-attr-list-help",
-				"bs-checklist-tag-checklist-attr-value-label",
-				"bs-checklist-tag-checklist-attr-value-help"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore",
-				"ext.bluespice.visualEditorConnector.tags.classes"
-			]
-		},
-		"ext.bluespice.checkbox.visualEditor": {
-			"scripts": [
-				"bs.chklst/util/tag/CheckboxDefinition.js"
-			],
-			"messages": [
-				"bs-checkbox-ve-checkboxinspector-title",
-				"bs-checkbox-tag-checkbox-desc",
-				"bs-checklist-ve-checklistinspector-cb-checked",
-				"bs-checklist-tag-checklist-tab-checkbox",
-				"bs-checklist-tag-checklist-attr-checked-help"
-			],
-			"dependencies": [
-				"ext.bluespice.checklist.visualEditor"
-			]
-		},
 		"ext.bluespice.checklist.view": {
 			"scripts": [
 				"bluespice.checklist.js"
@@ -175,6 +136,28 @@
 				"bs-checklist-alert",
 				"bs-checklist-confirm-dirty-title",
 				"bs-checklist-confirm-dirty-text"
+			]
+		},
+		"ext.bluespice.checklist.droplet": {
+			"styles": [
+				"stylesheets/bs.checklist.droplet.checklist.css"
+			]
+		},
+		"ext.bluespice.checklist.tag": {
+			"scripts": [
+				"ui/ChecklistInputWidget.js",
+				"ui/ChecklistOptionsInputWidget.js",
+				"formelement/ChecklistOptionsInputElement.js",
+				"formelement/ChecklistInputElement.js",
+				"ui/ChecklistInspectorForm.js"
+			],
+			"messages": [
+				"bs-checklist-tag-checklist-attr-list-label",
+				"bs-checklist-tag-checklist-attr-value-label"
+			],
+			"dependencies": [
+				"ext.forms.formelements.bootstrap",
+				"ext.forms.standalone"
 			]
 		}
 	},

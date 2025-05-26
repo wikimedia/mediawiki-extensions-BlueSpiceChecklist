@@ -32,7 +32,7 @@ class ChecklistDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getRLModules(): array {
-		return [ 'ext.bluespice.checklist.visualEditor' ];
+		return [ 'ext.bluespice.checklist.droplet' ];
 	}
 
 	/**
@@ -68,7 +68,7 @@ class ChecklistDroplet extends TagDroplet {
 	 * @return string|null
 	 */
 	public function getVeCommand(): ?string {
-		return 'checklistCommand';
+		return 'bs_checklistCommand';
 	}
 
 }
