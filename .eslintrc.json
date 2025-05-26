@@ -10,5 +10,8 @@
 	},
 	"globals": {
 		"bs": "readonly"
+	},
+	"rules": {
+		"max-len": "off"
 	}
 }

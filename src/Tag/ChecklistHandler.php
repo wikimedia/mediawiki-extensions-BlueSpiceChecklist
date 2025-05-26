@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueSpice\Checklist;
+namespace BlueSpice\Checklist\Tag;
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
@@ -9,84 +9,50 @@ use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
+use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
 use WikiPage;
 
-class BlueSpiceChecklists {
+class ChecklistHandler implements ITagHandler {
 
 	/** @var int */
-	private $counter = 0;
-
-	/** @var int */
-	private $iChecklistMaxItemLength = 60;
-
-	/** @var TitleFactory */
-	private $titleFactory;
-
-	/** @var WikiPageFactory */
-	private $wikiPageFactory;
+	private int $maxLength = 60;
 
 	/**
-	 *
-	 * @param TitleFactory $titleFactory
 	 * @param WikiPageFactory $wikiPageFactory
+	 * @param TitleFactory $titleFactory
+	 * @param int $counter
 	 */
-	public function __construct( TitleFactory $titleFactory, WikiPageFactory $wikiPageFactory ) {
-		$this->titleFactory = $titleFactory;
-		$this->wikiPageFactory = $wikiPageFactory;
+	public function __construct(
+		private readonly WikiPageFactory $wikiPageFactory,
+		private readonly TitleFactory $titleFactory,
+		private readonly int $counter,
+		private readonly string $type
+	) {
 	}
 
-	/**
-	 * handle tag "bs:checklist"
-	 * with splitting tags type value is not set automatically
-	 *
-	 * @param string $input
-	 * @param array $args
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 * @return string
-	 */
-	public function onBsChecklist( $input, array $args, Parser $parser,
-		PPFrame $frame ) {
-		if ( !isset( $args['type'] ) ) {
-			$args['type'] = 'list';
-		}
-		return $this->onMagicWordBsChecklist( $input, $args, $parser, $frame );
-	}
-
-	/**
-	 * handle tag "bs:checkbox"
-	 *
-	 * @param string $input
-	 * @param array $args
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 * @return string
-	 */
-	public function onMagicWordBsChecklist( $input, array $args, Parser $parser,
-		PPFrame $frame ) {
+	public function getRenderedContent( string $input, array $params, Parser $parser, PPFrame $frame ): string {
 		$parserOutput = $parser->getOutput();
-		$parserOutput->addModules( [ 'ext.bluespice.checklist.view' ] );
 		$parserOutput->updateCacheExpiry( 0 );
-		$parserOutput->setPageProperty( 'bs-tag-checklist', 1 );
+		$parserOutput->setPageProperty( 'bs-tag-checklist', '1' );
 
-		$this->counter++;
 		$id = $this->counter;
 		$out = [];
 		$options = [];
+		error_log( var_export( $params, true ) );
 
-		if ( isset( $args['list'] ) ) {
-			$options = $this->getListOptions( $args['list'] );
+		if ( isset( $params['list'] ) ) {
+			$options = $this->getListOptions( $params['list'] );
 		}
-		if ( !isset( $args['value'] ) || $args['value'] === 'false' ) {
-			$args['value'] = '';
+		if ( !isset( $params['value'] ) || $params['value'] === 'false' ) {
+			$params['value'] = '';
 		}
-		if ( !isset( $args['checked'] ) ) {
-			$args['checked'] = '';
+		if ( !isset( $params['checked'] ) ) {
+			$params['checked'] = '';
 		}
 
 		$selectColor = '';
-		if ( isset( $args['type'] ) && $args['type'] == 'list' ) {
-			$default = empty( $args['value'] ) ? true : false;
+		if ( $this->type === 'list' ) {
+			$default = empty( $params['value'] ) ? true : false;
 			$setColor = '';
 			foreach ( $options as $option ) {
 				$optionset = explode( "|", $option );
@@ -100,7 +66,7 @@ class BlueSpiceChecklists {
 				if ( isset( $optionset[1] ) ) {
 					$out[] = "style='color:" . $optionset[1] . ";' ";
 				}
-				if ( $default || $args['value'] == $optSet ) {
+				if ( $default || $params['value'] == $optSet ) {
 					$default = false;
 					$out[] = "selected='selected'";
 					if ( isset( $optionset[1] ) ) {
@@ -119,16 +85,16 @@ class BlueSpiceChecklists {
 			], implode( '', $out ) );
 		} else {
 			$checked = false;
-			if ( $args['value'] == 'checked' || $args['checked'] == 'true' ) {
+			if ( $params['value'] == 'checked' || $params['checked'] == 'true' ) {
 				$checked = true;
 			}
 			$output = Html::element( 'input',
-			[
-				'type' => 'checkbox',
-				'id' => "bs-cb-$id",
-				'class' => 'bs-checklist-item',
-				'checked' => $checked
-			] );
+				[
+					'type' => 'checkbox',
+					'id' => "bs-cb-$id",
+					'class' => 'bs-checklist-item',
+					'checked' => $checked
+				] );
 		}
 
 		return $output;
@@ -157,7 +123,7 @@ class BlueSpiceChecklists {
 					if ( strpos( $line, '*' ) !== 0 ) {
 						return [];
 					}
-					if ( strlen( $line ) > $this->iChecklistMaxItemLength ) {
+					if ( strlen( $line ) > $this->maxLength ) {
 						return [];
 					}
 					$newLine = trim( substr( $line, 1 ) );

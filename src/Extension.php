@@ -38,7 +38,6 @@ namespace BlueSpice\Checklist;
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
 use WikiPage;
 
@@ -102,19 +101,5 @@ class Extension extends \BlueSpice\Extension {
 				}
 					return reset( $found );
 			}, $subject, $nth );
-	}
-
-	/**
-	 * @param Parser &$parser
-	 * @return bool
-	 */
-	public static function onParserFirstCallInit( &$parser ) {
-		$services = MediaWikiServices::getInstance();
-		$titleFactory = $services->getTitleFactory();
-		$wikiPageFactory = $services->getWikiPageFactory();
-		$checklist = new BlueSpiceChecklists( $titleFactory, $wikiPageFactory );
-		$parser->setHook( 'bs:checklist', [ $checklist, 'onBsChecklist' ] );
-		$parser->setHook( 'bs:checkbox', [ $checklist, 'onMagicWordBsChecklist' ] );
-		return true;
 	}
 }
