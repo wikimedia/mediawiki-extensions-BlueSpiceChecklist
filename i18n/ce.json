@@ -29,5 +29,8 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Опцийн могӀам",
 	"bs-checklist-tag-checklist-attr-value-label": "Хаьржина опци",
 	"bs-checkbox-ve-checkboxinspector-title": "Байракх",
-	"bs-checklist-droplet-checklist-name": "Контролан могӀам"
+	"bs-checklist-droplet-checklist-name": "Контролан могӀам",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Билгалйина",
+	"prefs-checklist": "Контролан могӀам",
+	"prefs-checklist-sesp-alias": "Контролан могӀам"
 }
