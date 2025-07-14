@@ -32,5 +32,8 @@
 	"bs-checklist-droplet-checklist-name": "Контролан могӀам",
 	"bs-checklist-ve-checklistinspector-cb-checked": "Билгалйина",
 	"prefs-checklist": "Контролан могӀам",
-	"prefs-checklist-sesp-alias": "Контролан могӀам"
+	"prefs-checklist-sesp-alias": "Контролан могӀам",
+	"bs-checklist-menu-insert-no-list-loaded": "Листаш чу ца даьхна",
+	"bs-checklist-savelist-error-invalid-title": "Нийса йоцу цӀе билгалйаьккхина",
+	"bs-checklist-savelist-error-edit-not-permitted": "Тоъал бакъонаш йац могӀам Ӏалашбан."
 }
