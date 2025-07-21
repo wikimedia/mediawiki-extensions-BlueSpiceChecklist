@@ -15,7 +15,8 @@
 			"Romanko Mikhail",
 			"Striking Blue",
 			"Vlad5250",
-			"Марио"
+			"Марио",
+			"Умар"
 		]
 	},
 	"bs-checklist-desc": "Обеспечивает функциональность контрольного списка",
@@ -41,7 +42,7 @@
 	"log-show-hide-bs-checklist": "$1 журнал Checkbox",
 	"logeventslist-bs-checklist-log": "Журнал Checkbox",
 	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|отметил|отметила}} флажок #$4 на странице $3",
-	"bs-checklist-savelist-error-invalid-title": "Предоставлено недействителен заголовок",
+	"bs-checklist-savelist-error-invalid-title": "Указан неверный заголовок",
 	"bs-checklist-savelist-error-edit-not-permitted": "Недостаточно прав для сохранения списка",
 	"bs-checklist-update-list": "Обновленный список",
 	"bs-checklist-ve-checklistinspector-title": "Контрольный список",
