@@ -31,5 +31,11 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Опцийн могӀам",
 	"bs-checklist-tag-checklist-attr-value-label": "Хаьржина опци",
 	"bs-checkbox-ve-checkboxinspector-title": "Байракх",
-	"bs-checklist-droplet-checklist-name": "Контролан могӀам"
+	"bs-checklist-droplet-checklist-name": "Контролан могӀам",
+	"bs-checklist-menu-insert-no-list-loaded": "Листаш чу ца даьхна",
+	"bs-checklist-savelist-error-invalid-title": "Нийса йоцу цӀе билгалйаьккхина",
+	"bs-checklist-savelist-error-edit-not-permitted": "Тоъал бакъонаш йац могӀам Ӏалашбан.",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Билгалйина",
+	"prefs-checklist": "Контролан могӀам",
+	"prefs-checklist-sesp-alias": "Контролан могӀам"
 }

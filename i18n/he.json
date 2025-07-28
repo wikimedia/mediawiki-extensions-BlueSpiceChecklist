@@ -68,7 +68,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "בחירת רשימת אפשרויות מסוימת. הרשימות יכולות להיות מיוצרות במרחב תבנית באמצעות יצירת דף עם רשימת תבליטים.",
 	"bs-checklist-tag-checklist-attr-value-label": "אפשרות שנבחרה",
 	"bs-checklist-tag-checklist-attr-value-help": "בחירת אפשרות מסוימת מהרשימה לעיל.",
-	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות.",
+	"bs-checklist-config-markasminoredit-help": "כשמופעל: שינויים לרשימת לתיוג במצב תצוגה נשמרים בתור עריכות משניות. כשלא מופעל: שינויים לרשימת התיוג במצב תצוגה נשמרים בתור עריכות רגילות",
 	"bs-checkbox-ve-checkboxinspector-title": "תיבת סימון",
 	"bs-checkbox-tag-checkbox-desc": "יצירת תיבת סימון",
 	"bs-checklist-droplet-checkbox-name": "תיבת סימון",
