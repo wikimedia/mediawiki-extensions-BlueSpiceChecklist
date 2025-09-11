@@ -64,7 +64,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "選擇指定選項清單。清單可透過以項目清單建立頁面來創建於模板命名空間。",
 	"bs-checklist-tag-checklist-attr-value-label": "已選選項",
 	"bs-checklist-tag-checklist-attr-value-help": "從以上清單選擇指定項目。",
-	"bs-checklist-config-markasminoredit-help": "已啟用：在檢視模式下對清單的變動歸為小修改。非啟用：在檢視模式下對清單的變動歸為一般編輯修改。",
+	"bs-checklist-config-markasminoredit-help": "已啟用：在檢視模式下對清單的變動歸為小修改。非啟用：在檢視模式下對清單的變動歸為一般編輯修改",
 	"bs-checkbox-ve-checkboxinspector-title": "核取方塊",
 	"bs-checkbox-tag-checkbox-desc": "產生核取方塊",
 	"bs-checklist-droplet-checklist-name": "核對清單",
