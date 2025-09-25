@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Liuxinyu970226",
 			"Markus Glaser <glaser@hallowelt.biz>",
 			"Mglaser",
@@ -18,7 +19,7 @@
 	"bs-checklist-menu-insert-list-title": "Label for insert list\n{{Identical|Insert list}}",
 	"bs-checklist-menu-insert-checkbox": "Label for checkbox\n{{Identical|Checkbox}}",
 	"bs-checklist-menu-insert-no-list-loaded": "Label for disabled menu item placeholder when no list is loaded yet",
-	"bs-checklist-dlg-insert-list-title": "Title for insert checklist dialogue",
+	"bs-checklist-dlg-insert-list-title": "Title for insert checklist dialog.",
 	"bs-checklist-dlg-insert-list-value-list": "Label for value list\n{{Identical|Value list}}",
 	"bs-checklist-tag-checklist-desc": "Text for renders a checkbox or select field. Available configuration attributes:\n{{Related|Bs-tag-desc}}",
 	"bs-checklist-dlg-new-list": "Button text for creating a new checklist",
@@ -27,11 +28,11 @@
 	"bs-checklist-dlg-items-emptytext": "Text when list of checklist items is empty",
 	"bs-checklist-dlg-items-hint": "Text to remind the user to hit ENTER key after adding a new item to the list",
 	"bs-checklist-dlg-panel-title": "Label for the left tree panel containing the available lists",
-	"bs-checklist-dlg-new-title": "Title for the add new list dialogue",
+	"bs-checklist-dlg-new-title": "Title for the \"Add new list\" dialog.",
 	"bs-checklist-dlg-new-prompt": "Text for the add new list prompt",
 	"bs-checklist-alert": "Title for the alert that shows up when something went wrong.",
-	"bs-checklist-confirm-dirty-title": "Title for the confirm dialogue for unsaved changes",
-	"bs-checklist-confirm-dirty-text": "Title for the confirm dialogue for unsaved changes. Phrase it in a way that the 'yes' option is the one where the users loose their changes",
+	"bs-checklist-confirm-dirty-title": "Title for the confirm dialog for unsaved changes.",
+	"bs-checklist-confirm-dirty-text": "Title for the confirm dialog for unsaved changes. Phrase it in a way that the \"Yes\" option is the one where the users lose their changes.",
 	"log-name-bs-checklist": "Used in [[Special:Log]], title of the log type",
 	"log-description-bs-checklist": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-checklist": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
@@ -68,7 +69,7 @@
 	"bs-checklist-tag-checklist-attr-value-label": "Label for the tab \"option\"",
 	"bs-checklist-tag-checklist-attr-value-help": "Help message for the parameter \"option\"",
 	"bs-checklist-config-markasminoredit-help": "Description for config variable \"ChecklistMarkAsMinorEdit\"",
-	"bs-checkbox-ve-checkboxinspector-title": "Title for insert checkbox dialogue",
+	"bs-checkbox-ve-checkboxinspector-title": "Title for the \"Insert checkbox\" dialogue.",
 	"bs-checkbox-tag-checkbox-desc": "Text for renders a checkbox",
 	"bs-checklist-droplet-checklist-name": "Title of droplet for tag Checklist",
 	"bs-checklist-droplet-checklist-desc": "Description of droplet for tag Checklist"
