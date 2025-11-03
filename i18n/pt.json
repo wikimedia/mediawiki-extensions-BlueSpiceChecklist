@@ -3,6 +3,7 @@
 		"authors": [
 			"Diniscoelho",
 			"Hamilton Abreu",
+			"Mansil alfalb",
 			"Vitorvicentevalente"
 		]
 	},
@@ -60,7 +61,7 @@
 	"bs-checklist-tag-checklist-attr-list-help": "Seleciona uma lista de opções específica. As listas podem ser criadas no espaço nominal/domínio Predefinição, criando uma página que contenha uma lista com marcadores.",
 	"bs-checklist-tag-checklist-attr-value-label": "Opção selecionada",
 	"bs-checklist-tag-checklist-attr-value-help": "Seleciona uma opção específica da lista acima.",
-	"bs-checklist-config-markasminoredit-help": "Ativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições menores. Desativado: as mudanças a uma lista de verificação no modo de visualização são versionadas como edições normais.",
+	"bs-checklist-config-markasminoredit-help": "Ativado: as alterações a uma lista de verificação no modo de visualização são registadas como edições menores. Inativo: as alterações a uma lista de verificação no modo de visualização são registadas como edições normais",
 	"bs-checkbox-ve-checkboxinspector-title": "Caixa de verificação",
 	"bs-checkbox-tag-checkbox-desc": "Gera uma caixa de verificação",
 	"bs-checklist-droplet-checklist-name": "Lista de verificação",
