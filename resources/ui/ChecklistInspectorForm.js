@@ -23,14 +23,16 @@ bs.checklist.ui.ChecklistInspectorForm.prototype.makeItems = function () {
 				change: function ( value ) {
 					this.getItem( 'value' ).updateChecklistOptions( value );
 				}
-			}
+			},
+			labelAlign: 'top'
 		},
 		{
 			type: 'bs_checklist_options',
 			name: 'value',
 			label: mw.msg( 'bs-checklist-tag-checklist-attr-value-label' ),
 			help: mw.msg( 'bs-checklist-tag-checklist-attr-value-help' ),
-			widget_$overlay: true // eslint-disable-line camelcase
+			widget_$overlay: true, // eslint-disable-line camelcase
+			labelAlign: 'top'
 		}
 	];
 };
