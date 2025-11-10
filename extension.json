@@ -153,7 +153,9 @@
 			],
 			"messages": [
 				"bs-checklist-tag-checklist-attr-list-label",
-				"bs-checklist-tag-checklist-attr-value-label"
+				"bs-checklist-tag-checklist-attr-value-label",
+				"bs-checklist-tag-checklist-attr-list-help",
+				"bs-checklist-tag-checklist-attr-value-help"
 			],
 			"dependencies": [
 				"ext.forms.formelements.bootstrap",
