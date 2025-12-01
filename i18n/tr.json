@@ -15,7 +15,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Yüklü liste yok",
 	"bs-checklist-dlg-insert-list-title": "Bir kontrol listesi ekleyin",
 	"bs-checklist-dlg-insert-list-value-list": "Değer listesi",
-	"bs-checklist-tag-checklist-desc": "Bir onay kutusu veya seçim menüsü oluşturur. Kontrol listesi çeşitli parametrelerle değiştirilebilir.",
+	"bs-checklist-tag-checklist-desc": "Seçim menüsü oluşturur. Kontrol listesi çeşitli parametrelerle değiştirilebilir.",
 	"bs-checklist-dlg-new-list": "Yeni bir liste oluştur",
 	"bs-checklist-dlg-save-list": "Değişiklikleri listeye kaydet",
 	"bs-checklist-dlg-items-label": "Liste içeriği",
