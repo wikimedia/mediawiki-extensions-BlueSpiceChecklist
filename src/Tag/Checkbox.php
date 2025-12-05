@@ -81,4 +81,11 @@ class Checkbox extends GenericTag {
 			Message::newFromKey( 'bs-checkbox-ve-checkboxinspector-title' )
 		);
 	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getContainerElementName(): ?string {
+		return 'span';
+	}
 }
