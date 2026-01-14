@@ -25,7 +25,7 @@ class ChecklistHandler implements ITagHandler {
 	public function __construct(
 		private readonly WikiPageFactory $wikiPageFactory,
 		private readonly TitleFactory $titleFactory,
-		private readonly int $counter,
+		private int $counter,
 		private readonly string $type
 	) {
 	}
@@ -35,10 +35,10 @@ class ChecklistHandler implements ITagHandler {
 		$parserOutput->updateCacheExpiry( 0 );
 		$parserOutput->setPageProperty( 'bs-tag-checklist', '1' );
 
+		$this->counter++;
 		$id = $this->counter;
 		$out = [];
 		$options = [];
-		error_log( var_export( $params, true ) );
 
 		if ( isset( $params['list'] ) ) {
 			$options = $this->getListOptions( $params['list'] );
