@@ -6,6 +6,7 @@
 			"Lokal Profil",
 			"Magol",
 			"Mjälten",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -16,7 +17,7 @@
 	"bs-checklist-menu-insert-no-list-loaded": "Ingen lista lästes in",
 	"bs-checklist-dlg-insert-list-title": "Infoga en checklista",
 	"bs-checklist-dlg-insert-list-value-list": "Värdelista",
-	"bs-checklist-tag-checklist-desc": "Skapar en kryssruta eller en valmeny. Checklistan kan ändras med diverse parametrar:",
+	"bs-checklist-tag-checklist-desc": "Genererar en urvalsmeny. Checklistan kan modifieras med olika parametrar.",
 	"bs-checklist-tag-checklist-example-check": "Kryssruta",
 	"bs-checklist-tag-checklist-example-list": "Valmeny",
 	"bs-checklist-dlg-new-list": "Skapa en ny lista",
@@ -52,5 +53,22 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Kryssruta",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-list-label": "Alternativlista",
-	"bs-checklist-tag-checklist-attr-value-label": "Valt alternativ"
+	"bs-checklist-tag-checklist-attr-value-label": "Valt alternativ",
+	"bs-checklist-summary-changed": "Valde värdet \"$2\" i urvalsruta # $1",
+	"apihelp-bs-checklist-available-options-store-summary": "Listar alla tillgängliga alternativ för checklistamallar. Tillåter sortering, filtrering och paginering. Implementerar ExtJS Store-parametrar.",
+	"apihelp-bs-checklist-template-store-summary": "Listar alla mallar som är giltiga checklistakällor. Tillåter sortering, filtrering och paginering. Implementerar ExtJS Store-parametrar.",
+	"apihelp-bs-checklist-tasks-summary": "Tillhandahåller funktioner för Checklist-tillägget",
+	"bs-tag-checklist": "checklista-taggen",
+	"right-checklistmodify": "Ändra värdena för checklistaobjekt utan att redigera wikisidan",
+	"bs-checklist-config-markasminoredit": "Markera ändringar i checklistan som mindre redigering",
+	"tag-bs-checklist-change": "Ändring av checklista",
+	"tag-bs-checklist-change-description": "Användaren ändrade ett värde för en kryssruta eller markeringsruta på sidan",
+	"bs-checklist-tag-checklist-attr-checked-help": "Om den är aktiverad, visas kryssrutan markerad",
+	"bs-checklist-tag-checklist-attr-list-help": "Väljer en specifik alternativlista. Listor kan skapas i mallnamnrymden genom att skapa en sida med en punktlista.",
+	"bs-checklist-tag-checklist-attr-value-help": "Väljer ett specifikt alternativ från listan ovan.",
+	"bs-checklist-config-markasminoredit-help": "Aktiverad: Ändringar av en checklista i visningsläge versionsredigeras som mindre redigeringar. Inaktiv: Ändringar av en checklista i visningsläge versionsredigeras som vanliga redigeringar.",
+	"bs-checkbox-ve-checkboxinspector-title": "Kryssruta",
+	"bs-checkbox-tag-checkbox-desc": "Genererar en kryssruta",
+	"bs-checklist-droplet-checklist-name": "Checklista",
+	"bs-checklist-droplet-checklist-desc": "Lista som tillåter att ställa in ett värde i visningsläge"
 }

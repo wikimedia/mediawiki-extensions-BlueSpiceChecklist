@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-checklist-dlg-items-hint": "Új elem hozzáadásához írjon be egy elemet a fenti mezőbe, és nyomja meg <kbd>az Enter</kbd> billentyűt.",
+	"bs-checklist-confirm-dirty-text": "Olyan módosításokat hajtott végre az ellenőrző listán, amelyeket még nem mentett el. Biztosan elveti a módosításokat?",
+	"bs-checklist-savelist-error-edit-not-permitted": "Nincs jogosultsága a lista mentéséhez"
+}

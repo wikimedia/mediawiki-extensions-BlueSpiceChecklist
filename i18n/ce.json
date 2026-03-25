@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
@@ -16,13 +17,13 @@
 	"bs-checklist-tag-checklist-example-check": "Байракх",
 	"bs-checklist-tag-checklist-example-list": "Харжа меню",
 	"bs-checklist-dlg-new-list": "Кхолла керла могӀам",
-	"bs-checklist-dlg-save-list": "МогӀаман хийцамаш Ӏалашбе",
+	"bs-checklist-dlg-save-list": "МогӀаман хийцамаш дӀаӀалашбан",
 	"bs-checklist-dlg-items-emptytext": "ХӀокху могӀаман тӀехь элементаш йац",
 	"bs-checklist-dlg-panel-title": "ТӀекхочу могӀамаш",
 	"bs-checklist-dlg-new-title": "ТӀетоха керла могӀам",
-	"log-name-bs-checklist": "Checkbox тептар",
-	"log-show-hide-bs-checklist": "$1 Checkbox тептар",
-	"logeventslist-bs-checklist-log": "Checkbox тептар",
+	"log-name-bs-checklist": "Checkbox журнал",
+	"log-show-hide-bs-checklist": "$1 Checkbox журнал",
+	"logeventslist-bs-checklist-log": "Checkbox журнал",
 	"bs-checklist-update-list": "Карлабаьккхина могӀам",
 	"bs-checklist-ve-checklistinspector-title": "Контролан могӀам",
 	"bs-checklist-tag-checklist-tab-checkbox": "Байракх",
@@ -30,5 +31,11 @@
 	"bs-checklist-tag-checklist-attr-list-label": "Опцийн могӀам",
 	"bs-checklist-tag-checklist-attr-value-label": "Хаьржина опци",
 	"bs-checkbox-ve-checkboxinspector-title": "Байракх",
-	"bs-checklist-droplet-checklist-name": "Контролан могӀам"
+	"bs-checklist-droplet-checklist-name": "Контролан могӀам",
+	"bs-checklist-menu-insert-no-list-loaded": "Листаш чу ца даьхна",
+	"bs-checklist-savelist-error-invalid-title": "Нийса йоцу цӀе билгалйаьккхина",
+	"bs-checklist-savelist-error-edit-not-permitted": "Тоъал бакъонаш йац могӀам Ӏалашбан.",
+	"bs-checklist-ve-checklistinspector-cb-checked": "Билгалйина",
+	"prefs-checklist": "Контролан могӀам",
+	"prefs-checklist-sesp-alias": "Контролан могӀам"
 }
