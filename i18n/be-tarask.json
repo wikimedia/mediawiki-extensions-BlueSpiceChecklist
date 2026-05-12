@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ucukor",
 			"W"
 		]
 	},
@@ -10,5 +11,6 @@
 	"bs-checklist-dlg-new-title": "Дадаць новы сьпіс",
 	"bs-checklist-dlg-new-prompt": "Увесьці загаловак сьпіса",
 	"bs-checklist-update-list": "Абноўлены сьпіс",
-	"bs-checklist-tag-checklist-tab-list": "Сьпіс"
+	"bs-checklist-tag-checklist-tab-list": "Сьпіс",
+	"bs-checklist-menu-insert-no-list-loaded": "Сьпіс не ладаваны"
 }
