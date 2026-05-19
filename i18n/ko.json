@@ -49,8 +49,8 @@
 	"bs-tag-checklist": "체크리스트 태그",
 	"bs-checklist-ve-checklistinspector-title": "체크리스트",
 	"bs-checklist-ve-checklistinspector-cb-checked": "체크됨",
-	"action-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정합니다",
-	"right-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정합니다",
+	"action-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정",
+	"right-checklistmodify": "위키 문서를 편집하지 않고 체크리스트 항목의 값을 수정",
 	"bs-checklist-config-markasminoredit": "체크리스트 변경사항을 사소한 편집으로 표시",
 	"tag-bs-checklist-change": "체크리스트 변경사항",
 	"tag-bs-checklist-change-description": "사용자가 문서의 체크 상자나 선택 상자 값을 변경했습니다",
@@ -71,5 +71,7 @@
 	"log-description-bs-checklist": "문서의 체크 박스의 변경 사항의 로그",
 	"apihelp-bs-checklist-tasks-summary": "체크리스트 확장 기능에 대한 작업을 제공합니다",
 	"prefs-checklist-sesp-desc": "체크리스트 요소가 해당 문서에 쓰였는지를 알려줌",
-	"bs-checklist-droplet-checklist-desc": "보기 모드에서 값을 설정할 수 있는 목록"
+	"bs-checklist-droplet-checklist-desc": "보기 모드에서 값을 설정할 수 있는 목록",
+	"bs-checklist-tag-checklist-attr-list-help": "특정 옵션 목록을 선택합니다. 목록은 글머리 기호 목록이 포함된 문서를 생성하여 틀 이름공간에 만들 수 있습니다.",
+	"bs-checklist-config-markasminoredit-help": "활성화됨: 보기 모드에서 체크리스트를 변경하면 사소한 편집으로 인정됩니다. 비활성화됨: 보기 모드에서 체크리스트를 변경하면 일반 편집으로 인정됩니다."
 }
