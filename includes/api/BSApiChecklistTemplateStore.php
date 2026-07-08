@@ -4,7 +4,6 @@ use MediaWiki\Title\Title;
 
 class BSApiChecklistTemplateStore extends BSApiExtJSStoreBase {
 	/**
-	 *
 	 * @param string $sQuery
 	 * @return \stdClass[]
 	 */
