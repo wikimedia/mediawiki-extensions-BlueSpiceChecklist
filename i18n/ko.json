@@ -13,7 +13,7 @@
 	},
 	"bs-checklist-desc": "체크리스트 기능을 제공합니다",
 	"bs-checklist-button-checkbox-title": "체크리스트 요소",
-	"bs-checklist-menu-insert-list-title": "리스트 삽입",
+	"bs-checklist-menu-insert-list-title": "리스트 넣기",
 	"bs-checklist-menu-insert-checkbox": "체크 상자",
 	"bs-checklist-menu-insert-no-list-loaded": "불러들인 목록이 없습니다",
 	"bs-checklist-dlg-insert-list-title": "체크리스트 삽입",
