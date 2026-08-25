@@ -1,9 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"bs-checklist-desc": "د لړليک‌سم‌کتنې کړنچارولي چمتو کوي",
+	"bs-checklist-button-checkbox-title": "د لړليک‌سم‌کتنې عناصر",
 	"bs-checklist-menu-insert-list-title": "لړليک ورټومبل",
-	"bs-checklist-dlg-insert-list-value-list": "ارزښت لړليک"
+	"bs-checklist-menu-insert-checkbox": "سم‌کتنې بکس",
+	"bs-checklist-menu-insert-no-list-loaded": "هېڅ لړليک بارشوی نه دی",
+	"bs-checklist-dlg-insert-list-title": "د سم‌کتنې‌لړليک ورټومبل",
+	"bs-checklist-dlg-insert-list-value-list": "ارزښت لړليک",
+	"bs-checklist-tag-checklist-desc": "د غوراوي غوره‌نۍ زېږوي. د سم‌کتنې‌لړليک د بېلابېلو ارزښتونو له مخې بدلېدلی شي.",
+	"bs-checklist-dlg-new-list": "يو نوی لړليک جوړول",
+	"bs-checklist-dlg-save-list": "بدلونونه لړليک کې خوندي‌کول",
+	"bs-checklist-dlg-items-label": "په لړليک کې توکي",
+	"bs-checklist-dlg-items-emptytext": "په دې لړليک کې هېڅ توکي نشته",
+	"bs-checklist-dlg-items-hint": "د نوي توکي ورگډولو لپاره، پورته ډگر کې وليکئ او <kbd>Enter</kbd> کېکاږئ.",
+	"bs-checklist-dlg-panel-title": "شته لړليکونه",
+	"bs-checklist-dlg-new-title": "نوی لړليک ورگډول",
+	"bs-checklist-dlg-new-prompt": "د لړليک سرليک دننه کړئ",
+	"bs-checklist-alert": "پاملرنه!",
+	"bs-checklist-confirm-dirty-title": "ناخوندي‌شوي بدلونونه!",
+	"bs-checklist-confirm-dirty-text": "تاسو په سم‌کتنې‌لړليک کې بدلونونه راوستې دي، چې لاتراوسه خوندي شوې نه دي. ايا تاسو ډاډه ياست چې دا بدلونونه پرېږدئ؟",
+	"log-name-bs-checklist": "سم‌کتنې‌بکس يادښت",
+	"log-description-bs-checklist": "د مخونو سم‌کتنې‌بکسونو کې د بدلونونو يادښت",
+	"log-show-hide-bs-checklist": "د $1 سم‌کتنې‌بکس يادښت",
+	"logeventslist-bs-checklist-log": "سم‌کتنې‌بکس يادښت"
 }
