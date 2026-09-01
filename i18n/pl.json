@@ -3,6 +3,7 @@
 		"authors": [
 			"Chrumps",
 			"InternerowyGołąb",
+			"PanWor",
 			"Rail",
 			"Railfail536",
 			"WaldiSt"
@@ -21,6 +22,9 @@
 	"bs-checklist-dlg-new-prompt": "Wprowadź tytuł listy",
 	"bs-checklist-alert": "Uwaga!",
 	"bs-checklist-confirm-dirty-title": "Niezapisane zmiany!",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|zaznaczył|zaznaczyła|zaznaczył(a)}} pole wyboru nr $4 na stronie $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|odznaczył|odznaczyła|odznaczył(a)}} pole wyboru nr $4 na stronie $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|wybrał|wybrała|wybrał(a)}} wartość „$5” z listy rozwijanej nr $4 na stronie $3",
 	"bs-checklist-savelist-error-invalid-title": "Podano nieprawidłowy tytuł",
 	"bs-checklist-savelist-error-edit-not-permitted": "Niewystarczające uprawnienia do zapisania listy",
 	"bs-checklist-ve-checklistinspector-title": "Lista kontrolna",
