@@ -3,6 +3,7 @@
 		"authors": [
 			"Chrumps",
 			"InternerowyGołąb",
+			"PanWor",
 			"Rail",
 			"Railfail536",
 			"WaldiSt"
@@ -31,5 +32,8 @@
 	"bs-checklist-tag-checklist-tab-checkbox": "Pole wyboru",
 	"bs-checklist-tag-checklist-tab-list": "Lista",
 	"bs-checklist-tag-checklist-attr-value-label": "Wybrana opcja",
-	"bs-checklist-droplet-checklist-name": "Lista kontrolna"
+	"bs-checklist-droplet-checklist-name": "Lista kontrolna",
+	"logentry-bs-checklist-checked": "$1 {{GENDER:$2|zaznaczył|zaznaczyła|zaznaczył(a)}} pole wyboru nr $4 na stronie $3",
+	"logentry-bs-checklist-unchecked": "$1 {{GENDER:$2|odznaczył|odznaczyła|odznaczył(a)}} pole wyboru nr $4 na stronie $3",
+	"logentry-bs-checklist-selected": "$1 {{GENDER:$2|wybrał|wybrała|wybrał(a)}} wartość „$5” z listy rozwijanej nr $4 na stronie $3"
 }
