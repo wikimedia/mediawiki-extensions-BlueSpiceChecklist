@@ -4,13 +4,13 @@ namespace BlueSpice\Checklist\Tag;
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
+use MediaWiki\Page\WikiPage;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
-use WikiPage;
 
 class ChecklistHandler implements ITagHandler {
 
