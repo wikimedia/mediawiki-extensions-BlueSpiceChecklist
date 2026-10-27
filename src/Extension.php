@@ -4,8 +4,8 @@ namespace BlueSpice\Checklist;
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\WikiPage;
 use MediaWiki\Title\Title;
-use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
 
